@@ -1,36 +1,54 @@
 @import "compass";
 
-$link-color:         #0388a6;
-$link-hover-color:   #009ce0;
+$link-color:         #000;
+$link-hover-color:   #FFF;
 $link-focus-color:   false;
 $link-active-color:  false;
 $link-visited-color: false;
 
 $font-color:  #2a2a2a;
-$font-family: sans-serif;
+$font-family: Arial, sans-serif;
 $base-font-size:   12px;
 $base-line-height: 18px;
 
 $background-color: #87a09d;
+
 $total-cols: 12;
 $col-width: 4em;
 $gutter-width: 1em;
 $side-gutter-width: $gutter-width;
 
-// @include global-reset;
+@include global-reset;
 
 body {
   font-family: $font-family;
   color: $font-color;
-  background: $background-color;
-  background-image: url("../images/background.png");
+  background: url("../images/background.png") $background-color;
 }
 
 a {
   @include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
 
   &.active {
     font-weight: bold;
+  }
+}
+
+header {
+  background: #5fa69b;
+  position: relative;
+  margin: 25px 0;
+  min-height: 60px;
+
+  nav {
+    float: right;
+    line-height: 60px;
+    margin: 0 10px;
   }
 }
 
@@ -41,9 +59,16 @@ a {
 h1 {
 
   &.logo {
-    width: 300px;
-    height: 100px;
+    width: 325px;
+    height: 125px;
     background-image: url("../images/logo.png");
     @include hide-text;
+    position: absolute;
+    top: -14px;
+    left: 20px;
   }
+}
+
+ul.nav {
+  @include inline-list;
 }
