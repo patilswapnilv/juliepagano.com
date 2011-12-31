@@ -9,6 +9,10 @@
     = yield_content :head
 
   %body{ :class => page_classes }
+    %div.container
+      = partial "header"
 
-    %div#main{ :role => "main" }
-      = yield
+      %div#main{ :role => "main" }
+        = yield
+
+      = partial "footer"

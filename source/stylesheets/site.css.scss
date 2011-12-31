@@ -16,15 +16,19 @@ $col-width: 4em;
 $gutter-width: 1em;
 $side-gutter-width: $gutter-width;
 
-@include global-reset;
+// @include global-reset;
 
 body {
   font-family: $font-family;
-  color: $font-color; 
+  color: $font-color;
 }
 
 a {
   @include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
+
+  &.active {
+    font-weight: bold;
+  }
 }
 
 #main {
