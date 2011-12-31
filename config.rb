@@ -30,6 +30,8 @@
 # Page command
 ###
 
+activate :directory_indexes
+
 # Per-page layout changes:
 #
 # With no layout
