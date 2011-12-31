@@ -72,13 +72,19 @@ h1 {
   &.logo {
     width: 325px;
     height: 125px;
-    background-image: url("../images/logo.png");
+    background: url("../images/logo.png") no-repeat;
     @include hide-text;
-    position: absolute;
-    top: -14px;
-    left: 20px;
+    margin: -14px 0 -52px 0;
+
+    @media only screen and (max-width: 767px) {
+      margin: 0;
+    }
+
+    // FIXME: include smaller logo for smallest case
   }
 }
+
+
 
 ul.nav {
   @include inline-list;
@@ -91,6 +97,8 @@ ul.nav {
 footer {
   background: url("../images/footer_background.png") #502120;
   color: #fff;
+  @include box-shadow(0px 0px 4px #000);
+  padding: 0px 0;
 
   div.photo {
     width: 100px;
