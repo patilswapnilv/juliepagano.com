@@ -1,7 +1,7 @@
 @import "compass";
 
 $link-color:         #000;
-$link-hover-color:   #FFF;
+$link-hover-color:   blue;
 $link-focus-color:   false;
 $link-active-color:  false;
 $link-visited-color: false;
@@ -33,10 +33,6 @@ a {
   &:hover {
     text-decoration: underline;
   }
-
-  &.active {
-    font-weight: bold;
-  }
 }
 
 header {
@@ -44,11 +40,26 @@ header {
   position: relative;
   margin: 25px 0;
   min-height: 60px;
+  @include box-shadow(0px 0px 4px #000);
 
   nav {
     float: right;
     line-height: 60px;
     margin: 0 10px;
+
+    ul.nav {
+      a {
+        padding: 5px 10px;
+        @include border-radius(5px);
+        font-weight: bold;
+
+        &:hover, &.active {
+          color: $link-color;
+          background: #B5D4D0;
+          text-decoration: none;
+        }
+      }
+    }
   }
 }
 
@@ -71,4 +82,26 @@ h1 {
 
 ul.nav {
   @include inline-list;
+
+  li {
+    margin: 0 5px;
+  }
+}
+
+footer {
+  background: url("../images/footer_background.png") #502120;
+  color: #fff;
+
+  div.photo {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/circle_photo.png");
+  }
+
+  .top_edge, .bottom_edge {
+    width: 100%;
+    height: 13px;
+    background: url("../images/footer_background_top_edge.png");
+  }
+
 }
