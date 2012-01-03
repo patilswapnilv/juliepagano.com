@@ -8,7 +8,7 @@ $link-visited-color: false;
 
 $font-color:  #2a2a2a;
 $font-family: Arial, sans-serif;
-$base-font-size:   12px;
+$base-font-size:   13px;
 $base-line-height: 18px;
 
 $background-color: #87a09d;
@@ -21,7 +21,9 @@ $side-gutter-width: $gutter-width;
 @include global-reset;
 
 body {
+  font-size: $base-font-size;
   font-family: $font-family;
+  line-height: $base-line-height;
   color: $font-color;
   background: url("../images/background.png") $background-color;
 }
@@ -35,10 +37,41 @@ a {
   }
 }
 
+h1 {
+  font-size: 180%;
+  font-weight: bold;
+
+  &.logo {
+    width: 325px;
+    height: 125px;
+    background: url("../images/logo.png") no-repeat;
+    @include hide-text;
+    margin: -11px 0 -52px 0;
+
+    @media only screen and (max-width: 767px) {
+      margin: 0;
+      background: url("../images/logo_sm.png") no-repeat;
+      width: 300px;
+      height: 100px;
+    }
+
+    // FIXME: include smaller logo for smallest case
+  }
+}
+
+h2 {
+  font-size: 160%;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 150%;
+}
+
 header {
   background: #5fa69b;
   position: relative;
-  margin: 25px 0;
+  margin: 25px 0 0;
   min-height: 60px;
   @include box-shadow(0px 0px 4px #000);
 
@@ -64,30 +97,24 @@ header {
 }
 
 #main {
-  padding: 50px;
-}
-
-h1 {
-
-  &.logo {
-    width: 325px;
-    height: 125px;
-    background: url("../images/logo.png") no-repeat;
-    @include hide-text;
-    margin: -14px 0 -52px 0;
-
-    @media only screen and (max-width: 767px) {
-      margin: 0;
-    }
-
-    // FIXME: include smaller logo for smallest case
+  .container {
+    padding: 0 0 50px 0;
   }
 }
 
-
+#page_title{
+  .container {
+    padding: 25px 0;
+  }
+  h1 {
+    text-align: center;
+    color: #000;
+  }
+}
 
 ul.nav {
   @include inline-list;
+  font-size: 110%;
 
   li {
     margin: 0 5px;
@@ -99,6 +126,11 @@ footer {
   color: #fff;
   @include box-shadow(0px 0px 4px #000);
   padding: 0px 0;
+
+  .container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 
   div.photo {
     width: 100px;
