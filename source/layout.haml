@@ -15,6 +15,9 @@
     = partial "header"
 
     %div#main{ :role => "main" }
+      %div#page_title
+        %div.container
+          = yield_content :page_title
       %div.container
         = yield
 
