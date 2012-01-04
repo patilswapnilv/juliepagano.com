@@ -1,0 +1,8 @@
+%div#twitter
+  %h4
+    / %span#twitter_bird
+    = link_to "@juliepagano", "http://twitter.com/juliepagano"
+  %ul#twitter_update_list
+
+  = javascript_include_tag "http://twitter.com/javascripts/blogger.js"
+  = javascript_include_tag "http://api.twitter.com/1/statuses/user_timeline.json?screen_name=juliepagano&callback=twitterCallback&include_rts=true&count=3"

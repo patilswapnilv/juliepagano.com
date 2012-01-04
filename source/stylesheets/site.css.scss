@@ -68,6 +68,10 @@ h3 {
   font-size: 150%;
 }
 
+h4 {
+  font-size: 130%;
+}
+
 header {
   background: #5fa69b;
   position: relative;
@@ -144,4 +148,71 @@ footer {
     background: url("../images/footer_background_top_edge.png");
   }
 
+  a {
+    color: white !important;
+  }
 }
+
+
+#twitter {
+  h4 {
+    margin: 0 0 0 30px;
+    padding: 0 0 0 30px;
+    background: url("../images/twitter_bird.png") no-repeat left bottom;
+  }
+
+  #twitter_bird {
+    background: url("../images/twitter_bird.png") no-repeat;
+    width: 25px;
+    height: 17px;
+    float: left;
+    margin: 0 0 0 30px;
+  }
+  #twitter_update_list {
+    list-style: none;
+    color: black;
+    float: left;
+
+    li {
+      position: relative;
+      margin: 10px 0 0;
+
+      div.left {
+        position: absolute;
+      }
+      div.right {
+        background: url("../images/twitter_bubbles_2.png") no-repeat;
+        width: 25px;
+        height: 56px;
+        position: absolute;
+        right: 0;
+        top: -20px;
+      }
+
+      &:last-child, &:first-child {
+        // border: solid 1px blue;
+        div.left {
+          background: url("../images/twitter_bubbles_3.png") no-repeat;
+          width: 26px;
+          height: 56px;
+          left: 0;
+          top: -20px;
+        }
+
+        div.right {
+          display: none;
+        }
+      }
+
+      div.tweet {
+        margin: 0 30px 0 35px;
+        padding: 5px;
+        background: #B5D4D0;
+        @include border-radius(5px);
+        @include box-shadow(1px 1px 4px #000);
+        min-height: 30px;
+      }
+    }
+  }
+}
+
