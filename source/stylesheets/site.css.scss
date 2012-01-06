@@ -72,6 +72,14 @@ h4 {
   font-size: 130%;
 }
 
+ul.nav {
+  @include inline-list;
+
+  li {
+    margin: 0 5px;
+  }
+}
+
 header {
   background: #5fa69b;
   position: relative;
@@ -118,14 +126,6 @@ header {
   }
 }
 
-ul.nav {
-  @include inline-list;
-
-  li {
-    margin: 0 5px;
-  }
-}
-
 footer {
   #ribbon {
     background: url("../images/footer_background.png") #502120;
@@ -152,12 +152,27 @@ footer {
     }
   }
 
-  .copyright {
-    text-align: right;
-  }
-
   #footer_menu {
     padding: 10px 0;
+
+    @media only screen and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  .copyright {
+    text-align: right;
+    @media only screen and (max-width: 767px) {
+      text-align: center;
+    }
+  }
+
+  ul.nav {
+    a{
+      &:hover, &.active {
+        font-weight: bold;
+      }
+    }
   }
 }
 
