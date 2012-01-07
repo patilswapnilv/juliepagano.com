@@ -63,6 +63,7 @@ h1 {
 h2 {
   font-size: 160%;
   font-weight: bold;
+  text-align: center;
 }
 
 h3 {
@@ -206,6 +207,36 @@ footer {
     li {
       a {
         @include hide-text;
+      }
+    }
+  }
+}
+
+#skills {
+  ul {
+    li {
+      display: block;
+      line-height: 20px;
+      margin: 5px 0;
+
+      label {
+        width: 50%;
+        text-align: right;
+        float: left;
+        padding-right: 10px;
+      }
+
+      div {
+        width: 108px;
+        height: 21px;
+        display: inline-block;
+        background: url("../images/levels.png") no-repeat;
+
+        @for $i from 1 through 10 {
+          &.level#{$i} {
+            width: ($i * 9 + 2 * ($i - 1)) * 1px;
+          }
+        }
       }
     }
   }
