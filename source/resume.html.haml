@@ -4,9 +4,77 @@
   %h1 MY RESUME
 
 %div.sixteen.columns
-  Sesame snaps chocolate cookie danish bear claw jelly beans candy tiramisu candy canes. Brownie sweet macaroon fruitcake tart croissant. Cheesecake pudding cake jelly chocolate cake applicake jelly biscuit chocolate bar. Toffee carrot cake wafer biscuit muffin wafer jujubes apple pie. Macaroon biscuit applicake tart lemon drops pastry. Croissant caramels gummies cake jelly beans wafer caramels macaroon. Lollipop lemon drops marzipan gingerbread liquorice icing jujubes.
-  Jelly beans candy tiramisu apple pie dessert. Sweet roll marzipan icing chocolate bar. Sesame snaps bear claw biscuit marzipan chocolate cake. Gingerbread muffin wafer lollipop croissant topping cupcake halvah brownie. Tart gummies danish chocolate cake marzipan. Tootsie roll powder ice cream biscuit. Liquorice cheesecake tootsie roll jelly. Brownie donut sweet roll halvah marzipan jelly-o topping applicake. Bonbon dragée sugar plum liquorice icing brownie liquorice. Powder pie tart jelly topping chocolate cake danish faworki.
+  %section#summary
+    %h2 Summary
+    Software developer with over five years experience working with web technologies.
 
-%div#skills.eight.columns
-  %h2 Skills
-  = partial "skills"
+  %section#skills
+    %h2 Skills
+    %h3 Web Development
+    %ul
+      %li Web Development: HTML, CSS, JavaScript, AJAX, XML/XSL, Ruby on Rails, PHP, ASP.NET, JSP
+    %h3 Languages
+    %ul
+      %li Languages: Ruby, C#, VB/VBA/VBS, Java, Perl, shell scripting
+    %h3 Platforms
+    %ul
+      %li Platforms: OSX, Unix/Linux, Windows
+    %h3 Software/Technologies
+    %ul
+      %li Software/Technologies: version control (Git, CVS), web servers (Apache, IIS), databases (MySQL, SQLite, Oracle), Vivisimo Velocity, MS Visual Studio, NUnit, Microsoft Office
+    %h3 Development Practices
+    %ul
+      %li Development Practices: Agile, Scrum, TDD, pair programming, Kanban
+
+  %section#experience
+    %h2 Work Experience
+    %h3 Vivisimo, Inc &ndash; Pittsburgh, PA
+    %h4 Senior Applications Engineer (08/2010-present)
+    %ul
+      %li Managing a team of three applications engineers in deploying and configuring Velocity for customers through professional services.
+      %li Working regularly with customers as the project technical lead to evaluate their needs and provide them with solutions using search and web technologies.
+      %li Worked on several projects that leveraged the customer’s geospatial data and the Google Maps API to allow users to search for data related to a geographic region and interact with that information using a map interface.
+      %li Helped new employees become productive team members by mentoring them, developing interactive training exercises, and presenting information about best practices.
+      %li Coordinated cross-departmental training and knowledge-sharing meetings that provided an educational opportunity for the Professional Services, Engineering, and Support departments.
+      %li Assisted the Engineering department with prototype development for a new software offering and later participated in the development process for that software.
+      %li Earned a promotion in October 2010 based on superior performance in technical skills, leadership, and communication with customers.
+      %li Developed an internal tool that leveraged time tracking data to provide valuable insight into development progress and saved resources by automating tasks that were regularly performed by management.
+      %li Performed as the team lead and architect for a project that won an internal programming contest to develop a new product feature.  The project was used to increase interest in new versions of the software with several strategic customers.
+
+    %h3 University of Pittsburgh &ndash; Pittsburgh, PA
+    %h4 Student Web Developer (01/2007-12/2007)
+    %ul
+      %li Designed, developed, and maintained a paper submission system for the ACM Sigmod Record publication using PHP and MySQL.  This system improved the review and publication process for the current editor by allowing him to meet publication deadlines, facilitating communications, and minimizing loss of submissions.
+
+    %h3 ANSYS, Inc. &ndash; Canonsburg, PA
+    %h4 Co-op Student (01/2005-08/2006)
+    %ul
+      %li Designed and maintained web applications for internal and public sites using HTML, JavaScript, C++, C#, ASP.NET, MySQL, test-driven development, and pair programming.
+      %li Served as the project lead for the development of several internal applications.
+      %li Redesigned the web application used to evaluate the results of automated software testing to improve performance and usability.
+      %li Executed manual and automated software testing and helped streamline the testing process for better testing coverage.
+
+  %section#education
+    %h2 Education
+    %h3 University of Pittsburgh &ndash; Pittsburgh, PA
+    %h4 B.S. Computer Engineering (08/2007)
+    %li Affiliations: IEEE (student member and webmaster for student chapter), Eta Kappa Nu honor society, Tau Beta Pi honor society
+
+  %section#activities
+    %h2 Activities
+    %ul
+      %li Pittsburgh Ruby User Group
+      %li Pittsburgh Agile Group
+      %li JRubyConf conference in October 2010
+      %li Ruby Nation conference in April 2011
+
+
+  %div#download_resume
+    %ul
+      %li pdf
+      %li txt
+      %li doc
+
+/ %div#skills.eight.columns
+/   %h2 Skills
+/   = partial "skills"
