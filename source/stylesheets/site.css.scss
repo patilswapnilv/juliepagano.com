@@ -58,7 +58,11 @@ h1 {
       height: 100px;
     }
 
-    // FIXME: include smaller logo for smallest case
+    a {
+      display: block;
+      height: 75px;
+      width: 315px;
+    }
   }
 }
 
