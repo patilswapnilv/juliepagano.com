@@ -197,14 +197,6 @@ footer {
     }
   }
 
-  ul.nav {
-    a{
-      &:hover, &.active {
-        font-weight: bold;
-      }
-    }
-  }
-
   ul.social {
     text-align: center;
     @include inline-block-list;
