@@ -89,19 +89,19 @@ ul.social {
     margin: 10px 0;
 
     a {
-      line-height: 30px;
-      padding: 0 0 0 35px;
+      line-height: 56px;
+      padding: 0 0 0 60px;
       background: no-repeat left center;
       @include inline-block;
     }
 
-    @each $social_site in twitter, linkedin, facebook, googleplus, tumblr {
+    @each $social_site in twitter, github, linkedin, facebook, googleplus, tumblr {
       &.#{$social-site} {
         a {
-          background-image: url("../images/social_#{$social-site}.png");
+          background-image: url("../images/social_#{$social-site}_50grw.png");
         }
         a:hover {
-          background-image: url("../images/social_#{$social-site}2.png");
+          background-image: url("../images/social_#{$social-site}_50blw.png");
         }
       }
     }
