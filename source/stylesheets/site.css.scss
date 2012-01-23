@@ -45,23 +45,20 @@ h1 {
   line-height: 1;
 
   &.logo {
-    width: 325px;
-    height: 125px;
+    width: 300px;
+    height: 100px;
     background: url("../images/logo.png") no-repeat;
     @include hide-text;
-    margin: -11px 0 -52px 0;
+    margin: -6px 0 -61px 0;
 
     @media only screen and (max-width: 767px) {
       margin: 0;
-      background: url("../images/logo_sm.png") no-repeat;
-      width: 300px;
-      height: 100px;
     }
 
     a {
       display: block;
       height: 75px;
-      width: 315px;
+      width: 300px;
     }
   }
 }
