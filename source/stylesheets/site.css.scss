@@ -283,7 +283,7 @@ footer {
         top: -20px;
       }
 
-      &:last-child, &:first-child {
+      &.odd {
         // border: solid 1px blue;
         div.left {
           background: url("../images/twitter_bubbles_3.png") no-repeat;
