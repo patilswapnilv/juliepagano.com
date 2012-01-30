@@ -15,6 +15,8 @@ $base-line-height: 18px;
 
 $background-color: #87a09d;
 
+$header-spacing: 50px;
+
 $total-cols: 12;
 $col-width: 4em;
 $gutter-width: 1em;
@@ -141,15 +143,19 @@ header {
 
 #main {
   .container {
-    padding: 0 0 50px 0;
+    padding: 0 0 $header-spacing 0;
+
+    div {
+      padding-bottom: $header-spacing / 2;
+    }
   }
 }
 
 #page_title{
   background: rgba($header-background-color, 0.4);
-  margin-bottom: 50px;
+  margin-bottom: $header-spacing;
   .container {
-    padding: 40px 0;
+    padding: $header-spacing/2 0;
   }
   h1 {
     text-align: center;
@@ -284,7 +290,6 @@ footer {
       }
 
       &.odd {
-        // border: solid 1px blue;
         div.left {
           background: url("../images/twitter_bubbles_3.png") no-repeat;
           width: 26px;
