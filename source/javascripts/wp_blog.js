@@ -10,9 +10,9 @@ $.ajax({
     console.log(data);
     var container = $(MYWRAPPER_ID);
     var posts = data.posts;
+    container.html("");
     for(var i=0; i < posts.length; i++) {
       var post = posts[i];
-      console.log(post.title);
       var post_html = "<a href='" + post.url + "'>";
       post_html += "<h4>" + post.title + "</h4>";
       post_html += "</a>";
