@@ -4,11 +4,11 @@
   %h1 MY RESUME
 
 %div.sixteen.columns
-  %section#summary
+  %section#summary.sixteen.columns
     %h2 Summary
     Software developer with over five years experience working with web technologies.
 
-  %section#skills
+  %section#skills.sixteen.columns
     %h2 Skills
     %h3 Web Development
     %ul
@@ -26,7 +26,7 @@
     %ul
       %li Development Practices: Agile, Scrum, TDD, pair programming, Kanban
 
-  %section#experience
+  %section#experience.sixteen.columns
     %h2 Work Experience
     %h3 Vivisimo, Inc &ndash; Pittsburgh, PA
     %h4 Software Engineer I (10/2011-present)
@@ -59,27 +59,10 @@
       %li Redesigned the web application used to evaluate the results of automated software testing to improve performance and usability.
       %li Executed manual and automated software testing and helped streamline the testing process for better testing coverage.
 
-  %section#education
+  %section#education.sixteen.columns
     %h2 Education
     %h3 University of Pittsburgh &ndash; Pittsburgh, PA
     %h4 B.S. Computer Engineering (08/2007)
     %li Affiliations: IEEE (student member and webmaster for student chapter), Eta Kappa Nu honor society, Tau Beta Pi honor society
 
-  %section#activities
-    %h2 Activities
-    %ul
-      %li Pittsburgh Ruby User Group
-      %li Pittsburgh Agile Group
-      %li JRubyConf conference in October 2010
-      %li Ruby Nation conference in April 2011
-
-
-  %div#download_resume
-    %ul
-      %li pdf
-      %li txt
-      %li doc
-
-/ %div#skills.eight.columns
-/   %h2 Skills
-/   = partial "skills"
+  = partial "activities", :locals => {:columns => "eight"}
