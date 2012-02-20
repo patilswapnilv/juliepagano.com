@@ -13,10 +13,12 @@ if($(MYWRAPPER_ID).length) {
       container.html("");
       for(var i=0; i < posts.length; i++) {
         var post = posts[i];
-        var post_html = "<a href='" + post.url + "'>";
+        var post_html = "<div class='post'>"
+        post_html += "<a href='" + post.url + "'>";
         post_html += "<h4>" + post.title + "</h4>";
         post_html += "</a>";
         post_html += "<p>" + post.excerpt + "</p>";
+        post_html += "</div>"
         container.append(post_html);
       }
     },
