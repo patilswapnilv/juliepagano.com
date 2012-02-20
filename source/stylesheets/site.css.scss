@@ -41,8 +41,16 @@ a {
   }
 }
 
+strong {
+  font-weight: bold;
+}
+
 p {
   margin-bottom: 1em;
+}
+
+blockquote, blockquote p {
+  font-size: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -356,3 +364,20 @@ footer {
   }
 }
 
+#main {
+  .recent_posts {
+    div.post {
+      padding: 0;
+      margin-bottom: 1.5em;
+    }
+
+    p {
+      margin-bottom: 0.25em;
+    }
+
+    img {
+      float: left;
+      margin: 0 4px 4px 0;
+    }
+  }
+}

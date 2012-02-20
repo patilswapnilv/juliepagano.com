@@ -1,0 +1,8 @@
+#recent_tumblr.one-third.column.offset-by-one.recent_posts
+  %h2
+    = link_to "Recent Tumblr Posts", "http://juliepagano.tumblr.com/"
+  #recent_tumblr_posts
+    loading...
+
+= javascript_include_tag "tumblr"
+= javascript_include_tag "http://api.tumblr.com/v2/blog/juliepagano.tumblr.com/posts?api_key=en2fm1R1yO5Pxfrd2viVMP1TJ0sC0qOhLNZtXsOsmdqoA0i3na&jsonp=tumblrCallback&limit=3"
