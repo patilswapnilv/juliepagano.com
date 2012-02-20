@@ -8,7 +8,6 @@ if($(MYWRAPPER_ID).length) {
     url: "http://juliepagano.com/blog/api/get_recent_posts?count=" + MYBLOG_LIMIT,
     dataType: 'jsonp',
     success: function(data, textStatus, jqXHR) {
-      console.log(data);
       var container = $(MYWRAPPER_ID);
       var posts = data.posts;
       container.html("");
