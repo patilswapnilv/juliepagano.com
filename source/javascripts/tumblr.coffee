@@ -9,7 +9,6 @@
 
 prepare_post = (post) ->
   post_html = "<div class='post clearfix'>"
-  console.log post
   switch post.type
     when "text"  then post_html += text_post post
     when "photo" then post_html += photo_post post
