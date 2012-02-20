@@ -42,7 +42,7 @@ a {
 }
 
 p {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,9 +50,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: normal;
-  font-family: 'BebasNeueRegular', Impact, Arial;
+  font-family: 'LeagueGothicRegular', Impact, Arial;
 
   &.logo {
     width: 300px;
@@ -176,7 +176,7 @@ header {
   background: rgba($header-background-color, 0.4);
   margin-bottom: $header-spacing;
   .container {
-    padding: $header-spacing/2 0;
+    padding: 1em 0;
   }
   h1 {
     text-align: center;
