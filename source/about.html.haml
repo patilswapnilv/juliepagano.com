@@ -14,5 +14,8 @@
 .four.columns
   = image_tag "circle_photo_large.png"
 
-= partial "activities", :locals => {:columns => "eight"}
-= partial "education", :locals => {:columns => "eight"}
+.row
+  = partial "activities", :locals => {:columns => "eight"}
+  = partial "education", :locals => {:columns => "eight"}
+
+= partial "work_experience", :locals => {:columns => "eight"}
