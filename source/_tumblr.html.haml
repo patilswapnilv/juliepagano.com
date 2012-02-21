@@ -1,3 +1,31 @@
+%script{ :id => "tumblr-posts-template", :type => "text/x-handlebars-template" }
+  {{#each posts}}
+  %div.post.clearfix
+    {{#if photos}}
+    {{{tumblrPhoto}}}
+    {{/if}}
+
+    {{#if player}}
+    {{{tumblrVideo}}}
+    {{/if}}
+
+    {{#if title}}
+    %strong {{{title}}}
+    {{/if}}
+
+    {{#if body}}
+    {{{body}}}
+    {{/if}}
+
+    {{#if caption}}
+    {{{caption}}}
+    {{/if}}
+
+    %a{ :href => "{{post_url}}" }
+      %span.timestamp
+        {{tumblrTimestamp}}
+  {{/each}}
+
 #recent_tumblr.one-third.column.offset-by-one.recent_posts
   %h2
     = link_to "Recent Tumblr Posts", "http://juliepagano.tumblr.com/"
