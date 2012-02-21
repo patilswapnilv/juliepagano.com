@@ -1,3 +1,16 @@
+%script{ :id => "blog-posts-template", :type => "text/x-handlebars-template" }
+  {{#each posts}}
+  %div.post
+    %a{:href => "{{url}}" }
+      %h4
+        {{title}}
+    %p
+      {{{excerpt}}}
+    %a{ :href => "{{url}}" }
+      %span.timestamp
+        {{blogTimestamp}}
+  {{/each}}
+
 #recent_blog.one-third.column.recent_posts
   %h2
     = link_to "Recent Blog Posts", "http://juliepagano.com/blog/"
