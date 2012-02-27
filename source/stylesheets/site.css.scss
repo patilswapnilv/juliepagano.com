@@ -176,6 +176,7 @@ header {
 
     div {
       padding-bottom: $header-spacing / 2;
+      overflow: hidden;
     }
   }
 }
@@ -378,6 +379,7 @@ footer {
     img {
       float: left;
       margin: 0 4px 4px 0;
+      max-width: 100%;
     }
   }
 }
