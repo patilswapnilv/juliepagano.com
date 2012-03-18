@@ -14,11 +14,18 @@
     {{/if}}
 
     {{#if body}}
-    {{{body}}}
+    %p
+      %span.body {{{body}}}
     {{/if}}
 
     {{#if caption}}
-    {{{caption}}}
+    %p
+      %span.body {{{caption}}}
+    {{/if}}
+
+    {{#if text}}
+    %p
+      %span.body {{{text}}}
     {{/if}}
 
     %a{ :href => "{{post_url}}" }

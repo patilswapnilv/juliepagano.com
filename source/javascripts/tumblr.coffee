@@ -21,3 +21,7 @@ Handlebars.registerHelper "tumblrVideo", (post) ->
   if tumblr.meta.status == 200
     $("#recent_tumblr_posts").handlebars($('#tumblr-posts-template'),
       tumblr.response)
+    $("#recent_tumblr_posts .post p").ThreeDots({
+      text_span_class: "body",
+      max_rows: 8
+    });
