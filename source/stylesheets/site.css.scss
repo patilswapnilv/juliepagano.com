@@ -242,14 +242,13 @@ footer {
 
   ul.social {
     text-align: center;
-    width: 200px;
     @include inline-block-list;
 
-    // Margin down here to override inline-block-list margin
-    margin: 0 auto;
     li {
       a {
         @include hide-text;
+        display: block;
+        width: 50px;
       }
     }
   }
