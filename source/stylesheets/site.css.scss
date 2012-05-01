@@ -383,12 +383,20 @@ $about_icon_width: $about_icon_size + 25px;
 }
 
 .about {
-  p {
+  section {
     min-height: $about_icon_size;
     padding-top: $about_icon_spacing;
     background-position: top left;
     background-repeat: no-repeat;
     margin-bottom: 50px;
+
+    &.julie {
+      padding-top: 0;
+
+      h4{
+        line-height: $about_icon_size;
+      }
+    }
   }
 
   @include about-section(julie, left);
