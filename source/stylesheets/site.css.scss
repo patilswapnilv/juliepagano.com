@@ -369,10 +369,20 @@ footer {
   }
 }
 
+
+$about_icon_size: 100px;
+$about_icon_spacing: 10px;
+$about_icon_width: $about_icon_size + 25px;
+
+@mixin about-section($name, $position: left) {
+  .#{$name} {
+    background-image: url("../images/about_#{$name}.png");
+    background-position: top #{$position};
+    padding-#{$position}: $about_icon_width;
+  }
+}
+
 .about {
-  $about_icon_size: 100px;
-  $about_icon_spacing: 10px;
-  $about_icon_width: $about_icon_size + 25px;
   p {
     min-height: $about_icon_size;
     padding-top: $about_icon_spacing;
@@ -381,24 +391,10 @@ footer {
     margin-bottom: 50px;
   }
 
-  .julie {
-    background-image: url("../images/about_julie.png");
-    padding-left: $about_icon_width;
-  }
-  .coding {
-    background-image: url("../images/about_coding.png");
-    background-position: top right;
-    padding-right: $about_icon_width;
-  }
-  .pittsburgh {
-    background-image: url("../images/about_pittsburgh.png");
-    padding-left: $about_icon_width;
-  }
-  .cat {
-    background-image: url("../images/about_cat.png");
-    background-position: top right;
-    padding-right: $about_icon_width;
-  }
+  @include about-section(julie, left);
+  @include about-section(coding, right);
+  @include about-section(pittsburgh, left);
+  @include about-section(cat, right);
 }
 
 #main {
