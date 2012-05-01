@@ -5,21 +5,15 @@
 
 .row
   .twelve.columns.offset-by-two.content
-    %p.julie
-      Hi! My name is Julie.
-    %p.coding
-      I am a web developer that focuses on user experience.  I spend most of my time working with HTML, CSS, and JavaScript.  I enjoy making things usable and pretty (despite my lack of a formal design background).
-    %p.pittsburgh
+    %section.julie
+      %h4 Hi! My name is Julie.
+    %section.coding
+      I am a software engineer with a strong focus on user experience and front-end web development.  I spend most of my time working with HTML, CSS, and JavaScript.  I enjoy making things usable and pretty (despite my lack of a formal design background).
+    %section.pittsburgh
       I currently live in Pittsburgh, PA.  I originally came here to get my BS in Computer Engineering from the University of Pittsburgh (CMU was far too expensive).  I liked it so much that I decided to stay.
-    %p.cat
+    %section.cat
       I currently share my home with Nikita, my rescued feline friend.  She enjoys sleeping, eating, and helping me live up to my cat lady potential.  I recommend the
       = link_to "Animal Rescue League", "http://www.animalrescue.org/"
       if you ever want an equally awesome cat friend of your own.  Seriously, you want a cat in your life.  Come over to the kitty side - we have fluffiness and meows!
-    %p
+    %section
       In my free time, I enjoy indulging my cinephilia, geeky interests (science, skepticism, comics, video games, etc.), and love of cute animal pictures.
-
-.row
-  = partial "activities", :locals => {:columns => "eight"}
-  = partial "education", :locals => {:columns => "eight"}
-
-= partial "work_experience", :locals => {:columns => "eight"}
