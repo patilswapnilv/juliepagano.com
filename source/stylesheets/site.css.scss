@@ -174,7 +174,7 @@ header {
   .container {
     padding: 0 0 $header-spacing 0;
 
-    div {
+    > div {
       padding-bottom: $header-spacing / 2;
       overflow: hidden;
     }
@@ -266,6 +266,10 @@ footer {
       padding-bottom: 0;
     }
   }
+}
+
+#github_activity {
+  float: right;
 }
 
 #skills {

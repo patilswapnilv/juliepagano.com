@@ -1,0 +1,60 @@
+.github-timeline-header {
+  font-family: "lucida grande", lucida, tahoma, helvetica, arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.github-timeline-header-user-id {
+  font-size: 12px;
+}
+
+.github-timeline-events {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.github-timeline-event {
+  clear: both;
+  margin-bottom: 2px;
+}
+
+.github-timeline-event-icon {
+  display: block;
+  float: left;
+  width: 19px;
+}
+
+.github-timeline-event-icon img {
+  border: 0px;
+}
+
+.github-timeline-event-text {
+  font-family: "lucida grande", lucida, tahoma, helvetica, arial, sans-serif;
+  font-size: 12px;
+  display: block;
+  margin-left: 19px;
+}
+
+.github-timeline-event-text a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.github-timeline-event-text strong {
+  font-weight: bolder;
+}
+
+.github-timeline-event-time {
+  font-size: 10px;
+}
+
+.github-timeline-source-link {
+  margin-left: 19px;
+  font-size: 10px;
+  text-decoration: none;
+  color: #000080;
+  display: block;
+}

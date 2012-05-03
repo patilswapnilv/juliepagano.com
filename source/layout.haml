@@ -11,6 +11,7 @@
     = stylesheet_link_tag "skeleton/skeleton.css"
     = stylesheet_link_tag "skeleton/layout.css"
     = stylesheet_link_tag "site.css"
+    = stylesheet_link_tag "github-timeline-widget.css"
     = javascript_include_tag "jquery-1.7.1.min.js"
     = javascript_include_tag "jquery.timeago.js"
     = javascript_include_tag "jquery.ThreeDots.js"
@@ -36,3 +37,13 @@
   = javascript_include_tag "http://api.twitter.com/1/statuses/user_timeline.json?screen_name=juliepagano&callback=twitterCallback&include_rts=true&count=3"
   = javascript_include_tag "wp_blog.js"
   = javascript_include_tag "http://cdn.lanyrd.net/badges/person-v1.min.js"
+  = javascript_include_tag "github-timeline-widget.js"
+  :javascript
+    $(function() {
+      var options = {
+        'username': 'juliepagano',
+        'limit': 5,
+        'user_id': false // set to false to exclude (user #)
+      };
+      $("#github_activity").githubTimelineWidget(options);
+    });
