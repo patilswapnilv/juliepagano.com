@@ -403,6 +403,7 @@ $about_icon_width: $about_icon_size + 25px;
   @include about-section(coding, right);
   @include about-section(pittsburgh, left);
   @include about-section(cat, right);
+  @include about-section(extra, left);
 }
 
 #main {
