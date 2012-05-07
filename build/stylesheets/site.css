@@ -1,0 +1,432 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+body {
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  line-height: 18px;
+  color: #2a2a2a;
+  background: url("../images/background.png") #87a09d; }
+
+a {
+  color: black;
+  text-decoration: none; }
+  a:hover {
+    color: #144ea9; }
+  a:hover {
+    text-decoration: underline; }
+
+strong {
+  font-weight: bold; }
+
+p {
+  margin-bottom: 1em; }
+
+blockquote, blockquote p {
+  font-size: 1em; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2em; }
+
+h1 {
+  font-size: 3.5em;
+  font-weight: normal;
+  font-family: 'LeagueGothicRegular', Impact, Arial; }
+  h1.logo {
+    width: 300px;
+    height: 100px;
+    background: url("../images/logo.png") no-repeat;
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: -6px 0 -61px 0; }
+    @media only screen and (max-width: 767px) {
+      h1.logo {
+        margin: 0; } }
+    h1.logo a {
+      display: block;
+      height: 75px;
+      width: 300px; }
+
+h2 {
+  font-size: 2.5em;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 0.5em;
+  font-family: 'LeagueGothicRegular', Arial; }
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em; }
+
+h4 {
+  font-size: 1.3em;
+  margin-bottom: 0.3em; }
+
+ul {
+  margin-bottom: 1em; }
+
+li {
+  margin-bottom: 0.3em; }
+
+ul.nav {
+  list-style-type: none; }
+  ul.nav, ul.nav li {
+    margin: 0px;
+    padding: 0px;
+    display: inline; }
+  ul.nav li {
+    margin: 0 5px; }
+
+ul.social li {
+  margin: 10px 0; }
+  ul.social li a {
+    line-height: 56px;
+    padding: 0 0 0 60px;
+    background: no-repeat left center;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto; }
+    ul.social li a {
+      *display: inline; }
+  ul.social li.twitter a {
+    background-image: url("../images/social_twitter_50grw.png"); }
+  ul.social li.twitter a:hover {
+    background-image: url("../images/social_twitter_50blw.png"); }
+  ul.social li.linkedin a {
+    background-image: url("../images/social_linkedin_50grw.png"); }
+  ul.social li.linkedin a:hover {
+    background-image: url("../images/social_linkedin_50blw.png"); }
+  ul.social li.github a {
+    background-image: url("../images/social_github_50grw.png"); }
+  ul.social li.github a:hover {
+    background-image: url("../images/social_github_50blw.png"); }
+  ul.social li.facebook a {
+    background-image: url("../images/social_facebook_50grw.png"); }
+  ul.social li.facebook a:hover {
+    background-image: url("../images/social_facebook_50blw.png"); }
+  ul.social li.googleplus a {
+    background-image: url("../images/social_googleplus_50grw.png"); }
+  ul.social li.googleplus a:hover {
+    background-image: url("../images/social_googleplus_50blw.png"); }
+  ul.social li.tumblr a {
+    background-image: url("../images/social_tumblr_50grw.png"); }
+  ul.social li.tumblr a:hover {
+    background-image: url("../images/social_tumblr_50blw.png"); }
+
+header {
+  background: #5fa69b;
+  position: relative;
+  margin: 25px 0 0;
+  min-height: 60px;
+  -webkit-box-shadow: 0px 0px 4px black;
+  -moz-box-shadow: 0px 0px 4px black;
+  box-shadow: 0px 0px 4px black; }
+  header nav {
+    float: right;
+    line-height: 60px;
+    margin: 0 10px; }
+    header nav ul.nav {
+      font-size: 110%; }
+      header nav ul.nav a {
+        padding: 5px 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        font-weight: bold; }
+        header nav ul.nav a:hover, header nav ul.nav a.active {
+          color: black;
+          background: #B5D4D0;
+          text-decoration: none; }
+
+#main {
+  background: rgba(255, 255, 255, 0.3); }
+  #main .container {
+    padding: 0 0 50px 0; }
+    #main .container > div {
+      padding-bottom: 25px;
+      overflow: hidden; }
+  #main .content {
+    font-size: 1.2em;
+    line-height: 1.4em; }
+
+#page_title {
+  background: rgba(95, 166, 155, 0.4);
+  margin-bottom: 50px; }
+  #page_title .container {
+    padding: 1em 0; }
+  #page_title h1 {
+    text-align: center;
+    color: #000; }
+
+footer #ribbon {
+  background: url("../images/footer_background_light.png") #502020;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 4px black;
+  -moz-box-shadow: 0px 0px 4px black;
+  box-shadow: 0px 0px 4px black;
+  padding: 0px 0; }
+  footer #ribbon .container {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  footer #ribbon div.photo {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/circle_photo.png");
+    float: right;
+    margin-left: 10px; }
+  footer #ribbon .top_edge, footer #ribbon .bottom_edge {
+    width: 100%;
+    height: 13px;
+    background: url("../images/footer_background_top_edge_light.png"); }
+  footer #ribbon a {
+    color: inherit; }
+footer #footer_menu {
+  padding: 10px 0; }
+  @media only screen and (max-width: 767px) {
+    footer #footer_menu {
+      text-align: center; } }
+footer .copyright {
+  text-align: right; }
+  @media only screen and (max-width: 767px) {
+    footer .copyright {
+      text-align: center; } }
+footer ul.social {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1; }
+  footer ul.social li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    white-space: nowrap; }
+    footer ul.social li {
+      *display: inline; }
+  footer ul.social li a {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 50px; }
+  footer ul.social li.twitter a {
+    background-image: url("../images/social_twitter_50rdw.png"); }
+  footer ul.social li.twitter a:hover {
+    background-image: url("../images/social_twitter_50blw.png"); }
+  footer ul.social li.linkedin a {
+    background-image: url("../images/social_linkedin_50rdw.png"); }
+  footer ul.social li.linkedin a:hover {
+    background-image: url("../images/social_linkedin_50blw.png"); }
+  footer ul.social li.github a {
+    background-image: url("../images/social_github_50rdw.png"); }
+  footer ul.social li.github a:hover {
+    background-image: url("../images/social_github_50blw.png"); }
+  footer ul.social li.facebook a {
+    background-image: url("../images/social_facebook_50rdw.png"); }
+  footer ul.social li.facebook a:hover {
+    background-image: url("../images/social_facebook_50blw.png"); }
+  footer ul.social li.googleplus a {
+    background-image: url("../images/social_googleplus_50rdw.png"); }
+  footer ul.social li.googleplus a:hover {
+    background-image: url("../images/social_googleplus_50blw.png"); }
+  footer ul.social li.tumblr a {
+    background-image: url("../images/social_tumblr_50rdw.png"); }
+  footer ul.social li.tumblr a:hover {
+    background-image: url("../images/social_tumblr_50blw.png"); }
+
+#recent_blog p {
+  margin-bottom: 1em; }
+
+#conferences .lanyrd-target-splat div {
+  padding-bottom: 0; }
+
+#github_activity {
+  float: right; }
+
+#skills ul li {
+  display: block;
+  line-height: 20px;
+  margin: 5px 0; }
+  #skills ul li label {
+    width: 50%;
+    text-align: right;
+    float: left;
+    padding-right: 10px; }
+  #skills ul li div {
+    width: 108px;
+    height: 21px;
+    display: inline-block;
+    background: url("../images/levels.png") no-repeat; }
+    #skills ul li div.level1 {
+      width: 9px; }
+    #skills ul li div.level2 {
+      width: 20px; }
+    #skills ul li div.level3 {
+      width: 31px; }
+    #skills ul li div.level4 {
+      width: 42px; }
+    #skills ul li div.level5 {
+      width: 53px; }
+    #skills ul li div.level6 {
+      width: 64px; }
+    #skills ul li div.level7 {
+      width: 75px; }
+    #skills ul li div.level8 {
+      width: 86px; }
+    #skills ul li div.level9 {
+      width: 97px; }
+    #skills ul li div.level10 {
+      width: 108px; }
+
+#twitter h4 {
+  margin: 0 0 0 30px;
+  padding: 0 0 0 30px;
+  background: url("../images/twitter_bird.png") no-repeat left bottom; }
+  #twitter h4 a {
+    color: #fff; }
+#twitter #twitter_bird {
+  background: url("../images/twitter_bird.png") no-repeat;
+  width: 25px;
+  height: 17px;
+  float: left;
+  margin: 0 0 0 30px; }
+#twitter #twitter_update_list {
+  list-style: none;
+  color: black;
+  float: left; }
+  #twitter #twitter_update_list li {
+    list-style: none;
+    position: relative;
+    margin: 10px 0 0; }
+    #twitter #twitter_update_list li div.left {
+      position: absolute; }
+    #twitter #twitter_update_list li div.right {
+      background: url("../images/twitter_bubbles_2.png") no-repeat;
+      width: 25px;
+      height: 56px;
+      position: absolute;
+      right: 0;
+      top: -20px; }
+    #twitter #twitter_update_list li.odd div.left {
+      background: url("../images/twitter_bubbles_3.png") no-repeat;
+      width: 26px;
+      height: 56px;
+      left: 0;
+      top: -20px; }
+    #twitter #twitter_update_list li.odd div.right {
+      display: none; }
+    #twitter #twitter_update_list li div.tweet {
+      margin: 0 30px 0 35px;
+      padding: 5px;
+      background: #B5D4D0;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 1px 1px 4px black;
+      -moz-box-shadow: 1px 1px 4px black;
+      box-shadow: 1px 1px 4px black;
+      min-height: 30px; }
+
+.resume li {
+  list-style: disc;
+  margin-left: 1.5em; }
+.resume .container section {
+  margin-bottom: 2em; }
+
+.about section {
+  min-height: 100px;
+  padding-top: 10px;
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin-bottom: 50px; }
+  .about section.julie {
+    padding-top: 0; }
+    .about section.julie h4 {
+      line-height: 100px; }
+.about .julie {
+  background-image: url("../images/about_julie.png");
+  background-position: top left;
+  padding-left: 125px; }
+.about .coding {
+  background-image: url("../images/about_coding.png");
+  background-position: top right;
+  padding-right: 125px; }
+.about .pittsburgh {
+  background-image: url("../images/about_pittsburgh.png");
+  background-position: top left;
+  padding-left: 125px; }
+.about .cat {
+  background-image: url("../images/about_cat.png");
+  background-position: top right;
+  padding-right: 125px; }
+.about .extra {
+  background-image: url("../images/about_extra.png");
+  background-position: top left;
+  padding-left: 125px; }
+
+#main .recent_posts div.post {
+  padding: 0;
+  margin-bottom: 1.5em; }
+#main .recent_posts p {
+  margin-bottom: 0.25em; }
+#main .recent_posts img {
+  float: left;
+  margin: 0 4px 4px 0;
+  max-width: 100%; }
