@@ -115,6 +115,19 @@ ul.nav {
   }
 }
 
+@mixin social-background-images($colors, $hover-colors) {
+  @each $social_site in twitter, linkedin, github, facebook, googleplus, tumblr {
+    &.#{$social-site} {
+      a {
+        background-image: url("../images/social_#{$social-site}_50#{$colors}.png");
+      }
+      a:hover {
+        background-image: url("../images/social_#{$social-site}_50#{$hover-colors}.png");
+      }
+    }
+  }
+}
+
 ul.social {
   li{
     margin: 10px 0;
@@ -126,16 +139,7 @@ ul.social {
       @include inline-block;
     }
 
-    @each $social_site in twitter, github, linkedin, facebook, googleplus, tumblr {
-      &.#{$social-site} {
-        a {
-          background-image: url("../images/social_#{$social-site}_50grw.png");
-        }
-        a:hover {
-          background-image: url("../images/social_#{$social-site}_50blw.png");
-        }
-      }
-    }
+    @include social-background-images(grw, blw);
   }
 }
 
@@ -254,6 +258,8 @@ footer {
         display: block;
         width: 50px;
       }
+
+      @include social-background-images(rdw, blw);
     }
   }
 }
