@@ -1,6 +1,6 @@
 // FIXME to be cleaned up - potentially converted to coffeescript
 Handlebars.registerHelper("blogTimestamp", function(post) {
-  return jQuery.timeago(new Date(this.date));
+  return jQuery.timeago(this.date);
 });
 
 var MYBLOG_LIMIT = 5;
