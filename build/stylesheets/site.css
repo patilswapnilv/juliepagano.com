@@ -1,3 +1,15 @@
+/* line 41, grid.css.scss */
+body {
+  width: 100%;
+  *zoom: 1; }
+  /* line 27, grid.css.scss */
+  body:before, body:after {
+    content: "";
+    display: table; }
+  /* line 31, grid.css.scss */
+  body:after {
+    clear: both; }
+
 /* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -54,7 +66,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 27, site.css.scss */
+/* line 38, site.css.scss */
 body {
   font-size: 13px;
   font-family: Arial, sans-serif;
@@ -62,40 +74,111 @@ body {
   color: #2a2a2a;
   background: url("../images/background.png") #87a09d; }
 
-/* line 35, site.css.scss */
+/* line 46, site.css.scss */
 a {
   color: black;
   text-decoration: none; }
   /* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:hover {
     color: #144ea9; }
-  /* line 39, site.css.scss */
+  /* line 50, site.css.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 44, site.css.scss */
+/* line 55, site.css.scss */
 strong {
   font-weight: bold; }
 
-/* line 48, site.css.scss */
+/* line 59, site.css.scss */
 p {
   margin-bottom: 1em; }
 
-/* line 52, site.css.scss */
+/* line 63, site.css.scss */
 blockquote, blockquote p {
   font-size: 1em; }
 
-/* line 56, site.css.scss */
+/* line 67, site.css.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2em; }
 
-/* line 60, site.css.scss */
+/* line 71, site.css.scss */
 h1 {
   font-size: 3.5em;
   font-weight: normal;
   font-family: 'LeagueGothicRegular', Impact, Arial; }
-  /* line 65, site.css.scss */
-  h1.logo {
+
+/* line 77, site.css.scss */
+h2 {
+  font-size: 2.5em;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 0.5em;
+  font-family: 'LeagueGothicRegular', Arial; }
+
+/* line 85, site.css.scss */
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em; }
+
+/* line 90, site.css.scss */
+h4 {
+  font-size: 1.3em;
+  margin-bottom: 0.3em; }
+
+/* line 95, site.css.scss */
+ul {
+  margin-bottom: 1em; }
+
+/* line 99, site.css.scss */
+li {
+  margin-bottom: 0.3em; }
+
+/* line 103, site.css.scss */
+.container {
+  display: block;
+  width: 960px;
+  margin: 0 -10px;
+  *zoom: 1;
+  width: 100%;
+  margin: 0 auto !important; }
+  /* line 27, grid.css.scss */
+  .container:before, .container:after {
+    content: "";
+    display: table; }
+  /* line 31, grid.css.scss */
+  .container:after {
+    clear: both; }
+  @media only screen and (min-width: 960px) {
+    /* line 103, site.css.scss */
+    .container {
+      display: block;
+      width: 960px;
+      margin: 0 -10px;
+      *zoom: 1; }
+      /* line 27, grid.css.scss */
+      .container:before, .container:after {
+        content: "";
+        display: table; }
+      /* line 31, grid.css.scss */
+      .container:after {
+        clear: both; } }
+
+/* line 1, header.css.scss */
+header {
+  background: #5fa69b;
+  position: relative;
+  margin: 25px 0 0;
+  min-height: 60px;
+  -webkit-box-shadow: 0px 0px 4px black;
+  -moz-box-shadow: 0px 0px 4px black;
+  box-shadow: 0px 0px 4px black; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 1, header.css.scss */
+    header {
+      padding: 0 10px; } }
+  /* line 13, header.css.scss */
+  header h1.logo {
+    float: left;
     width: 300px;
     height: 100px;
     background: url("../images/logo.png") no-repeat;
@@ -104,42 +187,50 @@ h1 {
     overflow: hidden;
     margin: -6px 0 -61px 0; }
     @media only screen and (max-width: 767px) {
-      /* line 65, site.css.scss */
-      h1.logo {
-        margin: 0; } }
-    /* line 76, site.css.scss */
-    h1.logo a {
+      /* line 13, header.css.scss */
+      header h1.logo {
+        float: none;
+        margin: 0 auto; } }
+    /* line 27, header.css.scss */
+    header h1.logo a {
       display: block;
       height: 75px;
       width: 300px; }
+  /* line 35, header.css.scss */
+  header nav {
+    float: right;
+    line-height: 60px;
+    margin: 0 10px; }
+    @media only screen and (max-width: 767px) {
+      /* line 35, header.css.scss */
+      header nav {
+        width: 300px;
+        float: none;
+        margin: 0 auto; } }
+    /* line 46, header.css.scss */
+    header nav ul.nav {
+      font-size: 110%; }
+      @media only screen and (max-width: 767px) {
+        /* line 46, header.css.scss */
+        header nav ul.nav {
+          margin: -50px 0 0 90px;
+          display: block; } }
+      /* line 54, header.css.scss */
+      header nav ul.nav a {
+        padding: 5px 10px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px;
+        font-weight: bold; }
+        /* line 59, header.css.scss */
+        header nav ul.nav a:hover, header nav ul.nav a.active {
+          color: black;
+          background: #B5D4D0;
+          text-decoration: none; }
 
-/* line 84, site.css.scss */
-h2 {
-  font-size: 2.5em;
-  font-weight: normal;
-  text-align: left;
-  margin-bottom: 0.5em;
-  font-family: 'LeagueGothicRegular', Arial; }
-
-/* line 92, site.css.scss */
-h3 {
-  font-size: 1.5em;
-  margin-bottom: 0.5em; }
-
-/* line 97, site.css.scss */
-h4 {
-  font-size: 1.3em;
-  margin-bottom: 0.3em; }
-
-/* line 102, site.css.scss */
-ul {
-  margin-bottom: 1em; }
-
-/* line 106, site.css.scss */
-li {
-  margin-bottom: 0.3em; }
-
-/* line 110, site.css.scss */
+/* line 116, site.css.scss */
 ul.nav {
   list-style-type: none; }
   /* line 5, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
@@ -147,14 +238,53 @@ ul.nav {
     margin: 0px;
     padding: 0px;
     display: inline; }
-  /* line 113, site.css.scss */
+  /* line 119, site.css.scss */
   ul.nav li {
     margin: 0 5px; }
 
-/* line 132, site.css.scss */
+/* line 124, site.css.scss */
+#page_title {
+  background: rgba(95, 166, 155, 0.4);
+  margin-bottom: 50px;
+  padding: 1em 0; }
+  /* line 129, site.css.scss */
+  #page_title h1 {
+    text-align: center;
+    color: #000; }
+
+/* line 135, site.css.scss */
+#main {
+  background: rgba(255, 255, 255, 0.3); }
+  /* line 137, site.css.scss */
+  #main .container {
+    padding: 0 0 50px 0; }
+    /* line 140, site.css.scss */
+    #main .container > div {
+      padding-bottom: 25px;
+      overflow: hidden; }
+
+/* line 147, site.css.scss */
+.content {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.4em; }
+  @media only screen and (max-width: 767px) {
+    /* line 147, site.css.scss */
+    .content {
+      margin: 0 10px; } }
+
+@media only screen and (min-width: 768px) {
+  /* line 157, site.css.scss */
+  .intro {
+    display: inline;
+    float: left;
+    width: 940px;
+    margin: 0 10px; } }
+
+/* line 177, site.css.scss */
 ul.social li {
   margin: 10px 0; }
-  /* line 135, site.css.scss */
+  /* line 180, site.css.scss */
   ul.social li a {
     line-height: 56px;
     padding: 0 0 0 60px;
@@ -167,298 +297,72 @@ ul.social li {
     /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
     ul.social li a {
       *display: inline; }
-  /* line 121, site.css.scss */
+  /* line 166, site.css.scss */
   ul.social li.twitter a {
     background-image: url("../images/social_twitter_50grw.png"); }
-  /* line 124, site.css.scss */
+  /* line 169, site.css.scss */
   ul.social li.twitter a:hover {
     background-image: url("../images/social_twitter_50blw.png"); }
-  /* line 121, site.css.scss */
+  /* line 166, site.css.scss */
   ul.social li.linkedin a {
     background-image: url("../images/social_linkedin_50grw.png"); }
-  /* line 124, site.css.scss */
+  /* line 169, site.css.scss */
   ul.social li.linkedin a:hover {
     background-image: url("../images/social_linkedin_50blw.png"); }
-  /* line 121, site.css.scss */
+  /* line 166, site.css.scss */
   ul.social li.github a {
     background-image: url("../images/social_github_50grw.png"); }
-  /* line 124, site.css.scss */
+  /* line 169, site.css.scss */
   ul.social li.github a:hover {
     background-image: url("../images/social_github_50blw.png"); }
-  /* line 121, site.css.scss */
+  /* line 166, site.css.scss */
   ul.social li.facebook a {
     background-image: url("../images/social_facebook_50grw.png"); }
-  /* line 124, site.css.scss */
+  /* line 169, site.css.scss */
   ul.social li.facebook a:hover {
     background-image: url("../images/social_facebook_50blw.png"); }
-  /* line 121, site.css.scss */
+  /* line 166, site.css.scss */
   ul.social li.googleplus a {
     background-image: url("../images/social_googleplus_50grw.png"); }
-  /* line 124, site.css.scss */
+  /* line 169, site.css.scss */
   ul.social li.googleplus a:hover {
     background-image: url("../images/social_googleplus_50blw.png"); }
-  /* line 121, site.css.scss */
+  /* line 166, site.css.scss */
   ul.social li.tumblr a {
     background-image: url("../images/social_tumblr_50grw.png"); }
-  /* line 124, site.css.scss */
+  /* line 169, site.css.scss */
   ul.social li.tumblr a:hover {
     background-image: url("../images/social_tumblr_50blw.png"); }
 
-/* line 146, site.css.scss */
-header {
-  background: #5fa69b;
-  position: relative;
-  margin: 25px 0 0;
-  min-height: 60px;
-  -webkit-box-shadow: 0px 0px 4px black;
-  -moz-box-shadow: 0px 0px 4px black;
-  box-shadow: 0px 0px 4px black; }
-  /* line 153, site.css.scss */
-  header nav {
-    float: right;
-    line-height: 60px;
-    margin: 0 10px; }
-    /* line 158, site.css.scss */
-    header nav ul.nav {
-      font-size: 110%; }
-      /* line 161, site.css.scss */
-      header nav ul.nav a {
-        padding: 5px 10px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        border-radius: 5px;
-        font-weight: bold; }
-        /* line 166, site.css.scss */
-        header nav ul.nav a:hover, header nav ul.nav a.active {
-          color: black;
-          background: #B5D4D0;
-          text-decoration: none; }
-
-/* line 176, site.css.scss */
-#main {
-  background: rgba(255, 255, 255, 0.3); }
-  /* line 178, site.css.scss */
-  #main .container {
-    padding: 0 0 50px 0; }
-    /* line 181, site.css.scss */
-    #main .container > div {
-      padding-bottom: 25px;
-      overflow: hidden; }
-  /* line 187, site.css.scss */
-  #main .content {
-    font-size: 1.2em;
-    line-height: 1.4em; }
-
-/* line 193, site.css.scss */
-#page_title {
-  background: rgba(95, 166, 155, 0.4);
-  margin-bottom: 50px; }
-  /* line 196, site.css.scss */
-  #page_title .container {
-    padding: 1em 0; }
-  /* line 199, site.css.scss */
-  #page_title h1 {
-    text-align: center;
-    color: #000; }
-
-/* line 206, site.css.scss */
-footer #ribbon {
-  background: url("../images/footer_background_light.png") #502020;
-  color: #fff;
-  -webkit-box-shadow: 0px 0px 4px black;
-  -moz-box-shadow: 0px 0px 4px black;
-  box-shadow: 0px 0px 4px black;
-  padding: 0px 0; }
-  /* line 212, site.css.scss */
-  footer #ribbon .container {
-    margin-top: 10px;
-    margin-bottom: 10px; }
-  /* line 217, site.css.scss */
-  footer #ribbon div.photo {
-    width: 100px;
-    height: 100px;
-    background-image: url("../images/circle_photo.png");
-    float: right;
-    margin-left: 10px; }
-  /* line 225, site.css.scss */
-  footer #ribbon .top_edge, footer #ribbon .bottom_edge {
-    width: 100%;
-    height: 13px;
-    background: url("../images/footer_background_top_edge_light.png"); }
-  /* line 231, site.css.scss */
-  footer #ribbon a {
-    color: inherit; }
-/* line 236, site.css.scss */
-footer #footer_menu {
-  padding: 10px 0; }
-  @media only screen and (max-width: 767px) {
-    /* line 236, site.css.scss */
-    footer #footer_menu {
-      text-align: center; } }
-/* line 244, site.css.scss */
-footer .copyright {
-  text-align: right; }
-  @media only screen and (max-width: 767px) {
-    /* line 244, site.css.scss */
-    footer .copyright {
-      text-align: center; } }
-/* line 251, site.css.scss */
-footer ul.social {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  *zoom: 1; }
-  /* line 49, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
-  footer ul.social li {
-    list-style-image: none;
-    list-style-type: none;
-    margin-left: 0;
-    display: -moz-inline-box;
-    -moz-box-orient: vertical;
-    display: inline-block;
-    vertical-align: middle;
-    *vertical-align: auto;
-    white-space: nowrap; }
-    /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
-    footer ul.social li {
-      *display: inline; }
-  /* line 256, site.css.scss */
-  footer ul.social li a {
-    text-indent: 110%;
-    white-space: nowrap;
-    overflow: hidden;
-    display: block;
-    width: 50px; }
-  /* line 121, site.css.scss */
-  footer ul.social li.twitter a {
-    background-image: url("../images/social_twitter_50rdw.png"); }
-  /* line 124, site.css.scss */
-  footer ul.social li.twitter a:hover {
-    background-image: url("../images/social_twitter_50blw.png"); }
-  /* line 121, site.css.scss */
-  footer ul.social li.linkedin a {
-    background-image: url("../images/social_linkedin_50rdw.png"); }
-  /* line 124, site.css.scss */
-  footer ul.social li.linkedin a:hover {
-    background-image: url("../images/social_linkedin_50blw.png"); }
-  /* line 121, site.css.scss */
-  footer ul.social li.github a {
-    background-image: url("../images/social_github_50rdw.png"); }
-  /* line 124, site.css.scss */
-  footer ul.social li.github a:hover {
-    background-image: url("../images/social_github_50blw.png"); }
-  /* line 121, site.css.scss */
-  footer ul.social li.facebook a {
-    background-image: url("../images/social_facebook_50rdw.png"); }
-  /* line 124, site.css.scss */
-  footer ul.social li.facebook a:hover {
-    background-image: url("../images/social_facebook_50blw.png"); }
-  /* line 121, site.css.scss */
-  footer ul.social li.googleplus a {
-    background-image: url("../images/social_googleplus_50rdw.png"); }
-  /* line 124, site.css.scss */
-  footer ul.social li.googleplus a:hover {
-    background-image: url("../images/social_googleplus_50blw.png"); }
-  /* line 121, site.css.scss */
-  footer ul.social li.tumblr a {
-    background-image: url("../images/social_tumblr_50rdw.png"); }
-  /* line 124, site.css.scss */
-  footer ul.social li.tumblr a:hover {
-    background-image: url("../images/social_tumblr_50blw.png"); }
-
-/* line 268, site.css.scss */
-#recent_blog p {
-  margin-bottom: 1em; }
-
-/* line 275, site.css.scss */
-#conferences .lanyrd-target-splat div {
-  padding-bottom: 0; }
-
-/* line 281, site.css.scss */
-#github_activity {
-  float: right; }
-
-/* line 287, site.css.scss */
-#skills ul li {
-  display: block;
-  line-height: 20px;
-  margin: 5px 0; }
-  /* line 292, site.css.scss */
-  #skills ul li label {
-    width: 50%;
-    text-align: right;
-    float: left;
-    padding-right: 10px; }
-  /* line 299, site.css.scss */
-  #skills ul li div {
-    width: 108px;
-    height: 21px;
-    display: inline-block;
-    background: url("../images/levels.png") no-repeat; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level1 {
-      width: 9px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level2 {
-      width: 20px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level3 {
-      width: 31px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level4 {
-      width: 42px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level5 {
-      width: 53px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level6 {
-      width: 64px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level7 {
-      width: 75px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level8 {
-      width: 86px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level9 {
-      width: 97px; }
-    /* line 306, site.css.scss */
-    #skills ul li div.level10 {
-      width: 108px; }
-
-/* line 317, site.css.scss */
+/* line 192, site.css.scss */
 #twitter h4 {
   margin: 0 0 0 30px;
   padding: 0 0 0 30px;
   background: url("../images/twitter_bird.png") no-repeat left bottom; }
-  /* line 322, site.css.scss */
+  /* line 197, site.css.scss */
   #twitter h4 a {
     color: #fff; }
-/* line 327, site.css.scss */
+/* line 202, site.css.scss */
 #twitter #twitter_bird {
   background: url("../images/twitter_bird.png") no-repeat;
   width: 25px;
   height: 17px;
   float: left;
   margin: 0 0 0 30px; }
-/* line 334, site.css.scss */
+/* line 209, site.css.scss */
 #twitter #twitter_update_list {
   list-style: none;
   color: black;
   float: left; }
-  /* line 339, site.css.scss */
+  /* line 214, site.css.scss */
   #twitter #twitter_update_list li {
     list-style: none;
     position: relative;
     margin: 10px 0 0; }
-    /* line 344, site.css.scss */
+    /* line 219, site.css.scss */
     #twitter #twitter_update_list li div.left {
       position: absolute; }
-    /* line 347, site.css.scss */
+    /* line 222, site.css.scss */
     #twitter #twitter_update_list li div.right {
       background: url("../images/twitter_bubbles_2.png") no-repeat;
       width: 25px;
@@ -466,17 +370,17 @@ footer ul.social {
       position: absolute;
       right: 0;
       top: -20px; }
-    /* line 357, site.css.scss */
+    /* line 232, site.css.scss */
     #twitter #twitter_update_list li.odd div.left {
       background: url("../images/twitter_bubbles_3.png") no-repeat;
       width: 26px;
       height: 56px;
       left: 0;
       top: -20px; }
-    /* line 365, site.css.scss */
+    /* line 240, site.css.scss */
     #twitter #twitter_update_list li.odd div.right {
       display: none; }
-    /* line 370, site.css.scss */
+    /* line 245, site.css.scss */
     #twitter #twitter_update_list li div.tweet {
       margin: 0 30px 0 35px;
       padding: 5px;
@@ -491,62 +395,276 @@ footer ul.social {
       box-shadow: 1px 1px 4px black;
       min-height: 30px; }
 
-/* line 383, site.css.scss */
-.resume li {
-  list-style: disc;
-  margin-left: 1.5em; }
-/* line 388, site.css.scss */
-.resume .container section {
-  margin-bottom: 2em; }
+/* line 258, site.css.scss */
+.recent_posts div.post {
+  padding: 0;
+  margin-bottom: 1.5em; }
+/* line 263, site.css.scss */
+.recent_posts p {
+  margin-bottom: 0.25em; }
+/* line 267, site.css.scss */
+.recent_posts img {
+  float: left;
+  margin: 0 4px 4px 0;
+  max-width: 100%; }
 
-/* line 408, site.css.scss */
+/* line 1, index.css.scss */
+#recent_blog {
+  font-size: 0.9em;
+  display: inline;
+  float: left;
+  width: 620px;
+  margin: 0 10px; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 1, index.css.scss */
+    #recent_blog {
+      width: 60%; } }
+  @media only screen and (max-width: 767px) {
+    /* line 1, index.css.scss */
+    #recent_blog {
+      width: 100%;
+      margin: 0; } }
+  /* line 14, index.css.scss */
+  #recent_blog p {
+    margin-bottom: 1em; }
+
+/* line 19, index.css.scss */
+#conferences, #github_activity {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  float: right;
+  font-size: 0.9em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 19, index.css.scss */
+    #conferences, #github_activity {
+      width: 30%; } }
+  @media only screen and (max-width: 767px) {
+    /* line 19, index.css.scss */
+    #conferences, #github_activity {
+      width: 100%;
+      float: left; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* line 19, index.css.scss */
+    #conferences, #github_activity {
+      width: 48%; } }
+
+/* line 38, index.css.scss */
+#conferences {
+  margin-bottom: 2em; }
+  @media only screen and (max-width: 767px) {
+    /* line 38, index.css.scss */
+    #conferences {
+      margin-left: 0;
+      margin-right: 0; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* line 38, index.css.scss */
+    #conferences {
+      margin: 0 4% 0 0; } }
+  /* line 51, index.css.scss */
+  #conferences .lanyrd-target-splat div {
+    padding-bottom: 0; }
+
+/* line 57, index.css.scss */
+#github_activity {
+  clear: right; }
+  @media only screen and (max-width: 767px) {
+    /* line 57, index.css.scss */
+    #github_activity {
+      margin: 0; } }
+
+@media only screen and (min-width: 960px) {
+  /* line 14, about.css.scss */
+  .about .content {
+    padding: 0 120px; } }
+@media only screen and (max-width: 959px) {
+  /* line 14, about.css.scss */
+  .about .content {
+    margin: 0 10px; } }
+/* line 23, about.css.scss */
 .about section {
   min-height: 100px;
   padding-top: 10px;
   background-position: top left;
   background-repeat: no-repeat;
   margin-bottom: 50px; }
-  /* line 415, site.css.scss */
+  /* line 30, about.css.scss */
   .about section.julie {
     padding-top: 0; }
-    /* line 418, site.css.scss */
+    /* line 33, about.css.scss */
     .about section.julie h4 {
       line-height: 100px; }
-/* line 400, site.css.scss */
+/* line 6, about.css.scss */
 .about .julie {
   background-image: url("../images/about_julie.png");
   background-position: top left;
   padding-left: 125px; }
-/* line 400, site.css.scss */
+/* line 6, about.css.scss */
 .about .coding {
   background-image: url("../images/about_coding.png");
   background-position: top right;
   padding-right: 125px; }
-/* line 400, site.css.scss */
+/* line 6, about.css.scss */
 .about .pittsburgh {
   background-image: url("../images/about_pittsburgh.png");
   background-position: top left;
   padding-left: 125px; }
-/* line 400, site.css.scss */
+/* line 6, about.css.scss */
 .about .cat {
   background-image: url("../images/about_cat.png");
   background-position: top right;
   padding-right: 125px; }
-/* line 400, site.css.scss */
+/* line 6, about.css.scss */
 .about .extra {
   background-image: url("../images/about_extra.png");
   background-position: top left;
   padding-left: 125px; }
 
-/* line 433, site.css.scss */
-#main .recent_posts div.post {
+/* line 2, footer.css.scss */
+footer #ribbon {
+  background: url("../images/footer_background_light.png") #502020;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 4px black;
+  -moz-box-shadow: 0px 0px 4px black;
+  box-shadow: 0px 0px 4px black;
+  padding: 0px 0; }
+  /* line 8, footer.css.scss */
+  footer #ribbon .container {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  /* line 13, footer.css.scss */
+  footer #ribbon div.photo {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/circle_photo.png");
+    float: right;
+    margin-left: 10px; }
+  /* line 21, footer.css.scss */
+  footer #ribbon .top_edge, footer #ribbon .bottom_edge {
+    width: 100%;
+    height: 13px;
+    background: url("../images/footer_background_top_edge_light.png"); }
+  /* line 27, footer.css.scss */
+  footer #ribbon a {
+    color: inherit; }
+  /* line 31, footer.css.scss */
+  footer #ribbon .tweets, footer #ribbon .contact, footer #ribbon .about {
+    margin: 0 1%; }
+    @media only screen and (min-width: 768px) {
+      /* line 31, footer.css.scss */
+      footer #ribbon .tweets, footer #ribbon .contact, footer #ribbon .about {
+        width: 31.333%; } }
+    @media only screen and (max-width: 767px) {
+      /* line 31, footer.css.scss */
+      footer #ribbon .tweets, footer #ribbon .contact, footer #ribbon .about {
+        width: 48%; } }
+  /* line 43, footer.css.scss */
+  footer #ribbon .tweets {
+    float: left; }
+    @media only screen and (max-width: 480px) {
+      /* line 43, footer.css.scss */
+      footer #ribbon .tweets {
+        display: none; } }
+  /* line 51, footer.css.scss */
+  footer #ribbon .contact, footer #ribbon .about {
+    float: right; }
+    @media only screen and (max-width: 480px) {
+      /* line 51, footer.css.scss */
+      footer #ribbon .contact, footer #ribbon .about {
+        float: none;
+        width: 90%;
+        margin: 0px auto; } }
+/* line 62, footer.css.scss */
+footer #footer_menu {
+  padding: 10px 0; }
+  @media only screen and (max-width: 767px) {
+    /* line 62, footer.css.scss */
+    footer #footer_menu {
+      text-align: center; } }
+  @media only screen and (min-width: 481px) {
+    /* line 69, footer.css.scss */
+    footer #footer_menu ul.nav {
+      float: left; } }
+/* line 76, footer.css.scss */
+footer .copyright {
+  text-align: right; }
+  @media only screen and (max-width: 767px) {
+    /* line 76, footer.css.scss */
+    footer .copyright {
+      text-align: center; } }
+  @media only screen and (min-width: 481px) {
+    /* line 76, footer.css.scss */
+    footer .copyright {
+      float: right; } }
+/* line 87, footer.css.scss */
+footer ul.social {
+  text-align: center;
+  margin: 0;
   padding: 0;
-  margin-bottom: 1.5em; }
-/* line 438, site.css.scss */
-#main .recent_posts p {
-  margin-bottom: 0.25em; }
-/* line 442, site.css.scss */
-#main .recent_posts img {
-  float: left;
-  margin: 0 4px 4px 0;
-  max-width: 100%; }
+  border: 0;
+  *zoom: 1; }
+  /* line 27, grid.css.scss */
+  footer ul.social:before, footer ul.social:after {
+    content: "";
+    display: table; }
+  /* line 31, grid.css.scss */
+  footer ul.social:after {
+    clear: both; }
+  /* line 49, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
+  footer ul.social li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto;
+    white-space: nowrap; }
+    /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+    footer ul.social li {
+      *display: inline; }
+  /* line 92, footer.css.scss */
+  footer ul.social li a {
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    width: 50px; }
+  /* line 166, site.css.scss */
+  footer ul.social li.twitter a {
+    background-image: url("../images/social_twitter_50rdw.png"); }
+  /* line 169, site.css.scss */
+  footer ul.social li.twitter a:hover {
+    background-image: url("../images/social_twitter_50blw.png"); }
+  /* line 166, site.css.scss */
+  footer ul.social li.linkedin a {
+    background-image: url("../images/social_linkedin_50rdw.png"); }
+  /* line 169, site.css.scss */
+  footer ul.social li.linkedin a:hover {
+    background-image: url("../images/social_linkedin_50blw.png"); }
+  /* line 166, site.css.scss */
+  footer ul.social li.github a {
+    background-image: url("../images/social_github_50rdw.png"); }
+  /* line 169, site.css.scss */
+  footer ul.social li.github a:hover {
+    background-image: url("../images/social_github_50blw.png"); }
+  /* line 166, site.css.scss */
+  footer ul.social li.facebook a {
+    background-image: url("../images/social_facebook_50rdw.png"); }
+  /* line 169, site.css.scss */
+  footer ul.social li.facebook a:hover {
+    background-image: url("../images/social_facebook_50blw.png"); }
+  /* line 166, site.css.scss */
+  footer ul.social li.googleplus a {
+    background-image: url("../images/social_googleplus_50rdw.png"); }
+  /* line 169, site.css.scss */
+  footer ul.social li.googleplus a:hover {
+    background-image: url("../images/social_googleplus_50blw.png"); }
+  /* line 166, site.css.scss */
+  footer ul.social li.tumblr a {
+    background-image: url("../images/social_tumblr_50rdw.png"); }
+  /* line 169, site.css.scss */
+  footer ul.social li.tumblr a:hover {
+    background-image: url("../images/social_tumblr_50blw.png"); }

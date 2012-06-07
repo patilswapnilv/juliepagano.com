@@ -4,12 +4,10 @@
     <meta charset="utf-8">
     <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 
     = stylesheet_link_tag "fonts/bebas_neue/stylesheet.css"
     = stylesheet_link_tag "fonts/league_gothic/stylesheet.css"
-    = stylesheet_link_tag "skeleton/base.css"
-    = stylesheet_link_tag "skeleton/skeleton.css"
-    = stylesheet_link_tag "skeleton/layout.css"
     = stylesheet_link_tag "site.css"
     = stylesheet_link_tag "github-timeline-widget.css"
     = javascript_include_tag "jquery-1.7.1.min.js"
@@ -36,8 +34,7 @@
 
     %div#main{ :role => "main" }
       %div#page_title
-        %div.container
-          = yield_content :page_title
+        = yield_content :page_title
       %div.container
         = yield
 

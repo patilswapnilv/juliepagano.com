@@ -1,0 +1,44 @@
+$about_icon_size: 100px;
+$about_icon_spacing: 10px;
+$about_icon_width: $about_icon_size + 25px;
+
+@mixin about-section($name, $position: left) {
+  .#{$name} {
+    background-image: url("../images/about_#{$name}.png");
+    background-position: top #{$position};
+    padding-#{$position}: $about_icon_width;
+  }
+}
+
+.about {
+  .content {
+    @media only screen and (min-width: $break-large) {
+      padding: 0 $column-width * 2;
+    }
+
+    @media only screen and (max-width: $break-large - 1) {
+      margin: 0 $gutter-width/2;
+    }
+  }
+  section {
+    min-height: $about_icon_size;
+    padding-top: $about_icon_spacing;
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    &.julie {
+      padding-top: 0;
+
+      h4{
+        line-height: $about_icon_size;
+      }
+    }
+  }
+
+  @include about-section(julie, left);
+  @include about-section(coding, right);
+  @include about-section(pittsburgh, left);
+  @include about-section(cat, right);
+  @include about-section(extra, left);
+}

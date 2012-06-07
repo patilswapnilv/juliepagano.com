@@ -1,5 +1,14 @@
 @import "compass";
+@import "grid";
 
+// Grid
+$columns: 12;
+$column-width: 60px;
+$gutter-width: 20px;
+
+
+
+// Links
 $link-color:         #000;
 $link-hover-color:   #144ea9;
 $link-focus-color:   false;
@@ -17,10 +26,12 @@ $background-color: #87a09d;
 
 $header-spacing: 50px;
 
-$total-cols: 12;
-$col-width: 4em;
-$gutter-width: 1em;
-$side-gutter-width: $gutter-width;
+
+// Breakpoints
+$break-large: 960px;
+$break-medium: 768px;
+$break-small: 480px;
+
 
 @include global-reset;
 
@@ -61,24 +72,6 @@ h1 {
   font-size: 3.5em;
   font-weight: normal;
   font-family: 'LeagueGothicRegular', Impact, Arial;
-
-  &.logo {
-    width: 300px;
-    height: 100px;
-    background: url("../images/logo.png") no-repeat;
-    @include hide-text;
-    margin: -6px 0 -61px 0;
-
-    @media only screen and (max-width: 767px) {
-      margin: 0;
-    }
-
-    a {
-      display: block;
-      height: 75px;
-      width: 300px;
-    }
-  }
 }
 
 h2 {
@@ -107,11 +100,63 @@ li {
   margin-bottom: 0.3em;
 }
 
+.container {
+  @include row(12);
+  width: 100%;
+
+  @media only screen and (min-width: $break-large) {
+    @include row(12);
+  }
+
+  margin: 0 auto !important;
+}
+
+@import "header";
+
 ul.nav {
   @include inline-list;
 
   li {
     margin: 0 5px;
+  }
+}
+
+#page_title{
+  background: rgba($header-background-color, 0.4);
+  margin-bottom: $header-spacing;
+  padding: 1em 0;
+
+  h1 {
+    text-align: center;
+    color: #000;
+  }
+}
+
+#main {
+  background: rgba(255, 255, 255, 0.3);
+  .container {
+    padding: 0 0 $header-spacing 0;
+
+    > div {
+      padding-bottom: $header-spacing / 2;
+      overflow: hidden;
+    }
+  }
+}
+
+.content {
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 1.4em;
+
+  @media only screen and (max-width: $break-medium - 1) {
+    margin: 0 $gutter-width/2;
+  }
+}
+
+.intro {
+  @media only screen and (min-width: $break-medium) {
+    @include column(12);
   }
 }
 
@@ -142,176 +187,6 @@ ul.social {
     @include social-background-images(grw, blw);
   }
 }
-
-header {
-  background: $header-background-color;
-  position: relative;
-  margin: 25px 0 0;
-  min-height: 60px;
-  @include box-shadow(0px 0px 4px #000);
-
-  nav {
-    float: right;
-    line-height: 60px;
-    margin: 0 10px;
-
-    ul.nav {
-      font-size: 110%;
-
-      a {
-        padding: 5px 10px;
-        @include border-radius(5px);
-        font-weight: bold;
-
-        &:hover, &.active {
-          color: $link-color;
-          background: #B5D4D0;
-          text-decoration: none;
-        }
-      }
-    }
-  }
-}
-
-#main {
-  background: rgba(255, 255, 255, 0.3);
-  .container {
-    padding: 0 0 $header-spacing 0;
-
-    > div {
-      padding-bottom: $header-spacing / 2;
-      overflow: hidden;
-    }
-  }
-
-  .content {
-    font-size: 1.2em;
-    line-height: 1.4em;
-  }
-}
-
-#page_title{
-  background: rgba($header-background-color, 0.4);
-  margin-bottom: $header-spacing;
-  .container {
-    padding: 1em 0;
-  }
-  h1 {
-    text-align: center;
-    color: #000;
-  }
-}
-
-footer {
-  #ribbon {
-    background: url("../images/footer_background_light.png") #502020;
-    color: #fff;
-    @include box-shadow(0px 0px 4px #000);
-    padding: 0px 0;
-
-    .container {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-
-    div.photo {
-      width: 100px;
-      height: 100px;
-      background-image: url("../images/circle_photo.png");
-      float: right;
-      margin-left: 10px;
-    }
-
-    .top_edge, .bottom_edge {
-      width: 100%;
-      height: 13px;
-      background: url("../images/footer_background_top_edge_light.png");
-    }
-
-    a {
-      color: inherit;
-    }
-  }
-
-  #footer_menu {
-    padding: 10px 0;
-
-    @media only screen and (max-width: 767px) {
-      text-align: center;
-    }
-  }
-
-  .copyright {
-    text-align: right;
-    @media only screen and (max-width: 767px) {
-      text-align: center;
-    }
-  }
-
-  ul.social {
-    text-align: center;
-    @include inline-block-list;
-
-    li {
-      a {
-        @include hide-text;
-        display: block;
-        width: 50px;
-      }
-
-      @include social-background-images(rdw, blw);
-    }
-  }
-}
-
-#recent_blog {
-  p {
-    margin-bottom: 1em;
-  }
-}
-
-#conferences {
-  .lanyrd-target-splat {
-    div {
-      padding-bottom: 0;
-    }
-  }
-}
-
-#github_activity {
-  float: right;
-}
-
-#skills {
-  ul {
-    li {
-      display: block;
-      line-height: 20px;
-      margin: 5px 0;
-
-      label {
-        width: 50%;
-        text-align: right;
-        float: left;
-        padding-right: 10px;
-      }
-
-      div {
-        width: 108px;
-        height: 21px;
-        display: inline-block;
-        background: url("../images/levels.png") no-repeat;
-
-        @for $i from 1 through 10 {
-          &.level#{$i} {
-            width: ($i * 9 + 2 * ($i - 1)) * 1px;
-          }
-        }
-      }
-    }
-  }
-}
-
 
 #twitter {
   h4 {
@@ -379,70 +254,65 @@ footer {
   }
 }
 
-.resume {
-  li {
-    list-style: disc;
-    margin-left: 1.5em;
+.recent_posts {
+  div.post {
+    padding: 0;
+    margin-bottom: 1.5em;
   }
-  .container {
-    section {
-      margin-bottom: 2em;
-    }
+
+  p {
+    margin-bottom: 0.25em;
   }
-}
 
-
-$about_icon_size: 100px;
-$about_icon_spacing: 10px;
-$about_icon_width: $about_icon_size + 25px;
-
-@mixin about-section($name, $position: left) {
-  .#{$name} {
-    background-image: url("../images/about_#{$name}.png");
-    background-position: top #{$position};
-    padding-#{$position}: $about_icon_width;
+  img {
+    float: left;
+    margin: 0 4px 4px 0;
+    max-width: 100%;
   }
 }
 
-.about {
-  section {
-    min-height: $about_icon_size;
-    padding-top: $about_icon_spacing;
-    background-position: top left;
-    background-repeat: no-repeat;
-    margin-bottom: 50px;
+@import "index";
+@import "about";
+@import "footer";
 
-    &.julie {
-      padding-top: 0;
+// #skills {
+//   ul {
+//     li {
+//       display: block;
+//       line-height: 20px;
+//       margin: 5px 0;
 
-      h4{
-        line-height: $about_icon_size;
-      }
-    }
-  }
+//       label {
+//         width: 50%;
+//         text-align: right;
+//         float: left;
+//         padding-right: 10px;
+//       }
 
-  @include about-section(julie, left);
-  @include about-section(coding, right);
-  @include about-section(pittsburgh, left);
-  @include about-section(cat, right);
-  @include about-section(extra, left);
-}
+//       div {
+//         width: 108px;
+//         height: 21px;
+//         display: inline-block;
+//         background: url("../images/levels.png") no-repeat;
 
-#main {
-  .recent_posts {
-    div.post {
-      padding: 0;
-      margin-bottom: 1.5em;
-    }
+//         @for $i from 1 through 10 {
+//           &.level#{$i} {
+//             width: ($i * 9 + 2 * ($i - 1)) * 1px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-    p {
-      margin-bottom: 0.25em;
-    }
-
-    img {
-      float: left;
-      margin: 0 4px 4px 0;
-      max-width: 100%;
-    }
-  }
-}
+// .resume {
+//   li {
+//     list-style: disc;
+//     margin-left: 1.5em;
+//   }
+//   .container {
+//     section {
+//       margin-bottom: 2em;
+//     }
+//   }
+// }

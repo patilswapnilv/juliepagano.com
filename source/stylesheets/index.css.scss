@@ -1,0 +1,63 @@
+#recent_blog {
+  font-size: 0.9em;
+
+  @include column(8);
+  @media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
+    width: 60%
+  }
+
+  @media only screen and (max-width: $break-medium - 1) {
+    width: 100%;
+    margin: 0;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+}
+
+#conferences, #github_activity {
+  @include column(3);
+  float: right;
+  font-size: 0.9em;
+
+  @media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
+    width: 30%
+  }
+
+  @media only screen and (max-width: $break-medium - 1) {
+    width: 100%;
+    float: left;
+  }
+
+  @media only screen and (min-width: $break-small) and (max-width: $break-medium - 1) {
+    width: 48%;
+  }
+}
+
+#conferences {
+  margin-bottom: 2em;
+
+  @media only screen and (max-width: $break-medium - 1) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  @media only screen and (min-width: $break-small) and (max-width: $break-medium - 1) {
+    margin: 0 4% 0 0;
+  }
+
+  .lanyrd-target-splat {
+    div {
+      padding-bottom: 0;
+    }
+  }
+}
+
+#github_activity {
+  clear: right;
+
+  @media only screen and (max-width: $break-medium - 1) {
+    margin: 0;
+  }
+}

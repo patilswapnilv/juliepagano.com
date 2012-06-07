@@ -1,0 +1,67 @@
+header {
+  background: $header-background-color;
+  position: relative;
+  margin: 25px 0 0;
+  min-height: 60px;
+  @include box-shadow(0px 0px 4px #000);
+
+  @media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
+    padding: 0 $gutter-width / 2;
+  }
+
+  h1 {
+    &.logo {
+      float: left;
+
+      width: 300px;
+      height: 100px;
+      background: url("../images/logo.png") no-repeat;
+      @include hide-text;
+      margin: -6px 0 -61px 0;
+
+      @media only screen and (max-width: $break-medium - 1) {
+        float: none;
+        margin: 0 auto;
+      }
+
+      a {
+        display: block;
+        height: 75px;
+        width: 300px;
+      }
+    }
+  }
+
+  nav {
+    float: right;
+    line-height: 60px;
+    margin: 0 10px;
+
+    @media only screen and (max-width: $break-medium - 1) {
+      width: 300px;
+      float: none;
+      margin: 0 auto;
+    }
+
+    ul.nav {
+      font-size: 110%;
+
+      @media only screen and (max-width: $break-medium - 1) {
+        margin: -50px 0 0 90px;
+        display: block;
+      }
+
+      a {
+        padding: 5px 10px;
+        @include border-radius(5px);
+        font-weight: bold;
+
+        &:hover, &.active {
+          color: $link-color;
+          background: #B5D4D0;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
