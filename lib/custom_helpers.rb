@@ -8,7 +8,8 @@ module CustomHelpers
     link_class = [class_name]
     link_class << "active" if current_path == path
 
-    path = "/" if path == "index"
-    link_to label, path, :class => link_class.join(" ")
+    path = "" if path == "index"
+    path = "/#{path}" unless path.include?("http")
+    link_to label, "#{path}", :class => link_class.join(" ")
   end
 end
