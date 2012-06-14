@@ -63,13 +63,18 @@ header {
 
       a {
         padding: 5px 10px;
-        @include border-radius(5px);
         font-weight: bold;
+        @include transition-property();
+        @include transition-duration(.3s);
 
         &:hover, &.active {
           color: $link-color;
           background: #B5D4D0;
           text-decoration: none;
+
+          @include border-radius(5px);
+          @include transition-property();
+          @include transition-duration(0.3s);
         }
       }
     }

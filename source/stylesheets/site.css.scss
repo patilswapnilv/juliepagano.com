@@ -163,9 +163,13 @@ ul.nav {
     &.#{$social-site} {
       a {
         background-image: url("../images/social_#{$social-site}_50#{$colors}.png");
+        @include transition-property(all);
+        @include transition-duration(0.3s);
       }
       a:hover {
         background-image: url("../images/social_#{$social-site}_50#{$hover-colors}.png");
+        @include transition-property(all);
+        @include transition-duration(0.3s);
       }
     }
   }
