@@ -177,7 +177,7 @@ ul.social {
 
     a {
       line-height: 56px;
-      padding: 0 0 0 60px;
+      margin: 0 60px 0 0;
       background: no-repeat left center;
       @include inline-block;
     }
