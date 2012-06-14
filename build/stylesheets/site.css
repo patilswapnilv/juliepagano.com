@@ -225,17 +225,37 @@ header {
       /* line 64, header.css.scss */
       header nav ul.nav a {
         padding: 5px 10px;
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        -ms-border-radius: 5px;
-        -o-border-radius: 5px;
-        border-radius: 5px;
-        font-weight: bold; }
-        /* line 69, header.css.scss */
+        font-weight: bold;
+        -webkit-transition-property: all;
+        -moz-transition-property: all;
+        -ms-transition-property: all;
+        -o-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.3s;
+        -moz-transition-duration: 0.3s;
+        -ms-transition-duration: 0.3s;
+        -o-transition-duration: 0.3s;
+        transition-duration: 0.3s; }
+        /* line 70, header.css.scss */
         header nav ul.nav a:hover, header nav ul.nav a.active {
           color: black;
           background: #B5D4D0;
-          text-decoration: none; }
+          text-decoration: none;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -ms-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.3s;
+          -moz-transition-duration: 0.3s;
+          -ms-transition-duration: 0.3s;
+          -o-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
 
 /* line 114, site.css.scss */
 ul.nav {
@@ -288,13 +308,13 @@ ul.nav {
     width: 940px;
     margin: 0 10px; } }
 
-/* line 175, site.css.scss */
+/* line 179, site.css.scss */
 ul.social li {
   margin: 10px 0; }
-  /* line 178, site.css.scss */
+  /* line 182, site.css.scss */
   ul.social li a {
     line-height: 56px;
-    padding: 0 0 0 60px;
+    margin: 0 60px 0 0;
     background: no-repeat left center;
     display: -moz-inline-box;
     -moz-box-orient: vertical;
@@ -306,70 +326,190 @@ ul.social li {
       *display: inline; }
   /* line 164, site.css.scss */
   ul.social li.twitter a {
-    background-image: url("../images/social_twitter_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_twitter_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   ul.social li.twitter a:hover {
-    background-image: url("../images/social_twitter_50blw.png"); }
+    background-image: url("../images/social_twitter_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   ul.social li.linkedin a {
-    background-image: url("../images/social_linkedin_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_linkedin_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   ul.social li.linkedin a:hover {
-    background-image: url("../images/social_linkedin_50blw.png"); }
+    background-image: url("../images/social_linkedin_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   ul.social li.github a {
-    background-image: url("../images/social_github_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_github_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   ul.social li.github a:hover {
-    background-image: url("../images/social_github_50blw.png"); }
+    background-image: url("../images/social_github_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   ul.social li.facebook a {
-    background-image: url("../images/social_facebook_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_facebook_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   ul.social li.facebook a:hover {
-    background-image: url("../images/social_facebook_50blw.png"); }
+    background-image: url("../images/social_facebook_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   ul.social li.googleplus a {
-    background-image: url("../images/social_googleplus_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_googleplus_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   ul.social li.googleplus a:hover {
-    background-image: url("../images/social_googleplus_50blw.png"); }
+    background-image: url("../images/social_googleplus_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   ul.social li.tumblr a {
-    background-image: url("../images/social_tumblr_50grw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_tumblr_50grw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   ul.social li.tumblr a:hover {
-    background-image: url("../images/social_tumblr_50blw.png"); }
+    background-image: url("../images/social_tumblr_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
 
-/* line 190, site.css.scss */
+/* line 194, site.css.scss */
 #twitter h4 {
   margin: 0 0 0 30px;
   padding: 0 0 0 30px;
   background: url("../images/twitter_bird.png") no-repeat left bottom; }
-  /* line 195, site.css.scss */
+  /* line 199, site.css.scss */
   #twitter h4 a {
     color: #fff; }
-/* line 200, site.css.scss */
+/* line 204, site.css.scss */
 #twitter #twitter_bird {
   background: url("../images/twitter_bird.png") no-repeat;
   width: 25px;
   height: 17px;
   float: left;
   margin: 0 0 0 30px; }
-/* line 207, site.css.scss */
+/* line 211, site.css.scss */
 #twitter #twitter_update_list {
   list-style: none;
   color: black;
   float: left; }
-  /* line 212, site.css.scss */
+  /* line 216, site.css.scss */
   #twitter #twitter_update_list li {
     list-style: none;
     position: relative;
     margin: 10px 0 0; }
-    /* line 217, site.css.scss */
+    /* line 221, site.css.scss */
     #twitter #twitter_update_list li div.left {
       position: absolute; }
-    /* line 220, site.css.scss */
+    /* line 224, site.css.scss */
     #twitter #twitter_update_list li div.right {
       background: url("../images/twitter_bubbles_2.png") no-repeat;
       width: 25px;
@@ -377,17 +517,17 @@ ul.social li {
       position: absolute;
       right: 0;
       top: -20px; }
-    /* line 230, site.css.scss */
+    /* line 234, site.css.scss */
     #twitter #twitter_update_list li.odd div.left {
       background: url("../images/twitter_bubbles_3.png") no-repeat;
       width: 26px;
       height: 56px;
       left: 0;
       top: -20px; }
-    /* line 238, site.css.scss */
+    /* line 242, site.css.scss */
     #twitter #twitter_update_list li.odd div.right {
       display: none; }
-    /* line 243, site.css.scss */
+    /* line 247, site.css.scss */
     #twitter #twitter_update_list li div.tweet {
       margin: 0 30px 0 35px;
       padding: 5px;
@@ -402,14 +542,14 @@ ul.social li {
       box-shadow: 1px 1px 4px black;
       min-height: 30px; }
 
-/* line 256, site.css.scss */
+/* line 260, site.css.scss */
 .recent_posts div.post {
   padding: 0;
   margin-bottom: 1.5em; }
-/* line 261, site.css.scss */
+/* line 265, site.css.scss */
 .recent_posts p {
   margin-bottom: 0.25em; }
-/* line 265, site.css.scss */
+/* line 269, site.css.scss */
 .recent_posts img {
   float: left;
   margin: 0 4px 4px 0;
@@ -638,40 +778,160 @@ footer ul.social {
     white-space: nowrap;
     overflow: hidden;
     display: block;
-    width: 50px; }
+    width: 56px; }
   /* line 164, site.css.scss */
   footer ul.social li.twitter a {
-    background-image: url("../images/social_twitter_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_twitter_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   footer ul.social li.twitter a:hover {
-    background-image: url("../images/social_twitter_50blw.png"); }
+    background-image: url("../images/social_twitter_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   footer ul.social li.linkedin a {
-    background-image: url("../images/social_linkedin_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_linkedin_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   footer ul.social li.linkedin a:hover {
-    background-image: url("../images/social_linkedin_50blw.png"); }
+    background-image: url("../images/social_linkedin_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   footer ul.social li.github a {
-    background-image: url("../images/social_github_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_github_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   footer ul.social li.github a:hover {
-    background-image: url("../images/social_github_50blw.png"); }
+    background-image: url("../images/social_github_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   footer ul.social li.facebook a {
-    background-image: url("../images/social_facebook_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_facebook_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   footer ul.social li.facebook a:hover {
-    background-image: url("../images/social_facebook_50blw.png"); }
+    background-image: url("../images/social_facebook_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   footer ul.social li.googleplus a {
-    background-image: url("../images/social_googleplus_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_googleplus_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   footer ul.social li.googleplus a:hover {
-    background-image: url("../images/social_googleplus_50blw.png"); }
+    background-image: url("../images/social_googleplus_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
   /* line 164, site.css.scss */
   footer ul.social li.tumblr a {
-    background-image: url("../images/social_tumblr_50rdw.png"); }
-  /* line 167, site.css.scss */
+    background-image: url("../images/social_tumblr_50rdw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+  /* line 169, site.css.scss */
   footer ul.social li.tumblr a:hover {
-    background-image: url("../images/social_tumblr_50blw.png"); }
+    background-image: url("../images/social_tumblr_50blw.png");
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
