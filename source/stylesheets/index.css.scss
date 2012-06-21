@@ -12,7 +12,7 @@
 
   @include column(8);
   @media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
-    width: 70%
+    width: 69%
   }
 
   @media only screen and (max-width: $break-medium - 1) {
