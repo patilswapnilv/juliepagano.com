@@ -2,7 +2,7 @@
 Syntax error: Undefined variable: "$header-background-color".
         on line 2 of /Users/juri/src/juliepagano.com/source/stylesheets/header.css.scss
 
-1: header {
+1: body > header {
 2:   background: $header-background-color;
 3:   position: relative;
 4:   margin: 25px 0 0;
@@ -101,4 +101,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$header-background-color\".\A         on line 2 of /Users/juri/src/juliepagano.com/source/stylesheets/header.css.scss\A \A 1: header {\A 2:   background: $header-background-color;\A 3:   position: relative;\A 4:   margin: 25px 0 0;\A 5:   min-height: 60px;\A 6:   @include box-shadow(0px 0px 4px #000);\A 7: "; }
+  content: "Syntax error: Undefined variable: \"$header-background-color\".\A         on line 2 of /Users/juri/src/juliepagano.com/source/stylesheets/header.css.scss\A \A 1: body > header {\A 2:   background: $header-background-color;\A 3:   position: relative;\A 4:   margin: 25px 0 0;\A 5:   min-height: 60px;\A 6:   @include box-shadow(0px 0px 4px #000);\A 7: "; }

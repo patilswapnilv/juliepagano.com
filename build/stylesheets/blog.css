@@ -1,31 +1,21 @@
 /*
-Syntax error: Undefined variable: "$header-border".
-        on line 3 of /Users/juri/src/juliepagano.com/source/stylesheets/index.css.scss
+Syntax error: Undefined mixin 'column'.
+        on line 3 of /Users/juri/src/juliepagano.com/source/stylesheets/blog.css.scss, in `column'
+        from line 3 of /Users/juri/src/juliepagano.com/source/stylesheets/blog.css.scss
 
-1: .index {
-2:   h2 {
-3:     border-bottom: $header-border;
-4:   }
-5: }
+1: 
+2: .blog_posts {
+3:   @include column(9);
+4:   @include box-sizing(border-box);
+5:   padding-left: 45px;
 6: 
-7: #recent_blog {
-8:   font-size: 0.9em;
+7:   @media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
+8:     width: 70%
 
 Backtrace:
-/Users/juri/src/juliepagano.com/source/stylesheets/index.css.scss:3
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/script/variable.rb:49:in `_perform'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/script/node.rb:40:in `perform'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/perform.rb:237:in `visit_prop'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/perform.rb:20:in `visit'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/perform.rb:29:in `block in visit_children'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/perform.rb:41:in `with_environment'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/perform.rb:28:in `visit_children'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/perform.rb:259:in `visit_rule'
+/Users/juri/src/juliepagano.com/source/stylesheets/blog.css.scss:3:in `column'
+/Users/juri/src/juliepagano.com/source/stylesheets/blog.css.scss:3
+/Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/perform.rb:170:in `visit_mixin'
 /Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/perform.rb:20:in `visit'
 /Users/juri/.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/sass-3.2.0.alpha.244/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
@@ -112,4 +102,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$header-border\".\A         on line 3 of /Users/juri/src/juliepagano.com/source/stylesheets/index.css.scss\A \A 1: .index {\A 2:   h2 {\A 3:     border-bottom: $header-border;\A 4:   }\A 5: }\A 6: \A 7: #recent_blog {\A 8:   font-size: 0.9em;"; }
+  content: "Syntax error: Undefined mixin 'column'.\A         on line 3 of /Users/juri/src/juliepagano.com/source/stylesheets/blog.css.scss, in `column'\A         from line 3 of /Users/juri/src/juliepagano.com/source/stylesheets/blog.css.scss\A \A 1: \A 2: .blog_posts {\A 3:   @include column(9);\A 4:   @include box-sizing(border-box);\A 5:   padding-left: 45px;\A 6: \A 7:   @media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {\A 8:     width: 70%"; }

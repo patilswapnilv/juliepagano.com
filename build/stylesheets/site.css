@@ -66,7 +66,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
-/* line 36, site.css.scss */
+/* line 62, site.css.scss */
 body {
   font-size: 13px;
   font-family: Arial, sans-serif;
@@ -74,40 +74,40 @@ body {
   color: black;
   background: url("../images/background.png") #87a09d; }
 
-/* line 44, site.css.scss */
+/* line 70, site.css.scss */
 a {
   color: black;
   text-decoration: none; }
   /* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:hover {
     color: #144ea9; }
-  /* line 48, site.css.scss */
+  /* line 74, site.css.scss */
   a:hover {
     text-decoration: underline; }
 
-/* line 53, site.css.scss */
+/* line 79, site.css.scss */
 strong {
   font-weight: bold; }
 
-/* line 57, site.css.scss */
+/* line 83, site.css.scss */
 p {
   margin-bottom: 1em; }
 
-/* line 61, site.css.scss */
+/* line 87, site.css.scss */
 blockquote, blockquote p {
   font-size: 1em; }
 
-/* line 65, site.css.scss */
+/* line 91, site.css.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2em; }
 
-/* line 69, site.css.scss */
+/* line 95, site.css.scss */
 h1 {
   font-size: 3.5em;
   font-weight: normal;
   font-family: 'LeagueGothicRegular', Impact, Arial; }
 
-/* line 75, site.css.scss */
+/* line 101, site.css.scss */
 h2 {
   font-size: 2.5em;
   font-weight: normal;
@@ -115,25 +115,41 @@ h2 {
   margin-bottom: 0.5em;
   font-family: 'LeagueGothicRegular', Arial; }
 
-/* line 83, site.css.scss */
+/* line 109, site.css.scss */
 h3 {
   font-size: 1.5em;
   margin-bottom: 0.5em; }
 
-/* line 88, site.css.scss */
+/* line 114, site.css.scss */
 h4 {
   font-size: 1.3em;
   margin-bottom: 0.3em; }
 
-/* line 93, site.css.scss */
+/* line 119, site.css.scss */
 ul {
   margin-bottom: 1em; }
 
-/* line 97, site.css.scss */
+/* line 123, site.css.scss */
 li {
   margin-bottom: 0.3em; }
 
-/* line 101, site.css.scss */
+/* line 127, site.css.scss */
+article {
+  font-size: 0.9em; }
+  /* line 130, site.css.scss */
+  article h1 {
+    font-size: 2.5em; }
+  /* line 134, site.css.scss */
+  article h2 {
+    font-size: 2em; }
+  /* line 138, site.css.scss */
+  article header {
+    margin-bottom: 1em; }
+    /* line 141, site.css.scss */
+    article header h1 {
+      font-size: 3em; }
+
+/* line 147, site.css.scss */
 .container {
   display: block;
   width: 960px;
@@ -149,7 +165,7 @@ li {
   .container:after {
     clear: both; }
   @media only screen and (min-width: 960px) {
-    /* line 101, site.css.scss */
+    /* line 147, site.css.scss */
     .container {
       display: block;
       width: 960px;
@@ -164,7 +180,7 @@ li {
         clear: both; } }
 
 /* line 1, header.css.scss */
-header {
+body > header {
   background: #5fa69b;
   position: relative;
   margin: 25px 0 0;
@@ -174,10 +190,10 @@ header {
   box-shadow: 0px 0px 4px black; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
     /* line 1, header.css.scss */
-    header {
+    body > header {
       padding: 0 10px; } }
   /* line 13, header.css.scss */
-  header h1.logo {
+  body > header h1.logo {
     float: left;
     width: 300px;
     height: 100px;
@@ -185,11 +201,11 @@ header {
     margin: -6px 0 -61px 0; }
     @media only screen and (max-width: 767px) {
       /* line 13, header.css.scss */
-      header h1.logo {
+      body > header h1.logo {
         float: none;
         margin: 0 auto; } }
     /* line 26, header.css.scss */
-    header h1.logo a {
+    body > header h1.logo a {
       display: block;
       height: 75px;
       line-height: 75px;
@@ -197,33 +213,33 @@ header {
       width: 300px; }
       @media only screen and (max-width: 767px) {
         /* line 26, header.css.scss */
-        header h1.logo a {
+        body > header h1.logo a {
           margin-left: 100px; } }
       /* line 37, header.css.scss */
-      header h1.logo a:hover {
+      body > header h1.logo a:hover {
         text-decoration: none;
         color: black; }
   /* line 45, header.css.scss */
-  header nav {
+  body > header nav {
     float: right;
     line-height: 60px;
     margin: 0 10px; }
     @media only screen and (max-width: 767px) {
       /* line 45, header.css.scss */
-      header nav {
+      body > header nav {
         width: 300px;
         float: none;
         margin: 0 auto; } }
     /* line 56, header.css.scss */
-    header nav ul.nav {
+    body > header nav ul.nav {
       font-size: 110%; }
       @media only screen and (max-width: 767px) {
         /* line 56, header.css.scss */
-        header nav ul.nav {
+        body > header nav ul.nav {
           margin: -50px 0 0 90px;
           display: block; } }
       /* line 64, header.css.scss */
-      header nav ul.nav a {
+      body > header nav ul.nav a {
         padding: 5px 10px;
         font-weight: bold;
         -webkit-transition-property: all;
@@ -236,8 +252,8 @@ header {
         -ms-transition-duration: 0.3s;
         -o-transition-duration: 0.3s;
         transition-duration: 0.3s; }
-        /* line 70, header.css.scss */
-        header nav ul.nav a:hover, header nav ul.nav a.active {
+        /* line 69, header.css.scss */
+        body > header nav ul.nav a:hover, body > header nav ul.nav a.active {
           color: black;
           background: #B5D4D0;
           text-decoration: none;
@@ -257,7 +273,7 @@ header {
           -o-transition-duration: 0.3s;
           transition-duration: 0.3s; }
 
-/* line 114, site.css.scss */
+/* line 160, site.css.scss */
 ul.nav {
   list-style-type: none; }
   /* line 5, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
@@ -265,53 +281,60 @@ ul.nav {
     margin: 0px;
     padding: 0px;
     display: inline; }
-  /* line 117, site.css.scss */
+  /* line 163, site.css.scss */
   ul.nav li {
     margin: 0 5px; }
 
-/* line 122, site.css.scss */
+/* line 168, site.css.scss */
 #page_title {
   background: rgba(95, 166, 155, 0.4);
   margin-bottom: 50px;
   padding: 1em 0; }
-  /* line 127, site.css.scss */
+  /* line 173, site.css.scss */
   #page_title h1 {
     text-align: center;
     color: #000; }
 
-/* line 133, site.css.scss */
+/* line 179, site.css.scss */
 #main {
   background: rgba(255, 255, 255, 0.3); }
-  /* line 135, site.css.scss */
+  /* line 181, site.css.scss */
   #main .container {
     padding: 0 0 50px 0; }
-    /* line 138, site.css.scss */
+    /* line 184, site.css.scss */
     #main .container > div {
-      padding-bottom: 25px;
-      overflow: hidden; }
+      padding-bottom: 25px; }
 
-/* line 145, site.css.scss */
+/* line 190, site.css.scss */
 .content {
   margin: 0;
   font-size: 1.2em;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  *zoom: 1; }
+  /* line 27, grid.css.scss */
+  .content:before, .content:after {
+    content: "";
+    display: table; }
+  /* line 31, grid.css.scss */
+  .content:after {
+    clear: both; }
   @media only screen and (max-width: 767px) {
-    /* line 145, site.css.scss */
+    /* line 190, site.css.scss */
     .content {
       margin: 0 10px; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 155, site.css.scss */
+  /* line 202, site.css.scss */
   .intro {
     display: inline;
     float: left;
     width: 940px;
     margin: 0 10px; } }
 
-/* line 179, site.css.scss */
+/* line 226, site.css.scss */
 ul.social li {
   margin: 10px 0; }
-  /* line 182, site.css.scss */
+  /* line 229, site.css.scss */
   ul.social li a {
     line-height: 56px;
     margin: 0 60px 0 0;
@@ -324,7 +347,7 @@ ul.social li {
     /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
     ul.social li a {
       *display: inline; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   ul.social li.twitter a {
     background-image: url("../images/social_twitter_50grw.png");
     -webkit-transition-property: all;
@@ -337,7 +360,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   ul.social li.twitter a:hover {
     background-image: url("../images/social_twitter_50blw.png");
     -webkit-transition-property: all;
@@ -350,7 +373,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   ul.social li.linkedin a {
     background-image: url("../images/social_linkedin_50grw.png");
     -webkit-transition-property: all;
@@ -363,7 +386,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   ul.social li.linkedin a:hover {
     background-image: url("../images/social_linkedin_50blw.png");
     -webkit-transition-property: all;
@@ -376,7 +399,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   ul.social li.github a {
     background-image: url("../images/social_github_50grw.png");
     -webkit-transition-property: all;
@@ -389,7 +412,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   ul.social li.github a:hover {
     background-image: url("../images/social_github_50blw.png");
     -webkit-transition-property: all;
@@ -402,7 +425,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   ul.social li.facebook a {
     background-image: url("../images/social_facebook_50grw.png");
     -webkit-transition-property: all;
@@ -415,7 +438,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   ul.social li.facebook a:hover {
     background-image: url("../images/social_facebook_50blw.png");
     -webkit-transition-property: all;
@@ -428,7 +451,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   ul.social li.googleplus a {
     background-image: url("../images/social_googleplus_50grw.png");
     -webkit-transition-property: all;
@@ -441,7 +464,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   ul.social li.googleplus a:hover {
     background-image: url("../images/social_googleplus_50blw.png");
     -webkit-transition-property: all;
@@ -454,7 +477,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   ul.social li.tumblr a {
     background-image: url("../images/social_tumblr_50grw.png");
     -webkit-transition-property: all;
@@ -467,7 +490,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   ul.social li.tumblr a:hover {
     background-image: url("../images/social_tumblr_50blw.png");
     -webkit-transition-property: all;
@@ -481,35 +504,35 @@ ul.social li {
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
 
-/* line 194, site.css.scss */
+/* line 241, site.css.scss */
 #twitter h4 {
   margin: 0 0 0 30px;
   padding: 0 0 0 30px;
   background: url("../images/twitter_bird.png") no-repeat left bottom; }
-  /* line 199, site.css.scss */
+  /* line 246, site.css.scss */
   #twitter h4 a {
     color: #fff; }
-/* line 204, site.css.scss */
+/* line 251, site.css.scss */
 #twitter #twitter_bird {
   background: url("../images/twitter_bird.png") no-repeat;
   width: 25px;
   height: 17px;
   float: left;
   margin: 0 0 0 30px; }
-/* line 211, site.css.scss */
+/* line 258, site.css.scss */
 #twitter #twitter_update_list {
   list-style: none;
   color: black;
   float: left; }
-  /* line 216, site.css.scss */
+  /* line 263, site.css.scss */
   #twitter #twitter_update_list li {
     list-style: none;
     position: relative;
     margin: 10px 0 0; }
-    /* line 221, site.css.scss */
+    /* line 268, site.css.scss */
     #twitter #twitter_update_list li div.left {
       position: absolute; }
-    /* line 224, site.css.scss */
+    /* line 271, site.css.scss */
     #twitter #twitter_update_list li div.right {
       background: url("../images/twitter_bubbles_2.png") no-repeat;
       width: 25px;
@@ -517,17 +540,17 @@ ul.social li {
       position: absolute;
       right: 0;
       top: -20px; }
-    /* line 234, site.css.scss */
+    /* line 281, site.css.scss */
     #twitter #twitter_update_list li.odd div.left {
       background: url("../images/twitter_bubbles_3.png") no-repeat;
       width: 26px;
       height: 56px;
       left: 0;
       top: -20px; }
-    /* line 242, site.css.scss */
+    /* line 289, site.css.scss */
     #twitter #twitter_update_list li.odd div.right {
       display: none; }
-    /* line 247, site.css.scss */
+    /* line 294, site.css.scss */
     #twitter #twitter_update_list li div.tweet {
       margin: 0 30px 0 35px;
       padding: 5px;
@@ -542,89 +565,139 @@ ul.social li {
       box-shadow: 1px 1px 4px black;
       min-height: 30px; }
 
-/* line 260, site.css.scss */
+/* line 307, site.css.scss */
 .recent_posts div.post {
   padding: 0;
   margin-bottom: 1.5em; }
-/* line 265, site.css.scss */
+/* line 312, site.css.scss */
 .recent_posts p {
   margin-bottom: 0.25em; }
-/* line 269, site.css.scss */
+/* line 316, site.css.scss */
 .recent_posts img {
   float: left;
   margin: 0 4px 4px 0;
   max-width: 100%; }
 
-/* line 1, index.css.scss */
+/* line 2, index.css.scss */
+.index h2 {
+  border-bottom: 2px solid rgba(95, 166, 155, 0.5); }
+
+/* line 7, index.css.scss */
 #recent_blog {
   font-size: 0.9em;
+  margin-bottom: 2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1em;
   display: inline;
   float: left;
   width: 620px;
   margin: 0 10px; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 1, index.css.scss */
+    /* line 7, index.css.scss */
     #recent_blog {
-      width: 60%; } }
+      width: 70%; } }
   @media only screen and (max-width: 767px) {
-    /* line 1, index.css.scss */
+    /* line 7, index.css.scss */
     #recent_blog {
       width: 100%;
-      margin: 0; } }
-  /* line 14, index.css.scss */
+      margin: 0 0 2em 0; } }
+  /* line 23, index.css.scss */
   #recent_blog p {
     margin-bottom: 1em; }
+  /* line 28, index.css.scss */
+  #recent_blog #recent_blog_posts article {
+    margin-bottom: 2em; }
+    /* line 31, index.css.scss */
+    #recent_blog #recent_blog_posts article h1 {
+      font-size: 2.3em; }
 
-/* line 19, index.css.scss */
+/* line 38, index.css.scss */
 #conferences, #github_activity {
   display: inline;
   float: left;
-  width: 220px;
+  width: 300px;
   margin: 0 10px;
   float: right;
-  font-size: 0.9em; }
+  font-size: 0.9em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 19, index.css.scss */
+    /* line 38, index.css.scss */
     #conferences, #github_activity {
-      width: 30%; } }
+      width: 25%; } }
   @media only screen and (max-width: 767px) {
-    /* line 19, index.css.scss */
+    /* line 38, index.css.scss */
     #conferences, #github_activity {
       width: 100%;
       float: left; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
-    /* line 19, index.css.scss */
+    /* line 38, index.css.scss */
     #conferences, #github_activity {
       width: 48%; } }
 
-/* line 38, index.css.scss */
+/* line 59, index.css.scss */
 #conferences {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1em; }
   @media only screen and (max-width: 767px) {
-    /* line 38, index.css.scss */
+    /* line 59, index.css.scss */
     #conferences {
       margin-left: 0;
       margin-right: 0; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
-    /* line 38, index.css.scss */
+    /* line 59, index.css.scss */
     #conferences {
       margin: 0 4% 0 0; } }
-  /* line 51, index.css.scss */
+  /* line 74, index.css.scss */
   #conferences .lanyrd-target-splat div {
     padding-bottom: 0; }
 
-/* line 57, index.css.scss */
+/* line 80, index.css.scss */
 #github_activity {
   clear: right; }
   @media only screen and (max-width: 767px) {
-    /* line 57, index.css.scss */
+    /* line 80, index.css.scss */
     #github_activity {
       margin: 0; } }
 
 @media only screen and (min-width: 960px) {
   /* line 14, about.css.scss */
   .about .content {
-    padding: 0 120px; } }
+    margin: 0 120px; } }
 @media only screen and (max-width: 959px) {
   /* line 14, about.css.scss */
   .about .content {
@@ -667,6 +740,209 @@ ul.social li {
   background-image: url("../images/about_extra.png");
   background-position: top left;
   padding-left: 125px; }
+
+/* line 2, blog.css.scss */
+.blog_posts {
+  display: inline;
+  float: left;
+  width: 700px;
+  margin: 0 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 45px; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 2, blog.css.scss */
+    .blog_posts {
+      width: 70%; } }
+  @media only screen and (max-width: 767px) {
+    /* line 2, blog.css.scss */
+    .blog_posts {
+      width: 100%;
+      margin: 0; } }
+  /* line 16, blog.css.scss */
+  .blog_posts p {
+    margin-bottom: 1em; }
+
+/* line 23, blog.css.scss */
+.blog #main article {
+  position: relative;
+  padding: 25px;
+  margin-bottom: 2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.6); }
+  /* line 30, blog.css.scss */
+  .blog #main article header {
+    min-height: 80px; }
+    /* line 33, blog.css.scss */
+    .blog #main article header h1 {
+      border-bottom: 2px solid rgba(95, 166, 155, 0.5); }
+    /* line 37, blog.css.scss */
+    .blog #main article header .date {
+      width: 65px;
+      height: 65px;
+      background: url("../images/green_circle_65.png") no-repeat;
+      font-family: BebasNeueRegular;
+      position: absolute;
+      top: 15px;
+      left: -45px; }
+      /* line 47, blog.css.scss */
+      .blog #main article header .date span {
+        display: block;
+        text-align: center;
+        line-height: 1em; }
+        /* line 52, blog.css.scss */
+        .blog #main article header .date span.month {
+          font-size: 20px;
+          padding-top: 12px; }
+        /* line 57, blog.css.scss */
+        .blog #main article header .date span.day {
+          font-size: 26px; }
+        /* line 61, blog.css.scss */
+        .blog #main article header .date span.year {
+          font-size: 18px;
+          display: none; }
+  /* line 69, blog.css.scss */
+  .blog #main article footer {
+    margin-top: 2em; }
+  /* line 73, blog.css.scss */
+  .blog #main article img {
+    max-width: 100%;
+    height: auto; }
+  /* line 78, blog.css.scss */
+  .blog #main article .entry-categories {
+    font-size: 0.9em; }
+    /* line 81, blog.css.scss */
+    .blog #main article .entry-categories ul {
+      display: inline; }
+      /* line 84, blog.css.scss */
+      .blog #main article .entry-categories ul li {
+        display: -moz-inline-box;
+        -moz-box-orient: vertical;
+        display: inline-block;
+        vertical-align: middle;
+        *vertical-align: auto;
+        margin-bottom: 0.5em; }
+        /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+        .blog #main article .entry-categories ul li {
+          *display: inline; }
+        /* line 88, blog.css.scss */
+        .blog #main article .entry-categories ul li a {
+          background: rgba(80, 32, 32, 0.5);
+          padding: 4px 8px;
+          margin-right: 0.5em;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-transition-property: all;
+          -moz-transition-property: all;
+          -ms-transition-property: all;
+          -o-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.3s;
+          -moz-transition-duration: 0.3s;
+          -ms-transition-duration: 0.3s;
+          -o-transition-duration: 0.3s;
+          transition-duration: 0.3s; }
+          /* line 95, blog.css.scss */
+          .blog #main article .entry-categories ul li a:hover {
+            background: rgba(20, 78, 169, 0.5);
+            color: #000000;
+            text-decoration: none;
+            -webkit-transition-property: all;
+            -moz-transition-property: all;
+            -ms-transition-property: all;
+            -o-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.3s;
+            -moz-transition-duration: 0.3s;
+            -ms-transition-duration: 0.3s;
+            -o-transition-duration: 0.3s;
+            transition-duration: 0.3s; }
+  /* line 106, blog.css.scss */
+  .blog #main article .entry-timestamp {
+    font-size: 0.8em;
+    color: #777; }
+/* line 112, blog.css.scss */
+.blog #main .comment-container {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: 2px dashed rgba(95, 166, 155, 0.2); }
+/* line 118, blog.css.scss */
+.blog #main .pagination {
+  text-align: center; }
+/* line 122, blog.css.scss */
+.blog #main .sidebar {
+  display: inline;
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  float: right;
+  font-size: 0.9em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.6);
+  padding: 1em; }
+  @media only screen and (min-width: 768px) and (max-width: 959px) {
+    /* line 122, blog.css.scss */
+    .blog #main .sidebar {
+      width: 25%; } }
+  @media only screen and (max-width: 767px) {
+    /* line 122, blog.css.scss */
+    .blog #main .sidebar {
+      width: 100%;
+      float: none;
+      display: block;
+      clear: both; } }
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* line 122, blog.css.scss */
+    .blog #main .sidebar {
+      width: 48%; } }
+  @media only screen and (max-width: 767px) {
+    /* line 122, blog.css.scss */
+    .blog #main .sidebar {
+      width: auto;
+      margin: 0 10px;
+      text-align: center; }
+      /* line 149, blog.css.scss */
+      .blog #main .sidebar .widgettitle {
+        text-align: center; } }
+  /* line 154, blog.css.scss */
+  .blog #main .sidebar > * {
+    padding: 15px; }
+  /* line 158, blog.css.scss */
+  .blog #main .sidebar ul {
+    list-style: none;
+    margin: 0; }
+  /* line 163, blog.css.scss */
+  .blog #main .sidebar .widget {
+    border-top: 2px dashed rgba(95, 166, 155, 0.2);
+    padding: 1em 0; }
+    /* line 167, blog.css.scss */
+    .blog #main .sidebar .widget:first-child {
+      border-top: none;
+      padding: 0 0 1em 0; }
 
 /* line 2, footer.css.scss */
 footer #ribbon {
@@ -779,7 +1055,7 @@ footer ul.social {
     overflow: hidden;
     display: block;
     width: 56px; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   footer ul.social li.twitter a {
     background-image: url("../images/social_twitter_50rdw.png");
     -webkit-transition-property: all;
@@ -792,7 +1068,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   footer ul.social li.twitter a:hover {
     background-image: url("../images/social_twitter_50blw.png");
     -webkit-transition-property: all;
@@ -805,7 +1081,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   footer ul.social li.linkedin a {
     background-image: url("../images/social_linkedin_50rdw.png");
     -webkit-transition-property: all;
@@ -818,7 +1094,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   footer ul.social li.linkedin a:hover {
     background-image: url("../images/social_linkedin_50blw.png");
     -webkit-transition-property: all;
@@ -831,7 +1107,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   footer ul.social li.github a {
     background-image: url("../images/social_github_50rdw.png");
     -webkit-transition-property: all;
@@ -844,7 +1120,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   footer ul.social li.github a:hover {
     background-image: url("../images/social_github_50blw.png");
     -webkit-transition-property: all;
@@ -857,7 +1133,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   footer ul.social li.facebook a {
     background-image: url("../images/social_facebook_50rdw.png");
     -webkit-transition-property: all;
@@ -870,7 +1146,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   footer ul.social li.facebook a:hover {
     background-image: url("../images/social_facebook_50blw.png");
     -webkit-transition-property: all;
@@ -883,7 +1159,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   footer ul.social li.googleplus a {
     background-image: url("../images/social_googleplus_50rdw.png");
     -webkit-transition-property: all;
@@ -896,7 +1172,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   footer ul.social li.googleplus a:hover {
     background-image: url("../images/social_googleplus_50blw.png");
     -webkit-transition-property: all;
@@ -909,7 +1185,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 164, site.css.scss */
+  /* line 211, site.css.scss */
   footer ul.social li.tumblr a {
     background-image: url("../images/social_tumblr_50rdw.png");
     -webkit-transition-property: all;
@@ -922,7 +1198,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 169, site.css.scss */
+  /* line 216, site.css.scss */
   footer ul.social li.tumblr a:hover {
     background-image: url("../images/social_tumblr_50blw.png");
     -webkit-transition-property: all;

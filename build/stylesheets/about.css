@@ -8,7 +8,7 @@ Syntax error: Undefined variable: "$break-large".
 13: .about {
 14:   .content {
 15:     @media only screen and (min-width: $break-large) {
-16:       padding: 0 $column-width * 2;
+16:       margin: 0 $column-width * 2;
 17:     }
 18: 
 19:     @media only screen and (max-width: $break-large - 1) {
@@ -127,4 +127,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$break-large\".\A         on line 15 of /Users/juri/src/juliepagano.com/source/stylesheets/about.css.scss\A \A 10:   }\A 11: }\A 12: \A 13: .about {\A 14:   .content {\A 15:     @media only screen and (min-width: $break-large) {\A 16:       padding: 0 $column-width * 2;\A 17:     }\A 18: \A 19:     @media only screen and (max-width: $break-large - 1) {\A 20:       margin: 0 $gutter-width/2;"; }
+  content: "Syntax error: Undefined variable: \"$break-large\".\A         on line 15 of /Users/juri/src/juliepagano.com/source/stylesheets/about.css.scss\A \A 10:   }\A 11: }\A 12: \A 13: .about {\A 14:   .content {\A 15:     @media only screen and (min-width: $break-large) {\A 16:       margin: 0 $column-width * 2;\A 17:     }\A 18: \A 19:     @media only screen and (max-width: $break-large - 1) {\A 20:       margin: 0 $gutter-width/2;"; }

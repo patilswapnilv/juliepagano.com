@@ -1,28 +1,49 @@
+.index {
+  h2 {
+    border-bottom: $header-border;
+  }
+}
+
 #recent_blog {
   font-size: 0.9em;
+  margin-bottom: 2em;
+
+  @include section-base;
 
   @include column(8);
   @media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
-    width: 60%
+    width: 70%
   }
 
   @media only screen and (max-width: $break-medium - 1) {
     width: 100%;
-    margin: 0;
+    margin: 0 0 2em 0;
   }
 
   p {
     margin-bottom: 1em;
   }
+
+  #recent_blog_posts {
+    article {
+      margin-bottom: 2em;
+
+      h1 {
+        font-size: 2.3em;
+      }
+    }
+  }
 }
 
 #conferences, #github_activity {
-  @include column(3);
+  @include column(4);
   float: right;
   font-size: 0.9em;
 
+  @include section-base;
+
   @media only screen and (min-width: $break-medium) and (max-width: $break-large - 1) {
-    width: 30%
+    width: 25%
   }
 
   @media only screen and (max-width: $break-medium - 1) {
@@ -37,6 +58,8 @@
 
 #conferences {
   margin-bottom: 2em;
+
+  @include section-base;
 
   @media only screen and (max-width: $break-medium - 1) {
     margin-left: 0;

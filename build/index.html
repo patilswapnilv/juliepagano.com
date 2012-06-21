@@ -65,21 +65,25 @@
         <div class='content'>
           <script id='blog-posts-template' type='text/x-handlebars-template'>
             {{#each posts}}
-            <div class='post'>
-              <a href='{{url}}'>
-                <h4>
-                  {{{title}}}
-                </h4>
-              </a>
+            <article>
+              <header>
+                <h1>
+                  <a href='{{url}}'>
+                    {{{title}}}
+                  </a>
+                </h1>
+              </header>
               <p>
                 {{{excerpt}}}
               </p>
-              <a href='{{url}}'>
-                <span class='timestamp'>
-                  {{blogTimestamp}}
-                </span>
-              </a>
-            </div>
+              <footer>
+                <a href='{{url}}'>
+                  <span class='timestamp'>
+                    {{blogTimestamp}}
+                  </span>
+                </a>
+              </footer>
+            </article>
             {{/each}}
           </script>
           <div class='recent_posts' id='recent_blog'>
