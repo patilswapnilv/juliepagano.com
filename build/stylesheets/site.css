@@ -10,7 +10,7 @@ body {
   body:after {
     clear: both; }
 
-/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -31,38 +31,38 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1; }
 
-/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 101, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 101, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 114, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -76,9 +76,9 @@ body {
 
 /* line 70, site.css.scss */
 a {
-  color: black;
+  color: #502020;
   text-decoration: none; }
-  /* line 24, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  /* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
   a:hover {
     color: #144ea9; }
   /* line 74, site.css.scss */
@@ -125,31 +125,41 @@ h4 {
   font-size: 1.3em;
   margin-bottom: 0.3em; }
 
-/* line 119, site.css.scss */
+/* line 120, site.css.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, header a {
+  color: black; }
+  /* line 18, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, header a:visited {
+    color: black; }
+  /* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+  h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, header a:hover {
+    color: #144ea9; }
+
+/* line 125, site.css.scss */
 ul {
   margin-bottom: 1em; }
 
-/* line 123, site.css.scss */
+/* line 129, site.css.scss */
 li {
   margin-bottom: 0.3em; }
 
-/* line 127, site.css.scss */
+/* line 133, site.css.scss */
 article {
   font-size: 0.9em; }
-  /* line 130, site.css.scss */
+  /* line 136, site.css.scss */
   article h1 {
     font-size: 2.5em; }
-  /* line 134, site.css.scss */
+  /* line 140, site.css.scss */
   article h2 {
     font-size: 2em; }
-  /* line 138, site.css.scss */
+  /* line 144, site.css.scss */
   article header {
     margin-bottom: 1em; }
-    /* line 141, site.css.scss */
+    /* line 147, site.css.scss */
     article header h1 {
       font-size: 3em; }
 
-/* line 147, site.css.scss */
+/* line 153, site.css.scss */
 .container {
   display: block;
   width: 960px;
@@ -165,7 +175,7 @@ article {
   .container:after {
     clear: both; }
   @media only screen and (min-width: 960px) {
-    /* line 147, site.css.scss */
+    /* line 153, site.css.scss */
     .container {
       display: block;
       width: 960px;
@@ -254,7 +264,7 @@ body > header {
         transition-duration: 0.3s; }
         /* line 69, header.css.scss */
         body > header nav ul.nav a:hover, body > header nav ul.nav a.active {
-          color: black;
+          color: #000;
           background: #B5D4D0;
           text-decoration: none;
           -webkit-border-radius: 5px;
@@ -273,39 +283,39 @@ body > header {
           -o-transition-duration: 0.3s;
           transition-duration: 0.3s; }
 
-/* line 160, site.css.scss */
+/* line 166, site.css.scss */
 ul.nav {
   list-style-type: none; }
-  /* line 5, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
+  /* line 5, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-list.scss */
   ul.nav, ul.nav li {
     margin: 0px;
     padding: 0px;
     display: inline; }
-  /* line 163, site.css.scss */
+  /* line 169, site.css.scss */
   ul.nav li {
     margin: 0 5px; }
 
-/* line 168, site.css.scss */
+/* line 174, site.css.scss */
 #page_title {
   background: rgba(95, 166, 155, 0.4);
   margin-bottom: 50px;
   padding: 1em 0; }
-  /* line 173, site.css.scss */
+  /* line 179, site.css.scss */
   #page_title h1 {
     text-align: center;
-    color: #000; }
+    color: black; }
 
-/* line 179, site.css.scss */
+/* line 185, site.css.scss */
 #main {
   background: rgba(255, 255, 255, 0.3); }
-  /* line 181, site.css.scss */
+  /* line 187, site.css.scss */
   #main .container {
     padding: 0 0 50px 0; }
-    /* line 184, site.css.scss */
+    /* line 190, site.css.scss */
     #main .container > div {
       padding-bottom: 25px; }
 
-/* line 190, site.css.scss */
+/* line 196, site.css.scss */
 .content {
   margin: 0;
   font-size: 1.2em;
@@ -319,22 +329,22 @@ ul.nav {
   .content:after {
     clear: both; }
   @media only screen and (max-width: 767px) {
-    /* line 190, site.css.scss */
+    /* line 196, site.css.scss */
     .content {
       margin: 0 10px; } }
 
 @media only screen and (min-width: 768px) {
-  /* line 202, site.css.scss */
+  /* line 208, site.css.scss */
   .intro {
     display: inline;
     float: left;
     width: 940px;
     margin: 0 10px; } }
 
-/* line 226, site.css.scss */
+/* line 232, site.css.scss */
 ul.social li {
   margin: 10px 0; }
-  /* line 229, site.css.scss */
+  /* line 235, site.css.scss */
   ul.social li a {
     line-height: 56px;
     margin: 0 60px 0 0;
@@ -344,10 +354,10 @@ ul.social li {
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto; }
-    /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+    /* line 7, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
     ul.social li a {
       *display: inline; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   ul.social li.twitter a {
     background-image: url("../images/social_twitter_50grw.png");
     -webkit-transition-property: all;
@@ -360,7 +370,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   ul.social li.twitter a:hover {
     background-image: url("../images/social_twitter_50blw.png");
     -webkit-transition-property: all;
@@ -373,7 +383,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   ul.social li.linkedin a {
     background-image: url("../images/social_linkedin_50grw.png");
     -webkit-transition-property: all;
@@ -386,7 +396,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   ul.social li.linkedin a:hover {
     background-image: url("../images/social_linkedin_50blw.png");
     -webkit-transition-property: all;
@@ -399,7 +409,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   ul.social li.github a {
     background-image: url("../images/social_github_50grw.png");
     -webkit-transition-property: all;
@@ -412,7 +422,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   ul.social li.github a:hover {
     background-image: url("../images/social_github_50blw.png");
     -webkit-transition-property: all;
@@ -425,7 +435,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   ul.social li.facebook a {
     background-image: url("../images/social_facebook_50grw.png");
     -webkit-transition-property: all;
@@ -438,7 +448,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   ul.social li.facebook a:hover {
     background-image: url("../images/social_facebook_50blw.png");
     -webkit-transition-property: all;
@@ -451,7 +461,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   ul.social li.googleplus a {
     background-image: url("../images/social_googleplus_50grw.png");
     -webkit-transition-property: all;
@@ -464,7 +474,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   ul.social li.googleplus a:hover {
     background-image: url("../images/social_googleplus_50blw.png");
     -webkit-transition-property: all;
@@ -477,7 +487,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   ul.social li.tumblr a {
     background-image: url("../images/social_tumblr_50grw.png");
     -webkit-transition-property: all;
@@ -490,7 +500,7 @@ ul.social li {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   ul.social li.tumblr a:hover {
     background-image: url("../images/social_tumblr_50blw.png");
     -webkit-transition-property: all;
@@ -504,35 +514,35 @@ ul.social li {
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
 
-/* line 241, site.css.scss */
+/* line 247, site.css.scss */
 #twitter h4 {
   margin: 0 0 0 30px;
   padding: 0 0 0 30px;
   background: url("../images/twitter_bird.png") no-repeat left bottom; }
-  /* line 246, site.css.scss */
+  /* line 252, site.css.scss */
   #twitter h4 a {
     color: #fff; }
-/* line 251, site.css.scss */
+/* line 257, site.css.scss */
 #twitter #twitter_bird {
   background: url("../images/twitter_bird.png") no-repeat;
   width: 25px;
   height: 17px;
   float: left;
   margin: 0 0 0 30px; }
-/* line 258, site.css.scss */
+/* line 264, site.css.scss */
 #twitter #twitter_update_list {
   list-style: none;
   color: black;
   float: left; }
-  /* line 263, site.css.scss */
+  /* line 269, site.css.scss */
   #twitter #twitter_update_list li {
     list-style: none;
     position: relative;
     margin: 10px 0 0; }
-    /* line 268, site.css.scss */
+    /* line 274, site.css.scss */
     #twitter #twitter_update_list li div.left {
       position: absolute; }
-    /* line 271, site.css.scss */
+    /* line 277, site.css.scss */
     #twitter #twitter_update_list li div.right {
       background: url("../images/twitter_bubbles_2.png") no-repeat;
       width: 25px;
@@ -540,17 +550,17 @@ ul.social li {
       position: absolute;
       right: 0;
       top: -20px; }
-    /* line 281, site.css.scss */
+    /* line 287, site.css.scss */
     #twitter #twitter_update_list li.odd div.left {
       background: url("../images/twitter_bubbles_3.png") no-repeat;
       width: 26px;
       height: 56px;
       left: 0;
       top: -20px; }
-    /* line 289, site.css.scss */
+    /* line 295, site.css.scss */
     #twitter #twitter_update_list li.odd div.right {
       display: none; }
-    /* line 294, site.css.scss */
+    /* line 300, site.css.scss */
     #twitter #twitter_update_list li div.tweet {
       margin: 0 30px 0 35px;
       padding: 5px;
@@ -565,14 +575,14 @@ ul.social li {
       box-shadow: 1px 1px 4px black;
       min-height: 30px; }
 
-/* line 307, site.css.scss */
+/* line 313, site.css.scss */
 .recent_posts div.post {
   padding: 0;
   margin-bottom: 1.5em; }
-/* line 312, site.css.scss */
+/* line 318, site.css.scss */
 .recent_posts p {
   margin-bottom: 0.25em; }
-/* line 316, site.css.scss */
+/* line 322, site.css.scss */
 .recent_posts img {
   float: left;
   margin: 0 4px 4px 0;
@@ -764,7 +774,16 @@ ul.social li {
   .blog_posts p {
     margin-bottom: 1em; }
 
-/* line 23, blog.css.scss */
+/* line 24, blog.css.scss */
+.blog #main ul, .blog #main ol {
+  margin-left: 1.5em; }
+/* line 28, blog.css.scss */
+.blog #main ul {
+  list-style: disc; }
+/* line 32, blog.css.scss */
+.blog #main ol {
+  list-style: decimal; }
+/* line 36, blog.css.scss */
 .blog #main article {
   position: relative;
   padding: 25px;
@@ -781,13 +800,13 @@ ul.social li {
   -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   background: rgba(255, 255, 255, 0.6); }
-  /* line 30, blog.css.scss */
+  /* line 43, blog.css.scss */
   .blog #main article header {
     min-height: 80px; }
-    /* line 33, blog.css.scss */
+    /* line 46, blog.css.scss */
     .blog #main article header h1 {
       border-bottom: 2px solid rgba(95, 166, 155, 0.5); }
-    /* line 37, blog.css.scss */
+    /* line 50, blog.css.scss */
     .blog #main article header .date {
       width: 65px;
       height: 65px;
@@ -796,36 +815,36 @@ ul.social li {
       position: absolute;
       top: 15px;
       left: -45px; }
-      /* line 47, blog.css.scss */
+      /* line 60, blog.css.scss */
       .blog #main article header .date span {
         display: block;
         text-align: center;
         line-height: 1em; }
-        /* line 52, blog.css.scss */
+        /* line 65, blog.css.scss */
         .blog #main article header .date span.month {
           font-size: 20px;
           padding-top: 12px; }
-        /* line 57, blog.css.scss */
+        /* line 70, blog.css.scss */
         .blog #main article header .date span.day {
           font-size: 26px; }
-        /* line 61, blog.css.scss */
+        /* line 74, blog.css.scss */
         .blog #main article header .date span.year {
           font-size: 18px;
           display: none; }
-  /* line 69, blog.css.scss */
+  /* line 82, blog.css.scss */
   .blog #main article footer {
     margin-top: 2em; }
-  /* line 73, blog.css.scss */
+  /* line 86, blog.css.scss */
   .blog #main article img {
     max-width: 100%;
     height: auto; }
-  /* line 78, blog.css.scss */
+  /* line 91, blog.css.scss */
   .blog #main article .entry-categories {
     font-size: 0.9em; }
-    /* line 81, blog.css.scss */
+    /* line 94, blog.css.scss */
     .blog #main article .entry-categories ul {
       display: inline; }
-      /* line 84, blog.css.scss */
+      /* line 97, blog.css.scss */
       .blog #main article .entry-categories ul li {
         display: -moz-inline-box;
         -moz-box-orient: vertical;
@@ -833,12 +852,13 @@ ul.social li {
         vertical-align: middle;
         *vertical-align: auto;
         margin-bottom: 0.5em; }
-        /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+        /* line 7, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
         .blog #main article .entry-categories ul li {
           *display: inline; }
-        /* line 88, blog.css.scss */
+        /* line 101, blog.css.scss */
         .blog #main article .entry-categories ul li a {
           background: rgba(80, 32, 32, 0.5);
+          color: black;
           padding: 4px 8px;
           margin-right: 0.5em;
           -webkit-border-radius: 5px;
@@ -856,10 +876,10 @@ ul.social li {
           -ms-transition-duration: 0.3s;
           -o-transition-duration: 0.3s;
           transition-duration: 0.3s; }
-          /* line 95, blog.css.scss */
+          /* line 109, blog.css.scss */
           .blog #main article .entry-categories ul li a:hover {
             background: rgba(20, 78, 169, 0.5);
-            color: #000000;
+            color: black;
             text-decoration: none;
             -webkit-transition-property: all;
             -moz-transition-property: all;
@@ -871,19 +891,19 @@ ul.social li {
             -ms-transition-duration: 0.3s;
             -o-transition-duration: 0.3s;
             transition-duration: 0.3s; }
-  /* line 106, blog.css.scss */
+  /* line 120, blog.css.scss */
   .blog #main article .entry-timestamp {
     font-size: 0.8em;
     color: #777; }
-/* line 112, blog.css.scss */
+/* line 126, blog.css.scss */
 .blog #main .comment-container {
   margin-top: 1em;
   padding-top: 1em;
   border-top: 2px dashed rgba(95, 166, 155, 0.2); }
-/* line 118, blog.css.scss */
+/* line 132, blog.css.scss */
 .blog #main .pagination {
   text-align: center; }
-/* line 122, blog.css.scss */
+/* line 136, blog.css.scss */
 .blog #main .sidebar {
   display: inline;
   float: left;
@@ -905,41 +925,41 @@ ul.social li {
   background: rgba(255, 255, 255, 0.6);
   padding: 1em; }
   @media only screen and (min-width: 768px) and (max-width: 959px) {
-    /* line 122, blog.css.scss */
+    /* line 136, blog.css.scss */
     .blog #main .sidebar {
       width: 25%; } }
   @media only screen and (max-width: 767px) {
-    /* line 122, blog.css.scss */
+    /* line 136, blog.css.scss */
     .blog #main .sidebar {
       width: 100%;
       float: none;
       display: block;
       clear: both; } }
   @media only screen and (min-width: 480px) and (max-width: 767px) {
-    /* line 122, blog.css.scss */
+    /* line 136, blog.css.scss */
     .blog #main .sidebar {
       width: 48%; } }
   @media only screen and (max-width: 767px) {
-    /* line 122, blog.css.scss */
+    /* line 136, blog.css.scss */
     .blog #main .sidebar {
       width: auto;
       margin: 0 10px;
       text-align: center; }
-      /* line 149, blog.css.scss */
+      /* line 163, blog.css.scss */
       .blog #main .sidebar .widgettitle {
         text-align: center; } }
-  /* line 154, blog.css.scss */
+  /* line 168, blog.css.scss */
   .blog #main .sidebar > * {
     padding: 15px; }
-  /* line 158, blog.css.scss */
+  /* line 172, blog.css.scss */
   .blog #main .sidebar ul {
     list-style: none;
     margin: 0; }
-  /* line 163, blog.css.scss */
+  /* line 177, blog.css.scss */
   .blog #main .sidebar .widget {
     border-top: 2px dashed rgba(95, 166, 155, 0.2);
     padding: 1em 0; }
-    /* line 167, blog.css.scss */
+    /* line 181, blog.css.scss */
     .blog #main .sidebar .widget:first-child {
       border-top: none;
       padding: 0 0 1em 0; }
@@ -1034,7 +1054,7 @@ footer ul.social {
   /* line 31, grid.css.scss */
   footer ul.social:after {
     clear: both; }
-  /* line 49, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
+  /* line 49, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/typography/lists/_inline-block-list.scss */
   footer ul.social li {
     list-style-image: none;
     list-style-type: none;
@@ -1045,7 +1065,7 @@ footer ul.social {
     vertical-align: middle;
     *vertical-align: auto;
     white-space: nowrap; }
-    /* line 7, ../../../../.rvm/gems/ruby-1.9.2-p290@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+    /* line 7, ../../../../../.rvm/gems/ruby-1.9.3-p194@juliepagano.com/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
     footer ul.social li {
       *display: inline; }
   /* line 92, footer.css.scss */
@@ -1055,7 +1075,7 @@ footer ul.social {
     overflow: hidden;
     display: block;
     width: 56px; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   footer ul.social li.twitter a {
     background-image: url("../images/social_twitter_50rdw.png");
     -webkit-transition-property: all;
@@ -1068,7 +1088,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   footer ul.social li.twitter a:hover {
     background-image: url("../images/social_twitter_50blw.png");
     -webkit-transition-property: all;
@@ -1081,7 +1101,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   footer ul.social li.linkedin a {
     background-image: url("../images/social_linkedin_50rdw.png");
     -webkit-transition-property: all;
@@ -1094,7 +1114,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   footer ul.social li.linkedin a:hover {
     background-image: url("../images/social_linkedin_50blw.png");
     -webkit-transition-property: all;
@@ -1107,7 +1127,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   footer ul.social li.github a {
     background-image: url("../images/social_github_50rdw.png");
     -webkit-transition-property: all;
@@ -1120,7 +1140,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   footer ul.social li.github a:hover {
     background-image: url("../images/social_github_50blw.png");
     -webkit-transition-property: all;
@@ -1133,7 +1153,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   footer ul.social li.facebook a {
     background-image: url("../images/social_facebook_50rdw.png");
     -webkit-transition-property: all;
@@ -1146,7 +1166,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   footer ul.social li.facebook a:hover {
     background-image: url("../images/social_facebook_50blw.png");
     -webkit-transition-property: all;
@@ -1159,7 +1179,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   footer ul.social li.googleplus a {
     background-image: url("../images/social_googleplus_50rdw.png");
     -webkit-transition-property: all;
@@ -1172,7 +1192,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   footer ul.social li.googleplus a:hover {
     background-image: url("../images/social_googleplus_50blw.png");
     -webkit-transition-property: all;
@@ -1185,7 +1205,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 211, site.css.scss */
+  /* line 217, site.css.scss */
   footer ul.social li.tumblr a {
     background-image: url("../images/social_tumblr_50rdw.png");
     -webkit-transition-property: all;
@@ -1198,7 +1218,7 @@ footer ul.social {
     -ms-transition-duration: 0.3s;
     -o-transition-duration: 0.3s;
     transition-duration: 0.3s; }
-  /* line 216, site.css.scss */
+  /* line 222, site.css.scss */
   footer ul.social li.tumblr a:hover {
     background-image: url("../images/social_tumblr_50blw.png");
     -webkit-transition-property: all;

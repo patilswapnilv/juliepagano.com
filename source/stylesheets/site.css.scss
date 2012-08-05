@@ -7,7 +7,7 @@ $column-width: 60px;
 $gutter-width: 20px;
 
 // Links
-$link-color:         #000;
+$link-color:         #502020;
 $link-hover-color:   #144ea9;
 $link-focus-color:   false;
 $link-active-color:  false;
@@ -116,6 +116,12 @@ h4 {
   margin-bottom: 0.3em;
 }
 
+h1, h2, h3, h4, h5, header {
+  a {
+    @include link-colors($font-color, $link-hover-color, $link-focus-color, $font-color, $link-visited-color);
+  }
+}
+
 ul {
   margin-bottom: 1em;
 }
@@ -172,7 +178,7 @@ ul.nav {
 
   h1 {
     text-align: center;
-    color: #000;
+    color: $font-color;
   }
 }
 

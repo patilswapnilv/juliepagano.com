@@ -20,6 +20,19 @@
 
 .blog #main {
   $article-offset: 75px;
+
+  ul, ol {
+    margin-left: 1.5em;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
   article {
     position: relative;
     padding: 25px;
@@ -87,6 +100,7 @@
 
           a {
             background: rgba(80, 32, 32, 0.5);
+            color: $font-color;
             padding: 4px 8px;
             margin-right: 0.5em;
             @include button-border-radius;
@@ -94,7 +108,7 @@
 
             &:hover {
               background: rgba(20, 78, 169, 0.5);
-              color: #000000;
+              color: $font-color;
               text-decoration: none;
               @include button-transition;
             }
