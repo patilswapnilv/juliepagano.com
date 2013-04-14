@@ -2,6 +2,8 @@
 # Compass
 ###
 
+activate :directory_indexes
+
 # Susy grids in Compass
 # First: gem install susy
 # require 'susy'
