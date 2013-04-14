@@ -55,6 +55,10 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
+activate :blog do |blog|
+  # set options on blog
+end
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
