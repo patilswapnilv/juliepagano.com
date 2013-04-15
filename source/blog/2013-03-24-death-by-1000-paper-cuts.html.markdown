@@ -1,0 +1,25 @@
+---
+title: "My experiences in tech: Death by 1000 paper cuts"
+date: 2013-03-24
+tags: personal, tech
+---
+
+Note: If you link this (especially on anything high traffic), please [send people to the copy on tumblr](http://juliepagano.tumblr.com/post/46206589124/my-experiences-in-tech-death-by-1000-paper-cuts). Thanks!
+
+In [Once Upon an Internship](http://juliepagano.com/blog/2013/03/23/my-experiences-in-tech-once-upon-an-internship/ "My experiences in tech: Once upon an internship"), I learned early that sometimes being a software engineer means death by 1000 cuts because you don't have the power to make it stop. Even the tiniest little things add up to something big - sometimes it's really death by 1000 paper cuts.
+
+The cuts started early. I'm discouraged and humiliated in math classes throughout my school years to the point where I still get anxious doing math in front of others despite being good at it in private.  A high school teacher tells me that I shouldn't go to college for engineering, but instead something nurturing (you know, what women are good for).
+
+My college classes have next to no women in them. A professor makes creepy comments about "geeky girls" during class. One of my few female classmates tells me she's just doing this to prove her father wrong. Classmates don't take me seriously until I scream. The first time I learned that you get to be a bitch or you get to be ignored - a choice that would later follow me to the working world. Four years of paper cuts. Four years of pushing myself too hard because I wanted to prove something.
+
+Nearly every technical conference I attend has at least one person with a microphone making a comment along the lines of "my wife/girlfriend doesn't understand technology and gives me shit for being interested in it." It's clearly intended to be a joke that the audience will identify with, and most of them do because theses conferences are largely straight and male. For those of us who aren't, it's a regular signal that we're not considered, that maybe we don't belong. The heavy drinking makes some of us feel unsafe. A paper cut for every conference.
+
+At an old job, someone in authority pats me on the head to dismiss an argument I'm making about something at work. As though I was a child - a thing he'd be unlikely to do with a male coworker. Same person makes comments when I wear makeup to work - I feel uncomfortable doing so again. I'm asked to take notes in meetings where I am a technical lead and should be actively participating. Male coworkers make comments about stalking women on facebook and looking at images of booth babes in work meetings (some later apologize). Others say that front-end development isn't real software engineering. I suspect I'm paid less than male colleagues (perhaps paranoia, perhaps real - it's a hard thing to verify). Problems are easiest to resolve by finding a new job - this is what I do (thankfully the new job is much better). A thousand paper cuts for the working world.
+
+Every time I try to push to make things better, I am guaranteed a patronizing response from someone. If I had a dollar for every time someone suggested that some demographics just aren't biologically predisposed to be good at programming ([even though research does not support this argument](http://www.slideshare.net/terriko/how-does-biology-explain-the-low-numbers-of-women-in-cs-hint-it-doesnt)), I'd be rich. On more than one occasion, I've had people try to engage me in arguments about the importance of diversity only to later claim they "were playing devil's advocate" or doing it "for the lulz." I've had people [derail diversity discussions](http://juliepagano.com/blog/2013/01/13/thoughts-on-a-diversity-discussion/ "Thoughts on a diversity discussion") to victim blame and try to speak for the minority that they were not a member of. I've had people claim minority-only safe spaces are sexist. A paper cut for every time I speak up.
+
+Before someone suggests that these patronizing responses are just jerks on the internet, no, that's not the case. I get these responses fairly regularly in person. From people I've worked with. From people who know me. From prominent members of some tech communities. From people who should know better. The cuts are deeper when they're real people because you can't just turn them off.
+
+Cuts I don't feel safe posting here because they're too personal or I fear the consequences...
+
+I mention one of the above, and someone tells me that I'm just looking for things to get angry about. As though my feelings are not valid. Maybe they don't understand that probably wasn't the only thing that happened that day or that week or that month or the duration of my career. That I can't detach and view these things in isolation. That no matter how tough I get, how thick my skin, the paper cuts still hurt. I'm not the only one covered in bandaids trying to stanch the bleeding and focus on programming because it's a thing that I love. I'm terrified of the day that it becomes terminal, the day myself or one of my friends becomes another statistic in the book of "they leave and they don't come back."
