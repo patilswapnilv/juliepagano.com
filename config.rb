@@ -18,7 +18,7 @@ activate :blog do |blog|
   # blog.day_link = ":year/:month/:day.html"
   # blog.default_extension = ".markdown"
 
-  blog.tag_template = "tag.html"
+  blog.tag_template = "blog/tag.html"
   blog.calendar_template = "calendar.html"
 
   # blog.paginate = true
@@ -97,7 +97,7 @@ configure :build do
   # activate :cache_buster
 
   # Use relative URLs
-  activate :relative_assets
+  # activate :relative_assets
 
   # Compress PNGs after build
   # First: gem install middleman-smusher

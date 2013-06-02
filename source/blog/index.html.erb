@@ -1,7 +1,7 @@
 ---
 pageable: true
 per_page: 10
-title: Julie Pagano
+title: Writing
 ---
 
 <% if paginate %>
@@ -16,6 +16,11 @@ title: Julie Pagano
   <div>
     <%= link_to article.title, article %>
     <%= article.body %>
+    <ul>
+      <% article.tags.each do |tag| %>
+        <%= link_to tag, tag_path(tag)   %>
+      <% end %>
+    </ul>
   </div>
 <% end %>
 
