@@ -85,6 +85,8 @@ set :js_dir, 'js'
 
 set :images_dir, 'img'
 
+set :relative_links, true
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
