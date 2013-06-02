@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog Name</title>
+  <subtitle>Blog subtitle</subtitle>
+  <id>http://blog.url.com/</id>
+  <link href="http://blog.url.com/"/>
+  <link href="http://blog.url.com/feed.xml" rel="self"/>
+  <updated>2013-03-24T05:00:00Z</updated>
+  <author>
+    <name>Blog Author</name>
+  </author>
+  <entry>
+    <title>My experiences in tech: Death by 1000 paper cuts</title>
+    <link rel="alternate" href="/blog/2013/03/24/death-by-1000-paper-cuts/"/>
+    <id>/blog/2013/03/24/death-by-1000-paper-cuts/</id>
+    <published>2013-03-24T05:00:00Z</published>
+    <updated>2013-03-24T05:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;In &lt;a href='http://juliepagano.com/blog/2013/03/23/my-experiences-in-tech-once-upon-an-internship/' title='My experiences in tech: Once upon an internship'&gt;Once Upon an Internship&lt;/a&gt;, I learned early that sometimes being a software engineer means death by 1000 cuts because you don&amp;#8217;t have the power to make it stop. Even the tiniest little things add up to something big - sometimes it&amp;#8217;s really death by 1000 paper cuts.&lt;/p&gt;
+
+&lt;p&gt;The cuts started early. I&amp;#8217;m discouraged and humiliated in math classes throughout my school years to the point where I still get anxious doing math in front of others despite being good at it in private.  A high school teacher tells me that I shouldn&amp;#8217;t go to college for engineering, but instead something nurturing (you know, what women are good for).&lt;/p&gt;
+
+&lt;p&gt;My college classes have next to no women in them. A professor makes creepy comments about &amp;#8220;geeky girls&amp;#8221; during class. One of my few female classmates tells me she&amp;#8217;s just doing this to prove her father wrong. Classmates don&amp;#8217;t take me seriously until I scream. The first time I learned that you get to be a bitch or you get to be ignored - a choice that would later follow me to the working world. Four years of paper cuts. Four years of pushing myself too hard because I wanted to prove something.&lt;/p&gt;
+
+&lt;p&gt;Nearly every technical conference I attend has at least one person with a microphone making a comment along the lines of &amp;#8221;my wife/girlfriend doesn&amp;#8217;t understand technology and gives me shit for being interested in it.&amp;#8221; It&amp;#8217;s clearly intended to be a joke that the audience will identify with, and most of them do because theses conferences are largely straight and male. For those of us who aren&amp;#8217;t, it&amp;#8217;s a regular signal that we&amp;#8217;re not considered, that maybe we don&amp;#8217;t belong. The heavy drinking makes some of us feel unsafe. A paper cut for every conference.&lt;/p&gt;
+
+&lt;p&gt;At an old job, someone in authority pats me on the head to dismiss an argument I&amp;#8217;m making about something at work. As though I was a child - a thing he&amp;#8217;d be unlikely to do with a male coworker. Same person makes comments when I wear makeup to work - I feel uncomfortable doing so again. I&amp;#8217;m asked to take notes in meetings where I am a technical lead and should be actively participating. Male coworkers make comments about stalking women on facebook and looking at images of booth babes in work meetings (some later apologize). Others say that front-end development isn&amp;#8217;t real software engineering. I suspect I&amp;#8217;m paid less than male colleagues (perhaps paranoia, perhaps real - it&amp;#8217;s a hard thing to verify). Problems are easiest to resolve by finding a new job - this is what I do (thankfully the new job is much better). A thousand paper cuts for the working world.&lt;/p&gt;
+
+&lt;p&gt;Every time I try to push to make things better, I am guaranteed a patronizing response from someone. If I had a dollar for every time someone suggested that some demographics just aren&amp;#8217;t biologically predisposed to be good at programming (&lt;a href='http://www.slideshare.net/terriko/how-does-biology-explain-the-low-numbers-of-women-in-cs-hint-it-doesnt'&gt;even though research does not support this argument&lt;/a&gt;), I&amp;#8217;d be rich. On more than one occasion, I&amp;#8217;ve had people try to engage me in arguments about the importance of diversity only to later claim they &amp;#8220;were playing devil&amp;#8217;s advocate&amp;#8221; or doing it &amp;#8220;for the lulz.&amp;#8221; I&amp;#8217;ve had people &lt;a href='http://juliepagano.com/blog/2013/01/13/thoughts-on-a-diversity-discussion/' title='Thoughts on a diversity discussion'&gt;derail diversity discussions&lt;/a&gt; to victim blame and try to speak for the minority that they were not a member of. I&amp;#8217;ve had people claim minority-only safe spaces are sexist. A paper cut for every time I speak up.&lt;/p&gt;
+
+&lt;p&gt;Before someone suggests that these patronizing responses are just jerks on the internet, no, that&amp;#8217;s not the case. I get these responses fairly regularly in person. From people I&amp;#8217;ve worked with. From people who know me. From prominent members of some tech communities. From people who should know better. The cuts are deeper when they&amp;#8217;re real people because you can&amp;#8217;t just turn them off.&lt;/p&gt;
+
+&lt;p&gt;Cuts I don&amp;#8217;t feel safe posting here because they&amp;#8217;re too personal or I fear the consequences&amp;#8230;&lt;/p&gt;
+
+&lt;p&gt;I mention one of the above, and someone tells me that I&amp;#8217;m just looking for things to get angry about. As though my feelings are not valid. Maybe they don&amp;#8217;t understand that probably wasn&amp;#8217;t the only thing that happened that day or that week or that month or the duration of my career. That I can&amp;#8217;t detach and view these things in isolation. That no matter how tough I get, how thick my skin, the paper cuts still hurt. I&amp;#8217;m not the only one covered in bandaids trying to stanch the bleeding and focus on programming because it&amp;#8217;s a thing that I love. I&amp;#8217;m terrified of the day that it becomes terminal, the day myself or one of my friends becomes another statistic in the book of &amp;#8220;they leave and they don&amp;#8217;t come back.&amp;#8221;&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Example Article</title>
+    <link rel="alternate" href="/blog/2012/01/01/example-article/"/>
+    <id>/blog/2012/01/01/example-article/</id>
+    <published>2012-01-01T05:00:00Z</published>
+    <updated>2012-01-01T05:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;</content>
+  </entry>
+</feed>
