@@ -4,7 +4,6 @@
 
 Time.zone = "EST"
 
-activate :directory_indexes
 
 activate :blog do |blog|
   blog.prefix = "blog"
@@ -26,6 +25,8 @@ activate :blog do |blog|
   # blog.per_page = 10
   # blog.page_link = "page/:num"
 end
+
+activate :directory_indexes
 
 page "/feed.xml", :layout => false
 
