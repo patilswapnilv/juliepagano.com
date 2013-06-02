@@ -28,7 +28,7 @@ end
 
 activate :directory_indexes
 
-page "/feed.xml", :layout => false
+page "blog/feed.xml", :layout => false
 
 ###
 # Compass
