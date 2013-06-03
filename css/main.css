@@ -84,32 +84,53 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/* line 6, styles.scss */
+/*
+ * Colors
+ * Scheme comes from: http://colorschemedesigner.com/#0041Tojd352Le
+ */
+/* line 21, styles.scss */
 body {
-  font-family: proxima-nova; }
+  color: black;
+  font-family: proxima-nova;
+  font-size: 18px; }
 
-/* line 10, styles.scss */
-h1, h2, h3, h4 {
-  font-family: futura-pt;
-  font-weight: 500; }
+/* line 27, styles.scss */
+h1 {
+  color: #324c88;
+  font-size: 2.5em;
+  font-weight: 700; }
 
-/* line 15, styles.scss */
+/* line 33, styles.scss */
+h2 {
+  color: #a13939; }
+
+/* line 37, styles.scss */
+h2, h3, h4 {
+  font-weight: 600; }
+
+/* line 41, styles.scss */
 a {
+  color: #1a8e8e;
   text-decoration: none; }
-  /* line 18, styles.scss */
+  /* line 45, styles.scss */
   a:hover {
+    color: #ed2c2c;
     text-decoration: underline; }
 
-/* line 23, styles.scss */
+/* line 51, styles.scss */
 .container {
   margin: 0 auto;
   max-width: 980px; }
 
-/* line 28, styles.scss */
+/* line 56, styles.scss */
 header {
   overflow: hidden;
-  *zoom: 1; }
-  /* line 31, styles.scss */
+  *zoom: 1;
+  background-color: #9dd0d0; }
+  /* line 61, styles.scss */
+  header a {
+    color: black; }
+  /* line 65, styles.scss */
   header h1 {
     background: url('../images/logo.png') no-repeat;
     float: left;
@@ -117,24 +138,28 @@ header {
     height: 100px;
     margin: 0;
     padding-left: 90px; }
-  /* line 40, styles.scss */
+  /* line 74, styles.scss */
   header nav {
     float: right; }
 
-/* line 46, styles.scss */
+/* line 80, styles.scss */
 nav ul {
-  padding: 0;
-  margin: 0; }
-/* line 51, styles.scss */
+  margin: 0;
+  padding: 0; }
+/* line 85, styles.scss */
 nav li {
   display: inline-block; }
-  /* line 54, styles.scss */
+  /* line 88, styles.scss */
   nav li a {
-    padding: 10px;
-    margin: 0 5px; }
-/* line 60, styles.scss */
+    margin: 0 5px;
+    padding: 10px; }
+/* line 94, styles.scss */
 nav a {
   display: block; }
+
+/* line 99, styles.scss */
+footer {
+  background: #a1d5a1; }
 
 /* ==========================================================================
    Helper classes
