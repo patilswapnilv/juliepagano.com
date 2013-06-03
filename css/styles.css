@@ -1,0 +1,51 @@
+/* line 6, styles.scss */
+body {
+  font-family: proxima-nova; }
+
+/* line 10, styles.scss */
+h1, h2, h3, h4 {
+  font-family: futura-pt;
+  font-weight: 500; }
+
+/* line 15, styles.scss */
+a {
+  text-decoration: none; }
+  /* line 18, styles.scss */
+  a:hover {
+    text-decoration: underline; }
+
+/* line 23, styles.scss */
+.container {
+  margin: 0 auto;
+  max-width: 980px; }
+
+/* line 28, styles.scss */
+header {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 31, styles.scss */
+  header h1 {
+    background: url('../images/logo.png') no-repeat;
+    float: left;
+    font-size: 40px;
+    height: 100px;
+    margin: 0;
+    padding-left: 90px; }
+  /* line 40, styles.scss */
+  header nav {
+    float: right; }
+
+/* line 46, styles.scss */
+nav ul {
+  padding: 0;
+  margin: 0; }
+/* line 51, styles.scss */
+nav li {
+  display: inline-block; }
+  /* line 54, styles.scss */
+  nav li a {
+    padding: 10px;
+    margin: 0 5px; }
+/* line 60, styles.scss */
+nav a {
+  display: block; }
