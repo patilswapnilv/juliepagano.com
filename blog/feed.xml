@@ -5,16 +5,48 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2013-03-24T05:00:00Z</updated>
+  <updated>2013-04-04T02:07:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
+    <title>Julie's Lean In Livetweets</title>
+    <link rel="alternate" href="/blog/2013/04/03/julie-s-lean-in-livetweets/"/>
+    <id>/blog/2013/04/03/julie-s-lean-in-livetweets/</id>
+    <published>2013-04-04T02:07:00Z</published>
+    <updated>2013-04-04T02:07:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;&lt;a href='http://storify.com/juliepagano/julie-s-lean-in-livetweets'&gt;Julie&amp;#8217;s Lean In Livetweets&lt;/a&gt; If you missed the live part of my Lean In livetweeting, you can check out most of it over at Storify.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>In case you didn’t know, my technology will be intersectional or it will be BULLSHIT</title>
+    <link rel="alternate" href="/blog/2013/03/25/in-case-you-didn-t-know-my-technology-will-be-intersectional-or-it-will-be-bullshit/"/>
+    <id>/blog/2013/03/25/in-case-you-didn-t-know-my-technology-will-be-intersectional-or-it-will-be-bullshit/</id>
+    <published>2013-03-26T02:04:00Z</published>
+    <updated>2013-03-26T02:04:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;I mentioned this on twitter late last night and again today, but I want to repeat it here for those who missed it.&lt;/p&gt;
+
+&lt;p&gt;If the message you took from my posts is that we should treat women special, please understand that you got it wrong. We should be making everyone feel welcome in tech. The experiences I described are just my personal examples of areas where we may be falling short.&lt;/p&gt;
+
+&lt;p&gt;The experiences I described are largely about being a woman in the tech industry because I am a woman - that’s my lived experience. I cannot speak directly to the experiences of people who are black or transgender or disabled or hispanic or gay or any other number of underrepresented groups that have it just as hard, if not dramatically harder, than people like me. It’s not right for me to try to appropriate their experiences, but many of them are dying from 1000 paper cuts too. They have their own stories to tell, and you should listen to them too.&lt;/p&gt;
+
+&lt;p&gt;I’m not ok with a movement that pushes forward to claim a place for women in tech while leaving other people behind. That’s just moving the goal post, and it’s not sufficient. This isn’t about building a better position for myself (and others like me), it’s about pushing for a better community for everyone. Anything short of that feels like selfish bullshit.&lt;/p&gt;
+
+&lt;p&gt;I received a lot of kind words in response to my posts, and I appreciated every one of them. You are good people, and you clearly care. Please share your own stories - I will support you in doing so. I want to hear a multitude of voices, and I don’t want them all to sound like mine.&lt;/p&gt;
+
+&lt;p&gt;I welcome you to join me in screaming the only catchphrase that I can seem to muster these days. MY TECHNOLOGY WILL BE INTERSECTIONAL OR IT WILL BE BULLSHIT!!!&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <title>My experiences in tech: Death by 1000 paper cuts</title>
-    <link rel="alternate" href="/blog/2013/03/24/death-by-1000-paper-cuts/"/>
-    <id>/blog/2013/03/24/death-by-1000-paper-cuts/</id>
-    <published>2013-03-24T05:00:00Z</published>
-    <updated>2013-03-24T05:00:00Z</updated>
+    <link rel="alternate" href="/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/"/>
+    <id>/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/</id>
+    <published>2013-03-24T19:08:00Z</published>
+    <updated>2013-03-24T19:08:00Z</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -37,14 +69,80 @@
 &lt;p&gt;I mention one of the above, and someone tells me that I&amp;#8217;m just looking for things to get angry about. As though my feelings are not valid. Maybe they don&amp;#8217;t understand that probably wasn&amp;#8217;t the only thing that happened that day or that week or that month or the duration of my career. That I can&amp;#8217;t detach and view these things in isolation. That no matter how tough I get, how thick my skin, the paper cuts still hurt. I&amp;#8217;m not the only one covered in bandaids trying to stanch the bleeding and focus on programming because it&amp;#8217;s a thing that I love. I&amp;#8217;m terrified of the day that it becomes terminal, the day myself or one of my friends becomes another statistic in the book of &amp;#8220;they leave and they don&amp;#8217;t come back.&amp;#8221;&lt;/p&gt;</content>
   </entry>
   <entry>
-    <title>Example Article</title>
-    <link rel="alternate" href="/blog/2012/01/01/example-article/"/>
-    <id>/blog/2012/01/01/example-article/</id>
-    <published>2012-01-01T05:00:00Z</published>
-    <updated>2012-01-01T05:00:00Z</updated>
+    <title>My experiences in tech: Adventures outside the workplace</title>
+    <link rel="alternate" href="/blog/2013/03/23/my-experiences-in-tech-adventures-outside-the-workplace/"/>
+    <id>/blog/2013/03/23/my-experiences-in-tech-adventures-outside-the-workplace/</id>
+    <published>2013-03-24T03:30:00Z</published>
+    <updated>2013-03-24T03:30:00Z</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;One of the issues I mentioned in my &lt;a href='http://juliepagano.com/blog/2013/03/23/my-experiences-in-tech-once-upon-an-internship/'&gt;last post&lt;/a&gt; took place at intern lunches that were optional and off-site at local restaurants. Is professional behavior required at social events between colleagues that don’t take place on company property, time, or expense? I went through my list again and noticed that many of my negative experiences happened in this hazy grey area.&lt;/p&gt;
+
+&lt;p&gt;For those who only know me now, you may be surprised to hear that I was once very quiet, reserved, and passive. Early in my career, I was just trying to navigate being in the working world and trying to get along. Sometimes this meant going to the bar after work with coworkers to shoot the shit, complain about work, and just generally socialize.&lt;/p&gt;
+
+&lt;p&gt;I rarely minded when these evenings at the bar included some sexualized comments – I was mostly amused by the limited and heterocentric knowledge of my coworkers. We weren’t at work, and I can enjoy a good general sexual joke that isn’t at anyone’s expense. The problem is that conversations didn’t always stop there.&lt;/p&gt;
+
+&lt;p&gt;On more than one occasion, talk would veer towards sexualizing female coworkers. It was a comment about how hot one of the new employees was or a joke about looking up the intern’s skirt while she changed lightbulbs (apparently she was asking for it by not wearing pants). Rarely (if ever) were these same coworkers discussed for their merits at their job – in fact sometimes they were discussed negatively in these regards.&lt;/p&gt;
+
+&lt;p&gt;It was assumed this conversation was ok as long as the mentioned parties weren’t there and that nobody in participation minded (again, nobody can hear us). This brings us back to my prior comment about how meek I was then. In these situations, I felt I had a choice: complain and stop getting invited to the bar, or put up with it and get included in social outings with my coworkers. At the time, I chose the latter. I’m still angry with myself about this, but I’m mostly upset that I was put in a position where I had to make a choice like that. These conversations were another reminder that some people in the software industry see women as sex objects first and engineers second.&lt;/p&gt;
+
+&lt;p&gt;Another time, a group of coworkers created an after-work club (basically just a group of people going to the bar) with the sole intention of excluding and mocking another coworker they did not like. The name of their club was a twist on the name of a professional organization for minorities this coworker helped organize and was rightly proud of. This kind of behavior made me feel like I’d been transported back to high school.&lt;/p&gt;
+
+&lt;p&gt;Those of us who vocally disagreed with this “club” were argued with for not joining the mob. “But &amp;#60;targeted coworker&amp;gt; is lazy and bad at their job.” “Management won’t fire them.” “Their constant mentions of &amp;#60;minority professional organization&amp;gt; are annoying.” “All the cool kids are doing it.” As if any of these things justify bullying. The lack of reflection from the people doing this, many of which were probably bullied in school themselves, was astounding. The club didn’t last long, but the fact that it existed at all disgusts me to this day.&lt;/p&gt;
+
+&lt;p&gt;Is it fair to police every action coworkers take in this hazy grey area outside of work? We could probably go round and round about that all day. It’s legitimately difficult to figure out where one should draw those lines.&lt;/p&gt;
+
+&lt;p&gt;The part that worries me about the incidents described above is not that someone said or did something distasteful outside of work hours. We all do that. What I’m worried about is that these actions are indicative of motivations that also likely infect the professional world. Coworkers would later become managers of the employees they sexualized at the bar. Is that a problem? The “cool kids” club created a mob mentality. Is it easy to turn that off when the mob is at work?&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>My experiences in tech: Once upon an internship</title>
+    <link rel="alternate" href="/blog/2013/03/23/my-experiences-in-tech-once-upon-an-internship/"/>
+    <id>/blog/2013/03/23/my-experiences-in-tech-once-upon-an-internship/</id>
+    <published>2013-03-24T02:13:00Z</published>
+    <updated>2013-03-24T02:13:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;My first experience with working in tech was an internship in college. There were good parts to that experience, but it was also rife with problems.&lt;/p&gt;
+
+&lt;p&gt;The man who ran the weekly (optional and offsite) intern lunches frequently used it as a platform for his political views, some of which potentially fall into hostile workplace territory. These included diatribes about the immorality of those who use contraception (probably most female interns) and how we should not fund HIV/AIDS research because people with those diseases had earned them with their immoral behavior. I rarely attended the lunches because of this despite them being a good opportunity to network with other interns.&lt;/p&gt;
+
+&lt;p&gt;For part of this job, I was placed in a small office with a supervisor and two other interns. This supervisor harassed me about attending church with him on more than one occasion despite a clear “no” from me the first time he asked. I was on the road to atheism at that point, but his comments about the evils of Catholicism still rang inappropriate to me.&lt;/p&gt;
+
+&lt;p&gt;This supervisor regularly made homophobic comments (ranging from inappropriate jokes to disgustingly nasty comments) and the other interns often joined in. Most attempts to make this stop (polite comments, trying to wear headphones, etc.) were futile. I wasn’t queer-identified or even a particularly good ally at the time, but these comments still really upset me. I was miserable and started really hating my job. The comments didn’t stop until months later on a day I snapped and was more forceful – saying that they needed to stop. The initial response? “But nobody can hear us.”&lt;/p&gt;
+
+&lt;p&gt;Nobody can hear us. Like I was invisible. That my feelings didn’t matter. Words that showed my previous polite pushing back had not even registered. I explained that I could hear their bigoted comments and threatened to go to HR if they did not cease. It stopped, but things were tense for the rest of my internship. Despite doing an excellent job, I was hesitant to ask for recommendations for fear of retribution over this incident.&lt;/p&gt;
+
+&lt;p&gt;This is the same job where a very senior engineer I had respected told me it didn’t matter if I was good at something because I was nice to look at. An early reminder that to some I was never going to be seen the same as my male colleagues.&lt;/p&gt;
+
+&lt;p&gt;Why didn’t I ever report any of the things happened here? I was an intern and the people creating a hostile workplace were in positions of power over me. I was terrified that reporting them would mean all my work as an intern was for naught. That I’d end up with a black mark as “the woman who cried to HR.” That it would cause problems for me with the university who set up the internship. That it would mean no recommendations when I went to get a real job when I graduated. Even then I recognized that HR is there to protect the company, not me. So I mostly put my head down and dealt with it.&lt;/p&gt;
+
+&lt;p&gt;I learned at this job that being a software engineer sometimes means death by 1000 cuts because you don’t have the power to make it stop. That women are seen differently. That homophobia can run rampant. That people will say whatever the hell they want because they think there are no consequences. They’ll assume it’s ok because you must be in on it too. If nobody can hear them, it must be ok…&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Writing about my experiences</title>
+    <link rel="alternate" href="/blog/2013/03/23/writing-about-my-experiences/"/>
+    <id>/blog/2013/03/23/writing-about-my-experiences/</id>
+    <published>2013-03-24T01:35:00Z</published>
+    <updated>2013-03-24T01:35:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;Instead of writing this afternoon, I just took a long nap. I needed it, but now I’m back to thinking about writing. I’m having a hard time collection my thoughts into words. There’s so much going on in my head right now.&lt;/p&gt;
+
+&lt;p&gt;Something I can focus on is the past and my personal experiences. Fallout from these incidents usually includes inquiries about how bad the industry really is. When this question came up about a year ago, I wrote a protected post with a huge bulleted list of my negative experiences in the tech industry. I’ve been meaning ever since to share some of it more publicly.&lt;/p&gt;
+
+&lt;p&gt;What is the utility in sharing negative experiences? It’s to show that we’re not just “looking for things to get angry about” – I get this accusation (from both men and women) on occasion. It’s to share solidarity with others who have had similar experiences. It’s to let people know that they’re not alone. And maybe it’s to shock people who didn’t know these things happen into action.&lt;/p&gt;
+
+&lt;p&gt;I’ll be adding posts about these experiences. I think it’s easier to break them up than to post one big thing all at once.&lt;/p&gt;
+
+&lt;p&gt;I’ll add links to them here as I write:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://juliepagano.com/blog/2013/03/23/my-experiences-in-tech-once-upon-an-internship/'&gt;My experiences in tech: Once upon an internship&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://juliepagano.com/blog/2013/03/23/my-experiences-in-tech-adventures-outside-the-workplace/'&gt;My experiences in tech: Adventures outside the workplace&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href='http://juliepagano.com/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/'&gt;My experiences in tech: Death by 1000 paper cuts&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
