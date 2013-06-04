@@ -1,6 +1,6 @@
 ---
 title: "My experiences in tech: Death by 1000 paper cuts"
-date: 2013-03-24
+date: 2013-03-24 14:08 EST
 tags: personal, tech
 ---
 
