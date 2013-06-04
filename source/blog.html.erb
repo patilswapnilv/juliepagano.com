@@ -17,7 +17,6 @@ title: Writing
   <% page_articles.each_with_index do |article, i| %>
     <article>
       <h1><%= link_to article.title, article %></h1>
-      <%= article.body %>
       <ul>
         <% article.tags.each do |tag| %>
           <%= link_to tag, tag_path(tag) %>

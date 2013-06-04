@@ -30,6 +30,12 @@ activate :directory_indexes
 
 page "blog/feed.xml", :layout => false
 
+set :markdown_engine, :maruku
+set :markdown, :layout_engine => :erb,
+               :tables => true,
+               :autolink => true,
+               :smartypants => true
+
 ###
 # Compass
 ###
