@@ -64,15 +64,17 @@ header {
 
   h1 {
     background: image-url($logo-img) no-repeat;
-    float: left;
-    font-size: 40px;
+    font-size: 55px;
     height: image-height($logo-img);
-    margin: 0;
+    margin: 0 auto;
     padding-left: image-width($logo-img) + 10px;
+    width: 350px;
   }
 
   nav {
-    float: right;
+    margin: -35px auto 0 auto;
+    padding-left: image-width($logo-img) + 10px;
+    width: 350px;
   }
 }
 
