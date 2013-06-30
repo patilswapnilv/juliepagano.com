@@ -60,6 +60,10 @@ header {
 
   a {
     color: $text-color;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   h1 {
@@ -80,7 +84,7 @@ header {
 
 nav {
   ul {
-    margin: 0;
+    margin: 0 0 0 -8px;
     padding: 0;
   }
 
@@ -89,7 +93,7 @@ nav {
 
     a {
       margin: 0 5px;
-      padding: 10px;
+      padding: 10px 8px;
     }
   }
 
