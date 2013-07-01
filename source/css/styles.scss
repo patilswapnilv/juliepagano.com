@@ -18,6 +18,8 @@ $link-color: #1A8E8E;
 $link-active-color: #ED2C2C;
 $visited-color: #0D3B3B;
 
+$header-width: 350px;
+
 body {
   color: $text-color;
   font-family: proxima-nova;
@@ -72,13 +74,17 @@ header {
     height: image-height($logo-img);
     margin: 0 auto;
     padding-left: image-width($logo-img) + 10px;
-    width: 350px;
+    width: $header-width;
+
+    a:hover {
+      color: $text-color;
+    }
   }
 
   nav {
     margin: -35px auto 0 auto;
     padding-left: image-width($logo-img) + 10px;
-    width: 350px;
+    width: $header-width;
   }
 }
 
