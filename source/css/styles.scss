@@ -59,6 +59,7 @@ header {
   @include clearfix;
 
   background-color: $header-color;
+  margin-bottom: 50px;
 
   a {
     color: $text-color;
@@ -110,4 +111,5 @@ nav {
 
 footer {
   background: $footer-color;
+  margin-top: 50px;
 }
