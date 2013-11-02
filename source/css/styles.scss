@@ -192,9 +192,48 @@ nav {
   }
 }
 
+.social-nav {
+  font-size: 30px;
+  list-style: none;
+
+  li {
+    margin-left: 15px;
+    margin-right: 0.5em;
+
+    @include inline-block;
+  }
+}
+
 footer {
   background: $footer-color;
   margin-top: 50px;
+
+  @include clearfix;
+
+  ul {
+    float: left;
+    margin: 0;
+    padding: 0.5em 0;
+  }
+
+  nav ul {
+    float: right;
+    font-size: 16px;
+
+    @media screen and (max-width: 650px) {
+      clear: left;
+      float: left;
+      padding-top: 0;
+    }
+  }
+
+  a {
+    color: $link-color;
+
+    &:hover {
+      color: $alt-header-color1;
+    }
+  }
 }
 
 

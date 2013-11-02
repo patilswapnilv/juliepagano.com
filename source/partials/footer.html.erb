@@ -1,5 +1,25 @@
 <footer>
   <div class="container">
-    footer
+    <ul class="social-nav">
+      <li>
+        <a href="https://twitter.com/juliepagano">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="http://juliepagano.tumblr.com/">
+          <i class="fa fa-tumblr-square"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/juliepagano">
+          <i class="fa fa-github-square"></i>
+        </a>
+      </li>
+      <li>
+        <%= link_to "<i class=\"fa fa-rss-square\"></i>", "/blog/feed.xml" %>
+      </li>
+    </ul>
+    <%= partial "partials/nav" %>
   </div>
 </footer>
