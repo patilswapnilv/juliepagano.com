@@ -118,56 +118,61 @@ h1, h2, h3, h4 {
   line-height: 1.2em; }
 
 /* line 62, styles.scss */
+h2, h3, h4 {
+  font-weight: 600; }
+
+/* line 66, styles.scss */
 h1 {
   color: #324c88;
   font-size: 2.5em;
   font-weight: 700; }
 
-/* line 68, styles.scss */
-h2 {
-  color: #a13939; }
-
 /* line 72, styles.scss */
-h2, h3, h4 {
-  font-weight: 600; }
+h2 {
+  color: #a13939;
+  font-size: 1.6em; }
 
-/* line 76, styles.scss */
+/* line 77, styles.scss */
+h3 {
+  font-size: 1.2em; }
+
+/* line 81, styles.scss */
 p {
   margin: 1.2em 0; }
 
-/* line 80, styles.scss */
+/* line 85, styles.scss */
 a {
   color: #1a8e8e;
   text-decoration: none; }
-  /* line 84, styles.scss */
+  /* line 89, styles.scss */
   a:hover {
     color: #ed2c2c;
     text-decoration: underline; }
 
-/* line 90, styles.scss */
+/* line 95, styles.scss */
 section {
   margin-bottom: 2em; }
 
-/* line 94, styles.scss */
+/* line 99, styles.scss */
 .container {
   margin: 0 auto;
   max-width: 760px;
   padding: 0 20px; }
 
-/* line 100, styles.scss */
+/* line 105, styles.scss */
 header {
   overflow: hidden;
   *zoom: 1;
   background-color: #9dd0d0;
-  margin-bottom: 50px; }
-  /* line 106, styles.scss */
+  margin-bottom: 40px; }
+  /* line 111, styles.scss */
   header a {
     color: black; }
-    /* line 109, styles.scss */
+    /* line 114, styles.scss */
     header a:hover {
       color: #a13939;
       text-decoration: none; }
-  /* line 115, styles.scss */
+  /* line 120, styles.scss */
   header h1 {
     background: url('../images/logo.png') no-repeat;
     font-size: 55px;
@@ -176,46 +181,46 @@ header {
     margin: 0 auto;
     padding-left: 90px;
     width: 350px; }
-    /* line 124, styles.scss */
+    /* line 129, styles.scss */
     header h1 a:hover {
       color: black; }
-  /* line 129, styles.scss */
+  /* line 134, styles.scss */
   header nav {
     margin: -35px auto 0 auto;
     padding-left: 90px;
     width: 350px; }
 
-/* line 137, styles.scss */
+/* line 142, styles.scss */
 nav ul {
   margin: 0 0 0 -8px;
   padding: 0; }
-/* line 142, styles.scss */
+/* line 147, styles.scss */
 nav li {
   display: inline-block; }
-  /* line 145, styles.scss */
+  /* line 150, styles.scss */
   nav li a {
     margin: 0 5px;
     padding: 10px 8px; }
-/* line 151, styles.scss */
+/* line 156, styles.scss */
 nav a {
   display: block; }
 
-/* line 156, styles.scss */
+/* line 161, styles.scss */
 .social {
   list-style: none;
   padding: 0; }
-  /* line 160, styles.scss */
+  /* line 165, styles.scss */
   .social li {
     line-height: 1.2em;
     margin-bottom: 0.8em; }
-  /* line 165, styles.scss */
+  /* line 170, styles.scss */
   .social a {
     display: inline-block; }
-    /* line 168, styles.scss */
+    /* line 173, styles.scss */
     .social a:hover {
       text-decoration: none; }
 
-/* line 174, styles.scss */
+/* line 179, styles.scss */
 [data-icon]:before {
   content: attr(data-icon);
   display: inline-block;
@@ -225,7 +230,7 @@ nav a {
   width: 40px;
   vertical-align: -3px; }
 
-/* line 184, styles.scss */
+/* line 189, styles.scss */
 [data-icon-social]:before {
   content: attr(data-icon-social);
   display: inline-block;
@@ -235,20 +240,46 @@ nav a {
   width: 40px;
   vertical-align: -3px; }
 
-/* line 194, styles.scss */
+/* line 199, styles.scss */
 footer {
   background: #a1d5a1;
   margin-top: 50px; }
 
 /* page specific styles */
-/* line 202, styles.scss */
+/* line 206, styles.scss */
+.article-date {
+  float: left;
+  margin-right: 1em; }
+
+/* line 211, styles.scss */
+.article-details {
+  font-size: 0.9em;
+  line-height: 1.3em; }
+
+/* line 217, styles.scss */
+#writing-list h2 {
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0; }
+/* line 223, styles.scss */
+#writing-list ul {
+  list-style: none;
+  padding-left: 0; }
+/* line 228, styles.scss */
+#writing-list li {
+  margin-bottom: 1.5em; }
+/* line 232, styles.scss */
+#writing-list .tags {
+  margin: 0; }
+
+/* line 238, styles.scss */
 #past-events h3, #past-events h4 {
   margin: 0.2em 0; }
-/* line 206, styles.scss */
+/* line 242, styles.scss */
 #past-events ul {
   list-style: none;
   padding-left: 0; }
-/* line 211, styles.scss */
+/* line 247, styles.scss */
 #past-events li {
   margin-bottom: 1.5em; }
 
