@@ -12,7 +12,7 @@ This week, I think I finally figured out what it is. I noticed the symptoms - wh
 
 How did we get here? Why is it this bad? Why are we staying?
 
-There’s always been the [microaggressions](http://juliepagano.tumblr.com/post/46206589124/my-experiences-in-tech-death-by-1000-paper-cuts). I didn’t always notice them, but eventually they accumulated enough that I was buried. I couldn’t ignore them any more. Recently, a new symptom finally hit the point where I couldn’t pretend it isn’t there. [Gaslighting](http://en.wikipedia.org/wiki/Gaslighting) (or at least something very akin to it).
+There’s always been the [microaggressions](http://juliepagano.com/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/). I didn’t always notice them, but eventually they accumulated enough that I was buried. I couldn’t ignore them any more. Recently, a new symptom finally hit the point where I couldn’t pretend it isn’t there. [Gaslighting](http://en.wikipedia.org/wiki/Gaslighting) (or at least something very akin to it).
 
 Gaslighting is a symptom of emotional abuse, so it was a disturbing discovery. Out of curiosity, I looked up other symptoms of emotional abuse. An upsettingly long list of them were all too easy to identify with. Fuck.
 
