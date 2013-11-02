@@ -3,7 +3,7 @@ pageable: true
 per_page: 50
 title: Writing
 ---
-<section>
+<section id="writing-list">
   <h1>Writing</h1>
 
   <% if paginate %>
@@ -15,14 +15,21 @@ title: Writing
   <% end %>
 
   <% page_articles.each_with_index do |article, i| %>
-    <article>
-      <h1><%= link_to article.title, article %></h1>
-      <ul>
-        <% article.tags.each do |tag| %>
-          <%= link_to tag, tag_path(tag) %>
-        <% end %>
-      </ul>
-    </article>
+    <ul>
+      <li>
+        <h2><%= link_to article.title, article %></h2>
+        <div class="article-details">
+          <div class="article-date">
+            <%= article.date.strftime('%Y-%m-%d') %>
+          </div>
+          <ul class="tags">
+            <% article.tags.each do |tag| %>
+              <%= link_to tag, tag_path(tag) %>
+            <% end %>
+          </ul>
+        </div>
+      </li>
+    </ul>
   <% end %>
 
   <% if paginate %>

@@ -203,6 +203,37 @@ footer {
 
 
 /* page specific styles */
+.article-date {
+  float: left;
+  margin-right: 1em;
+}
+
+.article-details {
+  font-size: 0.9em;
+  line-height: 1.3em;
+}
+
+#writing-list {
+  h2 {
+    font-size: 1.4em;
+    font-weight: normal;
+    margin: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    margin-bottom: 1.5em;
+  }
+
+  .tags {
+    margin: 0;
+  }
+}
+
 #past-events {
   h3, h4 {
     margin: 0.2em 0;
