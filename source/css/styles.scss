@@ -3,6 +3,7 @@
 @charset "UTF-8";
 
 $logo-img: 'logo.png';
+$logo-img-2x: 'logo-2x.png';
 $max-width: 760px;
 $padding: 20px;
 
@@ -106,12 +107,17 @@ header {
 
   h1 {
     background: image-url($logo-img) no-repeat;
+    background-size: image-width($logo-img) image-height($logo-img);
     font-size: 55px;
     height: image-height($logo-img);
     line-height: 1.4em;
     margin: 0 auto;
     padding-left: image-width($logo-img) + 10px;
     width: $header-width;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: image-url($logo-img-2x);
+    }
 
     a:hover {
       color: $text-color;
