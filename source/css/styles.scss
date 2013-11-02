@@ -52,6 +52,11 @@ body {
   color: $text-color;
   font-family: proxima-nova;
   font-size: 18px;
+  line-height: 1.5em;
+}
+
+h1,h2,h3,h4 {
+  line-height: 1.2em;
 }
 
 h1 {
@@ -66,6 +71,10 @@ h2 {
 
 h2, h3, h4 {
   font-weight: 600;
+}
+
+p {
+  margin: 1.2em 0;
 }
 
 a {
@@ -103,6 +112,7 @@ header {
     background: image-url($logo-img) no-repeat;
     font-size: 55px;
     height: image-height($logo-img);
+    line-height: 1.4em;
     margin: 0 auto;
     padding-left: image-width($logo-img) + 10px;
     width: $header-width;
