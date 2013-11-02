@@ -21,7 +21,7 @@ $link-color: #1A8E8E;
 $link-active-color: #ED2C2C;
 $visited-color: #0D3B3B;
 
-$header-width: 350px;
+$header-width: 360px;
 
 
 
@@ -116,6 +116,30 @@ header {
   }
 }
 
+@media screen and (max-width: 480px) {
+  header {
+    .container {
+      padding: 0;
+    }
+
+    h1 {
+      background-size: 70px;
+      font-size: 40px;
+      height: 85px;
+      line-height: 2em;
+      padding-left: 80px;
+      width: 100%;
+    }
+
+    nav {
+      margin-top: 0;
+      padding-left: 0;
+      text-align: center;
+      width: auto;
+    }
+  }
+}
+
 nav {
   ul {
     margin: 0 0 0 -8px;
@@ -133,6 +157,17 @@ nav {
 
   a {
     display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    li {
+      a {
+        margin: 0 4px;
+        padding: 10px 4px;
+      }
+    }
   }
 }
 
