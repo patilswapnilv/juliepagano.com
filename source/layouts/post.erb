@@ -1,6 +1,11 @@
 <% wrap_layout :layout do %>
-  <article>
+  <article class="writing">
     <h1><%= current_page.data.title %></h1>
+    <div class="article-details">
+      <div class="article-date">
+        <%= Time.parse(current_page.data.date).strftime('%Y-%m-%d') %>
+      </div>
+    </div>
     <%= yield %>
   </article>
 <% end %>

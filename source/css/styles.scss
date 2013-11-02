@@ -217,9 +217,17 @@ footer {
 
 #writing-list {
   h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: normal;
     margin: 0;
+  }
+
+  a {
+    color: $alt-header-color2;
+
+    &:hover {
+      color: $link-active-color;
+    }
   }
 
   ul {
@@ -233,6 +241,13 @@ footer {
 
   .tags {
     margin: 0;
+  }
+}
+
+.writing {
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0.1em;
   }
 }
 
