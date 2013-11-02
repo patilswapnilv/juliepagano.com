@@ -121,10 +121,6 @@ header {
 
 @media screen and (max-width: 480px) {
   header {
-    .container {
-      padding: 0;
-    }
-
     h1 {
       background-size: 70px;
       font-size: 40px;
@@ -139,6 +135,12 @@ header {
       padding-left: 0;
       text-align: center;
       width: auto;
+    }
+  }
+
+  header, footer {
+    .container {
+      padding: 0;
     }
   }
 }
