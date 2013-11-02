@@ -168,31 +168,44 @@ footer {
 /* line 211, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 .article-details {
   font-size: 0.9em;
-  line-height: 1.3em; }
+  line-height: 1.3em;
+  overflow: hidden;
+  *zoom: 1; }
 
-/* line 217, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 219, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list h2 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: normal;
   margin: 0; }
-/* line 223, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 225, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+#writing-list a {
+  color: #a13939; }
+  /* line 228, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  #writing-list a:hover {
+    color: #ed2c2c; }
+/* line 233, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list ul {
   list-style: none;
   padding-left: 0; }
-/* line 228, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 238, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list li {
   margin-bottom: 1.5em; }
-/* line 232, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 242, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list .tags {
   margin: 0; }
 
-/* line 238, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 248, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+.writing h1 {
+  font-size: 2em;
+  margin-bottom: 0.1em; }
+
+/* line 255, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #past-events h3, #past-events h4 {
   margin: 0.2em 0; }
-/* line 242, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 259, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #past-events ul {
   list-style: none;
   padding-left: 0; }
-/* line 247, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 264, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #past-events li {
   margin-bottom: 1.5em; }
