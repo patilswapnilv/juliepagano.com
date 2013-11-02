@@ -64,6 +64,9 @@ a {
   color: $link-color;
   text-decoration: none;
 
+  @include transition-duration(0.5s);
+  @include transition-property(color);
+
   &:hover {
     color: $link-active-color;
     text-decoration: underline;
