@@ -2,5 +2,50 @@
 title: Julie Pagano
 ---
 
-HOME
+<section id="recent-posts">
+  <h2>
+    <i class="fa fa-pencil-square"></i> Recent Posts
+  </h2>
+  <ul>
+    <% blog.articles[0...3].each do |article| %>
+    <li>
+      <h3><%= link_to article.title, article %></h3>
+      <div class="article-details">
+        <div class="article-date">
+          <%= article.date.strftime('%Y-%m-%d') %>
+        </div>
+      </div>
+    </li>
+    <% end %>
+  </ul>
+  <%=link_to "<i class=\"fa fa-angle-double-right\"></i> more posts", "/blog.html" %>
+</section>
 
+<section id="upcoming-events">
+  <h2>
+    <i class="fa fa-calendar"></i> Upcoming Events
+  </h2>
+  <ul>
+    <li>
+      <h3>
+        <%= link_to "Ruby Hangout Diversity Roundtable", "https://plus.google.com/events/c0gs6c8oiccj2o1j0nlscr11jps" %>
+      </h3>
+      <div class="article-details">
+        <div class="article-date">
+          November 5, 2013 @ 6pm
+        </div>
+      </div>
+    </li>
+
+    <li>
+      <h3>
+        <%= link_to "Open Source Bridge", "http://opensourcebridge.org/" %>
+      </h3>
+      <div class="article-details">
+        <div class="article-date">
+          June 24-27, 2014 - Portland, OR
+        </div>
+      </div>
+    </li>
+  </ul>
+</section>

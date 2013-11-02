@@ -73,6 +73,12 @@ a {
   }
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 section {
   margin-bottom: 2em;
 }
@@ -177,9 +183,6 @@ nav {
 }
 
 .social {
-  list-style: none;
-  padding: 0;
-
   li {
     line-height: 1.2em;
     margin-bottom: 0.8em;
@@ -196,7 +199,6 @@ nav {
 
 .social-nav {
   font-size: 30px;
-  list-style: none;
 
   li {
     margin-left: 15px;
@@ -208,6 +210,7 @@ nav {
 
 footer {
   background: $footer-color;
+  clear: both;
   margin-top: 50px;
 
   @include clearfix;
@@ -240,6 +243,37 @@ footer {
 
 
 /* page specific styles */
+.index {
+  section {
+    float: left;
+    margin-right: 10%;
+    width: 40%;
+
+    @media screen and (max-width: 650px) {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    h3 {
+      font-size: 1.1em;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 1.5em;
+    }
+
+    a {
+      color: $text-color;
+      font-weight: normal;
+
+      &:hover {
+        color: $link-active-color;
+      }
+    }
+  }
+}
+
 .article-date {
   float: left;
   margin-right: 1em;
@@ -268,11 +302,6 @@ footer {
     }
   }
 
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-
   li {
     margin-bottom: 1.5em;
   }
@@ -287,16 +316,16 @@ footer {
     font-size: 2em;
     margin-bottom: 0.1em;
   }
+
+  ul {
+    list-style: disc;
+    padding: 0 0 0 30px;
+  }
 }
 
 #past-events {
   h3, h4 {
     margin: 0.2em 0;
-  }
-
-  ul {
-    list-style: none;
-    padding-left: 0;
   }
 
   li {
