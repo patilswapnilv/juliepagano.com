@@ -87,6 +87,10 @@ a {
   }
 }
 
+section {
+  margin-bottom: 2em;
+}
+
 .container {
   margin: 0 auto;
   max-width: $max-width;
@@ -190,4 +194,21 @@ nav {
 footer {
   background: $footer-color;
   margin-top: 50px;
+}
+
+
+/* page specific styles */
+#past-events {
+  h3, h4 {
+    margin: 0.2em 0;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  li {
+    margin-bottom: 1.5em;
+  }
 }
