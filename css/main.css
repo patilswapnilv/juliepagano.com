@@ -1942,9 +1942,6 @@ header {
 
 @media screen and (max-width: 480px) {
   /* line 124, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
-  header .container {
-    padding: 0; }
-  /* line 128, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   header h1 {
     background-size: 70px;
     font-size: 40px;
@@ -1952,52 +1949,56 @@ header {
     line-height: 2em;
     padding-left: 80px;
     width: 100%; }
-  /* line 137, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 133, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   header nav {
     margin-top: 0;
     padding-left: 0;
     text-align: center;
-    width: auto; } }
-/* line 147, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+    width: auto; }
+
+  /* line 142, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  header .container, footer .container {
+    padding: 0; } }
+/* line 149, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 nav ul {
   margin: 0 0 0 -8px;
   padding: 0; }
-/* line 152, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 154, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 nav li {
   display: inline-block; }
-  /* line 155, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 157, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   nav li a {
     margin: 0 5px;
     padding: 10px 8px; }
-/* line 161, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 163, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 nav a {
   display: block; }
 
 @media screen and (max-width: 480px) {
-  /* line 169, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 171, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   nav li a {
     margin: 0 4px;
     padding: 10px 4px; } }
-/* line 177, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 179, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 .social {
   list-style: none;
   padding: 0; }
-  /* line 181, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 183, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   .social li {
     line-height: 1.2em;
     margin-bottom: 0.8em; }
-  /* line 186, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 188, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   .social a {
     display: inline-block; }
-    /* line 189, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+    /* line 191, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
     .social a:hover {
       text-decoration: none; }
 
-/* line 195, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 197, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 .social-nav {
   font-size: 30px;
   list-style: none; }
-  /* line 199, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 201, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   .social-nav li {
     margin-left: 15px;
     margin-right: 0.5em;
@@ -2008,41 +2009,41 @@ nav a {
     zoom: 1;
     *display: inline; }
 
-/* line 207, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 209, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 footer {
   background: #a1d5a1;
   margin-top: 50px;
   overflow: hidden;
   *zoom: 1; }
-  /* line 213, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 215, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   footer ul {
     float: left;
     margin: 0;
     padding: 0.5em 0; }
-  /* line 219, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 221, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   footer nav ul {
     float: right;
     font-size: 16px; }
     @media screen and (max-width: 650px) {
-      /* line 219, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+      /* line 221, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
       footer nav ul {
         clear: left;
         float: left;
         padding-top: 0; } }
-  /* line 230, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 232, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   footer a {
     color: #1a8e8e; }
-    /* line 233, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+    /* line 235, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
     footer a:hover {
       color: #324c88; }
 
 /* page specific styles */
-/* line 241, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 243, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 .article-date {
   float: left;
   margin-right: 1em; }
 
-/* line 246, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 248, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 .article-details {
   color: #877F7F;
   font-size: 0.9em;
@@ -2050,41 +2051,41 @@ footer {
   overflow: hidden;
   *zoom: 1; }
 
-/* line 255, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 257, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list h2 {
   font-size: 1.3em;
   font-weight: normal;
   margin: 0; }
-/* line 261, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 263, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list a {
   color: #a13939; }
-  /* line 264, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  /* line 266, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
   #writing-list a:hover {
     color: #ed2c2c; }
-/* line 269, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 271, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list ul {
   list-style: none;
   padding-left: 0; }
-/* line 274, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 276, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list li {
   margin-bottom: 1.5em; }
-/* line 278, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 280, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #writing-list .tags {
   margin: 0; }
 
-/* line 284, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 286, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 .writing h1 {
   font-size: 2em;
   margin-bottom: 0.1em; }
 
-/* line 291, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 293, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #past-events h3, #past-events h4 {
   margin: 0.2em 0; }
-/* line 295, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 297, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #past-events ul {
   list-style: none;
   padding-left: 0; }
-/* line 300, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+/* line 302, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
 #past-events li {
   margin-bottom: 1.5em; }
 
