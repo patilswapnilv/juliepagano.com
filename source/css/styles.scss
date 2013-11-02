@@ -59,6 +59,10 @@ h1,h2,h3,h4 {
   line-height: 1.2em;
 }
 
+h2, h3, h4 {
+  font-weight: 600;
+}
+
 h1 {
   color: $alt-header-color1;
   font-size: 2.5em;
@@ -67,10 +71,11 @@ h1 {
 
 h2 {
   color: $alt-header-color2;
+  font-size: 1.6em;
 }
 
-h2, h3, h4 {
-  font-weight: 600;
+h3 {
+  font-size: 1.2em;
 }
 
 p {
@@ -101,7 +106,7 @@ header {
   @include clearfix;
 
   background-color: $header-color;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 
   a {
     color: $text-color;
