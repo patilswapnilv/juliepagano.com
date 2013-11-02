@@ -1,4 +1,5 @@
 @import "compass";
+@import "font-awesome/font-awesome";
 @charset "UTF-8";
 
 $logo-img: 'logo.png';
@@ -23,29 +24,6 @@ $visited-color: #0D3B3B;
 $header-width: 350px;
 
 
-/*
- * Fonts
- */
-@font-face {
-  font-family: 'EntypoRegular';
-  src: url('fonts/entypo/entypo.eot');
-  src: url('fonts/entypo/entypo.eot?#iefix') format('embedded-opentype'),
-    url('fonts/entypo/entypo.woff') format('woff'),
-    url('fonts/entypo/entypo.ttf') format('truetype'),
-    url('fonts/entypo/entypo.svg#EntypoRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'EntypoSocial';
-  src: url('fonts/entypo/entypo-social.eot');
-  src: url('fonts/entypo/entypo-social.eot?#iefix') format('embedded-opentype'),
-    url('fonts/entypo/entypo-social.woff') format('woff'),
-    url('fonts/entypo/entypo-social.ttf') format('truetype'),
-    url('fonts/entypo/entypo-social.svg#EntypoRegular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 body {
   background-color: #FFFEFC;
@@ -176,26 +154,6 @@ nav {
   }
 }
 
-[data-icon]:before {
-  content: attr(data-icon);
-  display: inline-block;
-  font-family: EntypoRegular;
-  font-size: 40px;
-  height: 25px;
-  width: 40px;
-  vertical-align: -3px;
-}
-
-[data-icon-social]:before {
-  content: attr(data-icon-social);
-  display: inline-block;
-  font-family: EntypoSocial;
-  font-size: 40px;
-  height: 25px;
-  width: 40px;
-  vertical-align: -3px;
-}
-
 footer {
   background: $footer-color;
   margin-top: 50px;
@@ -209,6 +167,7 @@ footer {
 }
 
 .article-details {
+  color: #877F7F;
   font-size: 0.9em;
   line-height: 1.3em;
 
