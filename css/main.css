@@ -2121,6 +2121,14 @@ footer {
 #past-events li {
   margin-bottom: 1.5em; }
 
+/* line 346, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+#headshot {
+  border: solid 1px #a13939;
+  padding: 5px; }
+  /* line 350, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
+  #headshot:hover {
+    border: solid 1px #ed2c2c; }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
