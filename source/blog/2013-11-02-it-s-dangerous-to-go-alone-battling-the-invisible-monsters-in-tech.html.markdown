@@ -48,7 +48,7 @@ tags:
 
 Alright. So hi! I'm Julie Pagano. I'm a software engineer from Pittsburgh, PA. I currently work at the Google offices there. And I'm here today to give you a talk entitled "It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech."
 
-I'm here to talk to you today because I love coding. For me, it's not just a job. It's something I've been doing since middle school, but I'm involved. I do the Girl Develop It chapter in Pittsburgh. I help organize Steel City Ruby Conf. I'm constantly learning because that's something I really enjoy. And I suspect that most of you feel the same way. You're at a conference right now wanting to earn.
+I'm here to talk to you today because I love coding. For me, it's not just a job. It's something I've been doing since middle school, but I'm involved. I do the Girl Develop It chapter in Pittsburgh. I help organize Steel City Ruby Conf. I'm constantly learning because that's something I really enjoy. And I suspect that most of you feel the same way. You're at a conference right now wanting to learn.
 
 So we come to these conferences talking about ways to improve. Things like: testing, design patterns, software craftsmanship, tools, and more. But we're missing something. It's hard to focus on your love of coding when you're regularly battling invisible issues like insecurity, anxiety, and lack of confidence.
 
