@@ -18,7 +18,11 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h2 id='slides'&gt;Slides&lt;/h2&gt;
+    <content type="html">&lt;h2 id='followup'&gt;Follow-up&lt;/h2&gt;
+
+&lt;p&gt;Interested in continuing the conversation with me about impostor syndrome? Please fill out &lt;a href='http://bit.ly/impostor-syndrome-followup'&gt;this form&lt;/a&gt; and let me know how I can help.&lt;/p&gt;
+
+&lt;h2 id='slides'&gt;Slides&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href='https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-surviving-the-invisible-monsters-in-tech'&gt;Slides at SpeakerDeck&lt;/a&gt;&lt;/p&gt;
 &lt;script class='speakerdeck-embed' data-id='a4c75720030501317cae6ed52b662488' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'&gt;
