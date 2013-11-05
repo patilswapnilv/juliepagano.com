@@ -5,10 +5,59 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2013-11-03T02:03:00Z</updated>
+  <updated>2013-11-05T03:07:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>The Comments Are Dead</title>
+    <link rel="alternate" href="/blog/2013/11/04/the-comments-are-dead/"/>
+    <id>/blog/2013/11/04/the-comments-are-dead/</id>
+    <published>2013-11-05T03:07:00Z</published>
+    <updated>2013-11-05T03:07:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;If you have been here before, you may notice the site looks different this week.
+I redesigned my site using &lt;a href="http://middlemanapp.com/"&gt;Middleman&lt;/a&gt;, an awesome
+static site generator, so that
+I could move away from WordPress and do things lean and simple. I am hoping to do
+a write-up about the redesign some time soon, but that&amp;rsquo;s not why I am here tonight.
+I am here to address the lack of something that old and new visitors alike may have
+expected &amp;ndash; the comments.&lt;/p&gt;
+
+&lt;p&gt;The new version of my site intentionally does not have comments.
+Comment sections often become a nasty place where nobody wants to go. There&amp;rsquo;s
+a &lt;a href="https://twitter.com/AvoidComments"&gt;twitter account&lt;/a&gt; that regularly
+reminds people to avoid them for a reason. Hell, even Popular Science
+&lt;a href="http://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments"&gt;recently turned off comments&lt;/a&gt;
+based on a study that showed they have negative consequences.
+I am not interested in hosting a space where people spew invective at myself or
+others. There are &lt;a href="http://www.reddit.com/"&gt;plenty&lt;/a&gt;
+of &lt;a href="https://news.ycombinator.com/"&gt;other places&lt;/a&gt; where
+people can have those conversations ad nauseum.&lt;/p&gt;
+
+&lt;p&gt;The few sites I frequent with quality comments
+have dedicated moderators who spend a great deal of time and energy maintaining
+a positive space. For some of them, it&amp;rsquo;s pretty much a full-time job. I do not
+have the time, energy, or willingness to put that kind of work into my site.
+Sorry, commenters, I have a day job.&lt;/p&gt;
+
+&lt;p&gt;If you want to engage with me about my writing, you can find plenty of ways
+to contact me on the &lt;a href="../../about/"&gt;about&lt;/a&gt; section of my site. However, please
+be respectful of my time. Please understand that I receive a large number of
+emails and may not be able to respond to everyone. On a more sinister note,
+if you send me threats, harassment, or abuse, please be aware that I may share
+it with the internet and/or the authorities depending on the content (also, if you
+do this you are a bad person and you should feel bad).&lt;/p&gt;
+
+&lt;p&gt;I am hoping the much simpler site management will encourage me to write more, so
+that I can share my thoughts with people more often. I hope you will continue to join me on
+my little corner of the internet.&lt;/p&gt;
+
+&lt;p&gt;For anyone who might be angry that there are no comments, tough shit. :)&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech</title>
     <link rel="alternate" href="/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/"/>
@@ -18,145 +67,140 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;h2 id='followup'&gt;Follow-up&lt;/h2&gt;
+    <content type="html">&lt;h2&gt;Follow-up&lt;/h2&gt;
 
-&lt;p&gt;Interested in continuing the conversation with me about impostor syndrome? Please fill out &lt;a href='http://bit.ly/impostor-syndrome-followup'&gt;this form&lt;/a&gt; and let me know how I can help.&lt;/p&gt;
+&lt;p&gt;Interested in continuing the conversation with me about impostor syndrome?
+Please fill out &lt;a href="http://bit.ly/impostor-syndrome-followup"&gt;this form&lt;/a&gt; and let me know how I can help.&lt;/p&gt;
 
-&lt;h2 id='slides'&gt;Slides&lt;/h2&gt;
+&lt;h2&gt;Slides&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href='https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-surviving-the-invisible-monsters-in-tech'&gt;Slides at SpeakerDeck&lt;/a&gt;&lt;/p&gt;
-&lt;script class='speakerdeck-embed' data-id='a4c75720030501317cae6ed52b662488' data-ratio='1.33333333333333' src='//speakerdeck.com/assets/embed.js'&gt;
+&lt;p&gt;&lt;a href="https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-surviving-the-invisible-monsters-in-tech"&gt;Slides at SpeakerDeck&lt;/a&gt;&lt;/p&gt;
+
+&lt;script class="speakerdeck-embed" data-id="a4c75720030501317cae6ed52b662488" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;
 &lt;/script&gt;
-&lt;h3 id='references'&gt;References&lt;/h3&gt;
+
+&lt;h3&gt;References&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Impostor Syndrome - &lt;a href='http://en.wikipedia.org/wiki/Impostor_syndrome'&gt;http://en.wikipedia.org/wiki/Impostor_syndrome&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;Dunning-Kruger effect - &lt;a href='http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect'&gt;http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;All The Things! - &lt;a href='http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html'&gt;http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;Hacker School Social Rules - &lt;a href='https://www.hackerschool.com/manual#sub-sec-social-rules'&gt;https://www.hackerschool.com/manual#sub-sec-social-rules&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;Aaron Patterson at SCRC12 - &lt;a href='http://www.confreaks.com/videos/1137-scrc2012-open-source-how-to-give-back'&gt;http://www.confreaks.com/videos/1137-scrc2012-open-source-how-to-give-back&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Impostor Syndrome - &lt;a href="http://en.wikipedia.org/wiki/Impostor_syndrome"&gt;http://en.wikipedia.org/wiki/Impostor_syndrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Dunning-Kruger effect - &lt;a href="http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"&gt;http://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;All The Things! - &lt;a href="http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html"&gt;http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hacker School Social Rules - &lt;a href="https://www.hackerschool.com/manual#sub-sec-social-rules"&gt;https://www.hackerschool.com/manual#sub-sec-social-rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Aaron Patterson at SCRC12 - &lt;a href="http://www.confreaks.com/videos/1137-scrc2012-open-source-how-to-give-back"&gt;http://www.confreaks.com/videos/1137-scrc2012-open-source-how-to-give-back&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id='attribution'&gt;Attribution&lt;/h3&gt;
+&lt;h3&gt;Attribution&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://thenounproject.com/noun/road-barrier/#icon-No4357'&gt;Road barrier&lt;/a&gt; from the noun project&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://thenounproject.com/noun/conversation/#icon-No1680'&gt;Conversation&lt;/a&gt; designed by Anna Weiss from The Noun Project&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://thenounproject.com/noun/ghost/#icon-No9345'&gt;Ghost&lt;/a&gt; designed by Emily Haasch from The Noun Project&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://thenounproject.com/noun/bed/#icon-No12395'&gt;Bed&lt;/a&gt; from noun project&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://thenounproject.com/noun/group/#icon-No14947'&gt;Group&lt;/a&gt; designed by Benny Forsberg from The Noun Project&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://thenounproject.com/noun/handshake/#icon-No10714'&gt;Handshake&lt;/a&gt; designed by Marc Nadue from The Noun Project&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://thenounproject.com/noun/scale/#icon-No10409'&gt;Scale&lt;/a&gt; designed by Stephanie Wauters from The Noun Project&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://thenounproject.com/noun/road-barrier/#icon-No4357"&gt;Road barrier&lt;/a&gt; from the noun project&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://thenounproject.com/noun/conversation/#icon-No1680"&gt;Conversation&lt;/a&gt; designed by Anna Weiss from The Noun Project&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://thenounproject.com/noun/ghost/#icon-No9345"&gt;Ghost&lt;/a&gt; designed by Emily Haasch from The Noun Project&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://thenounproject.com/noun/bed/#icon-No12395"&gt;Bed&lt;/a&gt; from noun project&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://thenounproject.com/noun/group/#icon-No14947"&gt;Group&lt;/a&gt; designed by Benny Forsberg from The Noun Project&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://thenounproject.com/noun/handshake/#icon-No10714"&gt;Handshake&lt;/a&gt; designed by Marc Nadue from The Noun Project&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://thenounproject.com/noun/scale/#icon-No10409"&gt;Scale&lt;/a&gt; designed by Stephanie Wauters from The Noun Project&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id='additional_resources'&gt;Additional Resources&lt;/h3&gt;
+&lt;h3&gt;Additional Resources&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://rubyrogues.com/107-rr-impostor-syndrome-with-tim-chevalier/'&gt;Ruby Rogues #107 Syndrome with Tim Chevalier&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://geekfeminism.wikia.com/wiki/Impostor_syndrome'&gt;Geek Feminism Wiki&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://adainitiative.org/2013/06/kicking-impostor-syndrome-in-the-head-lessons-from-adacamp-dc-and-sf/'&gt;Kicking impostor syndrome in the head: lessons from AdaCamp DC and SF&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='https://medium.com/tech-talk/bdae04e46ec5'&gt;Overcoming Impostor Syndrome&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rubyrogues.com/107-rr-impostor-syndrome-with-tim-chevalier/"&gt;Ruby Rogues #107 Syndrome with Tim Chevalier&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://geekfeminism.wikia.com/wiki/Impostor_syndrome"&gt;Geek Feminism Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://adainitiative.org/2013/06/kicking-impostor-syndrome-in-the-head-lessons-from-adacamp-dc-and-sf/"&gt;Kicking impostor syndrome in the head: lessons from AdaCamp DC and SF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://medium.com/tech-talk/bdae04e46ec5"&gt;Overcoming Impostor Syndrome&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id='video'&gt;Video&lt;/h2&gt;
+&lt;h2&gt;Video&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href='http://confreaks.com/videos/2691-nickelcityruby2013-it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech'&gt;Video at Confreaks&lt;/a&gt;&lt;/p&gt;
-&lt;iframe frameborder='0' height='315' src='//www.youtube.com/embed/GYdR09pmYzw' width='560'&gt;
+&lt;p&gt;&lt;a href="http://confreaks.com/videos/2691-nickelcityruby2013-it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech"&gt;Video at Confreaks&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width="560" height="315" src="//www.youtube.com/embed/GYdR09pmYzw" frameborder="0"&gt;
 &lt;/iframe&gt;
-&lt;p&gt;Apologies for ad libbing the idiom &amp;#8220;low end on the totem pole&amp;#8221; in my talk. I should know better and will make sure I do not repeat this if I give the talk again.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='#transcripts'&gt;Below is a rough initial draft of transcription&lt;/a&gt;. I will work on checking this for typos and other issues in the near future. If anyone has time to help with that, &lt;a href='https://github.com/juliepagano/juliepagano.com'&gt;pull requests&lt;/a&gt; would be great.&lt;/p&gt;
+&lt;p&gt;Apologies for ad libbing the idiom &amp;ldquo;low end on the totem pole&amp;rdquo; in my talk. I should know better
+and will make sure I do not repeat this if I give the talk again.&lt;/p&gt;
 
-&lt;h2 id='transcripts'&gt;Transcripts&lt;/h2&gt;
+&lt;p&gt;&lt;a href="#transcripts"&gt;Below is a rough initial draft of transcription&lt;/a&gt;. I will work on checking this for typos and other issues in the near future. If anyone has time to help with that,
+&lt;a href="https://github.com/juliepagano/juliepagano.com"&gt;pull requests&lt;/a&gt; would be great.&lt;/p&gt;
 
-&lt;p&gt;Alright. So hi! I&amp;#8217;m Julie Pagano. I&amp;#8217;m a software engineer from Pittsburgh, PA. I currently work at the Google offices there. And I&amp;#8217;m here today to give you a talk entitled &amp;#8220;It&amp;#8217;s Dangerous to Go Alone: Battling the Invisible Monsters in Tech.&amp;#8221;&lt;/p&gt;
+&lt;h2&gt;Transcripts&lt;/h2&gt;
 
-&lt;p&gt;I&amp;#8217;m here to talk to you today because I love coding. For me, it&amp;#8217;s not just a job. It&amp;#8217;s something I&amp;#8217;ve been doing since middle school, but I&amp;#8217;m involved. I do the Girl Develop It chapter in Pittsburgh. I help organize Steel City Ruby Conf. I&amp;#8217;m constantly learning because that&amp;#8217;s something I really enjoy. And I suspect that most of you feel the same way. You&amp;#8217;re at a conference right now wanting to learn.&lt;/p&gt;
+&lt;p&gt;Alright. So hi! I&amp;rsquo;m Julie Pagano. I&amp;rsquo;m a software engineer from Pittsburgh, PA. I currently work at the Google offices there. And I&amp;rsquo;m here today to give you a talk entitled &amp;ldquo;It&amp;rsquo;s Dangerous to Go Alone: Battling the Invisible Monsters in Tech.&amp;rdquo;&lt;/p&gt;
 
-&lt;p&gt;So we come to these conferences talking about ways to improve. Things like: testing, design patterns, software craftsmanship, tools, and more. But we&amp;#8217;re missing something. It&amp;#8217;s hard to focus on your love of coding when you&amp;#8217;re regularly battling invisible issues like insecurity, anxiety, and lack of confidence.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m here to talk to you today because I love coding. For me, it&amp;rsquo;s not just a job. It&amp;rsquo;s something I&amp;rsquo;ve been doing since middle school, but I&amp;rsquo;m involved. I do the Girl Develop It chapter in Pittsburgh. I help organize Steel City Ruby Conf. I&amp;rsquo;m constantly learning because that&amp;rsquo;s something I really enjoy. And I suspect that most of you feel the same way. You&amp;rsquo;re at a conference right now wanting to learn.&lt;/p&gt;
 
-&lt;p&gt;These issues create hurdles to success. Not just for the individuals who are immediately impacted by them, but for the community at large. People love to joke that programmers are introverts who work alone in the dark in the basement never talking to each other, but that&amp;#8217;s not the reality. What we do is incredibly communal. We work on teams. Most of us use open source tools, languages. Many of us contribute to open source. And when things go wrong there, we file issues and pull requests. Most of us do code reviews when we write new code. We pair program. We go to user groups. We&amp;#8217;re at a conference right now. We do mailing lists and irc. What we do is exceptionally communal. And when individuals in those communities are held back from their love of coding, aren&amp;#8217;t able to reach their potential, the communities aren&amp;#8217;t reaching their potential either.&lt;/p&gt;
+&lt;p&gt;So we come to these conferences talking about ways to improve. Things like: testing, design patterns, software craftsmanship, tools, and more. But we&amp;rsquo;re missing something. It&amp;rsquo;s hard to focus on your love of coding when you&amp;rsquo;re regularly battling invisible issues like insecurity, anxiety, and lack of confidence.&lt;/p&gt;
 
-&lt;p&gt;So we need to talk about this. Ignoring it makes it worse. It&amp;#8217;s like the adult version of the monsters under the bed. It&amp;#8217;s scary and isolating because those around you don&amp;#8217;t understand or actively deny what you&amp;#8217;re going through. So I&amp;#8217;m here to talk to you today because I want to shine a little bit of a light on this, so we can talk about it and help those people.&lt;/p&gt;
+&lt;p&gt;These issues create hurdles to success. Not just for the individuals who are immediately impacted by them, but for the community at large. People love to joke that programmers are introverts who work alone in the dark in the basement never talking to each other, but that&amp;rsquo;s not the reality. What we do is incredibly communal. We work on teams. Most of us use open source tools, languages. Many of us contribute to open source. And when things go wrong there, we file issues and pull requests. Most of us do code reviews when we write new code. We pair program. We go to user groups. We&amp;rsquo;re at a conference right now. We do mailing lists and irc. What we do is exceptionally communal. And when individuals in those communities are held back from their love of coding, aren&amp;rsquo;t able to reach their potential, the communities aren&amp;rsquo;t reaching their potential either.&lt;/p&gt;
 
-&lt;p&gt;So today I&amp;#8217;m going to focus on two main things. I want to focus on one of the main issues that impacts people. And then we&amp;#8217;re gonna talk about tools they can use to help themselves, and for those of us who don&amp;#8217;t have those issues to help them.&lt;/p&gt;
+&lt;p&gt;So we need to talk about this. Ignoring it makes it worse. It&amp;rsquo;s like the adult version of the monsters under the bed. It&amp;rsquo;s scary and isolating because those around you don&amp;rsquo;t understand or actively deny what you&amp;rsquo;re going through. So I&amp;rsquo;m here to talk to you today because I want to shine a little bit of a light on this, so we can talk about it and help those people.&lt;/p&gt;
+
+&lt;p&gt;So today I&amp;rsquo;m going to focus on two main things. I want to focus on one of the main issues that impacts people. And then we&amp;rsquo;re gonna talk about tools they can use to help themselves, and for those of us who don&amp;rsquo;t have those issues to help them.&lt;/p&gt;
 
 &lt;p&gt;So lets start out with the issues. What are we talking about here? The issue I want to focus on today is something called impostor syndrome. Impostor syndrome is a psychological phenomenon in which people are unable to internalize their accomplishments.&lt;/p&gt;
 
-&lt;p&gt;I want you to think for a second about how that impacts somebody who is a software engineer, a computer programmer. Coding involves regular failure. Most of us fail on a weekly, if not daily basis. We break things. We create bugs. We hit problems that we have difficulty solving or maybe that we can&amp;#8217;t solve at all. Regular failure. Most of us, we try to even it out by also focusing on our successes, our achievements. So we create a bit of an equilibrium, so that that constant failure doesn&amp;#8217;t become a drag for us. For people with impostor syndrome, the failure feels larger and the successes dimish, so they lose that equilibrium. They have too much focus on the failure, and that can be really hard.&lt;/p&gt;
+&lt;p&gt;I want you to think for a second about how that impacts somebody who is a software engineer, a computer programmer. Coding involves regular failure. Most of us fail on a weekly, if not daily basis. We break things. We create bugs. We hit problems that we have difficulty solving or maybe that we can&amp;rsquo;t solve at all. Regular failure. Most of us, we try to even it out by also focusing on our successes, our achievements. So we create a bit of an equilibrium, so that that constant failure doesn&amp;rsquo;t become a drag for us. For people with impostor syndrome, the failure feels larger and the successes dimish, so they lose that equilibrium. They have too much focus on the failure, and that can be really hard.&lt;/p&gt;
 
-&lt;p&gt;One of the people I interviewed in preparation for this talk described it thusly. &amp;#8220;Victories diminish in importance. Failures loom large.&amp;#8221; This is what it feels like to suffer from impostor syndrome.&lt;/p&gt;
+&lt;p&gt;One of the people I interviewed in preparation for this talk described it thusly. &amp;ldquo;Victories diminish in importance. Failures loom large.&amp;rdquo; This is what it feels like to suffer from impostor syndrome.&lt;/p&gt;
 
-&lt;p&gt;Impostor syndrome can impact anyone. I interviewed a bunch of people to prepare for this talk, and they cross-cut pretty much every different demographic. There was no specific group that was clearly &amp;#8220;the group&amp;#8221; that was impacted by impostor syndrome. There were men. There were women. There were people that had been programming for a year, and people that had been programming for 20, and all sorts of other different groups. I guarantee that most of the people in this room know at least one person who suffers from impostor syndrome. I&amp;#8217;m also pretty sure that there&amp;#8217;s people in this room that themselves suffer from impostor syndrome. There&amp;#8217;s at least one. I have impostor syndrome. ::raises hand:: I&amp;#8217;ve had impostor syndrome probably for as long as I&amp;#8217;ve been a computer programmer, so about middle school. I only learned the name for it about 2 or 3 years ago. That made a really big difference for me because I was able to recognize what was going on and find ways to work through it. It&amp;#8217;s why I&amp;#8217;m here talking to you today.&lt;/p&gt;
+&lt;p&gt;Impostor syndrome can impact anyone. I interviewed a bunch of people to prepare for this talk, and they cross-cut pretty much every different demographic. There was no specific group that was clearly &amp;ldquo;the group&amp;rdquo; that was impacted by impostor syndrome. There were men. There were women. There were people that had been programming for a year, and people that had been programming for 20, and all sorts of other different groups. I guarantee that most of the people in this room know at least one person who suffers from impostor syndrome. I&amp;rsquo;m also pretty sure that there&amp;rsquo;s people in this room that themselves suffer from impostor syndrome. There&amp;rsquo;s at least one. I have impostor syndrome. ::raises hand:: I&amp;rsquo;ve had impostor syndrome probably for as long as I&amp;rsquo;ve been a computer programmer, so about middle school. I only learned the name for it about 2 or 3 years ago. That made a really big difference for me because I was able to recognize what was going on and find ways to work through it. It&amp;rsquo;s why I&amp;rsquo;m here talking to you today.&lt;/p&gt;
 
-&lt;p&gt;So how do you identify people who have impostor syndrome? Most people don&amp;#8217;t come up to you and say &amp;#8220;Hi, I&amp;#8217;m Julie. I have impostor syndrome.&amp;#8221; It&amp;#8217;s not that simple. There&amp;#8217;s some common things you&amp;#8217;ll often hear from people, particularly when you talk to them about their achievements. The achievements which they can&amp;#8217;t internalize. You&amp;#8217;ll hear things like: &amp;#8220;I was just luck&amp;#8221; or &amp;#8221;I&amp;#8217;m not that smart&amp;#8221; or maybe even &amp;#8221;I&amp;#8217;m not a good programmer.&amp;#8221; You might hear these things and think that this is modesty, and for some people, it is. But for people who have impostor syndrome, this is not modesty. It is honesty. They mean what they are saying. And the thing that they often don&amp;#8217;t say out loud, but they think to themselves quite often. &amp;#8221;I&amp;#8217;m a fraud.&amp;#8221; This is really the core of impostor syndrome. People who have these issues believe they&amp;#8217;re frauds, impostors. It&amp;#8217;s where the name comes from. Not only do they feel that way, but man of them are very afraid of the people around them finding out.&lt;/p&gt;
+&lt;p&gt;So how do you identify people who have impostor syndrome? Most people don&amp;rsquo;t come up to you and say &amp;ldquo;Hi, I&amp;rsquo;m Julie. I have impostor syndrome.&amp;rdquo; It&amp;rsquo;s not that simple. There&amp;rsquo;s some common things you&amp;rsquo;ll often hear from people, particularly when you talk to them about their achievements. The achievements which they can&amp;rsquo;t internalize. You&amp;rsquo;ll hear things like: &amp;ldquo;I was just luck&amp;rdquo; or &amp;ldquo;I&amp;rsquo;m not that smart&amp;rdquo; or maybe even &amp;ldquo;I&amp;rsquo;m not a good programmer.&amp;rdquo; You might hear these things and think that this is modesty, and for some people, it is. But for people who have impostor syndrome, this is not modesty. It is honesty. They mean what they are saying. And the thing that they often don&amp;rsquo;t say out loud, but they think to themselves quite often. &amp;ldquo;I&amp;rsquo;m a fraud.&amp;rdquo; This is really the core of impostor syndrome. People who have these issues believe they&amp;rsquo;re frauds, impostors. It&amp;rsquo;s where the name comes from. Not only do they feel that way, but man of them are very afraid of the people around them finding out.&lt;/p&gt;
 
-&lt;p&gt;So you may be saying to yourself &amp;#8220;but Julie, everyone feels that way sometimes.&amp;#8221; And that&amp;#8217;s true. Your average computer programmer probably has a little bit of an up and down with insecurity throughout their careers. Especially when you start a new job. Low end on the totem pole - you don&amp;#8217;t know as much as everybody else. You feel a little insecure, but it usually levels out. But I want you to understand that there&amp;#8217;s a difference here between this and what it looks like for people with impostor syndrome. For them it tends to be heightened. There&amp;#8217;s still ups and downs, but it&amp;#8217;s always really high. It&amp;#8217;s a systemic problem. It tends to be long-lasting for them, and it tends to have a lot of negative consequences.&lt;/p&gt;
+&lt;p&gt;So you may be saying to yourself &amp;ldquo;but Julie, everyone feels that way sometimes.&amp;rdquo; And that&amp;rsquo;s true. Your average computer programmer probably has a little bit of an up and down with insecurity throughout their careers. Especially when you start a new job. Low end on the totem pole - you don&amp;rsquo;t know as much as everybody else. You feel a little insecure, but it usually levels out. But I want you to understand that there&amp;rsquo;s a difference here between this and what it looks like for people with impostor syndrome. For them it tends to be heightened. There&amp;rsquo;s still ups and downs, but it&amp;rsquo;s always really high. It&amp;rsquo;s a systemic problem. It tends to be long-lasting for them, and it tends to have a lot of negative consequences.&lt;/p&gt;
 
-&lt;p&gt;One of the negative consequences is that people with impostor syndrome tend to hold themselves back. They often don&amp;#8217;t share knowledge. Things like speaking at conferences or even just a local user group. Writing blog posts. Because they don&amp;#8217;t believe that they are good enough. That they have the expertise that&amp;#8217;s worthwhile to share. They&amp;#8217;re also very afraid of sharing and getting something wrong and everybody finding out what a fraud they are.&lt;/p&gt;
+&lt;p&gt;One of the negative consequences is that people with impostor syndrome tend to hold themselves back. They often don&amp;rsquo;t share knowledge. Things like speaking at conferences or even just a local user group. Writing blog posts. Because they don&amp;rsquo;t believe that they are good enough. That they have the expertise that&amp;rsquo;s worthwhile to share. They&amp;rsquo;re also very afraid of sharing and getting something wrong and everybody finding out what a fraud they are.&lt;/p&gt;
 
-&lt;p&gt;Likewise, they often don&amp;#8217;t collaborate. A really good example of this that came up is pair programming. If you don&amp;#8217;t believe you are a good enough programmer, and doubly you&amp;#8217;re afraid of somebody finding out, imagine how scary pair programming is for you. Having somebody watch you all day long coding. For a lot of people with impostor syndrome this can become a self fulfilling prophecy. They&amp;#8217;re so anxious about being put in that position that they&amp;#8217;re focusing a lot of their energy on that anxiety instead of the immediate problem at hand, so they do program not as well as they would have if they were coding by themselves because they&amp;#8217;re not able to focus.&lt;/p&gt;
+&lt;p&gt;Likewise, they often don&amp;rsquo;t collaborate. A really good example of this that came up is pair programming. If you don&amp;rsquo;t believe you are a good enough programmer, and doubly you&amp;rsquo;re afraid of somebody finding out, imagine how scary pair programming is for you. Having somebody watch you all day long coding. For a lot of people with impostor syndrome this can become a self fulfilling prophecy. They&amp;rsquo;re so anxious about being put in that position that they&amp;rsquo;re focusing a lot of their energy on that anxiety instead of the immediate problem at hand, so they do program not as well as they would have if they were coding by themselves because they&amp;rsquo;re not able to focus.&lt;/p&gt;
 
-&lt;p&gt;People with impostor syndrome often do not contribute to open source. Again, they feel they don&amp;#8217;t have the expertise because they devalue their own skills, and they&amp;#8217;re afraid to contribute in such a public way. We&amp;#8217;ve all seen those pull requests where somebody decides that whatever the person did was stupid, and everybody jumps on them and makes them feel crappy. People with impostor syndrome have seen that too, and they&amp;#8217;re terrified of that. That&amp;#8217;s the case where everybody finally finds out what a fraud you are. So a lot of them don&amp;#8217;t contribute at all.&lt;/p&gt;
+&lt;p&gt;People with impostor syndrome often do not contribute to open source. Again, they feel they don&amp;rsquo;t have the expertise because they devalue their own skills, and they&amp;rsquo;re afraid to contribute in such a public way. We&amp;rsquo;ve all seen those pull requests where somebody decides that whatever the person did was stupid, and everybody jumps on them and makes them feel crappy. People with impostor syndrome have seen that too, and they&amp;rsquo;re terrified of that. That&amp;rsquo;s the case where everybody finally finds out what a fraud you are. So a lot of them don&amp;rsquo;t contribute at all.&lt;/p&gt;
 
-&lt;p&gt;Lastly, some people with impostor syndrome don&amp;#8217;t apply for jobs. Several of the people that I interviewed described being in a position where they were at a dead-end job. They weren&amp;#8217;t progressing in their career. Or they were being demoralized to the point where they didn&amp;#8217;t even really like coding any more. And they weren&amp;#8217;t looking for an exit strategy. They weren&amp;#8217;t applying for a new job despite there being tons of engineering jobs right now. Because they felt they weren&amp;#8217;t good enough. That they didn&amp;#8217;t deserve better. This one hits really close to home for me. I mentioned I work at Google. I&amp;#8217;ve worked there for about 9 months, but I&amp;#8217;ve been wanting to work there since I graduated from college in 2007. At the time, I looked at Google, said &amp;#8220;This looks like a sweet place to work. I&amp;#8217;d really like to work there.&amp;#8221; I never applied because I felt I wasn&amp;#8217;t good enough despite having good grades and work experience. I never tried. Then I got a job somewhere else. After a few years, I became unhappy at that job for a variety of reasons, and I wasn&amp;#8217;t really looking for a new job for a long time because I felt I wasn&amp;#8217;t good enough to work elsewhere. Throughout this time period, every few months I would look at Google&amp;#8217;s job listings and say &amp;#8220;This looks awesome. I wish I had this job,&amp;#8221; and then I would close the window and never do anything about it. Because, again, I wasn&amp;#8217;t good enough to work there. So, how did I get the job at Google? A recruiter in Mountain View contacted me, and she spent a good 30, 40 minutes on the phone with me talking me down from my impostor syndrome. Convincing me that it was a good idea for me to interview. That it would be beneficial to me. That they thought I had a good shot. From there, I worked hard, I studied, I got the job, and I&amp;#8217;ve been working there for 9 months. But the reality is it took 5 years longer than maybe it should have. If the recruiter hadn&amp;#8217;t contacted me, maybe it would&amp;#8217;ve taken another 5 years. Maybe it would&amp;#8217;ve never happened at all because my impostor syndrome had convinced me that I wasn&amp;#8217;t good enough.&lt;/p&gt;
+&lt;p&gt;Lastly, some people with impostor syndrome don&amp;rsquo;t apply for jobs. Several of the people that I interviewed described being in a position where they were at a dead-end job. They weren&amp;rsquo;t progressing in their career. Or they were being demoralized to the point where they didn&amp;rsquo;t even really like coding any more. And they weren&amp;rsquo;t looking for an exit strategy. They weren&amp;rsquo;t applying for a new job despite there being tons of engineering jobs right now. Because they felt they weren&amp;rsquo;t good enough. That they didn&amp;rsquo;t deserve better. This one hits really close to home for me. I mentioned I work at Google. I&amp;rsquo;ve worked there for about 9 months, but I&amp;rsquo;ve been wanting to work there since I graduated from college in 2007. At the time, I looked at Google, said &amp;ldquo;This looks like a sweet place to work. I&amp;rsquo;d really like to work there.&amp;rdquo; I never applied because I felt I wasn&amp;rsquo;t good enough despite having good grades and work experience. I never tried. Then I got a job somewhere else. After a few years, I became unhappy at that job for a variety of reasons, and I wasn&amp;rsquo;t really looking for a new job for a long time because I felt I wasn&amp;rsquo;t good enough to work elsewhere. Throughout this time period, every few months I would look at Google&amp;rsquo;s job listings and say &amp;ldquo;This looks awesome. I wish I had this job,&amp;rdquo; and then I would close the window and never do anything about it. Because, again, I wasn&amp;rsquo;t good enough to work there. So, how did I get the job at Google? A recruiter in Mountain View contacted me, and she spent a good 30, 40 minutes on the phone with me talking me down from my impostor syndrome. Convincing me that it was a good idea for me to interview. That it would be beneficial to me. That they thought I had a good shot. From there, I worked hard, I studied, I got the job, and I&amp;rsquo;ve been working there for 9 months. But the reality is it took 5 years longer than maybe it should have. If the recruiter hadn&amp;rsquo;t contacted me, maybe it would&amp;rsquo;ve taken another 5 years. Maybe it would&amp;rsquo;ve never happened at all because my impostor syndrome had convinced me that I wasn&amp;rsquo;t good enough.&lt;/p&gt;
 
-&lt;p&gt;Another person I interviewed said &amp;#8220;You shouldn&amp;#8217;t feel like you have to slay a dragon to get a job.&amp;#8221; That sounds like hyperbole, and to some degree it is. We all get nervous about interviewing with jobs, but for people who suffer from impostor syndrome, it can feel like it reaches heights of mythical proportions. It&amp;#8217;s so impossible for them.&lt;/p&gt;
+&lt;p&gt;Another person I interviewed said &amp;ldquo;You shouldn&amp;rsquo;t feel like you have to slay a dragon to get a job.&amp;rdquo; That sounds like hyperbole, and to some degree it is. We all get nervous about interviewing with jobs, but for people who suffer from impostor syndrome, it can feel like it reaches heights of mythical proportions. It&amp;rsquo;s so impossible for them.&lt;/p&gt;
 
-&lt;p&gt;Another person I interviewed perfectly described the end result of all this holding yourself back. They said people with impostor syndrome &amp;#8220;start small.&amp;#8221; All programmers start small, but they &amp;#8220;remain small&amp;#8221; because they hold themselves back in all these different ways because of their impostor syndrome. And they &amp;#8220;end up small&amp;#8221; because nobody helps them push past it, and they continue to hold themselves back. This is a little bit scary.&lt;/p&gt;
+&lt;p&gt;Another person I interviewed perfectly described the end result of all this holding yourself back. They said people with impostor syndrome &amp;ldquo;start small.&amp;rdquo; All programmers start small, but they &amp;ldquo;remain small&amp;rdquo; because they hold themselves back in all these different ways because of their impostor syndrome. And they &amp;ldquo;end up small&amp;rdquo; because nobody helps them push past it, and they continue to hold themselves back. This is a little bit scary.&lt;/p&gt;
 
-&lt;p&gt;So you may be saying to yourself &amp;#8220;But Julie, are some of these people you&amp;#8217;re talking about, maybe they&amp;#8217;re just bad programmrs. Why do we care?&amp;#8221; I want to clarify, most people fall roughly along this line. Their perception of their abilities and their actual abilities are roughly in line. It&amp;#8217;s not perfect, but it&amp;#8217;s close. If they were bad programmers and they thought they were bad programmers, they&amp;#8217;d fall somewhere on this line. People with impostor syndrome, they actually fall somewhere over here. They&amp;#8217;re actually good programmers, but their perception of their skill is very low.&lt;/p&gt;
+&lt;p&gt;So you may be saying to yourself &amp;ldquo;But Julie, are some of these people you&amp;rsquo;re talking about, maybe they&amp;rsquo;re just bad programmrs. Why do we care?&amp;rdquo; I want to clarify, most people fall roughly along this line. Their perception of their abilities and their actual abilities are roughly in line. It&amp;rsquo;s not perfect, but it&amp;rsquo;s close. If they were bad programmers and they thought they were bad programmers, they&amp;rsquo;d fall somewhere on this line. People with impostor syndrome, they actually fall somewhere over here. They&amp;rsquo;re actually good programmers, but their perception of their skill is very low.&lt;/p&gt;
 
-&lt;p&gt;What&amp;#8217;s interesting is there&amp;#8217;s another group of people that exist in the programming industry that also have a broken perception of their abilities. They suffer from something called the Dunning-Kruger Effect. The Dunning-Kruger Effect is a cognitive bias in which unskilled individuals suffer from illusory superiority, mistakenly rating their abililty much higher than average. Those folks live over here.&lt;/p&gt;
+&lt;p&gt;What&amp;rsquo;s interesting is there&amp;rsquo;s another group of people that exist in the programming industry that also have a broken perception of their abilities. They suffer from something called the Dunning-Kruger Effect. The Dunning-Kruger Effect is a cognitive bias in which unskilled individuals suffer from illusory superiority, mistakenly rating their abililty much higher than average. Those folks live over here.&lt;/p&gt;
 
-&lt;p&gt;Both of these groups of people exist in the programming industry. It&amp;#8217;s interesting to think about these impact us. The folks with Dunning-Kruger. They think they are hot shit. They think they&amp;#8217;re awesome. The reality is their abilities are actually fairly low. They often don&amp;#8217;t know when they make mistakes. They don&amp;#8217;t realize what they don&amp;#8217;t know, but they&amp;#8217;re promoting themselves. On the other side, people with impostor syndrome actually have a decent amount of expertise. They know what they don&amp;#8217;t know, and they&amp;#8217;re very clearly aware when they make mistakes, but they hold themselves back because they devalue their skills. I&amp;#8217;m curious how these two groups of people interplay in our industry and which is actually better for us to have on our teams. I don&amp;#8217;t have any straightforward answers, but I think it&amp;#8217;s something people should start to think about.&lt;/p&gt;
+&lt;p&gt;Both of these groups of people exist in the programming industry. It&amp;rsquo;s interesting to think about these impact us. The folks with Dunning-Kruger. They think they are hot shit. They think they&amp;rsquo;re awesome. The reality is their abilities are actually fairly low. They often don&amp;rsquo;t know when they make mistakes. They don&amp;rsquo;t realize what they don&amp;rsquo;t know, but they&amp;rsquo;re promoting themselves. On the other side, people with impostor syndrome actually have a decent amount of expertise. They know what they don&amp;rsquo;t know, and they&amp;rsquo;re very clearly aware when they make mistakes, but they hold themselves back because they devalue their skills. I&amp;rsquo;m curious how these two groups of people interplay in our industry and which is actually better for us to have on our teams. I don&amp;rsquo;t have any straightforward answers, but I think it&amp;rsquo;s something people should start to think about.&lt;/p&gt;
 
-&lt;p&gt;So I mentioned that many people with impostor syndrome hold themselves back. Other people with impostor syndrome push themselves too hard. They believe that they are behind their peers because of their diminished understanding of their own skills, so they try to play catch-up. They start taking on more hours at work, learning more languages, doing more projects, contributing to more open source, going to more conferences, and suddenly they&amp;#8217;re doing ALL THE THINGS. ALL THE THINGS. And this is not sustainable for any duration of time. When you try to do ALL THE THINGS for an extended period of time you hit something called burnout. Burnout is described as long-term exhaustion and diminished interest in work. When you hit burnout, you no longer love coding. In fact, you kind of hate it. When most people get to this point, they stop learning. Stop doing the activities they were doing outside of work. Most of them get to the point where they basically do the bare minimum not to get fired, and that&amp;#8217;s all they can manage. For a lot of people this is kind of game over.&lt;/p&gt;
+&lt;p&gt;So I mentioned that many people with impostor syndrome hold themselves back. Other people with impostor syndrome push themselves too hard. They believe that they are behind their peers because of their diminished understanding of their own skills, so they try to play catch-up. They start taking on more hours at work, learning more languages, doing more projects, contributing to more open source, going to more conferences, and suddenly they&amp;rsquo;re doing ALL THE THINGS. ALL THE THINGS. And this is not sustainable for any duration of time. When you try to do ALL THE THINGS for an extended period of time you hit something called burnout. Burnout is described as long-term exhaustion and diminished interest in work. When you hit burnout, you no longer love coding. In fact, you kind of hate it. When most people get to this point, they stop learning. Stop doing the activities they were doing outside of work. Most of them get to the point where they basically do the bare minimum not to get fired, and that&amp;rsquo;s all they can manage. For a lot of people this is kind of game over.&lt;/p&gt;
 
-&lt;p&gt;This hits a little close to home for me. Earlier this year, I hit burnout after a year and a half of trying to do all the things. Let me tell you, a year and a half is too long to do ALL THE THINGS. I&amp;#8217;m amazed it took a year and a half. It was really terrifying when this happened. I withdrew from the activities I was working on. I was doing ok at work, but that was pretty much all I could manage, and I was terrified of how long it was going to last and what the impact would be. Now, I got support, and it lasted about a month. But I&amp;#8217;ve seen this happen to other people where it lasted 6 months, a year, 6 years, permanent. And when it&amp;#8217;s permanent or it lasts as long as years, that&amp;#8217;s game over. Those are people we&amp;#8217;ve lost. In the industry. In our communities. This is the end result if we let impostor syndrome run rampant without talking about it. Without helping people. This is what we&amp;#8217;re trying to avoid. This is why I&amp;#8217;m talking about this today.&lt;/p&gt;
+&lt;p&gt;This hits a little close to home for me. Earlier this year, I hit burnout after a year and a half of trying to do all the things. Let me tell you, a year and a half is too long to do ALL THE THINGS. I&amp;rsquo;m amazed it took a year and a half. It was really terrifying when this happened. I withdrew from the activities I was working on. I was doing ok at work, but that was pretty much all I could manage, and I was terrified of how long it was going to last and what the impact would be. Now, I got support, and it lasted about a month. But I&amp;rsquo;ve seen this happen to other people where it lasted 6 months, a year, 6 years, permanent. And when it&amp;rsquo;s permanent or it lasts as long as years, that&amp;rsquo;s game over. Those are people we&amp;rsquo;ve lost. In the industry. In our communities. This is the end result if we let impostor syndrome run rampant without talking about it. Without helping people. This is what we&amp;rsquo;re trying to avoid. This is why I&amp;rsquo;m talking about this today.&lt;/p&gt;
 
-&lt;p&gt;So now that I&amp;#8217;ve depressed you a little bit, I&amp;#8217;m going to move on to giving you some tools we can use to talk about this. To help people. To help ourselves. I&amp;#8217;m only trying to depress you a little, so that you understand how important this is because it is dangerous to go alone. We need tools to work on this.&lt;/p&gt;
+&lt;p&gt;So now that I&amp;rsquo;ve depressed you a little bit, I&amp;rsquo;m going to move on to giving you some tools we can use to talk about this. To help people. To help ourselves. I&amp;rsquo;m only trying to depress you a little, so that you understand how important this is because it is dangerous to go alone. We need tools to work on this.&lt;/p&gt;
 
-&lt;p&gt;The biggest piece of advice I can give you is &amp;#8220;build a party.&amp;#8221; Create a support system of people you care about, that you trust, that you respect. That care about you. These people are your support system. When you have a bad day with impostor syndrome, these are the people you&amp;#8217;re going to talk to. Another important thing they provide is objective feedback about you. When you have impostor syndrome, your internal evaluation mechanism is broken. You love to look at the things you do wrong. You focus on them too much. You can&amp;#8217;t focus on what you do well, so you need people you can respect who can give you both positive and negative feedback, but that is constructive. This is criticial to success. I don&amp;#8217;t believe that anyone with impostor syndrome can fight it alone. My party was critical. It&amp;#8217;s the only reason my burnout only lasted a month because I had an incredibly great support system.&lt;/p&gt;
+&lt;p&gt;The biggest piece of advice I can give you is &amp;ldquo;build a party.&amp;rdquo; Create a support system of people you care about, that you trust, that you respect. That care about you. These people are your support system. When you have a bad day with impostor syndrome, these are the people you&amp;rsquo;re going to talk to. Another important thing they provide is objective feedback about you. When you have impostor syndrome, your internal evaluation mechanism is broken. You love to look at the things you do wrong. You focus on them too much. You can&amp;rsquo;t focus on what you do well, so you need people you can respect who can give you both positive and negative feedback, but that is constructive. This is criticial to success. I don&amp;rsquo;t believe that anyone with impostor syndrome can fight it alone. My party was critical. It&amp;rsquo;s the only reason my burnout only lasted a month because I had an incredibly great support system.&lt;/p&gt;
 
-&lt;p&gt;Another thing that&amp;#8217;s really important is tracking measurable progress. If you ask us subjective questions like &amp;#8220;are you a good programmer?&amp;#8221;, a lot of us will be like &amp;#8220;No, I&amp;#8217;m a shitty programmer.&amp;#8221; So sometimes you need data, and I know most of us as programmers, we love data, charts, maybe even spreadsheets. If you want to, you could write a ruby app to store all this information. But storing this data, finding progress for yourself, can help you find positive things that you wouldn&amp;#8217;t otherwise. One of mine this year was I&amp;#8217;m going to speak at one conference. This is my third conference this year. By that measure, I&amp;#8217;m doing pretty well.&lt;/p&gt;
+&lt;p&gt;Another thing that&amp;rsquo;s really important is tracking measurable progress. If you ask us subjective questions like &amp;ldquo;are you a good programmer?&amp;rdquo;, a lot of us will be like &amp;ldquo;No, I&amp;rsquo;m a shitty programmer.&amp;rdquo; So sometimes you need data, and I know most of us as programmers, we love data, charts, maybe even spreadsheets. If you want to, you could write a ruby app to store all this information. But storing this data, finding progress for yourself, can help you find positive things that you wouldn&amp;rsquo;t otherwise. One of mine this year was I&amp;rsquo;m going to speak at one conference. This is my third conference this year. By that measure, I&amp;rsquo;m doing pretty well.&lt;/p&gt;
 
-&lt;p&gt;Another thing that&amp;#8217;s really important on top of that is starting to look for positives. When you have impostor syndrome, again, your internal review is broken. You focus on negatives perfectly well. Positives are harder to find. Start out by getting positives from your party. Move on to tracking your data and getting positives there. And then from there, you need to move on to looking for positives yourself. This can be really hard, but you need to retrain your brain - build a good habit. Maybe you start out once a month. You wite down one thing you do well as a programmer that you consider positive. And then you do it once a week and once a day. Eventually you retrain your brain to do something that many people take for granted. Eventually you can get back to an equlibrium that most people have that you have to work for.&lt;/p&gt;
+&lt;p&gt;Another thing that&amp;rsquo;s really important on top of that is starting to look for positives. When you have impostor syndrome, again, your internal review is broken. You focus on negatives perfectly well. Positives are harder to find. Start out by getting positives from your party. Move on to tracking your data and getting positives there. And then from there, you need to move on to looking for positives yourself. This can be really hard, but you need to retrain your brain - build a good habit. Maybe you start out once a month. You wite down one thing you do well as a programmer that you consider positive. And then you do it once a week and once a day. Eventually you retrain your brain to do something that many people take for granted. Eventually you can get back to an equlibrium that most people have that you have to work for.&lt;/p&gt;
 
-&lt;p&gt;For those of you who don&amp;#8217;t have impostor syndrome, you can help others find those positives. We&amp;#8217;re really really good as programmers at pointing out when people do things wrong, when they break things. Reminding people of the positive things they do that you appreciate, that have helped you, that are just good code. Tell them. It&amp;#8217;s great for everybody, but for people who have impostor syndrome, it&amp;#8217;s amazingly effective and important.&lt;/p&gt;
+&lt;p&gt;For those of you who don&amp;rsquo;t have impostor syndrome, you can help others find those positives. We&amp;rsquo;re really really good as programmers at pointing out when people do things wrong, when they break things. Reminding people of the positive things they do that you appreciate, that have helped you, that are just good code. Tell them. It&amp;rsquo;s great for everybody, but for people who have impostor syndrome, it&amp;rsquo;s amazingly effective and important.&lt;/p&gt;
 
-&lt;p&gt;On the reverse side, you need to avoid some negatives. We all know &amp;#8220;that person.&amp;#8221; There seems to be one in almost every community. The &amp;#8220;hostile geniuses&amp;#8221; who we keep around because they write good code, but who tend to bring down everybody around them. They have no positive feedback. It&amp;#8217;s always negative and rarely constructive. These people are like kryptonite for people with impostor syndrome. If you have impostor syndrome, you&amp;#8217;re already fantastic at putting yourself down. You really don&amp;#8217;t need people to help. If you have impostor syndrome, identify these people and avoid them if you can. If you can&amp;#8217;t avoid them, at least identify that they are invalid sources for data about you. You have plenty of good sources: your party, maybe your boss, good coworkers you trust and respect. But these &amp;#8220;hostile geniuses&amp;#8221;, they&amp;#8217;re bad news.&lt;/p&gt;
+&lt;p&gt;On the reverse side, you need to avoid some negatives. We all know &amp;ldquo;that person.&amp;rdquo; There seems to be one in almost every community. The &amp;ldquo;hostile geniuses&amp;rdquo; who we keep around because they write good code, but who tend to bring down everybody around them. They have no positive feedback. It&amp;rsquo;s always negative and rarely constructive. These people are like kryptonite for people with impostor syndrome. If you have impostor syndrome, you&amp;rsquo;re already fantastic at putting yourself down. You really don&amp;rsquo;t need people to help. If you have impostor syndrome, identify these people and avoid them if you can. If you can&amp;rsquo;t avoid them, at least identify that they are invalid sources for data about you. You have plenty of good sources: your party, maybe your boss, good coworkers you trust and respect. But these &amp;ldquo;hostile geniuses&amp;rdquo;, they&amp;rsquo;re bad news.&lt;/p&gt;
 
-&lt;p&gt;On the other side, all of us need to work on avoiding creating negative spaces. This is less malice, and part of it is just our culture. The Hacker School User manual has a really fantastic list of four behaviors that they discourage in their spaces because it creates a bad environment for learning. I think these also create a bad environment for people with impostor syndrome. It makes it hard for them to thrive. Things like no feigning surprise (e.g. &amp;#8220;Oh my god, you don&amp;#8217;t know that programming technique that everybody should know. What&amp;#8217;s wrong with you?&amp;#8221;). No well-actually&amp;#8217;s (e.g. &amp;#8220;well actually, that thing you said is a little bit wrong, and I have to tell you how right I am even though it&amp;#8217;s completely irrelevant to the discussion&amp;#8221;). No backseat-driving (e.g. sitting on the other side of the room going &amp;#8220;No, do it like this. You&amp;#8217;re doing it wrong! You&amp;#8217;re doing it wrong!&amp;#8221;). And lastly, no subtle sexism (or racism, homophobia, etc.), and I think that last one is self-explanatory. A lot of these things, particularly the first three, they&amp;#8217;re just kind of built into our culture. We all do it. I know I&amp;#8217;m especially guilty of the well-actually-ing. I totally do it, but the thing is we get no positive value (or very minimal positive value) from these behaviors. But reducing them, we get value from that. It creates an environment where people with impostor syndrome are more likely to thrive, so I really would recommend all of you think about when you behave this way, and try to reduce it if you can. It helps other people.&lt;/p&gt;
+&lt;p&gt;On the other side, all of us need to work on avoiding creating negative spaces. This is less malice, and part of it is just our culture. The Hacker School User manual has a really fantastic list of four behaviors that they discourage in their spaces because it creates a bad environment for learning. I think these also create a bad environment for people with impostor syndrome. It makes it hard for them to thrive. Things like no feigning surprise (e.g. &amp;ldquo;Oh my god, you don&amp;rsquo;t know that programming technique that everybody should know. What&amp;rsquo;s wrong with you?&amp;rdquo;). No well-actually&amp;rsquo;s (e.g. &amp;ldquo;well actually, that thing you said is a little bit wrong, and I have to tell you how right I am even though it&amp;rsquo;s completely irrelevant to the discussion&amp;rdquo;). No backseat-driving (e.g. sitting on the other side of the room going &amp;ldquo;No, do it like this. You&amp;rsquo;re doing it wrong! You&amp;rsquo;re doing it wrong!&amp;rdquo;). And lastly, no subtle sexism (or racism, homophobia, etc.), and I think that last one is self-explanatory. A lot of these things, particularly the first three, they&amp;rsquo;re just kind of built into our culture. We all do it. I know I&amp;rsquo;m especially guilty of the well-actually-ing. I totally do it, but the thing is we get no positive value (or very minimal positive value) from these behaviors. But reducing them, we get value from that. It creates an environment where people with impostor syndrome are more likely to thrive, so I really would recommend all of you think about when you behave this way, and try to reduce it if you can. It helps other people.&lt;/p&gt;
 
-&lt;p&gt;Another thing people with impostor syndrome can do once they&amp;#8217;ve kind of gotten some of the basics down is helping others. Mentoring, teaching, tutoring. This is good for a couple reasons. One of them is if you have impostor syndrome, you may believe you have nothing valuable to give. You believe you&amp;#8217;re below your peers and everyone else around you. When you star to help beginners again, you&amp;#8217;re reminded that you do have something of value to give. You see people learning from you. You see that you can help, and the excitement in them when they&amp;#8217;re learning how to program and you&amp;#8217;re helping with it. That can give you a positive that you didn&amp;#8217;t have before. Another useful thing is that sometimes you get to see what impostor syndrome looks like from the outside early on.&lt;/p&gt;
+&lt;p&gt;Another thing people with impostor syndrome can do once they&amp;rsquo;ve kind of gotten some of the basics down is helping others. Mentoring, teaching, tutoring. This is good for a couple reasons. One of them is if you have impostor syndrome, you may believe you have nothing valuable to give. You believe you&amp;rsquo;re below your peers and everyone else around you. When you star to help beginners again, you&amp;rsquo;re reminded that you do have something of value to give. You see people learning from you. You see that you can help, and the excitement in them when they&amp;rsquo;re learning how to program and you&amp;rsquo;re helping with it. That can give you a positive that you didn&amp;rsquo;t have before. Another useful thing is that sometimes you get to see what impostor syndrome looks like from the outside early on.&lt;/p&gt;
 
-&lt;p&gt;When I started teaching classes for the Girl Develop It chapter in Pittsburgh, I saw this in my students. I would be teaching a beginner HTML &amp;amp; CSS class with brand new beginners who&amp;#8217;ve never done coding before, and they were doing an amazing job for their first class. I would have them look at me and in very serious words say &amp;#8220;I can&amp;#8217;t do this&amp;#8221;, &amp;#8221;I&amp;#8217;m a bad programmer&amp;#8221;, &amp;#8221;I&amp;#8217;m not smart enough&amp;#8221;, &amp;#8221;I&amp;#8217;m stupid&amp;#8221;, and it would break my heart because they were actually doing really well. I realized that that&amp;#8217;s what I look like sometimes when I have my impostor syndrome, when I put myself down. It gave me a change to be vulnerable with those students. To talk about how I&amp;#8217;d dealt with these issues, and that it was ok. That they were doing really well. It also made me be a lot more thoughtful about my own impostor syndrome. About how harmful it can be, and that maybe I need to stop putting myself down all the time.&lt;/p&gt;
+&lt;p&gt;When I started teaching classes for the Girl Develop It chapter in Pittsburgh, I saw this in my students. I would be teaching a beginner HTML &amp;amp; CSS class with brand new beginners who&amp;rsquo;ve never done coding before, and they were doing an amazing job for their first class. I would have them look at me and in very serious words say &amp;ldquo;I can&amp;rsquo;t do this&amp;rdquo;, &amp;ldquo;I&amp;rsquo;m a bad programmer&amp;rdquo;, &amp;ldquo;I&amp;rsquo;m not smart enough&amp;rdquo;, &amp;ldquo;I&amp;rsquo;m stupid&amp;rdquo;, and it would break my heart because they were actually doing really well. I realized that that&amp;rsquo;s what I look like sometimes when I have my impostor syndrome, when I put myself down. It gave me a change to be vulnerable with those students. To talk about how I&amp;rsquo;d dealt with these issues, and that it was ok. That they were doing really well. It also made me be a lot more thoughtful about my own impostor syndrome. About how harmful it can be, and that maybe I need to stop putting myself down all the time.&lt;/p&gt;
 
-&lt;p&gt;A slightly controversial piece of advice I have is &amp;#8220;kill your heroes.&amp;#8221; Not literally. If I catch anybody chasing the other speakers around with a sword later, you&amp;#8217;re violating the code of conduct. Don&amp;#8217;t do that. What I mean by kill your heroes is killing the imaginary version of them that we have created in our minds. We do this in the programming community. We definitely do it in the ruby community. We start to look at certain members of our community like these kind of like celebrity god heroes. These magical people who never write bad code. Who were like birthed fully formed wiht a macbook writing amazing ruby code. They have magical powers. It&amp;#8217;s imbued in them. They never worked for it. When you have impostor syndrome, and you look at people like that, you feel like an ant - maybe even tinier than an ant. You feel like you are so incapable in comparison, and you don&amp;#8217;t see a path where you could be cool and awesome like them because it&amp;#8217;s a magical power and you clearly don&amp;#8217;t have it yet, so that must be it for you.&lt;/p&gt;
+&lt;p&gt;A slightly controversial piece of advice I have is &amp;ldquo;kill your heroes.&amp;rdquo; Not literally. If I catch anybody chasing the other speakers around with a sword later, you&amp;rsquo;re violating the code of conduct. Don&amp;rsquo;t do that. What I mean by kill your heroes is killing the imaginary version of them that we have created in our minds. We do this in the programming community. We definitely do it in the ruby community. We start to look at certain members of our community like these kind of like celebrity god heroes. These magical people who never write bad code. Who were like birthed fully formed wiht a macbook writing amazing ruby code. They have magical powers. It&amp;rsquo;s imbued in them. They never worked for it. When you have impostor syndrome, and you look at people like that, you feel like an ant - maybe even tinier than an ant. You feel like you are so incapable in comparison, and you don&amp;rsquo;t see a path where you could be cool and awesome like them because it&amp;rsquo;s a magical power and you clearly don&amp;rsquo;t have it yet, so that must be it for you.&lt;/p&gt;
 
-&lt;p&gt;So I really recommend killing that imaginary version of those heroes. Leave the human being that&amp;#8217;s actually there behind. Cause then you get to see people who actually write bad code. Even our heroes create bugs, break things, make mistakes, and none of them have magical powers. They all started small like the rest of us did, and they worked hard to get where they are. They should be rewarded for working hard, but we should recognize that there&amp;#8217;s a path there. Maybe you&amp;#8217;re not as awesome as them yet, but you could be if you worked hard enough. That it&amp;#8217;s not impossible. That it&amp;#8217;s not magic.&lt;/p&gt;
+&lt;p&gt;So I really recommend killing that imaginary version of those heroes. Leave the human being that&amp;rsquo;s actually there behind. Cause then you get to see people who actually write bad code. Even our heroes create bugs, break things, make mistakes, and none of them have magical powers. They all started small like the rest of us did, and they worked hard to get where they are. They should be rewarded for working hard, but we should recognize that there&amp;rsquo;s a path there. Maybe you&amp;rsquo;re not as awesome as them yet, but you could be if you worked hard enough. That it&amp;rsquo;s not impossible. That it&amp;rsquo;s not magic.&lt;/p&gt;
 
-&lt;p&gt;Now, I have my own story about this starring Aaron Patterson, one of our own Ruby heroes, also known as Tenderlove. He&amp;#8217;s definitely one of those people we look at that way, right. We have all this trivia about him. We know about his cat, Gorbypuff. Some of you probably have stickers of his cat on your laptop. Anybody willing to raise their hand because they do? Yeah, yeah, you guys totally have stickers of his cat on your laptop. He&amp;#8217;s definitely somebody we look at this way, right? He&amp;#8217;s a hero. For a long time I really looked at him in that way, as like this magical hero. In particular, about public speaking. Aaron speaks at conferences all the time. He&amp;#8217;s often one of my favorite speakers when I go to a ruby conference. He&amp;#8217;s great. I saw him speak at Steel City Ruby last year, and before he spoke he said something that really meant something to me. He said, &amp;#8220;I get insanely nervous when I give presentations.&amp;#8221; This feels really small, but it humanized Aaron in a way. He speaks all the time, and he&amp;#8217;s a great speaker. Despite speaking all the time, he gets insanely nervous. This was really meaningful to me because at the time, a year ago, I was starting to decide &amp;#8220;do I want to speak at conferences?&amp;#8221;, &amp;#8220;can I speak at conferences.&amp;#8221; I was terrified of public speaking. Incidentally, I&amp;#8217;m still terrified of public speaking. I decided because I was so nervous maybe I couldn&amp;#8217;t do it because most of these other speakers, it looked like it just worked for them. I hear Aaron say that he gets insanely nervous, and it really humanized him and reminded me that I can speak too. Aaron gets nervous, doesn&amp;#8217;t stop him. I&amp;#8217;m not going to be as good a speaker as he is when I start, but maybe some day. It really helped for me.&lt;/p&gt;
+&lt;p&gt;Now, I have my own story about this starring Aaron Patterson, one of our own Ruby heroes, also known as Tenderlove. He&amp;rsquo;s definitely one of those people we look at that way, right. We have all this trivia about him. We know about his cat, Gorbypuff. Some of you probably have stickers of his cat on your laptop. Anybody willing to raise their hand because they do? Yeah, yeah, you guys totally have stickers of his cat on your laptop. He&amp;rsquo;s definitely somebody we look at this way, right? He&amp;rsquo;s a hero. For a long time I really looked at him in that way, as like this magical hero. In particular, about public speaking. Aaron speaks at conferences all the time. He&amp;rsquo;s often one of my favorite speakers when I go to a ruby conference. He&amp;rsquo;s great. I saw him speak at Steel City Ruby last year, and before he spoke he said something that really meant something to me. He said, &amp;ldquo;I get insanely nervous when I give presentations.&amp;rdquo; This feels really small, but it humanized Aaron in a way. He speaks all the time, and he&amp;rsquo;s a great speaker. Despite speaking all the time, he gets insanely nervous. This was really meaningful to me because at the time, a year ago, I was starting to decide &amp;ldquo;do I want to speak at conferences?&amp;rdquo;, &amp;ldquo;can I speak at conferences.&amp;rdquo; I was terrified of public speaking. Incidentally, I&amp;rsquo;m still terrified of public speaking. I decided because I was so nervous maybe I couldn&amp;rsquo;t do it because most of these other speakers, it looked like it just worked for them. I hear Aaron say that he gets insanely nervous, and it really humanized him and reminded me that I can speak too. Aaron gets nervous, doesn&amp;rsquo;t stop him. I&amp;rsquo;m not going to be as good a speaker as he is when I start, but maybe some day. It really helped for me.&lt;/p&gt;
 
-&lt;p&gt;The last piece of advice I want to give you I heard from just about every person I talked to about impostor syndrome. That&amp;#8217;s &amp;#8220;fake it &amp;#8216;til you make it.&amp;#8221; Don&amp;#8217;t do this for your technical skills. Putting stuff that you don&amp;#8217;t actually know on your resume ends badly for just about everybody, but this is fantastic for confidence. For things you&amp;#8217;re not quite sure you can do. That list of all the ways that people with impostor syndrome hold themselves back. Faking it can help you push past those. You&amp;#8217;re afraid of public speaking? Maybe you do a 5 minute lightning talk at a local conference or at a local use group. It&amp;#8217;s five minutes. Even if your talk is terrible, it&amp;#8217;s only 5 minutes. Nobody will die, and there&amp;#8217;s a good chance the talk will be fine. Things like applying for jobs. Why not try? What&amp;#8217;s the worst that could happen? You don&amp;#8217;t get the job, and you stay at the dead-end job you were already at? That&amp;#8217;s going to happen whether you interview for other jobs anyway, but if you interview for jobs and pretend that you&amp;#8217;re confident enough to work there, maybe one of them is going to believe you. The reality is that it&amp;#8217;s not that you&amp;#8217;re not qualified, it&amp;#8217;s that your impostor syndrome tells you you aren&amp;#8217;t. So sometimes when you know you have it, you just have to push yourself.&lt;/p&gt;
+&lt;p&gt;The last piece of advice I want to give you I heard from just about every person I talked to about impostor syndrome. That&amp;rsquo;s &amp;ldquo;fake it &amp;lsquo;til you make it.&amp;rdquo; Don&amp;rsquo;t do this for your technical skills. Putting stuff that you don&amp;rsquo;t actually know on your resume ends badly for just about everybody, but this is fantastic for confidence. For things you&amp;rsquo;re not quite sure you can do. That list of all the ways that people with impostor syndrome hold themselves back. Faking it can help you push past those. You&amp;rsquo;re afraid of public speaking? Maybe you do a 5 minute lightning talk at a local conference or at a local use group. It&amp;rsquo;s five minutes. Even if your talk is terrible, it&amp;rsquo;s only 5 minutes. Nobody will die, and there&amp;rsquo;s a good chance the talk will be fine. Things like applying for jobs. Why not try? What&amp;rsquo;s the worst that could happen? You don&amp;rsquo;t get the job, and you stay at the dead-end job you were already at? That&amp;rsquo;s going to happen whether you interview for other jobs anyway, but if you interview for jobs and pretend that you&amp;rsquo;re confident enough to work there, maybe one of them is going to believe you. The reality is that it&amp;rsquo;s not that you&amp;rsquo;re not qualified, it&amp;rsquo;s that your impostor syndrome tells you you aren&amp;rsquo;t. So sometimes when you know you have it, you just have to push yourself.&lt;/p&gt;
 
-&lt;p&gt;One of the people I interviewed said &amp;#8220;the secret to life is pretending you know what you&amp;#8217;re doing.&amp;#8221; I really agree with this. I think it&amp;#8217;s critical for people for people with impostor syndrome. We&amp;#8217;re always going to have that little nagging voice that says, &amp;#8220;you can&amp;#8217;t do that.&amp;#8221; Sometimes you just have to pretend. Fuck it, I&amp;#8217;m gonna try. What the hell?&lt;/p&gt;
+&lt;p&gt;One of the people I interviewed said &amp;ldquo;the secret to life is pretending you know what you&amp;rsquo;re doing.&amp;rdquo; I really agree with this. I think it&amp;rsquo;s critical for people for people with impostor syndrome. We&amp;rsquo;re always going to have that little nagging voice that says, &amp;ldquo;you can&amp;rsquo;t do that.&amp;rdquo; Sometimes you just have to pretend. Fuck it, I&amp;rsquo;m gonna try. What the hell?&lt;/p&gt;
 
-&lt;p&gt;So I just want to leave you with a few points. Please talk about this. It&amp;#8217;s really important. Talking about impostor syndrome openly shines a light on it. It makes people who suffer from this feel like they&amp;#8217;re not alone. If you have impostor syndrome, please help yourself. Try to start using some of the tools I&amp;#8217;ve talked about. Build a party. Get help. You don&amp;#8217;t have to stay small. You can work past it. For those of you who don&amp;#8217;t have impostor syndrome, please help those around you. As I said, the community as a whole is harmed when people are held back this way. If you care about the software community being great, helping people (many of the ways you help them are easy) is beneficial for everyone. And please everybody enjoy coding. I love it. I want you to keep loving it to. I would love feedback about this talk. You can get me on twitter (@juliepagano) or find me in between and I will tweet my slides some time when I&amp;#8217;m done. That&amp;#8217;s it.&lt;/p&gt;</content>
+&lt;p&gt;So I just want to leave you with a few points. Please talk about this. It&amp;rsquo;s really important. Talking about impostor syndrome openly shines a light on it. It makes people who suffer from this feel like they&amp;rsquo;re not alone. If you have impostor syndrome, please help yourself. Try to start using some of the tools I&amp;rsquo;ve talked about. Build a party. Get help. You don&amp;rsquo;t have to stay small. You can work past it. For those of you who don&amp;rsquo;t have impostor syndrome, please help those around you. As I said, the community as a whole is harmed when people are held back this way. If you care about the software community being great, helping people (many of the ways you help them are easy) is beneficial for everyone. And please everybody enjoy coding. I love it. I want you to keep loving it to. I would love feedback about this talk. You can get me on twitter (@juliepagano) or find me in between and I will tweet my slides some time when I&amp;rsquo;m done. That&amp;rsquo;s it.&lt;/p&gt;
+</content>
   </entry>
   <entry>
     <title>101 off limits</title>
@@ -167,127 +211,128 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;I keep saying that impromptu, unwanted feminism 101 discussions are exhausting and not a good use of my resources. Then people ask what I mean by 101, so I&amp;#8217;m starting to make a list. This list will change over time - I recommend checking back.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I keep saying that impromptu, unwanted feminism 101 discussions are exhausting and not a good use of my resources. Then people ask what I mean by 101, so I&amp;rsquo;m starting to make a list. This list will change over time - I recommend checking back.&lt;/p&gt;
 
-&lt;p&gt;I highly recommend checking this list before engaging with me about feminism if you&amp;#8217;re new to it. It&amp;#8217;ll save both of us a lot of time and frustration.&lt;/p&gt;
+&lt;p&gt;I highly recommend checking this list before engaging with me about feminism if you&amp;rsquo;re new to it. It&amp;rsquo;ll save both of us a lot of time and frustration.&lt;/p&gt;
 
-&lt;h2 id='diversity_in_tech'&gt;Diversity in tech&lt;/h2&gt;
+&lt;h2&gt;Diversity in tech&lt;/h2&gt;
 
-&lt;h3 id='women_arent_equally_represented_in_tech_because_biology'&gt;Women aren&amp;#8217;t equally represented in tech because biology&lt;/h3&gt;
+&lt;h3&gt;Women aren&amp;rsquo;t equally represented in tech because biology&lt;/h3&gt;
 
 &lt;p&gt;Nope. This argument is bad and the science does not support it. Unfortunately, every time you say this out loud, you are contributing to cultural problems that do decrease the number of women in tech.&lt;/p&gt;
 
-&lt;p&gt;Also see, &lt;a href='http://www.slideshare.net/terriko/how-does-biology-explain-the-low-numbers-of-women-in-cs-hint-it-doesnt'&gt;How Does Biology Explain the Low Numbers of Women in CS? Hint: it doesn&amp;#8217;t&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also see, &lt;a href="http://www.slideshare.net/terriko/how-does-biology-explain-the-low-numbers-of-women-in-cs-hint-it-doesnt"&gt;How Does Biology Explain the Low Numbers of Women in CS? Hint: it doesn&amp;rsquo;t&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id='minorityonly_spaces_are_ist'&gt;Minority-only spaces are &lt;em&gt;ist&lt;/em&gt;&lt;/h3&gt;
+&lt;h3&gt;Minority-only spaces are *ist&lt;/h3&gt;
 
-&lt;p&gt;Nope. You keep using that word, I don&amp;#8217;t think it means what you think it means.&lt;/p&gt;
+&lt;p&gt;Nope. You keep using that word, I don&amp;rsquo;t think it means what you think it means.&lt;/p&gt;
 
-&lt;h3 id='youre_giving_minority_an_unfair_advantage_by_helping_them'&gt;You&amp;#8217;re giving &amp;#60;minority&amp;gt; an unfair advantage by helping them&lt;/h3&gt;
+&lt;h3&gt;You&amp;rsquo;re giving &amp;lt;minority&amp;gt; an unfair advantage by helping them&lt;/h3&gt;
 
-&lt;p&gt;Nope. The post &lt;a href='https://medium.com/thoughts-on-society/a1345b36b91b'&gt;Why do women try to get ahead by pulling men down?&lt;/a&gt; uses some good metaphors that might help you understand why this is wrong.&lt;/p&gt;
+&lt;p&gt;Nope. The post &lt;a href="https://medium.com/thoughts-on-society/a1345b36b91b"&gt;Why do women try to get ahead by pulling men down?&lt;/a&gt; uses some good metaphors that might help you understand why this is wrong.&lt;/p&gt;
 
-&lt;h3 id='minority_demographic_is_underrepresented_in_tech_because_they_dont_try_hard_enough'&gt;&amp;#60;minority demographic&amp;gt; is underrepresented in tech because they don&amp;#8217;t try hard enough&lt;/h3&gt;
+&lt;h3&gt;&amp;lt;minority demographic&amp;gt; is underrepresented in tech because they don&amp;rsquo;t try hard enough&lt;/h3&gt;
 
-&lt;p&gt;Nope. It sure sounds like you&amp;#8217;re saying an entire demographic is lazy. Not cool and not true. Try evaluating what sort of cultural issues discourage that demographic and what privileges make tech more accessible for the highly representated demographics.&lt;/p&gt;
+&lt;p&gt;Nope. It sure sounds like you&amp;rsquo;re saying an entire demographic is lazy. Not cool and not true. Try evaluating what sort of cultural issues discourage that demographic and what privileges make tech more accessible for the highly representated demographics.&lt;/p&gt;
 
-&lt;h3 id='diversity_at_conferences'&gt;Diversity at Conferences&lt;/h3&gt;
+&lt;h3&gt;Diversity at Conferences&lt;/h3&gt;
 
-&lt;p&gt;Read Ashe&amp;#8217;s awesome posts &lt;a href='http://ashedryden.com/blog/so-you-want-to-put-on-a-diverse-inclusive-conference'&gt;So you want to put on a diverse, inclusive conference&lt;/a&gt; and &lt;a href='http://ashedryden.com/blog/increasing-diversity-at-your-conference'&gt;Increasing diversity at your conference&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Read Ashe&amp;rsquo;s awesome posts &lt;a href="http://ashedryden.com/blog/so-you-want-to-put-on-a-diverse-inclusive-conference"&gt;So you want to put on a diverse, inclusive conference&lt;/a&gt; and &lt;a href="http://ashedryden.com/blog/increasing-diversity-at-your-conference"&gt;Increasing diversity at your conference&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id='rape_culture'&gt;Rape Culture&lt;/h2&gt;
+&lt;h2&gt;Rape Culture&lt;/h2&gt;
 
-&lt;h3 id='explain_rape_culture_to_me'&gt;Explain rape culture to me.&lt;/h3&gt;
+&lt;h3&gt;Explain rape culture to me.&lt;/h3&gt;
 
-&lt;p&gt;No. Go read &lt;a href='http://www.shakesville.com/2009/10/rape-culture-101.html'&gt;rape culture 101&lt;/a&gt;. Then read it again. And again. And again. Pretty much read that on the daily until it&amp;#8217;s seeped in.&lt;/p&gt;
+&lt;p&gt;No. Go read &lt;a href="http://www.shakesville.com/2009/10/rape-culture-101.html"&gt;rape culture 101&lt;/a&gt;. Then read it again. And again. And again. Pretty much read that on the daily until it&amp;rsquo;s seeped in.&lt;/p&gt;
 
-&lt;p&gt;I spent an evening explaining this on twitter and sharing resources. Check out the &lt;a href='http://storify.com/juliepagano/sexual-assault-educational-resources'&gt;storify&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I spent an evening explaining this on twitter and sharing resources. Check out the &lt;a href="http://storify.com/juliepagano/sexual-assault-educational-resources"&gt;storify&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id='i_dont_think_rape_culture_exists'&gt;I don&amp;#8217;t think rape culture exists.&lt;/h3&gt;
+&lt;h3&gt;I don&amp;rsquo;t think rape culture exists.&lt;/h3&gt;
 
-&lt;p&gt;See &lt;a href='#explain_rape_culture_to_me'&gt;Explain rape culture to me&lt;/a&gt;. If you still think it&amp;#8217;s not a thing, please don&amp;#8217;t ever speak to me about this. Honestly, I&amp;#8217;m not really interested in engaging with people who are aware of what rape culture is and deny its existence.&lt;/p&gt;
+&lt;p&gt;See &lt;a href="#explain_rape_culture_to_me"&gt;Explain rape culture to me&lt;/a&gt;. If you still think it&amp;rsquo;s not a thing, please don&amp;rsquo;t ever speak to me about this. Honestly, I&amp;rsquo;m not really interested in engaging with people who are aware of what rape culture is and deny its existence.&lt;/p&gt;
 
-&lt;h3 id='rape_jokes_are_funny'&gt;Rape jokes are funny&lt;/h3&gt;
+&lt;h3&gt;Rape jokes are funny&lt;/h3&gt;
 
-&lt;p&gt;Nope. They&amp;#8217;re really not. Additionally, they contribute to rape culture. When you tell them, you are also contributing to rape culture. You probably didn&amp;#8217;t know that before. It&amp;#8217;s ok. Now you know. Make a change for the better.&lt;/p&gt;
+&lt;p&gt;Nope. They&amp;rsquo;re really not. Additionally, they contribute to rape culture. When you tell them, you are also contributing to rape culture. You probably didn&amp;rsquo;t know that before. It&amp;rsquo;s ok. Now you know. Make a change for the better.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://tacoboutthatbutt.tumblr.com/post/49458621565/to-all-those-who-dont-think-the-rape-joke-was-a'&gt;This comment about rape jokes&lt;/a&gt; may also help you understand.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://tacoboutthatbutt.tumblr.com/post/49458621565/to-all-those-who-dont-think-the-rape-joke-was-a"&gt;This comment about rape jokes&lt;/a&gt; may also help you understand.&lt;/p&gt;
 
-&lt;h3 id='women_need_to_stop_being_so_paranoid_all_the_time'&gt;Women need to stop being so paranoid all the time.&lt;/h3&gt;
+&lt;h3&gt;Women need to stop being so paranoid all the time.&lt;/h3&gt;
 
-&lt;p&gt;Go read &lt;a href='http://kateharding.net/2009/10/08/guest-blogger-starling-schrodinger%E2%80%99s-rapist-or-a-guy%E2%80%99s-guide-to-approaching-strange-women-without-being-maced/'&gt;Schroedinger&amp;#8217;s Rapist&lt;/a&gt;. This may help you understand. Alternatively, you may have read this already and that&amp;#8217;s why you&amp;#8217;re saying this to me. It&amp;#8217;s not paranoia when the rape and violence statistics are what they are. Please don&amp;#8217;t tell us how to react to our own lived experiences.&lt;/p&gt;
+&lt;p&gt;Go read &lt;a href="http://kateharding.net/2009/10/08/guest-blogger-starling-schrodinger%E2%80%99s-rapist-or-a-guy%E2%80%99s-guide-to-approaching-strange-women-without-being-maced/"&gt;Schroedinger&amp;rsquo;s Rapist&lt;/a&gt;. This may help you understand. Alternatively, you may have read this already and that&amp;rsquo;s why you&amp;rsquo;re saying this to me. It&amp;rsquo;s not paranoia when the rape and violence statistics are what they are. Please don&amp;rsquo;t tell us how to react to our own lived experiences.&lt;/p&gt;
 
-&lt;h3 id='how_should_a_community_handle_sexual_assault'&gt;How should a community handle sexual assault?&lt;/h3&gt;
+&lt;h3&gt;How should a community handle sexual assault?&lt;/h3&gt;
 
 &lt;p&gt;I strongly recommend reviewing my other resources in this section and then moving forward with an accountability process. Below are some good resources about accountability processes.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://www.creative-interventions.org/wp-content/uploads/2012/06/4.F.CI-Toolkit-Tools-Taking-Accountability-Pre-Release-Version-06.2012.pdf'&gt;from Creative Interventions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/4.F.CI-Toolkit-Tools-Taking-Accountability-Pre-Release-Version-06.2012.pdf"&gt;from Creative Interventions&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href='http://www.transformativejustice.eu/wp-content/uploads/2010/11/Taking-Risks.-CARA.pdf'&gt;from Transformative Justice&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.transformativejustice.eu/wp-content/uploads/2010/11/Taking-Risks.-CARA.pdf"&gt;from Transformative Justice&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id='allies'&gt;Allies&lt;/h2&gt;
+&lt;h2&gt;Allies&lt;/h2&gt;
 
-&lt;h3 id='your_behavior_is_pushing_away_allies'&gt;Your behavior is pushing away allies&lt;/h3&gt;
+&lt;h3&gt;Your behavior is pushing away allies&lt;/h3&gt;
 
-&lt;p&gt;You&amp;#8217;re not being a good ally when you&amp;#8217;re telling members of the oppressed group you&amp;#8217;re supposedly allied with how to behave. You and I may just have different definitions of what being an ally means. I highly recommend reading about &lt;a href='http://www.shakesville.com/2013/04/on-fixed-state-ally-model-vs-process.html'&gt;the fixed state ally model versus the process ally model&lt;/a&gt;. I subscribe to the latter, and it sounds like you subscribe to the former.&lt;/p&gt;
+&lt;p&gt;You&amp;rsquo;re not being a good ally when you&amp;rsquo;re telling members of the oppressed group you&amp;rsquo;re supposedly allied with how to behave. You and I may just have different definitions of what being an ally means. I highly recommend reading about &lt;a href="http://www.shakesville.com/2013/04/on-fixed-state-ally-model-vs-process.html"&gt;the fixed state ally model versus the process ally model&lt;/a&gt;. I subscribe to the latter, and it sounds like you subscribe to the former.&lt;/p&gt;
 
-&lt;h3 id='but_im_an_ally_why_are_you_attacking_me_generally_in_response_to_disagreement'&gt;But I&amp;#8217;m an ally! Why are you attacking me? (generally in response to disagreement)&lt;/h3&gt;
+&lt;h3&gt;But I&amp;rsquo;m an ally! Why are you attacking me? (generally in response to disagreement)&lt;/h3&gt;
 
 &lt;p&gt;Disagreement is not attacking. Being an ally does not shield you from criticism when you make mistakes. Being an ally does not make you an expert on the lived experiences of the people who are claiming to be an ally to.&lt;/p&gt;
 
-&lt;p&gt;See also &lt;a href='#your_behavior_is_pushing_away_allies'&gt;Your behavior is pushing away allies&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;See also &lt;a href="#your_behavior_is_pushing_away_allies"&gt;Your behavior is pushing away allies&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id='miscellaneous'&gt;Miscellaneous&lt;/h2&gt;
+&lt;h2&gt;Miscellaneous&lt;/h2&gt;
 
-&lt;h3 id='im_not_ist_but'&gt;I&amp;#8217;m not &lt;em&gt;ist but&lt;/em&gt;&lt;/h3&gt;
+&lt;h3&gt;I&amp;rsquo;m not *ist but&lt;/h3&gt;
 
-&lt;p&gt;Let me stop you right there. Sentences that start this way very rarely end well. Just don&amp;#8217;t.&lt;/p&gt;
+&lt;p&gt;Let me stop you right there. Sentences that start this way very rarely end well. Just don&amp;rsquo;t.&lt;/p&gt;
 
-&lt;h3 id='why_do_you_hate_men'&gt;Why do you hate men?&lt;/h3&gt;
+&lt;h3&gt;Why do you hate men?&lt;/h3&gt;
 
-&lt;p&gt;I don&amp;#8217;t. I like lots of men just fine. In fact, I even love some of them. Sure, I have contempt for some men, but it&amp;#8217;s because of their individual bad behavior, not because of their gender. That being said, I am pretty sick of &lt;a href='http://www.shakesville.com/2012/03/terrible-bargain-we-have-regretfully.html'&gt;the terrible bargain we&amp;#8217;ve regretfully struck&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t. I like lots of men just fine. In fact, I even love some of them. Sure, I have contempt for some men, but it&amp;rsquo;s because of their individual bad behavior, not because of their gender. That being said, I am pretty sick of &lt;a href="http://www.shakesville.com/2012/03/terrible-bargain-we-have-regretfully.html"&gt;the terrible bargain we&amp;rsquo;ve regretfully struck&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id='if_you_wont_teach_me_how_will_i_learn'&gt;If you won&amp;#8217;t teach me, how will I learn?&lt;/h3&gt;
+&lt;h3&gt;If you won&amp;rsquo;t teach me, how will I learn?&lt;/h3&gt;
 
-&lt;p&gt;You are not entitled to my (or anyone else&amp;#8217;s) attention or efforts, especially on demand. There are tons of writings (books, blog posts, journal articles, etc.) on all of these topics. I&amp;#8217;m pretty sure you&amp;#8217;re capable of finding some of them if you try even a little bit. I have limited time, and I would much rather spend it on other things that make me happy and help others.&lt;/p&gt;
+&lt;p&gt;You are not entitled to my (or anyone else&amp;rsquo;s) attention or efforts, especially on demand. There are tons of writings (books, blog posts, journal articles, etc.) on all of these topics. I&amp;rsquo;m pretty sure you&amp;rsquo;re capable of finding some of them if you try even a little bit. I have limited time, and I would much rather spend it on other things that make me happy and help others.&lt;/p&gt;
 
-&lt;p&gt;I&amp;#8217;ll be a lot more likely to give you my time if you schedule it with me and do the bare minimum of research first.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be a lot more likely to give you my time if you schedule it with me and do the bare minimum of research first.&lt;/p&gt;
 
-&lt;h3 id='i_dont_like_your_tone_youd_catch_more_flies_with_honey_etc_etc'&gt;I don&amp;#8217;t like your tone. You&amp;#8217;d catch more flies with honey. etc. etc.&lt;/h3&gt;
+&lt;h3&gt;I don&amp;rsquo;t like your tone. You&amp;rsquo;d catch more flies with honey. etc. etc.&lt;/h3&gt;
 
-&lt;p&gt;This is called a &lt;a href='http://geekfeminism.wikia.com/wiki/Tone_argument'&gt;tone argument&lt;/a&gt;. It&amp;#8217;s a well-known derailing technique that is patronizing and dismissive. Some of the things feminism has to say are hard - there&amp;#8217;s no nice way to say them. It&amp;#8217;s also not my job to act pleasing and friendly on all occasions. If you regularly find my tone to not match your interests, feel free to find another source - I won&amp;#8217;t be mad. I will be frustrated and contemptuous if you use a tone argument on me.&lt;/p&gt;
+&lt;p&gt;This is called a &lt;a href="http://geekfeminism.wikia.com/wiki/Tone_argument"&gt;tone argument&lt;/a&gt;. It&amp;rsquo;s a well-known derailing technique that is patronizing and dismissive. Some of the things feminism has to say are hard - there&amp;rsquo;s no nice way to say them. It&amp;rsquo;s also not my job to act pleasing and friendly on all occasions. If you regularly find my tone to not match your interests, feel free to find another source - I won&amp;rsquo;t be mad. I will be frustrated and contemptuous if you use a tone argument on me.&lt;/p&gt;
 
-&lt;h3 id='youre_being_too_angry'&gt;You&amp;#8217;re being too angry&lt;/h3&gt;
+&lt;h3&gt;You&amp;rsquo;re being too angry&lt;/h3&gt;
 
-&lt;p&gt;See &lt;a href='http://www.shakesville.com/2008/05/feminism-101-on-anger.html'&gt;Feminism 101: On Anger&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;See &lt;a href="http://www.shakesville.com/2008/05/feminism-101-on-anger.html"&gt;Feminism 101: On Anger&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Also, groups of marginalized people are often accused of being angry when what they are is frustrated. &lt;a href='http://www.shakesville.com/2013/03/an-observation_28.html'&gt;Sometimes, we&amp;#8217;re not angry, we&amp;#8217;re dissatisfied.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also, groups of marginalized people are often accused of being angry when what they are is frustrated. &lt;a href="http://www.shakesville.com/2013/03/an-observation_28.html"&gt;Sometimes, we&amp;rsquo;re not angry, we&amp;rsquo;re dissatisfied.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id='why_the_hell_do_you_keep_talking_about_spoons'&gt;Why the hell do you keep talking about spoons?&lt;/h3&gt;
+&lt;h3&gt;Why the hell do you keep talking about spoons?&lt;/h3&gt;
 
-&lt;p&gt;Go read about &lt;a href='http://www.butyoudontlooksick.com/wpress/articles/written-by-christine/the-spoon-theory/'&gt;the spoon theory&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Go read about &lt;a href="http://www.butyoudontlooksick.com/wpress/articles/written-by-christine/the-spoon-theory/"&gt;the spoon theory&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id='thats_reverseism'&gt;That&amp;#8217;s reverse-&lt;em&gt;ism!&lt;/em&gt;&lt;/h3&gt;
+&lt;h3&gt;That&amp;rsquo;s reverse-*ism!&lt;/h3&gt;
 
-&lt;p&gt;Reverse-sexism/racism/*ism isn&amp;#8217;t a thing. There&amp;#8217;s just sexism/racism/*ism, and there&amp;#8217;s a reasonable likelihood that you don&amp;#8217;t know how they work. oppression = prejudice + power.&lt;/p&gt;
+&lt;p&gt;Reverse-sexism/racism/*ism isn&amp;rsquo;t a thing. There&amp;rsquo;s just sexism/racism/*ism, and there&amp;rsquo;s a reasonable likelihood that you don&amp;rsquo;t know how they work. oppression = prejudice + power.&lt;/p&gt;
 
-&lt;h3 id='im_just_playing_devils_advocate'&gt;I&amp;#8217;m just playing devil&amp;#8217;s advocate.&lt;/h3&gt;
+&lt;h3&gt;I&amp;rsquo;m just playing devil&amp;rsquo;s advocate.&lt;/h3&gt;
 
-&lt;p&gt;I&amp;#8217;ll be honest, it feels like you&amp;#8217;re saying terrible things and trying to shield yourself from criticism by yelling &amp;#8220;devil&amp;#8217;s advocate&amp;#8221; while doing so. Maybe that&amp;#8217;s not what you&amp;#8217;re doing. It doesn&amp;#8217;t matter a whole lot because either way I don&amp;#8217;t want to have a conversation with someone pretending to take the side of some hyperbolic other. Please don&amp;#8217;t initiate these conversations with me.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be honest, it feels like you&amp;rsquo;re saying terrible things and trying to shield yourself from criticism by yelling &amp;ldquo;devil&amp;rsquo;s advocate&amp;rdquo; while doing so. Maybe that&amp;rsquo;s not what you&amp;rsquo;re doing. It doesn&amp;rsquo;t matter a whole lot because either way I don&amp;rsquo;t want to have a conversation with someone pretending to take the side of some hyperbolic other. Please don&amp;rsquo;t initiate these conversations with me.&lt;/p&gt;
 
-&lt;h3 id='not_all_guys_are_like_that'&gt;Not all guys are like that!&lt;/h3&gt;
+&lt;h3&gt;Not all guys are like that!&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href='http://nudityandnerdery.tumblr.com/post/63995327460/see-what-you-need-to-understand-is-that-not-all'&gt;Read this post.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://nudityandnerdery.tumblr.com/post/63995327460/see-what-you-need-to-understand-is-that-not-all"&gt;Read this post.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id='why_are_you_so_easily_offended'&gt;Why are you so easily offended?&lt;/h3&gt;
+&lt;h3&gt;Why are you so easily offended?&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href='http://hoydenabouttown.com/20110403.9735/dont-mistake-expressing-contempt-for-taking-offense/'&gt;I&amp;#8217;m not offended, I&amp;#8217;m contemptuous.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://hoydenabouttown.com/20110403.9735/dont-mistake-expressing-contempt-for-taking-offense/"&gt;I&amp;rsquo;m not offended, I&amp;rsquo;m contemptuous.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id='what_are_some_other_good_resources'&gt;What are some other good resources?&lt;/h3&gt;
+&lt;h3&gt;What are some other good resources?&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href='http://www.shakesville.com/2010/01/feminism-101.html'&gt;Feminism 101 posts from Shakesville&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
+&lt;li&gt;&lt;a href="http://www.shakesville.com/2010/01/feminism-101.html"&gt;Feminism 101 posts from Shakesville&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
   </entry>
   <entry>
     <title>I think I’m in an emotionally abusive relationship…with the tech community</title>
@@ -306,7 +351,7 @@
 
 &lt;p&gt;How did we get here? Why is it this bad? Why are we staying?&lt;/p&gt;
 
-&lt;p&gt;There’s always been the &lt;a href='http://juliepagano.com/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/'&gt;microaggressions&lt;/a&gt;. I didn’t always notice them, but eventually they accumulated enough that I was buried. I couldn’t ignore them any more. Recently, a new symptom finally hit the point where I couldn’t pretend it isn’t there. &lt;a href='http://en.wikipedia.org/wiki/Gaslighting'&gt;Gaslighting&lt;/a&gt; (or at least something very akin to it).&lt;/p&gt;
+&lt;p&gt;There’s always been the &lt;a href="http://juliepagano.com/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/"&gt;microaggressions&lt;/a&gt;. I didn’t always notice them, but eventually they accumulated enough that I was buried. I couldn’t ignore them any more. Recently, a new symptom finally hit the point where I couldn’t pretend it isn’t there. &lt;a href="http://en.wikipedia.org/wiki/Gaslighting"&gt;Gaslighting&lt;/a&gt; (or at least something very akin to it).&lt;/p&gt;
 
 &lt;p&gt;Gaslighting is a symptom of emotional abuse, so it was a disturbing discovery. Out of curiosity, I looked up other symptoms of emotional abuse. An upsettingly long list of them were all too easy to identify with. Fuck.&lt;/p&gt;
 
@@ -328,7 +373,7 @@
 
 &lt;p&gt;If we had a dollar for every time someone told us our behavior was inappropriate, we wouldn’t have to worry about all this. We’d be so rich we’d never have to work again. We could buy our own private island and sail away. Sadly, nobody pays us for this. They just ignore our comments and chastise us for saying things in a way that many others get away with.&lt;/p&gt;
 
-&lt;p&gt;&amp;#8220;If only you were nicer.&amp;#8221; &amp;#8220;This isn’t how you talk to your ‘allies’.&amp;#8221; &amp;#8220;Stop being a bitch.&amp;#8221;&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;If only you were nicer.&amp;rdquo; &amp;ldquo;This isn’t how you talk to your ‘allies’.&amp;rdquo; &amp;ldquo;Stop being a bitch.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Do they continually have “boundary violations” and disrespect your valid requests? Do they try to turn everyone against you?&lt;/strong&gt;&lt;/p&gt;
 
@@ -358,7 +403,8 @@
 
 &lt;p&gt;Comments are closed on this post. If this angers you, you’re part of the problem. If you’re sad about what you read and have the energy, please try to shape the community into a space that looks different. It doesn’t have to be this way.&lt;/p&gt;
 
-&lt;p&gt;Note: As I’ve indicated on twitter, this is not a criticism of the conference I was at this weekend - the timing is unfortunate. The organizers hosted a lovely conference, and I was honored to speak at it. They did an awesome job at having a great diverse lineup (my fave is still the 11 year old young woman who loves ruby and dancing) and a code of conduct.&lt;/p&gt;</content>
+&lt;p&gt;Note: As I’ve indicated on twitter, this is not a criticism of the conference I was at this weekend - the timing is unfortunate. The organizers hosted a lovely conference, and I was honored to speak at it. They did an awesome job at having a great diverse lineup (my fave is still the 11 year old young woman who loves ruby and dancing) and a code of conduct.&lt;/p&gt;
+</content>
   </entry>
   <entry>
     <title>Julie's Lean In Livetweets</title>
@@ -369,7 +415,9 @@
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;a href='http://storify.com/juliepagano/julie-s-lean-in-livetweets'&gt;Julie&amp;#8217;s Lean In Livetweets&lt;/a&gt; If you missed the live part of my Lean In livetweeting, you can check out most of it over at Storify.&lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;&lt;a href="http://storify.com/juliepagano/julie-s-lean-in-livetweets"&gt;Julie&amp;rsquo;s Lean In Livetweets&lt;/a&gt;
+If you missed the live part of my Lean In livetweeting, you can check out most of it over at Storify.&lt;/p&gt;
+</content>
   </entry>
   <entry>
     <title>In case you didn’t know, my technology will be intersectional or it will be BULLSHIT</title>
@@ -390,33 +438,7 @@
 
 &lt;p&gt;I received a lot of kind words in response to my posts, and I appreciated every one of them. You are good people, and you clearly care. Please share your own stories - I will support you in doing so. I want to hear a multitude of voices, and I don’t want them all to sound like mine.&lt;/p&gt;
 
-&lt;p&gt;I welcome you to join me in screaming the only catchphrase that I can seem to muster these days. MY TECHNOLOGY WILL BE INTERSECTIONAL OR IT WILL BE BULLSHIT!!!&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>My experiences in tech: Death by 1000 paper cuts</title>
-    <link rel="alternate" href="/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/"/>
-    <id>/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/</id>
-    <published>2013-03-24T19:08:00Z</published>
-    <updated>2013-03-24T19:08:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">&lt;p&gt;In &lt;a href='http://juliepagano.com/blog/2013/03/23/my-experiences-in-tech-once-upon-an-internship/' title='My experiences in tech: Once upon an internship'&gt;Once Upon an Internship&lt;/a&gt;, I learned early that sometimes being a software engineer means death by 1000 cuts because you don&amp;#8217;t have the power to make it stop. Even the tiniest little things add up to something big - sometimes it&amp;#8217;s really death by 1000 paper cuts.&lt;/p&gt;
-
-&lt;p&gt;The cuts started early. I&amp;#8217;m discouraged and humiliated in math classes throughout my school years to the point where I still get anxious doing math in front of others despite being good at it in private.  A high school teacher tells me that I shouldn&amp;#8217;t go to college for engineering, but instead something nurturing (you know, what women are good for).&lt;/p&gt;
-
-&lt;p&gt;My college classes have next to no women in them. A professor makes creepy comments about &amp;#8220;geeky girls&amp;#8221; during class. One of my few female classmates tells me she&amp;#8217;s just doing this to prove her father wrong. Classmates don&amp;#8217;t take me seriously until I scream. The first time I learned that you get to be a bitch or you get to be ignored - a choice that would later follow me to the working world. Four years of paper cuts. Four years of pushing myself too hard because I wanted to prove something.&lt;/p&gt;
-
-&lt;p&gt;Nearly every technical conference I attend has at least one person with a microphone making a comment along the lines of &amp;#8221;my wife/girlfriend doesn&amp;#8217;t understand technology and gives me shit for being interested in it.&amp;#8221; It&amp;#8217;s clearly intended to be a joke that the audience will identify with, and most of them do because theses conferences are largely straight and male. For those of us who aren&amp;#8217;t, it&amp;#8217;s a regular signal that we&amp;#8217;re not considered, that maybe we don&amp;#8217;t belong. The heavy drinking makes some of us feel unsafe. A paper cut for every conference.&lt;/p&gt;
-
-&lt;p&gt;At an old job, someone in authority pats me on the head to dismiss an argument I&amp;#8217;m making about something at work. As though I was a child - a thing he&amp;#8217;d be unlikely to do with a male coworker. Same person makes comments when I wear makeup to work - I feel uncomfortable doing so again. I&amp;#8217;m asked to take notes in meetings where I am a technical lead and should be actively participating. Male coworkers make comments about stalking women on facebook and looking at images of booth babes in work meetings (some later apologize). Others say that front-end development isn&amp;#8217;t real software engineering. I suspect I&amp;#8217;m paid less than male colleagues (perhaps paranoia, perhaps real - it&amp;#8217;s a hard thing to verify). Problems are easiest to resolve by finding a new job - this is what I do (thankfully the new job is much better). A thousand paper cuts for the working world.&lt;/p&gt;
-
-&lt;p&gt;Every time I try to push to make things better, I am guaranteed a patronizing response from someone. If I had a dollar for every time someone suggested that some demographics just aren&amp;#8217;t biologically predisposed to be good at programming (&lt;a href='http://www.slideshare.net/terriko/how-does-biology-explain-the-low-numbers-of-women-in-cs-hint-it-doesnt'&gt;even though research does not support this argument&lt;/a&gt;), I&amp;#8217;d be rich. On more than one occasion, I&amp;#8217;ve had people try to engage me in arguments about the importance of diversity only to later claim they &amp;#8220;were playing devil&amp;#8217;s advocate&amp;#8221; or doing it &amp;#8220;for the lulz.&amp;#8221; I&amp;#8217;ve had people &lt;a href='http://juliepagano.com/blog/2013/01/13/thoughts-on-a-diversity-discussion/' title='Thoughts on a diversity discussion'&gt;derail diversity discussions&lt;/a&gt; to victim blame and try to speak for the minority that they were not a member of. I&amp;#8217;ve had people claim minority-only safe spaces are sexist. A paper cut for every time I speak up.&lt;/p&gt;
-
-&lt;p&gt;Before someone suggests that these patronizing responses are just jerks on the internet, no, that&amp;#8217;s not the case. I get these responses fairly regularly in person. From people I&amp;#8217;ve worked with. From people who know me. From prominent members of some tech communities. From people who should know better. The cuts are deeper when they&amp;#8217;re real people because you can&amp;#8217;t just turn them off.&lt;/p&gt;
-
-&lt;p&gt;Cuts I don&amp;#8217;t feel safe posting here because they&amp;#8217;re too personal or I fear the consequences&amp;#8230;&lt;/p&gt;
-
-&lt;p&gt;I mention one of the above, and someone tells me that I&amp;#8217;m just looking for things to get angry about. As though my feelings are not valid. Maybe they don&amp;#8217;t understand that probably wasn&amp;#8217;t the only thing that happened that day or that week or that month or the duration of my career. That I can&amp;#8217;t detach and view these things in isolation. That no matter how tough I get, how thick my skin, the paper cuts still hurt. I&amp;#8217;m not the only one covered in bandaids trying to stanch the bleeding and focus on programming because it&amp;#8217;s a thing that I love. I&amp;#8217;m terrified of the day that it becomes terminal, the day myself or one of my friends becomes another statistic in the book of &amp;#8220;they leave and they don&amp;#8217;t come back.&amp;#8221;&lt;/p&gt;</content>
+&lt;p&gt;I welcome you to join me in screaming the only catchphrase that I can seem to muster these days. MY TECHNOLOGY WILL BE INTERSECTIONAL OR IT WILL BE BULLSHIT!!!&lt;/p&gt;
+</content>
   </entry>
 </feed>
