@@ -30,8 +30,9 @@ activate :directory_indexes
 
 page "blog/feed.xml", :layout => false
 
-set :markdown_engine, :maruku
+set :markdown_engine, :redcarpet
 set :markdown, :layout_engine => :erb,
+               :fenced_code_blocks => true,
                :tables => true,
                :autolink => true,
                :smartypants => true

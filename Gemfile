@@ -1,4 +1,4 @@
-source :rubygems
+source "https://rubygems.org/"
 
 gem "middleman-gh-pages"
 
@@ -7,3 +7,5 @@ gem "middleman-blog", "~> 3.2.0"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0.0"
+
+gem "redcarpet"
