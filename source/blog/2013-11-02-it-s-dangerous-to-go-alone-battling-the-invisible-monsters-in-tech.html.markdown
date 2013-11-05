@@ -4,6 +4,11 @@ date: 2013-11-02 21:03 EST
 tags:
 ---
 
+## Follow-up
+
+Interested in continuing the conversation with me about impostor syndrome?
+Please fill out [this form](http://bit.ly/impostor-syndrome-followup) and let me know how I can help.
+
 ## Slides
 [Slides at SpeakerDeck](https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-surviving-the-invisible-monsters-in-tech)
 
