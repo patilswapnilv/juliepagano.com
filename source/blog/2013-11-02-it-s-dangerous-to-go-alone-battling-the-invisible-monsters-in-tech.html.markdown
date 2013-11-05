@@ -41,6 +41,9 @@ tags:
 <iframe width="560" height="315" src="//www.youtube.com/embed/GYdR09pmYzw" frameborder="0">
 </iframe>
 
+Apologies for ad libbing the idiom "low end on the totem pole" in my talk. I should know better
+and will make sure I do not repeat this if I give the talk again.
+
 [Below is a rough initial draft of transcription](#transcripts). I will work on checking this for typos and other issues in the near future. If anyone has time to help with that,
 [pull requests](https://github.com/juliepagano/juliepagano.com) would be great.
 
