@@ -64,6 +64,7 @@ p {
 a {
   color: $link-color;
   text-decoration: none;
+  word-wrap: break-word;
 
   @include transition-duration(0.5s);
   @include transition-property(color);
@@ -258,7 +259,7 @@ footer {
 
   @media screen and (max-width: 600px) {
     height: 150px;
-    width: 300px;
+    width: 200px;
   }
 }
 
