@@ -24,6 +24,7 @@ GEM
       rack (>= 1.0.0)
       url_mount (~> 0.2.1)
     i18n (0.6.1)
+    json (1.8.1)
     listen (0.7.3)
     maruku (0.6.1)
       syntax (>= 1.0.0)
@@ -65,6 +66,8 @@ GEM
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
     multi_json (1.8.2)
+    oembed_links (0.1.9)
+      json
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -115,4 +118,5 @@ DEPENDENCIES
   middleman (~> 3.0.13)
   middleman-blog (~> 3.2.0)
   middleman-gh-pages
+  oembed_links
   redcarpet

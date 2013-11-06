@@ -9,3 +9,5 @@ gem "middleman-blog", "~> 3.2.0"
 gem "builder", "~> 3.0.0"
 
 gem "redcarpet"
+
+gem "oembed_links"
