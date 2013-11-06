@@ -43,7 +43,7 @@ Please fill out [this form](http://bit.ly/impostor-syndrome-followup) and let me
 ## Video
 [Video at Confreaks](http://confreaks.com/videos/2691-nickelcityruby2013-it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech)
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/GYdR09pmYzw" frameborder="0">
+<iframe class="youtube" src="//www.youtube.com/embed/GYdR09pmYzw" frameborder="0">
 </iframe>
 
 Apologies for ad libbing the idiom "low end on the totem pole" in my talk. I should know better
