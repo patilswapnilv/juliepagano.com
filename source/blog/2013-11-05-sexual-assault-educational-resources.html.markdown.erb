@@ -1,0 +1,42 @@
+---
+title: Sexual Assault Educational Resources
+date: 2013-11-05 22:31 EST
+tags: sexual assault, education, 101
+---
+This originally lived at Storify, but I am migrating off of their service
+because they continue to allow it to be used for harassment and show no interest
+in addressing it.
+
+<% tweets = [
+     "https://twitter.com/ashedryden/statuses/387755651495362560",
+     "https://twitter.com/juliepagano/statuses/387760168332984320",
+     "https://twitter.com/juliepagano/statuses/387762130692603904",
+     "https://twitter.com/juliepagano/statuses/387762252696543233",
+     "https://twitter.com/juliepagano/statuses/387762411622899712",
+     "https://twitter.com/juliepagano/statuses/387764704598589440",
+     "https://twitter.com/juliepagano/statuses/387764754250760192",
+     "https://twitter.com/juliepagano/statuses/387765296142233600",
+     "https://twitter.com/juliepagano/statuses/387765575306711041",
+     "https://twitter.com/juliepagano/statuses/387766267463368704",
+     "https://twitter.com/juliepagano/statuses/387766410010951681",
+     "https://twitter.com/juliepagano/statuses/387766616152629248",
+     "https://twitter.com/juliepagano/statuses/387766736176828416",
+     "https://twitter.com/juliepagano/statuses/387766941861310464",
+     "https://twitter.com/juliepagano/statuses/387768142292074496",
+     "https://twitter.com/juliepagano/statuses/387768899137462272",
+     "https://twitter.com/juliepagano/statuses/387768955794108416",
+     "https://twitter.com/juliepagano/statuses/387769628937977856",
+     "https://twitter.com/juliepagano/statuses/387770372286054400",
+     "https://twitter.com/juliepagano/statuses/387771195502116865",
+     "https://twitter.com/juliepagano/statuses/387771283909644289",
+     "https://twitter.com/juliepagano/statuses/387771725657956352",
+     "https://twitter.com/juliepagano/statuses/387771814925320192",
+     "https://twitter.com/juliepagano/statuses/387771863046565888",
+     "https://twitter.com/juliepagano/statuses/387772019246649344"
+   ] %>
+
+<% tweets.each do |tweet| %>
+  <%= tweet_html(tweet) %>
+<% end %>
+
+<%= tweet_script %>
