@@ -6,8 +6,8 @@ tags:
 
 ## Follow-up
 
-Interested in continuing the conversation with me about impostor syndrome?
-Please fill out [this form](http://bit.ly/impostor-syndrome-followup) and let me know how I can help.
+I created a [google group](https://groups.google.com/d/forum/battling-the-invisible-monsters) for us to continue these conversations. I will also use it as a place to
+organize some google hangouts in the future.
 
 ## Slides
 [Slides at SpeakerDeck](https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-surviving-the-invisible-monsters-in-tech)
