@@ -26,6 +26,8 @@ activate :blog do |blog|
   # blog.page_link = "page/:num"
 end
 
+activate :syntax
+
 activate :directory_indexes
 
 page "blog/feed.xml", :layout => false
@@ -35,7 +37,8 @@ set :markdown, :layout_engine => :erb,
                :fenced_code_blocks => true,
                :tables => true,
                :autolink => true,
-               :smartypants => true
+               :smartypants => true,
+               :with_toc_data => true
 
 ###
 # Compass
@@ -81,9 +84,6 @@ set :markdown, :layout_engine => :erb,
 
 # Methods defined in the helpers block are available in templates
 helpers do
-  def some_helper
-    "Helping"
-  end
 end
 
 set :css_dir, 'css'

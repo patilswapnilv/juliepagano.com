@@ -1,5 +1,6 @@
 @import "compass";
 @import "font-awesome/font-awesome";
+@import "rouge";
 @charset "UTF-8";
 
 $logo-img: 'logo.png';
@@ -250,6 +251,22 @@ footer {
 
 .pagination {
   margin-right: 1em;
+}
+
+/* syntax highlighting */
+.highlight, code {
+  background-color: #E8E8E8;
+  border: solid 1px #D4D4D4;
+  font-family: source-code-pro;
+  font-size: 0.9em;
+}
+.highlight {
+  @include border-radius(10px);
+  padding: 5px 10px;
+}
+code {
+  @include border-radius(5px);
+  padding: 0 5px;
 }
 
 /* media specific styles */
