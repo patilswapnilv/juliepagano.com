@@ -5,10 +5,219 @@
   <id>http://juliepagano.com/blog/</id>
   <link href="http://juliepagano.com/blog/"/>
   <link href="http://juliepagano.com/feed.xml" rel="self"/>
-  <updated>2013-11-06T03:31:00Z</updated>
+  <updated>2013-11-10T21:59:00Z</updated>
   <author>
     <name>Julie Pagano</name>
   </author>
+  <entry>
+    <title>Site Redesign Using Middleman</title>
+    <link rel="alternate" href="/blog/2013/11/10/site-redesign-using-middleman/"/>
+    <id>/blog/2013/11/10/site-redesign-using-middleman/</id>
+    <published>2013-11-10T21:59:00Z</published>
+    <updated>2013-11-10T21:59:00Z</updated>
+    <author>
+      <name>Julie Pagano</name>
+    </author>
+    <content type="html">&lt;p&gt;I finally redesigned my site and moved it over to a static site generated using &lt;a href="http://middlemanapp.com/"&gt;Middleman&lt;/a&gt; and hosted using &lt;a href="http://pages.github.com/"&gt;Github pages&lt;/a&gt;. I thought I would share a little bit about my process in case it helps anyone else going through the same thing.&lt;/p&gt;
+
+&lt;p&gt;You can find &lt;a href="https://github.com/juliepagano/juliepagano.com"&gt;the repository for my project on Github&lt;/a&gt;. Feel free to use it as a detailed reference for what I did, but don&amp;rsquo;t judge too harshly for the code quality. This was something I slapped together during some spare time, and it is not a good example of best practices.&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Previously, my site lived on a locally hosted server with WordPress and a poorly hacked up custom theme. This was annoying to maintain, so I rarely made changes to the design or page layouts. My server got very sad (my ultra-technical way of saying it couldn&amp;rsquo;t handle the load) any time I wrote a remotely interesting blog post that got some traffic. This was probably due to my lack of a decent server, my configuration of WordPress, or some combination thereof.&lt;/p&gt;
+
+&lt;p&gt;I admit to being a WordPress novice, so this is probably on me. The thing is, I didn&amp;rsquo;t really need WordPress for what I was doing. It didn&amp;rsquo;t seem worthwhile to spend a lot of time learning how to configure it correctly and create a complex theme, when what I really wanted to do was quickly manage my design and focus on writing. Enter static site generators.&lt;/p&gt;
+
+&lt;h2 id="toc_1"&gt;Picking a static site generator&lt;/h2&gt;
+
+&lt;p&gt;A static site generator is pretty much exactly what it sounds like. It&amp;rsquo;s a tool that assists you with creating a static site. The appeal of a static site for me was keeping things very simple. No databases. No complex framework I needed to learn. I just wanted to do some simple design work, write a little front-end code, and then focus on my writing. Another appeal of a static site was that it simplified hosting requirements.&lt;/p&gt;
+
+&lt;p&gt;There are approximately &lt;a href="https://github.com/pinceladasdaweb/Static-Site-Generators"&gt;a bazillion different static site generators&lt;/a&gt; out there. Below is a rough prioritized list of what I was looking for.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Support for blogging functionality&lt;/li&gt;
+&lt;li&gt;Easy setup&lt;/li&gt;
+&lt;li&gt;Configuration in a language I am familiar with or can pick up quickly&lt;/li&gt;
+&lt;li&gt;Support for my favorite front-end tools, particularly SASS and Compass&lt;/li&gt;
+&lt;li&gt;Decent documentation&lt;/li&gt;
+&lt;li&gt;Actively maintained&lt;/li&gt;
+&lt;li&gt;Easy to deploy to Github Pages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Both &lt;a href="http://jekyllrb.com/"&gt;Jekyll&lt;/a&gt; and &lt;a href="http://octopress.org/"&gt;Octopress&lt;/a&gt; (a framework on top of Jekyll) are pretty popular and incredibly easy to to deploy on Github Pages because &lt;a href="https://help.github.com/articles/using-jekyll-with-pages"&gt;Jekyll support is built-in&lt;/a&gt;. I played with Octopress briefly in the past and found myself fighting the built-in theming way too much. I had ok experiences with Jekyll in the past, but I vaguely recall being annoyed with some parts of the configuration, including setting it up to use SASS and Compass. Jekyll was a reasonable option, and my plan was to use it unless I found something more compelling.&lt;/p&gt;
+
+&lt;p&gt;I found &lt;a href="http://middlemanapp.com/"&gt;Middleman&lt;/a&gt; to be that something compelling. It met all my guidelines (see notes below), and I had pleasant memories of working with it in the past for some rapid prototyping work.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://middlemanapp.com/blogging/"&gt;Support for blogging functionality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://middlemanapp.com/getting-started/"&gt;Easy setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Configuration in a language I am familiar with or can pick up quickly - in this case Ruby, ERB, Markdown&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://middlemanapp.com/asset-pipeline/"&gt;Support for my favorite front-end tools, particularly SASS and Compass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://middlemanapp.com/"&gt;Decent documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/middleman/middleman/commits/master"&gt;Actively maintained&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Easy to deploy to Github Pages - done using the &lt;a href="https://github.com/neo/middleman-gh-pages"&gt;Middleman Github Pages gem&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="toc_2"&gt;Setting up Middleman&lt;/h2&gt;
+
+&lt;p&gt;You need to set up a recent version of Ruby before you get started. I used Ruby 2.0.0.&lt;/p&gt;
+
+&lt;h3 id="toc_3"&gt;Install Middleman&lt;/h3&gt;
+&lt;pre class="highlight shell"&gt;gem install middleman
+&lt;/pre&gt;
+&lt;h3 id="toc_4"&gt;Create your project&lt;/h3&gt;
+
+&lt;p&gt;I generated my project using the &lt;a href="http://middlemanapp.com/getting-started/#toc_7"&gt;HTML5 Boilerplate project template&lt;/a&gt;, which sets up a bunch of basic things you will need using &lt;a href="http://html5boilerplate.com/"&gt;HTML5 Boilerplate&lt;/a&gt;. There are several other template options for you to choose from, if HTML5 Boilerplate doesn&amp;rsquo;t strike your fancy.&lt;/p&gt;
+&lt;pre class="highlight shell"&gt;middleman init my_project --template&lt;span class="o"&gt;=&lt;/span&gt;html5
+&lt;/pre&gt;
+&lt;p&gt;The majority of the code you will work with is in the &lt;code&gt;source&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h3 id="toc_5"&gt;Configuration&lt;/h3&gt;
+
+&lt;p&gt;The configuration for your middleman project lives in &lt;code&gt;config.rb&lt;/code&gt; in the root directory. They do not have full documentation on all the things you can set in there. You can explore the settings &lt;a href="https://github.com/middleman/middleman/blob/master/middleman-core/lib/middleman-core/application.rb#L53"&gt;in their code&lt;/a&gt; and take a look at my configuration &lt;a href="https://github.com/juliepagano/juliepagano.com/blob/master/config.rb"&gt;on Github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="toc_6"&gt;Start the server&lt;/h3&gt;
+&lt;pre class="highlight shell"&gt;&lt;span class="nb"&gt;cd &lt;/span&gt;my_project
+middleman
+&lt;/pre&gt;
+&lt;p&gt;Go to &lt;a href="http://localhost:4567"&gt;http://localhost:4567&lt;/a&gt; (or whatever port it specifies). If it works, you&amp;rsquo;ve got the basics set up now!&lt;/p&gt;
+
+&lt;h3 id="toc_7"&gt;Generate a static site&lt;/h3&gt;
+
+&lt;p&gt;You can try building a static version of your site.&lt;/p&gt;
+&lt;pre class="highlight shell"&gt;middleman build
+&lt;/pre&gt;
+&lt;p&gt;The built static code goes into the &lt;code&gt;build&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h3 id="toc_8"&gt;Switch to SASS&lt;/h3&gt;
+
+&lt;p&gt;I modified the CSS files I planned on working with from .css to .scss, so that I
+could use &lt;a href="http://sass-lang.com/"&gt;SASS&lt;/a&gt; for my stylesheets.&lt;/p&gt;
+
+&lt;h3 id="toc_9"&gt;Use pretty urls&lt;/h3&gt;
+
+&lt;p&gt;Add the following to &lt;code&gt;config.rb&lt;/code&gt; to use &lt;a href="http://middlemanapp.com/pretty-urls/"&gt;pretty urls&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="ss"&gt;:directory_indexes&lt;/span&gt;
+&lt;/pre&gt;
+&lt;h3 id="toc_10"&gt;Relative links and assets&lt;/h3&gt;
+
+&lt;p&gt;I initially had some annoyances getting links to pages and assets working properly
+both locally and up on Github Pages because the directory structure was a little different. I was
+able to get it working with the configuration below and sticking with using the &lt;a href="http://middlemanapp.com/helpers/"&gt;helpers&lt;/a&gt;
+for internal links and assets.&lt;/p&gt;
+
+&lt;p&gt;I set the following in &lt;code&gt;config.rb&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="ss"&gt;:relative_assets&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Build-specific configuration&lt;/span&gt;
+&lt;span class="n"&gt;configure&lt;/span&gt; &lt;span class="ss"&gt;:build&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt;
+  &lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:relative_links&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;The default HTML5 Boilerplate code did not use the helpers for some of the asset
+links, so I changed that in &lt;a href="https://github.com/juliepagano/juliepagano.com/commit/7c0dea6ab1b706452dcf3b4008218246f878bce2"&gt;this commit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="toc_11"&gt;Add blogging&lt;/h3&gt;
+
+&lt;p&gt;You can add blogging functionality to Middleman
+using the &lt;a href="https://github.com/middleman/middleman-blog"&gt;middleman-blog&lt;/a&gt; gem. I
+recommend reading and following the &lt;a href="http://middlemanapp.com/blogging/"&gt;instructions in the Middleman documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you get things set up, you can generate new articles with &lt;code&gt;middleman article&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;The Name of My Article&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt;This will generate the file &lt;code&gt;source/blog/2013-11-11-the-name-of-my-article.html.markdown&lt;/code&gt; (or some other path if you configured things differently). You can then
+add tags, modify the title, and write the content of your post.&lt;/p&gt;
+&lt;pre class="highlight markdown"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;
+&lt;span class="s"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;The Name of My Article&lt;/span&gt;
+&lt;span class="s"&gt;date&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;2013-11-11 22:31 EST&lt;/span&gt;
+&lt;span class="s"&gt;tags&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;middleman, blogging&lt;/span&gt;
+&lt;span class="nn"&gt;---&lt;/span&gt;
+The body of my blog post.
+&lt;/pre&gt;
+&lt;h3 id="toc_12"&gt;Add syntax highlighting&lt;/h3&gt;
+
+&lt;p&gt;I added syntax highlighting using the &lt;a href="https://github.com/middleman/middleman-syntax"&gt;middleman-syntax&lt;/a&gt; gem. This allowed me to add the code blocks to this post.&lt;/p&gt;
+
+&lt;h2 id="toc_13"&gt;Deploying to Github pages&lt;/h2&gt;
+
+&lt;p&gt;If you want to use &lt;a href="http://pages.github.com/"&gt;Github Pages&lt;/a&gt; for hosting, you need to put your project on &lt;a href="https://github.com/"&gt;Github&lt;/a&gt;. Github Pages will
+host static site files (e.g. html, css, js) placed in a branch named &lt;code&gt;gh-pages&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id="toc_14"&gt;Set up Middleman Github Pages&lt;/h3&gt;
+
+&lt;p&gt;I use &lt;a href="https://github.com/neo/middleman-gh-pages"&gt;Middleman Github Pages&lt;/a&gt; to handle deploying Middleman changes to my &lt;code&gt;gh-pages&lt;/code&gt; branch. Follow the instructions in the readme and you should be good to go.&lt;/p&gt;
+
+&lt;p&gt;It gives you some simple rake tasks to take care of everything for you.&lt;/p&gt;
+&lt;pre class="highlight shell"&gt;rake build    &lt;span class="c"&gt;# Compile all files into the build directory&lt;/span&gt;
+rake publish  &lt;span class="c"&gt;# Build and publish to Github Pages&lt;/span&gt;
+&lt;/pre&gt;
+&lt;h3 id="toc_15"&gt;Setup up custom domain name&lt;/h3&gt;
+
+&lt;p&gt;Create a file named &lt;code&gt;CNAME&lt;/code&gt; in the &lt;code&gt;source&lt;/code&gt; directory and put the domain (or subdomain) into the file.&lt;/p&gt;
+&lt;pre class="highlight text"&gt;juliepagano.com
+&lt;/pre&gt;
+&lt;p&gt;You will need to &lt;a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns"&gt;configure your DNS&lt;/a&gt; to point to Github. As of the time I wrote this, you should set up an &lt;strong&gt;A record&lt;/strong&gt; pointing to &lt;code&gt;204.232.175.78&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id="toc_16"&gt;Designing the site&lt;/h2&gt;
+
+&lt;p&gt;Disclaimer: I am not a designer by trade, so I kind of &lt;a href="http://knowyourmeme.com/memes/i-have-no-idea-what-im-doing"&gt;have no idea what I&amp;rsquo;m doing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="toc_17"&gt;Logo&lt;/h3&gt;
+
+&lt;p&gt;The only major element I carried over from the previous design of the site is the logo (designed using Adobe Illustrator). I like it as a visual representation that breaks me down to two basic characteristics: hair and glasses.&lt;/p&gt;
+
+&lt;p&gt;In this iteration of the site, I modified the logo to be sharper. I also created a 2x version of the logo that is used on retina devices. Below is a quick snippet of &lt;a href="https://github.com/juliepagano/juliepagano.com/blob/master/source/css/styles.scss"&gt;the code&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="highlight scss"&gt;&lt;span class="nv"&gt;$logo-img&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;logo.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nv"&gt;$logo-img-2x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;logo-2x.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="nt"&gt;header&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nl"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nf"&gt;image-url&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$logo-img&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nb"&gt;no-repeat&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nl"&gt;background-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nf"&gt;image-width&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$logo-img&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="nf"&gt;image-height&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$logo-img&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nl"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nf"&gt;image-height&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$logo-img&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+
+    &lt;span class="k"&gt;@media&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;-webkit-min-device-pixel-ratio&lt;/span&gt;&lt;span class="nd"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;2&lt;/span&gt;&lt;span class="o"&gt;),&lt;/span&gt;
+           &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;min-resolution&lt;/span&gt;&lt;span class="nd"&gt;:&lt;/span&gt; &lt;span class="nt"&gt;192dpi&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="nl"&gt;background-image&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nf"&gt;image-url&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;$logo-img-2x&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;
+&lt;h3 id="toc_18"&gt;Basic design&lt;/h3&gt;
+
+&lt;p&gt;My design process was pretty basic. I wanted something flat and simple. I redesigned the site to focus on my writing, so it was important that my design made it easy to read longform text.&lt;/p&gt;
+
+&lt;p&gt;I worked with &lt;a href="https://kuler.adobe.com/"&gt;Kuler&lt;/a&gt; and &lt;a href="http://colorschemedesigner.com/"&gt;Color Scheme Designer&lt;/a&gt; to select the basic color palette for the site. The starting color I worked from was the red shade of the hair in the logo.&lt;/p&gt;
+
+&lt;h3 id="toc_19"&gt;Responsive design&lt;/h3&gt;
+
+&lt;p&gt;A lot of people get links to blog posts on their phones and other devices, so it was important to me that my writing was readable on a variety of screen sizes. I used some very basic responsive design techniques to make this happen.&lt;/p&gt;
+
+&lt;p&gt;You can see some examples of what I did by looking for the &lt;code&gt;@media&lt;/code&gt; queries in the &lt;a href="https://github.com/juliepagano/juliepagano.com/blob/master/source/css/styles.scss"&gt;primary stylesheet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id="toc_20"&gt;Fonts&lt;/h3&gt;
+
+&lt;p&gt;I used &lt;a href="https://typekit.com"&gt;Typekit&lt;/a&gt; to provide my text fonts. The site is currently using &lt;a href="https://typekit.com/fonts/proxima-nova"&gt;Proxima Nova&lt;/a&gt; for regular text and &lt;a href="https://typekit.com/fonts/source-code-pro"&gt;Source Code Pro&lt;/a&gt; for code snippets.&lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href="http://fontawesome.io/"&gt;Font Awesome&lt;/a&gt; for the icons on the site. It is an icon
+font that is super-easy to set up and use. I &lt;a href="http://fontawesome.io/get-started/"&gt;set up Font Awesome&lt;/a&gt; using the &lt;strong&gt;Pro: Custom SASS&lt;/strong&gt; option.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Download Font Awesome&lt;/li&gt;
+&lt;li&gt;Extract and copy the &lt;code&gt;font-awesome&lt;/code&gt; directory to &lt;code&gt;source/css&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Set the &lt;code&gt;$fa-font-path&lt;/code&gt; variable in &lt;code&gt;font-awesome/scss/_variables.scss&lt;/code&gt; to point to your font directory where you put the Font Awesome font files.&lt;/li&gt;
+&lt;li&gt;Import Font Awesome in your stylesheet: &lt;code&gt;@import &amp;quot;font-awesome/font-awesome&amp;quot;;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use the icon-fonts via custom classes. There are a bunch of helpful &lt;a href="http://fontawesome.io/examples/"&gt;examples&lt;/a&gt; for how to do this in their documentation.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id="toc_21"&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;It was a lot of fun to play around with a little design and a somewhat new framework. I was able to get things up and running fairly quickly once I actually sat down and worked at it. It is easy to update and work with, so I feel validated in the choices that I made based on my original goals. Hopefully, you will see a lot more writing from me now.&lt;/p&gt;
+
+&lt;p&gt;I shared a somewhat random smattering of my process above. I might try to write up some additional pieces later, but I wanted to get something out now. Feel free to &lt;a href="/about"&gt;contact me&lt;/a&gt; or &lt;a href="https://github.com/juliepagano/juliepagano.com/issues"&gt;file an issue&lt;/a&gt; if you have any questions or want me to cover additional topics.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>Sexual Assault Educational Resources</title>
     <link rel="alternate" href="/blog/2013/11/05/sexual-assault-educational-resources/"/>
@@ -110,7 +319,7 @@ have the time, energy, or willingness to put that kind of work into my site.
 Sorry, commenters, I have a day job.&lt;/p&gt;
 
 &lt;p&gt;If you want to engage with me about my writing, you can find plenty of ways
-to contact me on the &lt;a href="../../about/"&gt;about&lt;/a&gt; section of my site. However, please
+to contact me on the &lt;a href="../about/"&gt;about&lt;/a&gt; section of my site. However, please
 be respectful of my time. Please understand that I receive a large number of
 emails and may not be able to respond to everyone. On a more sinister note,
 if you send me threats, harassment, or abuse, please be aware that I may share
@@ -133,19 +342,19 @@ my little corner of the internet.&lt;/p&gt;
     <author>
       <name>Julie Pagano</name>
     </author>
-    <content type="html">&lt;h2&gt;Follow-up&lt;/h2&gt;
+    <content type="html">&lt;h2 id="toc_0"&gt;Follow-up&lt;/h2&gt;
 
 &lt;p&gt;I created a &lt;a href="https://groups.google.com/d/forum/battling-the-invisible-monsters"&gt;google group&lt;/a&gt; for us to continue these conversations. I will also use it as a place to
 organize some google hangouts in the future.&lt;/p&gt;
 
-&lt;h2&gt;Slides&lt;/h2&gt;
+&lt;h2 id="toc_1"&gt;Slides&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href="https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-surviving-the-invisible-monsters-in-tech"&gt;Slides at SpeakerDeck&lt;/a&gt;&lt;/p&gt;
 
 &lt;script class="speakerdeck-embed" data-id="a4c75720030501317cae6ed52b662488" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"&gt;
 &lt;/script&gt;
 
-&lt;h3&gt;References&lt;/h3&gt;
+&lt;h3 id="toc_2"&gt;References&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Impostor Syndrome - &lt;a href="http://en.wikipedia.org/wiki/Impostor_syndrome"&gt;http://en.wikipedia.org/wiki/Impostor_syndrome&lt;/a&gt;&lt;/li&gt;
@@ -155,7 +364,7 @@ organize some google hangouts in the future.&lt;/p&gt;
 &lt;li&gt;Aaron Patterson at SCRC12 - &lt;a href="http://www.confreaks.com/videos/1137-scrc2012-open-source-how-to-give-back"&gt;http://www.confreaks.com/videos/1137-scrc2012-open-source-how-to-give-back&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Attribution&lt;/h3&gt;
+&lt;h3 id="toc_3"&gt;Attribution&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://thenounproject.com/noun/road-barrier/#icon-No4357"&gt;Road barrier&lt;/a&gt; from the noun project&lt;/li&gt;
@@ -167,7 +376,7 @@ organize some google hangouts in the future.&lt;/p&gt;
 &lt;li&gt;&lt;a href="http://thenounproject.com/noun/scale/#icon-No10409"&gt;Scale&lt;/a&gt; designed by Stephanie Wauters from The Noun Project&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Additional Resources&lt;/h3&gt;
+&lt;h3 id="toc_4"&gt;Additional Resources&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://rubyrogues.com/107-rr-impostor-syndrome-with-tim-chevalier/"&gt;Ruby Rogues #107 Syndrome with Tim Chevalier&lt;/a&gt;&lt;/li&gt;
@@ -176,7 +385,7 @@ organize some google hangouts in the future.&lt;/p&gt;
 &lt;li&gt;&lt;a href="https://medium.com/tech-talk/bdae04e46ec5"&gt;Overcoming Impostor Syndrome&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2&gt;Video&lt;/h2&gt;
+&lt;h2 id="toc_5"&gt;Video&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href="http://confreaks.com/videos/2691-nickelcityruby2013-it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech"&gt;Video at Confreaks&lt;/a&gt;
 &lt;iframe class="youtube" src="//www.youtube.com/embed/GYdR09pmYzw" frameborder="0"&gt;
@@ -188,7 +397,7 @@ and will make sure I do not repeat this if I give the talk again.&lt;/p&gt;
 &lt;p&gt;&lt;a href="#transcripts"&gt;Below is a rough initial draft of transcription&lt;/a&gt;. I will work on checking this for typos and other issues in the near future. If anyone has time to help with that,
 &lt;a href="https://github.com/juliepagano/juliepagano.com"&gt;pull requests&lt;/a&gt; would be great.&lt;/p&gt;
 
-&lt;h2&gt;Transcripts&lt;/h2&gt;
+&lt;h2 id="toc_6"&gt;Transcripts&lt;/h2&gt;
 
 &lt;p&gt;Alright. So hi! I&amp;rsquo;m Julie Pagano. I&amp;rsquo;m a software engineer from Pittsburgh, PA. I currently work at the Google offices there. And I&amp;rsquo;m here today to give you a talk entitled &amp;ldquo;It&amp;rsquo;s Dangerous to Go Alone: Battling the Invisible Monsters in Tech.&amp;rdquo;&lt;/p&gt;
 
@@ -280,53 +489,53 @@ and will make sure I do not repeat this if I give the talk again.&lt;/p&gt;
 
 &lt;p&gt;I highly recommend checking this list before engaging with me about feminism if you&amp;rsquo;re new to it. It&amp;rsquo;ll save both of us a lot of time and frustration.&lt;/p&gt;
 
-&lt;h2&gt;Diversity in tech&lt;/h2&gt;
+&lt;h2 id="toc_0"&gt;Diversity in tech&lt;/h2&gt;
 
-&lt;h3&gt;Women aren&amp;rsquo;t equally represented in tech because biology&lt;/h3&gt;
+&lt;h3 id="toc_1"&gt;Women aren&amp;rsquo;t equally represented in tech because biology&lt;/h3&gt;
 
 &lt;p&gt;Nope. This argument is bad and the science does not support it. Unfortunately, every time you say this out loud, you are contributing to cultural problems that do decrease the number of women in tech.&lt;/p&gt;
 
 &lt;p&gt;Also see, &lt;a href="http://www.slideshare.net/terriko/how-does-biology-explain-the-low-numbers-of-women-in-cs-hint-it-doesnt"&gt;How Does Biology Explain the Low Numbers of Women in CS? Hint: it doesn&amp;rsquo;t&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3&gt;Minority-only spaces are *ist&lt;/h3&gt;
+&lt;h3 id="toc_2"&gt;Minority-only spaces are *ist&lt;/h3&gt;
 
 &lt;p&gt;Nope. You keep using that word, I don&amp;rsquo;t think it means what you think it means.&lt;/p&gt;
 
-&lt;h3&gt;You&amp;rsquo;re giving &amp;lt;minority&amp;gt; an unfair advantage by helping them&lt;/h3&gt;
+&lt;h3 id="toc_3"&gt;You&amp;rsquo;re giving &amp;lt;minority&amp;gt; an unfair advantage by helping them&lt;/h3&gt;
 
 &lt;p&gt;Nope. The post &lt;a href="https://medium.com/thoughts-on-society/a1345b36b91b"&gt;Why do women try to get ahead by pulling men down?&lt;/a&gt; uses some good metaphors that might help you understand why this is wrong.&lt;/p&gt;
 
-&lt;h3&gt;&amp;lt;minority demographic&amp;gt; is underrepresented in tech because they don&amp;rsquo;t try hard enough&lt;/h3&gt;
+&lt;h3 id="toc_4"&gt;&amp;lt;minority demographic&amp;gt; is underrepresented in tech because they don&amp;rsquo;t try hard enough&lt;/h3&gt;
 
 &lt;p&gt;Nope. It sure sounds like you&amp;rsquo;re saying an entire demographic is lazy. Not cool and not true. Try evaluating what sort of cultural issues discourage that demographic and what privileges make tech more accessible for the highly representated demographics.&lt;/p&gt;
 
-&lt;h3&gt;Diversity at Conferences&lt;/h3&gt;
+&lt;h3 id="toc_5"&gt;Diversity at Conferences&lt;/h3&gt;
 
 &lt;p&gt;Read Ashe&amp;rsquo;s awesome posts &lt;a href="http://ashedryden.com/blog/so-you-want-to-put-on-a-diverse-inclusive-conference"&gt;So you want to put on a diverse, inclusive conference&lt;/a&gt; and &lt;a href="http://ashedryden.com/blog/increasing-diversity-at-your-conference"&gt;Increasing diversity at your conference&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2&gt;Rape Culture&lt;/h2&gt;
+&lt;h2 id="toc_6"&gt;Rape Culture&lt;/h2&gt;
 
-&lt;h3&gt;Explain rape culture to me.&lt;/h3&gt;
+&lt;h3 id="toc_7"&gt;Explain rape culture to me.&lt;/h3&gt;
 
 &lt;p&gt;No. Go read &lt;a href="http://www.shakesville.com/2009/10/rape-culture-101.html"&gt;rape culture 101&lt;/a&gt;. Then read it again. And again. And again. Pretty much read that on the daily until it&amp;rsquo;s seeped in.&lt;/p&gt;
 
 &lt;p&gt;I spent an evening explaining this on twitter and sharing resources. Check out the &lt;a href="/blog/2013/11/05/sexual-assault-educational-resources/"&gt;collection of tweets&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3&gt;I don&amp;rsquo;t think rape culture exists.&lt;/h3&gt;
+&lt;h3 id="toc_8"&gt;I don&amp;rsquo;t think rape culture exists.&lt;/h3&gt;
 
 &lt;p&gt;See &lt;a href="#explain_rape_culture_to_me"&gt;Explain rape culture to me&lt;/a&gt;. If you still think it&amp;rsquo;s not a thing, please don&amp;rsquo;t ever speak to me about this. Honestly, I&amp;rsquo;m not really interested in engaging with people who are aware of what rape culture is and deny its existence.&lt;/p&gt;
 
-&lt;h3&gt;Rape jokes are funny&lt;/h3&gt;
+&lt;h3 id="toc_9"&gt;Rape jokes are funny&lt;/h3&gt;
 
 &lt;p&gt;Nope. They&amp;rsquo;re really not. Additionally, they contribute to rape culture. When you tell them, you are also contributing to rape culture. You probably didn&amp;rsquo;t know that before. It&amp;rsquo;s ok. Now you know. Make a change for the better.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="http://tacoboutthatbutt.tumblr.com/post/49458621565/to-all-those-who-dont-think-the-rape-joke-was-a"&gt;This comment about rape jokes&lt;/a&gt; may also help you understand.&lt;/p&gt;
 
-&lt;h3&gt;Women need to stop being so paranoid all the time.&lt;/h3&gt;
+&lt;h3 id="toc_10"&gt;Women need to stop being so paranoid all the time.&lt;/h3&gt;
 
 &lt;p&gt;Go read &lt;a href="http://kateharding.net/2009/10/08/guest-blogger-starling-schrodinger%E2%80%99s-rapist-or-a-guy%E2%80%99s-guide-to-approaching-strange-women-without-being-maced/"&gt;Schrödinger&amp;rsquo;s Rapist&lt;/a&gt;. This may help you understand. Alternatively, you may have read this already and that&amp;rsquo;s why you&amp;rsquo;re saying this to me. It&amp;rsquo;s not paranoia when the rape and violence statistics are what they are. Please don&amp;rsquo;t tell us how to react to our own lived experiences.&lt;/p&gt;
 
-&lt;h3&gt;How should a community handle sexual assault?&lt;/h3&gt;
+&lt;h3 id="toc_11"&gt;How should a community handle sexual assault?&lt;/h3&gt;
 
 &lt;p&gt;I strongly recommend reviewing my other resources in this section and then moving forward with an accountability process. Below are some good resources about accountability processes.&lt;/p&gt;
 
@@ -334,65 +543,65 @@ and will make sure I do not repeat this if I give the talk again.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href="http://www.transformativejustice.eu/wp-content/uploads/2010/11/Taking-Risks.-CARA.pdf"&gt;from Transformative Justice&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2&gt;Allies&lt;/h2&gt;
+&lt;h2 id="toc_12"&gt;Allies&lt;/h2&gt;
 
-&lt;h3&gt;Your behavior is pushing away allies&lt;/h3&gt;
+&lt;h3 id="toc_13"&gt;Your behavior is pushing away allies&lt;/h3&gt;
 
 &lt;p&gt;You&amp;rsquo;re not being a good ally when you&amp;rsquo;re telling members of the oppressed group you&amp;rsquo;re supposedly allied with how to behave. You and I may just have different definitions of what being an ally means. I highly recommend reading about &lt;a href="http://www.shakesville.com/2013/04/on-fixed-state-ally-model-vs-process.html"&gt;the fixed state ally model versus the process ally model&lt;/a&gt;. I subscribe to the latter, and it sounds like you subscribe to the former.&lt;/p&gt;
 
-&lt;h3&gt;But I&amp;rsquo;m an ally! Why are you attacking me? (generally in response to disagreement)&lt;/h3&gt;
+&lt;h3 id="toc_14"&gt;But I&amp;rsquo;m an ally! Why are you attacking me? (generally in response to disagreement)&lt;/h3&gt;
 
 &lt;p&gt;Disagreement is not attacking. Being an ally does not shield you from criticism when you make mistakes. Being an ally does not make you an expert on the lived experiences of the people who are claiming to be an ally to.&lt;/p&gt;
 
 &lt;p&gt;See also &lt;a href="#your_behavior_is_pushing_away_allies"&gt;Your behavior is pushing away allies&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2&gt;Miscellaneous&lt;/h2&gt;
+&lt;h2 id="toc_15"&gt;Miscellaneous&lt;/h2&gt;
 
-&lt;h3&gt;I&amp;rsquo;m not *ist but&lt;/h3&gt;
+&lt;h3 id="toc_16"&gt;I&amp;rsquo;m not *ist but&lt;/h3&gt;
 
 &lt;p&gt;Let me stop you right there. Sentences that start this way very rarely end well. Just don&amp;rsquo;t.&lt;/p&gt;
 
-&lt;h3&gt;Why do you hate men?&lt;/h3&gt;
+&lt;h3 id="toc_17"&gt;Why do you hate men?&lt;/h3&gt;
 
 &lt;p&gt;I don&amp;rsquo;t. I like lots of men just fine. In fact, I even love some of them. Sure, I have contempt for some men, but it&amp;rsquo;s because of their individual bad behavior, not because of their gender. That being said, I am pretty sick of &lt;a href="http://www.shakesville.com/2012/03/terrible-bargain-we-have-regretfully.html"&gt;the terrible bargain we&amp;rsquo;ve regretfully struck&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3&gt;If you won&amp;rsquo;t teach me, how will I learn?&lt;/h3&gt;
+&lt;h3 id="toc_18"&gt;If you won&amp;rsquo;t teach me, how will I learn?&lt;/h3&gt;
 
 &lt;p&gt;You are not entitled to my (or anyone else&amp;rsquo;s) attention or efforts, especially on demand. There are tons of writings (books, blog posts, journal articles, etc.) on all of these topics. I&amp;rsquo;m pretty sure you&amp;rsquo;re capable of finding some of them if you try even a little bit. I have limited time, and I would much rather spend it on other things that make me happy and help others.&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ll be a lot more likely to give you my time if you schedule it with me and do the bare minimum of research first.&lt;/p&gt;
 
-&lt;h3&gt;I don&amp;rsquo;t like your tone. You&amp;rsquo;d catch more flies with honey. etc. etc.&lt;/h3&gt;
+&lt;h3 id="toc_19"&gt;I don&amp;rsquo;t like your tone. You&amp;rsquo;d catch more flies with honey. etc. etc.&lt;/h3&gt;
 
 &lt;p&gt;This is called a &lt;a href="http://geekfeminism.wikia.com/wiki/Tone_argument"&gt;tone argument&lt;/a&gt;. It&amp;rsquo;s a well-known derailing technique that is patronizing and dismissive. Some of the things feminism has to say are hard - there&amp;rsquo;s no nice way to say them. It&amp;rsquo;s also not my job to act pleasing and friendly on all occasions. If you regularly find my tone to not match your interests, feel free to find another source - I won&amp;rsquo;t be mad. I will be frustrated and contemptuous if you use a tone argument on me.&lt;/p&gt;
 
-&lt;h3&gt;You&amp;rsquo;re being too angry&lt;/h3&gt;
+&lt;h3 id="toc_20"&gt;You&amp;rsquo;re being too angry&lt;/h3&gt;
 
 &lt;p&gt;See &lt;a href="http://www.shakesville.com/2008/05/feminism-101-on-anger.html"&gt;Feminism 101: On Anger&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Also, groups of marginalized people are often accused of being angry when what they are is frustrated. &lt;a href="http://www.shakesville.com/2013/03/an-observation_28.html"&gt;Sometimes, we&amp;rsquo;re not angry, we&amp;rsquo;re dissatisfied.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3&gt;Why the hell do you keep talking about spoons?&lt;/h3&gt;
+&lt;h3 id="toc_21"&gt;Why the hell do you keep talking about spoons?&lt;/h3&gt;
 
 &lt;p&gt;Go read about &lt;a href="http://www.butyoudontlooksick.com/wpress/articles/written-by-christine/the-spoon-theory/"&gt;the spoon theory&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3&gt;That&amp;rsquo;s reverse-*ism!&lt;/h3&gt;
+&lt;h3 id="toc_22"&gt;That&amp;rsquo;s reverse-*ism!&lt;/h3&gt;
 
 &lt;p&gt;Reverse-sexism/racism/*ism isn&amp;rsquo;t a thing. There&amp;rsquo;s just sexism/racism/*ism, and there&amp;rsquo;s a reasonable likelihood that you don&amp;rsquo;t know how they work. oppression = prejudice + power.&lt;/p&gt;
 
-&lt;h3&gt;I&amp;rsquo;m just playing devil&amp;rsquo;s advocate.&lt;/h3&gt;
+&lt;h3 id="toc_23"&gt;I&amp;rsquo;m just playing devil&amp;rsquo;s advocate.&lt;/h3&gt;
 
 &lt;p&gt;I&amp;rsquo;ll be honest, it feels like you&amp;rsquo;re saying terrible things and trying to shield yourself from criticism by yelling &amp;ldquo;devil&amp;rsquo;s advocate&amp;rdquo; while doing so. Maybe that&amp;rsquo;s not what you&amp;rsquo;re doing. It doesn&amp;rsquo;t matter a whole lot because either way I don&amp;rsquo;t want to have a conversation with someone pretending to take the side of some hyperbolic other. Please don&amp;rsquo;t initiate these conversations with me.&lt;/p&gt;
 
-&lt;h3&gt;Not all guys are like that!&lt;/h3&gt;
+&lt;h3 id="toc_24"&gt;Not all guys are like that!&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href="http://nudityandnerdery.tumblr.com/post/63995327460/see-what-you-need-to-understand-is-that-not-all"&gt;Read this post.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3&gt;Why are you so easily offended?&lt;/h3&gt;
+&lt;h3 id="toc_25"&gt;Why are you so easily offended?&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href="http://hoydenabouttown.com/20110403.9735/dont-mistake-expressing-contempt-for-taking-offense/"&gt;I&amp;rsquo;m not offended, I&amp;rsquo;m contemptuous.&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3&gt;What are some other good resources?&lt;/h3&gt;
+&lt;h3 id="toc_26"&gt;What are some other good resources?&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://www.shakesville.com/2010/01/feminism-101.html"&gt;Feminism 101 posts from Shakesville&lt;/a&gt;&lt;/li&gt;
@@ -469,19 +678,6 @@ and will make sure I do not repeat this if I give the talk again.&lt;/p&gt;
 &lt;p&gt;Comments are closed on this post. If this angers you, you’re part of the problem. If you’re sad about what you read and have the energy, please try to shape the community into a space that looks different. It doesn’t have to be this way.&lt;/p&gt;
 
 &lt;p&gt;Note: As I’ve indicated on twitter, this is not a criticism of the conference I was at this weekend - the timing is unfortunate. The organizers hosted a lovely conference, and I was honored to speak at it. They did an awesome job at having a great diverse lineup (my fave is still the 11 year old young woman who loves ruby and dancing) and a code of conduct.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Julie's Lean In Livetweets</title>
-    <link rel="alternate" href="/blog/2013/04/03/julie-s-lean-in-livetweets/"/>
-    <id>/blog/2013/04/03/julie-s-lean-in-livetweets/</id>
-    <published>2013-04-04T02:07:00Z</published>
-    <updated>2013-04-04T02:07:00Z</updated>
-    <author>
-      <name>Julie Pagano</name>
-    </author>
-    <content type="html">&lt;p&gt;&lt;a href="http://storify.com/juliepagano/julie-s-lean-in-livetweets"&gt;Julie&amp;rsquo;s Lean In Livetweets&lt;/a&gt;
-If you missed the live part of my Lean In livetweeting, you can check out most of it over at Storify.&lt;/p&gt;
 </content>
   </entry>
 </feed>
