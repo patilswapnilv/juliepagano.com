@@ -1,0 +1,220 @@
+---
+title: Site Redesign Using Middleman
+date: 2013-11-10 16:59 EST
+tags: tech, middleman, site
+---
+
+I finally redesigned my site and moved it over to a static site generated using [Middleman](http://middlemanapp.com/) and hosted using [Github pages](http://pages.github.com/). I thought I would share a little bit about my process in case it helps anyone else going through the same thing.
+
+You can find [the repository for my project on Github](https://github.com/juliepagano/juliepagano.com). Feel free to use it as a detailed reference for what I did, but don't judge too harshly for the code quality. This was something I slapped together during some spare time, and it is not a good example of best practices.
+
+## Background
+
+Previously, my site lived on a locally hosted server with WordPress and a poorly hacked up custom theme. This was annoying to maintain, so I rarely made changes to the design or page layouts. My server got very sad (my ultra-technical way of saying it couldn't handle the load) any time I wrote a remotely interesting blog post that got some traffic. This was probably due to my lack of a decent server, my configuration of WordPress, or some combination thereof.
+
+I admit to being a WordPress novice, so this is probably on me. The thing is, I didn't really need WordPress for what I was doing. It didn't seem worthwhile to spend a lot of time learning how to configure it correctly and create a complex theme, when what I really wanted to do was quickly manage my design and focus on writing. Enter static site generators.
+
+## Picking a static site generator
+
+A static site generator is pretty much exactly what it sounds like. It's a tool that assists you with creating a static site. The appeal of a static site for me was keeping things very simple. No databases. No complex framework I needed to learn. I just wanted to do some simple design work, write a little front-end code, and then focus on my writing. Another appeal of a static site was that it simplified hosting requirements.
+
+There are approximately [a bazillion different static site generators](https://github.com/pinceladasdaweb/Static-Site-Generators) out there. Below is a rough prioritized list of what I was looking for.
+
+* Support for blogging functionality
+* Easy setup
+* Configuration in a language I am familiar with or can pick up quickly
+* Support for my favorite front-end tools, particularly SASS and Compass
+* Decent documentation
+* Actively maintained
+* Easy to deploy to Github Pages
+
+Both [Jekyll](http://jekyllrb.com/) and [Octopress](http://octopress.org/) (a framework on top of Jekyll) are pretty popular and incredibly easy to to deploy on Github Pages because [Jekyll support is built-in](https://help.github.com/articles/using-jekyll-with-pages). I played with Octopress briefly in the past and found myself fighting the built-in theming way too much. I had ok experiences with Jekyll in the past, but I vaguely recall being annoyed with some parts of the configuration, including setting it up to use SASS and Compass. Jekyll was a reasonable option, and my plan was to use it unless I found something more compelling.
+
+I found [Middleman](http://middlemanapp.com/) to be that something compelling. It met all my guidelines (see notes below), and I had pleasant memories of working with it in the past for some rapid prototyping work.
+
+* [Support for blogging functionality](http://middlemanapp.com/blogging/)
+* [Easy setup](http://middlemanapp.com/getting-started/)
+* Configuration in a language I am familiar with or can pick up quickly - in this case Ruby, ERB, Markdown
+* [Support for my favorite front-end tools, particularly SASS and Compass](http://middlemanapp.com/asset-pipeline/)
+* [Decent documentation](http://middlemanapp.com/)
+* [Actively maintained](https://github.com/middleman/middleman/commits/master)
+* Easy to deploy to Github Pages - done using the [Middleman Github Pages gem](https://github.com/neo/middleman-gh-pages)
+
+## Setting up Middleman
+You need to set up a recent version of Ruby before you get started. I used Ruby 2.0.0.
+
+###Install Middleman
+
+``` shell
+gem install middleman
+```
+
+### Create your project
+
+I generated my project using the [HTML5 Boilerplate project template](http://middlemanapp.com/getting-started/#toc_7), which sets up a bunch of basic things you will need using [HTML5 Boilerplate](http://html5boilerplate.com/). There are several other template options for you to choose from, if HTML5 Boilerplate doesn't strike your fancy.
+
+``` shell
+middleman init my_project --template=html5
+````
+
+The majority of the code you will work with is in the `source` directory.
+
+### Configuration
+
+The configuration for your middleman project lives in `config.rb` in the root directory. They do not have full documentation on all the things you can set in there. You can explore the settings [in their code](https://github.com/middleman/middleman/blob/master/middleman-core/lib/middleman-core/application.rb#L53) and take a look at my configuration [on Github](https://github.com/juliepagano/juliepagano.com/blob/master/config.rb).
+
+### Start the server
+
+``` shell
+cd my_project
+middleman
+````
+
+Go to [http://localhost:4567](http://localhost:4567) (or whatever port it specifies). If it works, you've got the basics set up now!
+
+### Generate a static site
+
+You can try building a static version of your site.
+
+``` shell
+middleman build
+````
+
+The built static code goes into the `build` directory.
+
+
+### Switch to SASS
+I modified the CSS files I planned on working with from .css to .scss, so that I
+could use [SASS](http://sass-lang.com/) for my stylesheets.
+
+### Use pretty urls
+Add the following to `config.rb` to use [pretty urls](http://middlemanapp.com/pretty-urls/).
+
+``` ruby
+activate :directory_indexes
+````
+
+### Relative links and assets
+I initially had some annoyances getting links to pages and assets working properly
+both locally and up on Github Pages because the directory structure was a little different. I was
+able to get it working with the configuration below and sticking with using the [helpers](http://middlemanapp.com/helpers/)
+for internal links and assets.
+
+I set the following in `config.rb`:
+
+``` ruby
+activate :relative_assets
+
+# Build-specific configuration
+configure :build do
+  set :relative_links, true
+end
+````
+
+The default HTML5 Boilerplate code did not use the helpers for some of the asset
+links, so I changed that in [this commit](https://github.com/juliepagano/juliepagano.com/commit/7c0dea6ab1b706452dcf3b4008218246f878bce2).
+
+### Add blogging
+You can add blogging functionality to Middleman
+using the [middleman-blog](https://github.com/middleman/middleman-blog) gem. I
+recommend reading and following the [instructions in the Middleman documentation](http://middlemanapp.com/blogging/).
+
+Once you get things set up, you can generate new articles with `middleman article`.
+
+``` ruby
+middleman article "The Name of My Article"
+````
+
+This will generate the file `source/blog/2013-11-11-the-name-of-my-article.html.markdown` (or some other path if you configured things differently). You can then
+add tags, modify the title, and write the content of your post.
+
+``` markdown
+---
+title: The Name of My Article
+date: 2013-11-11 22:31 EST
+tags: middleman, blogging
+---
+The body of my blog post.
+````
+
+### Add syntax highlighting
+I added syntax highlighting using the [middleman-syntax](https://github.com/middleman/middleman-syntax) gem. This allowed me to add the code blocks to this post.
+
+
+## Deploying to Github pages
+If you want to use [Github Pages](http://pages.github.com/) for hosting, you need to put your project on [Github](https://github.com/). Github Pages will
+host static site files (e.g. html, css, js) placed in a branch named `gh-pages`.
+
+### Set up Middleman Github Pages
+
+I use [Middleman Github Pages](https://github.com/neo/middleman-gh-pages) to handle deploying Middleman changes to my `gh-pages` branch. Follow the instructions in the readme and you should be good to go.
+
+It gives you some simple rake tasks to take care of everything for you.
+
+``` shell
+rake build    # Compile all files into the build directory
+rake publish  # Build and publish to Github Pages
+````
+
+### Setup up custom domain name
+Create a file named `CNAME` in the `source` directory and put the domain (or subdomain) into the file.
+
+```
+juliepagano.com
+````
+
+You will need to [configure your DNS](https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns) to point to Github. As of the time I wrote this, you should set up an **A record** pointing to `204.232.175.78`.
+
+## Designing the site
+Disclaimer: I am not a designer by trade, so I kind of [have no idea what I'm doing](http://knowyourmeme.com/memes/i-have-no-idea-what-im-doing).
+
+### Logo
+The only major element I carried over from the previous design of the site is the logo (designed using Adobe Illustrator). I like it as a visual representation that breaks me down to two basic characteristics: hair and glasses.
+
+In this iteration of the site, I modified the logo to be sharper. I also created a 2x version of the logo that is used on retina devices. Below is a quick snippet of [the code](https://github.com/juliepagano/juliepagano.com/blob/master/source/css/styles.scss).
+
+``` scss
+$logo-img: 'logo.png';
+$logo-img-2x: 'logo-2x.png';
+
+header {
+  h1 {
+    background: image-url($logo-img) no-repeat;
+    background-size: image-width($logo-img) image-height($logo-img);
+    height: image-height($logo-img);
+
+    @media (-webkit-min-device-pixel-ratio: 2),
+           (min-resolution: 192dpi) {
+      background-image: image-url($logo-img-2x);
+    }
+  }
+}
+````
+
+### Basic design
+My design process was pretty basic. I wanted something flat and simple. I redesigned the site to focus on my writing, so it was important that my design made it easy to read longform text.
+
+I worked with [Kuler](https://kuler.adobe.com/) and [Color Scheme Designer](http://colorschemedesigner.com/) to select the basic color palette for the site. The starting color I worked from was the red shade of the hair in the logo.
+
+### Responsive design
+A lot of people get links to blog posts on their phones and other devices, so it was important to me that my writing was readable on a variety of screen sizes. I used some very basic responsive design techniques to make this happen.
+
+You can see some examples of what I did by looking for the `@media` queries in the [primary stylesheet](https://github.com/juliepagano/juliepagano.com/blob/master/source/css/styles.scss).
+
+### Fonts
+
+I used [Typekit](https://typekit.com) to provide my text fonts. The site is currently using [Proxima Nova](https://typekit.com/fonts/proxima-nova) for regular text and [Source Code Pro](https://typekit.com/fonts/source-code-pro) for code snippets.
+
+I used [Font Awesome](http://fontawesome.io/) for the icons on the site. It is an icon
+font that is super-easy to set up and use. I [set up Font Awesome](http://fontawesome.io/get-started/) using the **Pro: Custom SASS** option.
+
+1. Download Font Awesome
+1. Extract and copy the `font-awesome` directory to `source/css`
+1. Set the `$fa-font-path` variable in `font-awesome/scss/_variables.scss` to point to your font directory where you put the Font Awesome font files.
+1. Import Font Awesome in your stylesheet: `@import "font-awesome/font-awesome";`
+1. Use the icon-fonts via custom classes. There are a bunch of helpful [examples](http://fontawesome.io/examples/) for how to do this in their documentation.
+
+## Conclusion
+It was a lot of fun to play around with a little design and a somewhat new framework. I was able to get things up and running fairly quickly once I actually sat down and worked at it. It is easy to update and work with, so I feel validated in the choices that I made based on my original goals. Hopefully, you will see a lot more writing from me now.
+
+I shared a somewhat random smattering of my process above. I might try to write up some additional pieces later, but I wanted to get something out now. Feel free to [contact me](/about) or [file an issue](https://github.com/juliepagano/juliepagano.com/issues) if you have any questions or want me to cover additional topics.
