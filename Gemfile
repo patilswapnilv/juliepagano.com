@@ -9,6 +9,6 @@ gem "middleman-syntax"
 # For feed.xml.builder
 gem "builder", "~> 3.0.0"
 
-gem "redcarpet"
+gem 'redcarpet', github: 'vmg/redcarpet'
 
 gem "oembed_links"

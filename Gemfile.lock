@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/vmg/redcarpet.git
+  revision: a072e16f547883518bd22bd0df0f4bfa2d4a149b
+  specs:
+    redcarpet (3.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -87,7 +93,6 @@ GEM
       rack (>= 1.0)
     rake (10.1.0)
     rb-fsevent (0.9.3)
-    redcarpet (3.0.0)
     rouge (0.3.10)
       thor
     sass (3.2.12)
@@ -125,4 +130,4 @@ DEPENDENCIES
   middleman-gh-pages
   middleman-syntax
   oembed_links
-  redcarpet
+  redcarpet!
