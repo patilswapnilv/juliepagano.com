@@ -1,7 +1,7 @@
 ---
 title: You say you want a diverse development team... (part 1)
 date: 2012-08-12 20:10 EST
-tags: diversity, tech
+tags: diversity, tech, recruiting
 ---
 
 I keep meeting people (hr, recruiters, developers, managers, etc.) from technology companies with homogenous development teams (read: mostly or entirely comprised of young, middle-class, white guys) who say things like “our team doesn’t have any women – we’d really love to hire some to improve the diversity of our team.” We’ll call these people, GROUP A. As a note, a lot of people from GROUP A also say they have difficulty finding good talent, diverse or not.

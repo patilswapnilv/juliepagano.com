@@ -253,6 +253,16 @@ footer {
   margin-right: 1em;
 }
 
+.tags {
+  a {
+     color: desaturate($link-color, 40%);
+
+     &:hover {
+      color: desaturate($link-active-color, 40%);
+     }
+  }
+}
+
 /* syntax highlighting */
 .highlight, code {
   background-color: #E8E8E8;
@@ -331,13 +341,13 @@ code {
     font-size: 1.3em;
     font-weight: normal;
     margin: 0;
-  }
 
-  a {
-    color: $alt-header-color2;
+    a {
+      color: $alt-header-color2;
 
-    &:hover {
-      color: $link-active-color;
+      &:hover {
+        color: $link-active-color;
+      }
     }
   }
 

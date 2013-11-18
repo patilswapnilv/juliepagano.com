@@ -5,14 +5,6 @@ per_page: 12
 <section id="writing-list">
   <h1>Writing tagged '<%= tagname %>'</h1>
 
-  <% if paginate %>
-    <p>Page <%= page_number %> of <%= num_pages %></p>
-
-    <% if prev_page %>
-      <p><%= link_to 'Previous page', prev_page %></p>
-    <% end %>
-  <% end %>
-
   <% page_articles.each_with_index do |article, i| %>
     <ul>
       <li>
@@ -21,19 +13,33 @@ per_page: 12
           <div class="article-date">
             <%= article.date.strftime('%Y-%m-%d') %>
           </div>
-          <ul class="tags">
-            <% article.tags.each do |tag| %>
-              <%= link_to tag, tag_path(tag) %>
+          <div class="tags">
+            tags:
+            <% article.tags.sort.each_with_index do |tag, i| %>
+              <% last = (i == article.tags.size - 1) %>
+              <%= link_to tag, tag_path(tag) %><%= "," unless last  %>
             <% end %>
-          </ul>
+          </div>
         </div>
       </li>
     </ul>
   <% end %>
 
-  <% if paginate %>
-    <% if next_page %>
-      <p><%= link_to 'Next page', next_page %></p>
+  <% if paginate && (prev_page || next_page) %>
+    <p>Page <%= page_number %> of <%= num_pages %></p>
+    <p>
+    <% if prev_page %>
+      <%= link_to '<i class="fa fa-angle-double-left"></i> previous',
+          prev_page, :class => "pagination" %>
     <% end %>
+    <% if next_page %>
+      <%= link_to 'next <i class="fa fa-angle-double-right"></i>',
+          next_page, :class => "pagination" %>
+    <% end %>
+    </p>
   <% end %>
+
+  <div>
+    You can find a list of writing by tags <%= link_to "here", "/blog/tags/" %>.
+  </div>
 </section>

@@ -1,7 +1,7 @@
 ---
 title: You say you want a diverse development team... (part 2)
 date: 2012-08-14 01:00 EST
-tags: diversity, tech
+tags: diversity, tech, recruiting
 ---
 
 Hey everyone! I’m back to talk more about building a diverse development team. Today we’re going to talk about job descriptions. As mentioned in the disclaimer in [part 1](http://juliepagano.com/blog/2012/08/12/you-say-you-want-a-diverse-development-team-part-1/), I’m generally speaking from a woman’s perspective because that’s the group I belong to. You should totally talk to people from other groups to find out what they think and feel about this topic. Also, I’m not speaking for all women – a lot of this is anecdata based on personal experiences and conversations with other women programmers I know. I’m going to write in some sweeping generalizations about things that stick out to me, but I recognize I don’t speak for everyone and I’m not covering everything. Now that we’ve got that all out of the way, let’s talk about job postings.

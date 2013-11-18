@@ -1,7 +1,7 @@
 ---
 title: Diversity in Tech Resources
 date: 2012-06-11 17:42 EST
-tags:
+tags: diversity, tech
 ---
 
 This is my attempt at collecting interesting articles, resources, etc. related to diversity in tech.  I will try to regularly update this.  Feel free to share any resources you think should be added to the list.

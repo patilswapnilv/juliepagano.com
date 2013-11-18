@@ -1,7 +1,7 @@
 ---
 title: Dear recruiter...
 date: 2012-09-30 17:08 EST
-tags: tech
+tags: tech, recruiting
 ---
 
 *Note: I regularly receive emails (and occasionally in-person interactions) from tech recruiters and am sick of sending polite replies or explaining what I am looking for over and over again. I compiled this list as required reading for recruiters who want to contact me to save some of my time (and potentially theirs – although you could argue this list is pretty long). This is a first draft, and I will continually change this as I think is needed.*

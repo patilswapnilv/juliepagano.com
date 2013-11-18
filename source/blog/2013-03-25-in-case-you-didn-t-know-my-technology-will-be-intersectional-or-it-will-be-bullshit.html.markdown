@@ -1,7 +1,7 @@
 ---
 title: "In case you didn’t know, my technology will be intersectional or it will be BULLSHIT"
 date: 2013-03-25 21:04 EST
-tags: personal, tech
+tags: personal, tech, intersectionality
 ---
 
 I mentioned this on twitter late last night and again today, but I want to repeat it here for those who missed it.

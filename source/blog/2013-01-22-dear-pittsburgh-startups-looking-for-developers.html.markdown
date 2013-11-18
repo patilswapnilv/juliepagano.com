@@ -1,7 +1,7 @@
 ---
 title: Dear Pittsburgh startups looking for developers
 date: 2013-01-22 23:45 EST
-tags: tech, pittsburgh
+tags: tech, pittsburgh, recruiting
 ---
 
 Today is at least the fourth or fifth time in the last few months I have felt the need to send a reply to someone associated with a startup in Pittsburgh. I figured that was frequently enough that it was time to write a blog post, so I could start pointing people to that.
