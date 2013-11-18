@@ -64,13 +64,13 @@
 
 <p>You can find <a href="https://github.com/juliepagano/juliepagano.com">the repository for my project on Github</a>. Feel free to use it as a detailed reference for what I did, but don&rsquo;t judge too harshly for the code quality. This was something I slapped together during some spare time, and it is not a good example of best practices.</p>
 
-<h2 id="toc_0">Background</h2>
+<h2 id="background">Background</h2>
 
 <p>Previously, my site lived on a locally hosted server with WordPress and a poorly hacked up custom theme. This was annoying to maintain, so I rarely made changes to the design or page layouts. My server got very sad (my ultra-technical way of saying it couldn&rsquo;t handle the load) any time I wrote a remotely interesting blog post that got some traffic. This was probably due to my lack of a decent server, my configuration of WordPress, or some combination thereof.</p>
 
 <p>I admit to being a WordPress novice, so this is probably on me. The thing is, I didn&rsquo;t really need WordPress for what I was doing. It didn&rsquo;t seem worthwhile to spend a lot of time learning how to configure it correctly and create a complex theme, when what I really wanted to do was quickly manage my design and focus on writing. Enter static site generators.</p>
 
-<h2 id="toc_1">Picking a static site generator</h2>
+<h2 id="picking-a-static-site-generator">Picking a static site generator</h2>
 
 <p>A static site generator is pretty much exactly what it sounds like. It&rsquo;s a tool that assists you with creating a static site. The appeal of a static site for me was keeping things very simple. No databases. No complex framework I needed to learn. I just wanted to do some simple design work, write a little front-end code, and then focus on my writing. Another appeal of a static site was that it simplified hosting requirements.</p>
 
@@ -100,48 +100,48 @@
 <li>Easy to deploy to Github Pages - done using the <a href="https://github.com/neo/middleman-gh-pages">Middleman Github Pages gem</a></li>
 </ul>
 
-<h2 id="toc_2">Setting up Middleman</h2>
+<h2 id="setting-up-middleman">Setting up Middleman</h2>
 
 <p>You need to set up a recent version of Ruby before you get started. I used Ruby 2.0.0.</p>
 
-<h3 id="toc_3">Install Middleman</h3>
+<h3 id="install-middleman">Install Middleman</h3>
 <pre class="highlight shell">gem install middleman
 </pre>
-<h3 id="toc_4">Create your project</h3>
+<h3 id="create-your-project">Create your project</h3>
 
 <p>I generated my project using the <a href="http://middlemanapp.com/getting-started/#toc_7">HTML5 Boilerplate project template</a>, which sets up a bunch of basic things you will need using <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. There are several other template options for you to choose from, if HTML5 Boilerplate doesn&rsquo;t strike your fancy.</p>
 <pre class="highlight shell">middleman init my_project --template<span class="o">=</span>html5
 </pre>
 <p>The majority of the code you will work with is in the <code>source</code> directory.</p>
 
-<h3 id="toc_5">Configuration</h3>
+<h3 id="configuration">Configuration</h3>
 
 <p>The configuration for your middleman project lives in <code>config.rb</code> in the root directory. They do not have full documentation on all the things you can set in there. You can explore the settings <a href="https://github.com/middleman/middleman/blob/master/middleman-core/lib/middleman-core/application.rb#L53">in their code</a> and take a look at my configuration <a href="https://github.com/juliepagano/juliepagano.com/blob/master/config.rb">on Github</a>.</p>
 
-<h3 id="toc_6">Start the server</h3>
+<h3 id="start-the-server">Start the server</h3>
 <pre class="highlight shell"><span class="nb">cd </span>my_project
 middleman
 </pre>
 <p>Go to <a href="http://localhost:4567">http://localhost:4567</a> (or whatever port it specifies). If it works, you&rsquo;ve got the basics set up now!</p>
 
-<h3 id="toc_7">Generate a static site</h3>
+<h3 id="generate-a-static-site">Generate a static site</h3>
 
 <p>You can try building a static version of your site.</p>
 <pre class="highlight shell">middleman build
 </pre>
 <p>The built static code goes into the <code>build</code> directory.</p>
 
-<h3 id="toc_8">Switch to SASS</h3>
+<h3 id="switch-to-sass">Switch to SASS</h3>
 
 <p>I modified the CSS files I planned on working with from .css to .scss, so that I
 could use <a href="http://sass-lang.com/">SASS</a> for my stylesheets.</p>
 
-<h3 id="toc_9">Use pretty urls</h3>
+<h3 id="use-pretty-urls">Use pretty urls</h3>
 
 <p>Add the following to <code>config.rb</code> to use <a href="http://middlemanapp.com/pretty-urls/">pretty urls</a>.</p>
 <pre class="highlight ruby"><span class="n">activate</span> <span class="ss">:directory_indexes</span>
 </pre>
-<h3 id="toc_10">Relative links and assets</h3>
+<h3 id="relative-links-and-assets">Relative links and assets</h3>
 
 <p>I initially had some annoyances getting links to pages and assets working properly
 both locally and up on Github Pages because the directory structure was a little different. I was
@@ -159,7 +159,7 @@ for internal links and assets.</p>
 <p>The default HTML5 Boilerplate code did not use the helpers for some of the asset
 links, so I changed that in <a href="https://github.com/juliepagano/juliepagano.com/commit/7c0dea6ab1b706452dcf3b4008218246f878bce2">this commit</a>.</p>
 
-<h3 id="toc_11">Add blogging</h3>
+<h3 id="add-blogging">Add blogging</h3>
 
 <p>You can add blogging functionality to Middleman
 using the <a href="https://github.com/middleman/middleman-blog">middleman-blog</a> gem. I
@@ -177,16 +177,16 @@ add tags, modify the title, and write the content of your post.</p>
 <span class="nn">---</span>
 The body of my blog post.
 </pre>
-<h3 id="toc_12">Add syntax highlighting</h3>
+<h3 id="add-syntax-highlighting">Add syntax highlighting</h3>
 
 <p>I added syntax highlighting using the <a href="https://github.com/middleman/middleman-syntax">middleman-syntax</a> gem. This allowed me to add the code blocks to this post.</p>
 
-<h2 id="toc_13">Deploying to Github pages</h2>
+<h2 id="deploying-to-github-pages">Deploying to Github pages</h2>
 
 <p>If you want to use <a href="http://pages.github.com/">Github Pages</a> for hosting, you need to put your project on <a href="https://github.com/">Github</a>. Github Pages will
 host static site files (e.g. html, css, js) placed in a branch named <code>gh-pages</code>.</p>
 
-<h3 id="toc_14">Set up Middleman Github Pages</h3>
+<h3 id="set-up-middleman-github-pages">Set up Middleman Github Pages</h3>
 
 <p>I use <a href="https://github.com/neo/middleman-gh-pages">Middleman Github Pages</a> to handle deploying Middleman changes to my <code>gh-pages</code> branch. Follow the instructions in the readme and you should be good to go.</p>
 
@@ -194,18 +194,18 @@ host static site files (e.g. html, css, js) placed in a branch named <code>gh-pa
 <pre class="highlight shell">rake build    <span class="c"># Compile all files into the build directory</span>
 rake publish  <span class="c"># Build and publish to Github Pages</span>
 </pre>
-<h3 id="toc_15">Setup up custom domain name</h3>
+<h3 id="setup-up-custom-domain-name">Setup up custom domain name</h3>
 
 <p>Create a file named <code>CNAME</code> in the <code>source</code> directory and put the domain (or subdomain) into the file.</p>
 <pre class="highlight text">juliepagano.com
 </pre>
 <p>You will need to <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns">configure your DNS</a> to point to Github. As of the time I wrote this, you should set up an <strong>A record</strong> pointing to <code>204.232.175.78</code>.</p>
 
-<h2 id="toc_16">Designing the site</h2>
+<h2 id="designing-the-site">Designing the site</h2>
 
 <p>Disclaimer: I am not a designer by trade, so I kind of <a href="http://knowyourmeme.com/memes/i-have-no-idea-what-im-doing">have no idea what I&rsquo;m doing</a>.</p>
 
-<h3 id="toc_17">Logo</h3>
+<h3 id="logo">Logo</h3>
 
 <p>The only major element I carried over from the previous design of the site is the logo (designed using Adobe Illustrator). I like it as a visual representation that breaks me down to two basic characteristics: hair and glasses.</p>
 
@@ -226,19 +226,19 @@ rake publish  <span class="c"># Build and publish to Github Pages</span>
   <span class="p">}</span>
 <span class="p">}</span>
 </pre>
-<h3 id="toc_18">Basic design</h3>
+<h3 id="basic-design">Basic design</h3>
 
 <p>My design process was pretty basic. I wanted something flat and simple. I redesigned the site to focus on my writing, so it was important that my design made it easy to read longform text.</p>
 
 <p>I worked with <a href="https://kuler.adobe.com/">Kuler</a> and <a href="http://colorschemedesigner.com/">Color Scheme Designer</a> to select the basic color palette for the site. The starting color I worked from was the red shade of the hair in the logo.</p>
 
-<h3 id="toc_19">Responsive design</h3>
+<h3 id="responsive-design">Responsive design</h3>
 
 <p>A lot of people get links to blog posts on their phones and other devices, so it was important to me that my writing was readable on a variety of screen sizes. I used some very basic responsive design techniques to make this happen.</p>
 
 <p>You can see some examples of what I did by looking for the <code>@media</code> queries in the <a href="https://github.com/juliepagano/juliepagano.com/blob/master/source/css/styles.scss">primary stylesheet</a>.</p>
 
-<h3 id="toc_20">Fonts</h3>
+<h3 id="fonts">Fonts</h3>
 
 <p>I used <a href="https://typekit.com">Typekit</a> to provide my text fonts. The site is currently using <a href="https://typekit.com/fonts/proxima-nova">Proxima Nova</a> for regular text and <a href="https://typekit.com/fonts/source-code-pro">Source Code Pro</a> for code snippets.</p>
 
@@ -253,7 +253,7 @@ font that is super-easy to set up and use. I <a href="http://fontawesome.io/get-
 <li>Use the icon-fonts via custom classes. There are a bunch of helpful <a href="http://fontawesome.io/examples/">examples</a> for how to do this in their documentation.</li>
 </ol>
 
-<h2 id="toc_21">Conclusion</h2>
+<h2 id="conclusion">Conclusion</h2>
 
 <p>It was a lot of fun to play around with a little design and a somewhat new framework. I was able to get things up and running fairly quickly once I actually sat down and worked at it. It is easy to update and work with, so I feel validated in the choices that I made based on my original goals. Hopefully, you will see a lot more writing from me now.</p>
 
