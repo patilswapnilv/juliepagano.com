@@ -269,11 +269,11 @@ able to get it working with the configuration below and sticking with using the 
 for internal links and assets.&lt;/p&gt;
 
 &lt;p&gt;I set the following in &lt;code&gt;config.rb&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="ss"&gt;:relative_assets&lt;/span&gt;
+&lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:relative_links&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;
 
 &lt;span class="c1"&gt;# Build-specific configuration&lt;/span&gt;
 &lt;span class="n"&gt;configure&lt;/span&gt; &lt;span class="ss"&gt;:build&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt;
-  &lt;span class="n"&gt;set&lt;/span&gt; &lt;span class="ss"&gt;:relative_links&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt;
+  &lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="ss"&gt;:relative_assets&lt;/span&gt;
 &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;
 &lt;p&gt;The default HTML5 Boilerplate code did not use the helpers for some of the asset

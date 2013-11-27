@@ -160,11 +160,11 @@ able to get it working with the configuration below and sticking with using the 
 for internal links and assets.</p>
 
 <p>I set the following in <code>config.rb</code>:</p>
-<pre class="highlight ruby"><span class="n">activate</span> <span class="ss">:relative_assets</span>
+<pre class="highlight ruby"><span class="n">set</span> <span class="ss">:relative_links</span><span class="p">,</span> <span class="kp">true</span>
 
 <span class="c1"># Build-specific configuration</span>
 <span class="n">configure</span> <span class="ss">:build</span> <span class="k">do</span>
-  <span class="n">set</span> <span class="ss">:relative_links</span><span class="p">,</span> <span class="kp">true</span>
+  <span class="n">activate</span> <span class="ss">:relative_assets</span>
 <span class="k">end</span>
 </pre>
 <p>The default HTML5 Boilerplate code did not use the helpers for some of the asset
