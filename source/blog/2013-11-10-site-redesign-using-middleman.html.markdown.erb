@@ -103,11 +103,11 @@ for internal links and assets.
 I set the following in `config.rb`:
 
 ``` ruby
-activate :relative_assets
+set :relative_links, true
 
 # Build-specific configuration
 configure :build do
-  set :relative_links, true
+  activate :relative_assets
 end
 ````
 
