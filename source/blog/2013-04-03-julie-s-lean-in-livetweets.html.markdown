@@ -2,6 +2,7 @@
 title: Julie's Lean In Livetweets
 date: 2013-04-03 21:07 EST
 tags: livetweeting, tech, feminism
+description: I read Lean In, so you don't have to.
 ---
 
 [Julie's Lean In Livetweets](http://storify.com/juliepagano/julie-s-lean-in-livetweets)

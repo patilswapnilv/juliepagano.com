@@ -2,6 +2,7 @@
 title: "My Technology Will Be Intersectional or It Will Be BULLSHIT!: Lightning Talk Edition"
 date: 2012-04-29 18:00 EST
 tags: tech, intersectionality, talk
+description: A talk about diversity in tech.
 ---
 
 <br/>

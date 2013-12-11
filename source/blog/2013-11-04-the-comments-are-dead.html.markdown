@@ -2,6 +2,7 @@
 title: The Comments Are Dead
 date: 2013-11-04 22:07 EST
 tags: on writing, comments
+description: Why my site has no comments.
 ---
 
 If you have been here before, you may notice the site looks different this week.

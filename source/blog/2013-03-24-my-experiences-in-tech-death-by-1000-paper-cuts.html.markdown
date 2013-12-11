@@ -2,6 +2,7 @@
 title: "My experiences in tech: Death by 1000 paper cuts"
 date: 2013-03-24 14:08 EST
 tags: personal, tech
+description: On microaggressions and why the little things matter.
 ---
 
 Note: If you link this (especially on anything high traffic), please [send people to the copy on tumblr](http://juliepagano.tumblr.com/post/46206589124/my-experiences-in-tech-death-by-1000-paper-cuts). Thanks!

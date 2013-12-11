@@ -15,6 +15,11 @@ per_page: 15
           <div class="article-date">
             <%= article.date.strftime('%Y-%m-%d') %>
           </div>
+          <% if article.data[:description] %>
+            <div>
+              <%= article.data[:description] %>
+            </div>
+          <% end %>
           <!--div class="tags">
             tags:
             <% article.tags.sort.each_with_index do |tag, i| %>
