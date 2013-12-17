@@ -2354,10 +2354,10 @@ code {
   padding: 0 0 0 30px; }
 
 /* line 376, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
-#past-events h3, #past-events h4 {
+.events h3, .events h4 {
   margin: 0.2em 0; }
 /* line 380, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
-#past-events li {
+.events li {
   margin-bottom: 1.5em; }
 
 /* line 385, /Users/juri/Dropbox/src/juliepagano.com/source/css/styles.scss */
