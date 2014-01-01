@@ -20,7 +20,7 @@ Everyone else is writing one of these end of the year blog posts, so I suppose I
 - [Redesigned my site](/blog/2013/11/10/site-redesign-using-middleman/) and tried to write more.
 - Created a [101 off limits](/blog/2013/11/02/101-off-limits/) list because I wanted to educate without exhausting myself. What can I say, I'm a coder, I like to keep things DRY.
 - Thought a lot about mental health. I went on medication for the first time in 28 years for my anxiety. I saw [Greg Bauges](http://vimeo.com/72690223) and [Ed Finkler](http://www.youtube.com/watch?v=g_ku2YmnWkA) speak candidly about their own experiences with mental health issues (if you haven't seen their talks, go watch them now).
-- I [spoke about impostor syndrome](http://localhost:4567/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/) as an important mental health issue. I  started an [online support group](https://groups.google.com/forum/#!forum/battling-the-invisible-monsters) and hope to continue talking about this in 2014.
+- I [spoke about impostor syndrome](/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/) as an important mental health issue. I  started an [online support group](https://groups.google.com/forum/#!forum/battling-the-invisible-monsters) and hope to continue talking about this in 2014.
 - Spoiled the crap out of my cats and took approximately a billion photos of them.
 - I internalized and started really working on something I've known, but had difficulty with in the past: setting and maintaining boundaries.
 - I ran out of fucks to give about people who are harmful and don't respect boundaries. I burned some bridges it was no longer worth maintaining.
