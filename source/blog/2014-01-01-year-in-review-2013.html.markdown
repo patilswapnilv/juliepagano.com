@@ -1,0 +1,30 @@
+---
+title: Year in Review 2013
+date: 2014-01-01 15:54 EST
+tags: personal, year in review
+description: In which I talk about stuff I did in 2013.
+---
+
+Everyone else is writing one of these end of the year blog posts, so I suppose I will jump on that bandwagon too. I'm lazy, so I'm going with a list. Here's some of the stuff I did this year in no particular order:
+
+- Started a new job at Google.
+- Continued as the chapter leader of [Girl Develop It Pittsburgh](http://www.meetup.com/Girl-Develop-IT-Pittsburgh/) and taught two classes.
+- Gave my first conference talk (and then two more after that).
+- Attended 6 conferences in 5 different cities. [Spoke](/speaking) at three of them. Helped organize [one](http://steelcityruby.org/). This was probably too much, but it was awesome.
+- Went to [Grace Hopper Celebration](http://gracehopper.org/) for the first time. There's nothing quite like being in a room with 4,000 other women programmers. If you've never been, you should go at least once.
+- Started a speaker support group.
+- I read (and [livetweeted](/blog/2013/04/03/julie-s-lean-in-livetweets/)) Lean In. I'm still angry about it.
+- I started assuaging my corporate guilt by donating to awesome people on [Gittip](https://www.gittip.com/). Thank you to the folks who donated to me!
+- I got scared (see: pycon 2013), and I got loud because silence is too high a price for my safety.
+- Wrote about [death by 1000 papercuts](/blog/2013/03/24/my-experiences-in-tech-death-by-1000-paper-cuts/) because it was important.
+- [Redesigned my site](/blog/2013/11/10/site-redesign-using-middleman/) and tried to write more.
+- Created a [101 off limits](/blog/2013/11/02/101-off-limits/) list because I wanted to educate without exhausting myself. What can I say, I'm a coder, I like to keep things DRY.
+- Thought a lot about mental health. I went on medication for the first time in 28 years for my anxiety. I saw [Greg Bauges](http://vimeo.com/72690223) and [Ed Finkler](http://www.youtube.com/watch?v=g_ku2YmnWkA) speak candidly about their own experiences with mental health issues (if you haven't seen their talks, go watch them now).
+- I [spoke about impostor syndrome](http://localhost:4567/blog/2013/11/02/it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech/) as an important mental health issue. I  started an [online support group](https://groups.google.com/forum/#!forum/battling-the-invisible-monsters) and hope to continue talking about this in 2014.
+- Spoiled the crap out of my cats and took approximately a billion photos of them.
+- I internalized and started really working on something I've known, but had difficulty with in the past: setting and maintaining boundaries.
+- I ran out of fucks to give about people who are harmful and don't respect boundaries. I burned some bridges it was no longer worth maintaining.
+- And last, but definitely not least, I made some awesome new friendships and strengthened others. Much love for all of you. <3
+
+
+I'm still working on figuring things out. What I want to do with myself. Finding my voice. This was a rough year, but I pushed myself to do a lot of scary things that were important to me and met some amazing people as a result. I consider it a net positive.
