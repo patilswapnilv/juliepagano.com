@@ -32,6 +32,21 @@ I want to keep track of the info people share with me and share it with others, 
 * Earth Balance (vegan butter alternative)
 * [Upton's Naturals Seitan](http://www.uptonsnaturals.com/) - *I tried the Italian flavor, and I think it cured me of missing italian sausage*
 
-## Vegan notes
+## Miscellaneous vegetarian notes
+### Stuff that's not vegetarian (but might not be obvious)
+* Jello, marshmallows, and other stuff with **gelatin**
+* Parmesan cheese and other cheeses that use **rennet**
+* Some baked good mixes (check for **lard**)
+
+## Miscellaneous vegan notes
 * Earth Balance is recommended as a butter replacement.
 * Daiya is recommended as a cheese replacement.
+
+## Local options in Pittsburgh
+* [Vegan Pittsburgh](http://veganpittsburgh.org/)
+
+### Groceries
+* East End Food Co-op - *a lot of the same stuff as Whole Foods, but locally owned*
+* Giant Eagle Market District (some regular Giant Eagles have veg stuff, but it's pretty hit or miss)
+* Trader Joes - *affordable, but pretty hit or miss with what they'll have*
+* Whole Foods - *expensive, but lots of options*
