@@ -5,7 +5,7 @@ tags: food, veg*n, recipes, personal
 description: Info about going vegetarian, vegan, etc.
 ---
 
-I'm trying to go mostly vegetarian again. "Mostly" meaning that I'll ocassionally allow myself to have seafood (mmmm, sushi). I'm not doing this as a silly new year's resolution -- I just waited until after the holidays to make holiday cooking easier on my parents.
+I'm trying to go mostly vegetarian again. "Mostly" meaning that I'll occasionally allow myself to have seafood (mmmm, sushi). I'm not doing this as a silly new year's resolution -- I just waited until after the holidays to make holiday cooking easier on my parents.
 
 I've tried some flavor of veg*n a few times in the past. I'd love some support and accountability from my friends to try to help it stick this time, so please feel free to share tips ([add info on github](https://github.com/juliepagano/juliepagano.com/issues/35) or tweet at me).
 
