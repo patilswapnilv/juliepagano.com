@@ -5,10 +5,61 @@
   <id>http://juliepagano.com/blog/</id>
   <link href="http://juliepagano.com/blog/"/>
   <link href="http://juliepagano.com/feed.xml" rel="self"/>
-  <updated>2014-01-01T20:54:00Z</updated>
+  <updated>2014-01-02T02:03:00Z</updated>
   <author>
     <name>Julie Pagano</name>
   </author>
+  <entry>
+    <title>Going Veg*n...Again</title>
+    <link rel="alternate" href="/blog/2014/01/01/going-veg-n-again/"/>
+    <id>/blog/2014/01/01/going-veg-n-again/</id>
+    <published>2014-01-02T02:03:00Z</published>
+    <updated>2014-01-02T02:03:00Z</updated>
+    <author>
+      <name>Julie Pagano</name>
+    </author>
+    <content type="html">&lt;p&gt;I&amp;rsquo;m trying to go mostly vegetarian again. &amp;ldquo;Mostly&amp;rdquo; meaning that I&amp;rsquo;ll ocassionally allow myself to have seafood (mmmm, sushi). I&amp;rsquo;m not doing this as a silly new year&amp;rsquo;s resolution &amp;ndash; I just waited until after the holidays to make holiday cooking easier on my parents.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve tried some flavor of veg*n a few times in the past. I&amp;rsquo;d love some support and accountability from my friends to try to help it stick this time, so please feel free to share tips (&lt;a href="https://github.com/juliepagano/juliepagano.com/issues/35"&gt;add info on github&lt;/a&gt; or tweet at me).&lt;/p&gt;
+
+&lt;p&gt;I want to keep track of the info people share with me and share it with others, so I&amp;rsquo;ll collect it here. These are mostly recommendations from others, so I can&amp;rsquo;t personally vouch for them. I&amp;rsquo;ll add notes as I try things.&lt;/p&gt;
+
+&lt;h2 id="cookbooks"&gt;Cookbooks&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://amzn.to/Jvf2da"&gt;La Dolce Vegan!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amzn.to/1gozRlY"&gt;Veganomicon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://amzn.to/1cmZ5zo"&gt;Vegetarian Cooking for Everyone&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="recipe-sites"&gt;Recipe sites&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://thelazyveggie.tumblr.com/"&gt;The Lazy Veggie&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://newlyveg.com/"&gt;NewlyVeg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://plantbasedonabudget.com/"&gt;Plant Based on a Budget&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://plantpoweredkitchen.com/"&gt;Plant Powered Kitchen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.theppk.com/"&gt;Post Punk Kitchen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://thugkitchen.com/"&gt;Thug Kitchen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vegweb.com/"&gt;VegWeb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="products"&gt;Products&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Daiya (vegan cheese)&lt;/li&gt;
+&lt;li&gt;Earth Balance (vegan butter alternative)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.uptonsnaturals.com/"&gt;Upton&amp;rsquo;s Naturals Seitan&lt;/a&gt; - &lt;em&gt;I tried the Italian flavor, and I think it cured me of missing italian sausage&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id="vegan-notes"&gt;Vegan notes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Earth Balance is recommended as a butter replacement.&lt;/li&gt;
+&lt;li&gt;Daiya is recommended as a cheese replacement.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
   <entry>
     <title>Year in Review 2013</title>
     <link rel="alternate" href="/blog/2014/01/01/year-in-review-2013/"/>
@@ -479,55 +530,6 @@ in addressing it.&lt;/p&gt;
 &lt;p&gt;&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Vast majority of the offenses are being committed by a small group of men, somewhere between 4% and 8% of the population, who do it again..&lt;/p&gt;&amp;mdash; Not All Julies (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/387772019246649344"&gt;October 9, 2013&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
 
 &lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
-</content>
-  </entry>
-  <entry>
-    <title>The Comments Are Dead</title>
-    <link rel="alternate" href="/blog/2013/11/04/the-comments-are-dead/"/>
-    <id>/blog/2013/11/04/the-comments-are-dead/</id>
-    <published>2013-11-05T03:07:00Z</published>
-    <updated>2013-11-05T03:07:00Z</updated>
-    <author>
-      <name>Julie Pagano</name>
-    </author>
-    <content type="html">&lt;p&gt;If you have been here before, you may notice the site looks different this week.
-I redesigned my site using &lt;a href="http://middlemanapp.com/"&gt;Middleman&lt;/a&gt;, an awesome
-static site generator, so that
-I could move away from WordPress and do things lean and simple. I am hoping to do
-a write-up about the redesign some time soon, but that&amp;rsquo;s not why I am here tonight.
-I am here to address the lack of something that old and new visitors alike may have
-expected &amp;ndash; the comments.&lt;/p&gt;
-
-&lt;p&gt;The new version of my site intentionally does not have comments.
-Comment sections often become a nasty place where nobody wants to go. There&amp;rsquo;s
-a &lt;a href="https://twitter.com/AvoidComments"&gt;twitter account&lt;/a&gt; that regularly
-reminds people to avoid them for a reason. Hell, even Popular Science
-&lt;a href="http://www.popsci.com/science/article/2013-09/why-were-shutting-our-comments"&gt;recently turned off comments&lt;/a&gt;
-based on a study that showed they have negative consequences.
-I am not interested in hosting a space where people spew invective at myself or
-others. There are &lt;a href="http://www.reddit.com/"&gt;plenty&lt;/a&gt;
-of &lt;a href="https://news.ycombinator.com/"&gt;other places&lt;/a&gt; where
-people can have those conversations ad nauseum.&lt;/p&gt;
-
-&lt;p&gt;The few sites I frequent with quality comments
-have dedicated moderators who spend a great deal of time and energy maintaining
-a positive space. For some of them, it&amp;rsquo;s pretty much a full-time job. I do not
-have the time, energy, or willingness to put that kind of work into my site.
-Sorry, commenters, I have a day job.&lt;/p&gt;
-
-&lt;p&gt;If you want to engage with me about my writing, you can find plenty of ways
-to contact me on the &lt;a href="../about/"&gt;about&lt;/a&gt; section of my site. However, please
-be respectful of my time. Please understand that I receive a large number of
-emails and may not be able to respond to everyone. On a more sinister note,
-if you send me threats, harassment, or abuse, please be aware that I may share
-it with the internet and/or the authorities depending on the content (also, if you
-do this you are a bad person and you should feel bad).&lt;/p&gt;
-
-&lt;p&gt;I am hoping the much simpler site management will encourage me to write more, so
-that I can share my thoughts with people more often. I hope you will continue to join me on
-my little corner of the internet.&lt;/p&gt;
-
-&lt;p&gt;For anyone who might be angry that there are no comments, tough shit. :)&lt;/p&gt;
 </content>
   </entry>
 </feed>
