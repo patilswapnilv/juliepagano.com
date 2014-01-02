@@ -12,9 +12,12 @@ I've tried some flavor of veg*n a few times in the past. I'd love some support a
 I want to keep track of the info people share with me and share it with others, so I'll collect it here. These are mostly recommendations from others, so I can't personally vouch for them. I'll add notes as I try things.
 
 ## Cookbooks
+* [How to Cook Everything Vegetarian](http://amzn.to/Jvjqce)
+* [Isa Does It](http://amzn.to/1hhaBkK)
 * [La Dolce Vegan!](http://amzn.to/Jvf2da)
 * [Rebar: Modern Food Cookbook](http://amzn.to/1erlMlT)
 * [Veg: River Cottage Everyday](http://amzn.to/1cn1DOc)
+* [Vegan Brunch](http://amzn.to/1hhayFw)
 * [Veganomicon](http://amzn.to/1gozRlY)
 * [Vegetarian Cooking for Everyone](http://amzn.to/1cmZ5zo)
 
@@ -25,6 +28,7 @@ I want to keep track of the info people share with me and share it with others, 
 * [Plant Powered Kitchen](http://plantpoweredkitchen.com/)
 * [Post Punk Kitchen](http://www.theppk.com/)
 * [Thug Kitchen](http://thugkitchen.com/)
+* [VeganDad](http://vegandad.blogspot.com/)
 * [VegWeb](http://vegweb.com/)
 
 ## Products
@@ -43,7 +47,19 @@ I want to keep track of the info people share with me and share it with others, 
 * Daiya is recommended as a cheese replacement.
 
 ## Local options in Pittsburgh
+### Lists
+* [Happy Cow](http://www.happycow.net/north_america/usa/pennsylvania/pittsburgh/)
+* [UrbanSpoon](http://www.urbanspoon.com/f/23/2253/Pittsburgh/Vegetarian-Restaurants)
 * [Vegan Pittsburgh](http://veganpittsburgh.org/)
+* [Yelp](http://www.yelp.com/search?find_desc=Vegan+Restaurants&find_loc=Pittsburgh%2C+PA)
+
+### Restaurants I frequent
+* [Aladdin's Eatery](http://www.aladdinseatery.com/) - Squirrel Hill - Mediterranean - *cheap and yummy Mediterranean with lots of vegetarian and some vegan options*
+* [Bangkok Balcony](http://bangkokbalconypgh.com/) or [Silk Elephant](http://www.silkelephant.net/) - Squirrel Hill - Thai - *These restaurants have very similar menus, both of which include awesome tofu dishes.*
+* [Double Wide Grill](http://www.doublewidegrill.com/) - South Side - American - *Really delicious seitan wings and the veggie burger is pretty good.*
+* [Mad Mex](http://www.madmex.com/) - Shadyside (and other locations) - Mexican/American *American-style Mexican food with some decent vegetarian options. I'm especially fond of the tofu tacos.*
+* [Over the Bar Bicycle Cafe](http://www.otbbicyclecafe.com/) - South Side - American - *yummy salads and sandwiches in a cute biker friendly bar with fun bike decor*
+* [Ramen Bar](http://www.ramenbarpittsburgh.com/) - Squirrel Hill - Ramen - *I'm fond of the vegetarian ramen with a shoyou base and extra garlic.*
 
 ### Groceries
 * East End Food Co-op - *a lot of the same stuff as Whole Foods, but locally owned*
