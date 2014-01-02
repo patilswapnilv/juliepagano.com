@@ -13,6 +13,8 @@ I want to keep track of the info people share with me and share it with others, 
 
 ## Cookbooks
 * [La Dolce Vegan!](http://amzn.to/Jvf2da)
+* [Rebar: Modern Food Cookbook](http://amzn.to/1erlMlT)
+* [Veg: River Cottage Everyday](http://amzn.to/1cn1DOc)
 * [Veganomicon](http://amzn.to/1gozRlY)
 * [Vegetarian Cooking for Everyone](http://amzn.to/1cmZ5zo)
 
