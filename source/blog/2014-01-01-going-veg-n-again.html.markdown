@@ -41,6 +41,7 @@ I want to keep track of the info people share with me and share it with others, 
 * Jello, marshmallows, and other stuff with **gelatin**
 * Parmesan cheese and other cheeses that use **rennet**
 * Some baked good mixes (check for **lard**)
+* Some beer and wine (often not labeled one way or the other)
 
 ## Miscellaneous vegan notes
 * Earth Balance is recommended as a butter replacement.
