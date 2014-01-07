@@ -7,7 +7,7 @@ description: An outline for handling fuckups.
 
 The topic of making mistakes and apologizing is pretty well tread ground, but I wanted to collect my own thoughts on the matter and figured it couldn't hurt to share. The usual disclaimers about this being my opinion and your mileage may vary apply. Also I say *fuck* quite a bit. So, let's talk about making mistakes.
 
-Mistakes are complicated and have many variables. I can't tell you how to handle every specific situation. However, I've found the following rough steps to be a very useful outline in navigating my own missteps. I recommend considering them and giving them a try.
+Mistakes are complicated and have many variables. I can't tell you how to handle every specific situation. However, I've found the following rough steps to be a very useful outline in navigating my own missteps. I recommend considering them and giving them a try. Making mistakes well is an important skill, and you should work on it.
 
 ## Expectations ##
 
