@@ -2,6 +2,7 @@
 title: On Making Mistakes
 date: 2014-01-06 22:46 EST
 tags: 101, mistakes
+description: An outline for handling fuckups.
 ---
 
 The topic of making mistakes and apologizing is pretty well tread ground, but I wanted to collect my own thoughts on the matter and figured it couldn't hurt to share. The usual disclaimers about this being my opinion and your mileage may vary apply. Also I say *fuck* quite a bit. So, let's talk about making mistakes.
