@@ -1,6 +1,6 @@
 ---
 title: On Making Mistakes
-date: 2014-01-05 01:06 EST
+date: 2014-01-06 22:46 EST
 tags: 101, mistakes
 ---
 
