@@ -71,6 +71,10 @@ I'm hoping to put some more time into this one in the future. In the mean time, 
 Shanley has a good post on [What Can Men Do?](https://medium.com/tech-culture-briefs/a1e93d985af0).
 
 ## Miscellaneous
+
+### How to make mistakes
+Read my post [On Making Mistakes](/blog/2014/01/06/on-making-mistakes/) to learn about my approach to making the best of a bad situation when I fuck up.
+
 ### I'm not *ist but
 Let me stop you right there. Sentences that start this way very rarely end well. Just don't.
 
