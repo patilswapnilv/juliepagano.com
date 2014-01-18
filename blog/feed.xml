@@ -395,10 +395,10 @@
 &lt;p&gt;I found &lt;a href="http://middlemanapp.com/"&gt;Middleman&lt;/a&gt; to be that something compelling. It met all my guidelines (see notes below), and I had pleasant memories of working with it in the past for some rapid prototyping work.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://middlemanapp.com/blogging/"&gt;Support for blogging functionality&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://middlemanapp.com/getting-started/"&gt;Easy setup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://middlemanapp.com/basics/blogging/"&gt;Support for blogging functionality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://middlemanapp.com/basics/getting-started/"&gt;Easy setup&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Configuration in a language I am familiar with or can pick up quickly - in this case Ruby, ERB, Markdown&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://middlemanapp.com/asset-pipeline/"&gt;Support for my favorite front-end tools, particularly SASS and Compass&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://middlemanapp.com/basics/asset-pipeline/"&gt;Support for my favorite front-end tools, particularly SASS and Compass&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://middlemanapp.com/"&gt;Decent documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/middleman/middleman/commits/master"&gt;Actively maintained&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Easy to deploy to Github Pages - done using the &lt;a href="https://github.com/neo/middleman-gh-pages"&gt;Middleman Github Pages gem&lt;/a&gt;&lt;/li&gt;
@@ -413,7 +413,7 @@
 &lt;/pre&gt;
 &lt;h3 id="create-your-project"&gt;Create your project&lt;/h3&gt;
 
-&lt;p&gt;I generated my project using the &lt;a href="http://middlemanapp.com/getting-started/#toc_7"&gt;HTML5 Boilerplate project template&lt;/a&gt;, which sets up a bunch of basic things you will need using &lt;a href="http://html5boilerplate.com/"&gt;HTML5 Boilerplate&lt;/a&gt;. There are several other template options for you to choose from, if HTML5 Boilerplate doesn&amp;rsquo;t strike your fancy.&lt;/p&gt;
+&lt;p&gt;I generated my project using the &lt;a href="http://middlemanapp.com/basics/getting-started/#toc_7"&gt;HTML5 Boilerplate project template&lt;/a&gt;, which sets up a bunch of basic things you will need using &lt;a href="http://html5boilerplate.com/"&gt;HTML5 Boilerplate&lt;/a&gt;. There are several other template options for you to choose from, if HTML5 Boilerplate doesn&amp;rsquo;t strike your fancy.&lt;/p&gt;
 &lt;pre class="highlight shell"&gt;middleman init my_project --template&lt;span class="o"&gt;=&lt;/span&gt;html5
 &lt;/pre&gt;
 &lt;p&gt;The majority of the code you will work with is in the &lt;code&gt;source&lt;/code&gt; directory.&lt;/p&gt;
@@ -442,14 +442,14 @@ could use &lt;a href="http://sass-lang.com/"&gt;SASS&lt;/a&gt; for my stylesheet
 
 &lt;h3 id="use-pretty-urls"&gt;Use pretty urls&lt;/h3&gt;
 
-&lt;p&gt;Add the following to &lt;code&gt;config.rb&lt;/code&gt; to use &lt;a href="http://middlemanapp.com/pretty-urls/"&gt;pretty urls&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Add the following to &lt;code&gt;config.rb&lt;/code&gt; to use &lt;a href="http://middlemanapp.com/basics/pretty-urls/"&gt;pretty urls&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="ss"&gt;:directory_indexes&lt;/span&gt;
 &lt;/pre&gt;
 &lt;h3 id="relative-links-and-assets"&gt;Relative links and assets&lt;/h3&gt;
 
 &lt;p&gt;I initially had some annoyances getting links to pages and assets working properly
 both locally and up on Github Pages because the directory structure was a little different. I was
-able to get it working with the configuration below and sticking with using the &lt;a href="http://middlemanapp.com/helpers/"&gt;helpers&lt;/a&gt;
+able to get it working with the configuration below and sticking with using the &lt;a href="http://middlemanapp.com/basics/helpers/"&gt;helpers&lt;/a&gt;
 for internal links and assets.&lt;/p&gt;
 
 &lt;p&gt;I set the following in &lt;code&gt;config.rb&lt;/code&gt;:&lt;/p&gt;
@@ -467,7 +467,7 @@ links, so I changed that in &lt;a href="https://github.com/juliepagano/juliepaga
 
 &lt;p&gt;You can add blogging functionality to Middleman
 using the &lt;a href="https://github.com/middleman/middleman-blog"&gt;middleman-blog&lt;/a&gt; gem. I
-recommend reading and following the &lt;a href="http://middlemanapp.com/blogging/"&gt;instructions in the Middleman documentation&lt;/a&gt;.&lt;/p&gt;
+recommend reading and following the &lt;a href="http://middlemanapp.com/basics/blogging/"&gt;instructions in the Middleman documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Once you get things set up, you can generate new articles with &lt;code&gt;middleman article&lt;/code&gt;.&lt;/p&gt;
 &lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;The Name of My Article&amp;quot;&lt;/span&gt;

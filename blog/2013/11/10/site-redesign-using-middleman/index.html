@@ -102,10 +102,10 @@
 <p>I found <a href="http://middlemanapp.com/">Middleman</a> to be that something compelling. It met all my guidelines (see notes below), and I had pleasant memories of working with it in the past for some rapid prototyping work.</p>
 
 <ul>
-<li><a href="http://middlemanapp.com/blogging/">Support for blogging functionality</a></li>
-<li><a href="http://middlemanapp.com/getting-started/">Easy setup</a></li>
+<li><a href="http://middlemanapp.com/basics/blogging/">Support for blogging functionality</a></li>
+<li><a href="http://middlemanapp.com/basics/getting-started/">Easy setup</a></li>
 <li>Configuration in a language I am familiar with or can pick up quickly - in this case Ruby, ERB, Markdown</li>
-<li><a href="http://middlemanapp.com/asset-pipeline/">Support for my favorite front-end tools, particularly SASS and Compass</a></li>
+<li><a href="http://middlemanapp.com/basics/asset-pipeline/">Support for my favorite front-end tools, particularly SASS and Compass</a></li>
 <li><a href="http://middlemanapp.com/">Decent documentation</a></li>
 <li><a href="https://github.com/middleman/middleman/commits/master">Actively maintained</a></li>
 <li>Easy to deploy to Github Pages - done using the <a href="https://github.com/neo/middleman-gh-pages">Middleman Github Pages gem</a></li>
@@ -120,7 +120,7 @@
 </pre>
 <h3 id="create-your-project">Create your project</h3>
 
-<p>I generated my project using the <a href="http://middlemanapp.com/getting-started/#toc_7">HTML5 Boilerplate project template</a>, which sets up a bunch of basic things you will need using <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. There are several other template options for you to choose from, if HTML5 Boilerplate doesn&rsquo;t strike your fancy.</p>
+<p>I generated my project using the <a href="http://middlemanapp.com/basics/getting-started/#toc_7">HTML5 Boilerplate project template</a>, which sets up a bunch of basic things you will need using <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>. There are several other template options for you to choose from, if HTML5 Boilerplate doesn&rsquo;t strike your fancy.</p>
 <pre class="highlight shell">middleman init my_project --template<span class="o">=</span>html5
 </pre>
 <p>The majority of the code you will work with is in the <code>source</code> directory.</p>
@@ -149,14 +149,14 @@ could use <a href="http://sass-lang.com/">SASS</a> for my stylesheets.</p>
 
 <h3 id="use-pretty-urls">Use pretty urls</h3>
 
-<p>Add the following to <code>config.rb</code> to use <a href="http://middlemanapp.com/pretty-urls/">pretty urls</a>.</p>
+<p>Add the following to <code>config.rb</code> to use <a href="http://middlemanapp.com/basics/pretty-urls/">pretty urls</a>.</p>
 <pre class="highlight ruby"><span class="n">activate</span> <span class="ss">:directory_indexes</span>
 </pre>
 <h3 id="relative-links-and-assets">Relative links and assets</h3>
 
 <p>I initially had some annoyances getting links to pages and assets working properly
 both locally and up on Github Pages because the directory structure was a little different. I was
-able to get it working with the configuration below and sticking with using the <a href="http://middlemanapp.com/helpers/">helpers</a>
+able to get it working with the configuration below and sticking with using the <a href="http://middlemanapp.com/basics/helpers/">helpers</a>
 for internal links and assets.</p>
 
 <p>I set the following in <code>config.rb</code>:</p>
@@ -174,7 +174,7 @@ links, so I changed that in <a href="https://github.com/juliepagano/juliepagano.
 
 <p>You can add blogging functionality to Middleman
 using the <a href="https://github.com/middleman/middleman-blog">middleman-blog</a> gem. I
-recommend reading and following the <a href="http://middlemanapp.com/blogging/">instructions in the Middleman documentation</a>.</p>
+recommend reading and following the <a href="http://middlemanapp.com/basics/blogging/">instructions in the Middleman documentation</a>.</p>
 
 <p>Once you get things set up, you can generate new articles with <code>middleman article</code>.</p>
 <pre class="highlight ruby"><span class="n">middleman</span> <span class="n">article</span> <span class="s2">&quot;The Name of My Article&quot;</span>
