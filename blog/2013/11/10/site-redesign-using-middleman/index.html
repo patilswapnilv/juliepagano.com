@@ -47,6 +47,9 @@
     <li>
       <a href="../../../../../projects/">Projects</a>
     </li>
+    <li class="search">
+      <a href="/search">Search</a>
+    </li>
   </ul>
 </nav>
   </div>
@@ -177,14 +180,14 @@ using the <a href="https://github.com/middleman/middleman-blog">middleman-blog</
 recommend reading and following the <a href="http://middlemanapp.com/basics/blogging/">instructions in the Middleman documentation</a>.</p>
 
 <p>Once you get things set up, you can generate new articles with <code>middleman article</code>.</p>
-<pre class="highlight ruby"><span class="n">middleman</span> <span class="n">article</span> <span class="s2">&quot;The Name of My Article&quot;</span>
+<pre class="highlight ruby"><span class="n">middleman</span> <span class="n">article</span> <span class="s2">"The Name of My Article"</span>
 </pre>
 <p>This will generate the file <code>source/blog/2013-11-11-the-name-of-my-article.html.markdown</code> (or some other path if you configured things differently). You can then
 add tags, modify the title, and write the content of your post.</p>
 <pre class="highlight markdown"><span class="nn">---</span>
-<span class="s">title</span><span class="p">:</span> <span class="s">The Name of My Article</span>
-<span class="s">date</span><span class="p">:</span> <span class="s">2013-11-11 22:31 EST</span>
-<span class="s">tags</span><span class="p">:</span> <span class="s">middleman, blogging</span>
+<span class="s">title</span><span class="pi">:</span> <span class="s">The Name of My Article</span>
+<span class="s">date</span><span class="pi">:</span> <span class="s">2013-11-11 22:31 EST</span>
+<span class="s">tags</span><span class="pi">:</span> <span class="s">middleman, blogging</span>
 <span class="nn">---</span>
 The body of my blog post.
 </pre>
@@ -208,7 +211,7 @@ rake publish  <span class="c"># Build and publish to Github Pages</span>
 <h3 id="setup-up-custom-domain-name">Setup up custom domain name</h3>
 
 <p>Create a file named <code>CNAME</code> in the <code>source</code> directory and put the domain (or subdomain) into the file.</p>
-<pre class="highlight text">juliepagano.com
+<pre class="highlight plaintext">juliepagano.com
 </pre>
 <p>You will need to <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns">configure your DNS</a> to point to Github. As of the time I wrote this, you should set up an <strong>A record</strong> pointing to <code>204.232.175.78</code>.</p>
 
@@ -221,8 +224,8 @@ rake publish  <span class="c"># Build and publish to Github Pages</span>
 <p>The only major element I carried over from the previous design of the site is the logo (designed using Adobe Illustrator). I like it as a visual representation that breaks me down to two basic characteristics: hair and glasses.</p>
 
 <p>In this iteration of the site, I modified the logo to be sharper. I also created a 2x version of the logo that is used on retina devices. Below is a quick snippet of <a href="https://github.com/juliepagano/juliepagano.com/blob/master/source/css/styles.scss">the code</a>.</p>
-<pre class="highlight scss"><span class="nv">$logo-img</span><span class="p">:</span> <span class="s1">&#39;logo.png&#39;</span><span class="p">;</span>
-<span class="nv">$logo-img-2x</span><span class="p">:</span> <span class="s1">&#39;logo-2x.png&#39;</span><span class="p">;</span>
+<pre class="highlight scss"><span class="nv">$logo-img</span><span class="p">:</span> <span class="s1">'logo.png'</span><span class="p">;</span>
+<span class="nv">$logo-img-2x</span><span class="p">:</span> <span class="s1">'logo-2x.png'</span><span class="p">;</span>
 
 <span class="nt">header</span> <span class="p">{</span>
   <span class="nt">h1</span> <span class="p">{</span>
@@ -309,6 +312,9 @@ font that is super-easy to set up and use. I <a href="http://fontawesome.io/get-
     </li>
     <li>
       <a href="../../../../../projects/">Projects</a>
+    </li>
+    <li class="search">
+      <a href="/search">Search</a>
     </li>
   </ul>
 </nav>

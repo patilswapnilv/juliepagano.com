@@ -134,7 +134,7 @@
 &lt;li&gt;&lt;a href="http://www.happycow.net/north_america/usa/pennsylvania/pittsburgh/"&gt;Happy Cow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.urbanspoon.com/f/23/2253/Pittsburgh/Vegetarian-Restaurants"&gt;UrbanSpoon&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://veganpittsburgh.org/"&gt;Vegan Pittsburgh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.yelp.com/search?find_desc=Vegan+Restaurants&amp;find_loc=Pittsburgh%2C+PA"&gt;Yelp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.yelp.com/search?find_desc=Vegan+Restaurants&amp;amp;amp;find_loc=Pittsburgh%2C+PA"&gt;Yelp&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id="restaurants-i-frequent"&gt;Restaurants I frequent&lt;/h3&gt;
@@ -303,7 +303,7 @@
     </author>
     <content type="html">&lt;p&gt;Some new folks at the Girl Develop It Pittsburgh code and coffee tonight were asking me for  recommendations about open source projects to contribute to. I did not have a good answer, so I asked twitter.&lt;/p&gt;
 
-&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Internets, recommend me some really friendly open source projects for beginners to contribute to. &lt;a href="https://twitter.com/gdipgh"&gt;@gdipgh&lt;/a&gt; folks are asking. :)&lt;/p&gt;&amp;mdash; Not All Julies (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/401162597535608832"&gt;November 15, 2013&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Internets, recommend me some really friendly open source projects for beginners to contribute to. &lt;a href="https://twitter.com/gdipgh"&gt;@gdipgh&lt;/a&gt; folks are asking. :)&lt;/p&gt;&amp;mdash; pyrotechnic apiarist (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/401162597535608832"&gt;November 15, 2013&lt;/a&gt;&lt;/blockquote&gt;
 
 &lt;p&gt;Here are some helpful results that came up. Thanks to the people that responded! If you have some other resources or projects you think should be on the list, please comment on &lt;a href="https://github.com/juliepagano/juliepagano.com/issues/20"&gt;this issue&lt;/a&gt;.&lt;/p&gt;
 
@@ -315,7 +315,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Site:&lt;/strong&gt; &lt;a href="https://openhatch.org/"&gt;https://openhatch.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Beginners should probably try out &lt;a href="http://openhatch.org/search/?q=&amp;toughness=bitesize"&gt;bite size bugs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Beginners should probably try out &lt;a href="http://openhatch.org/search/?q=&amp;amp;amp;toughness=bitesize"&gt;bite size bugs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id="projects"&gt;Projects&lt;/h2&gt;
@@ -470,14 +470,14 @@ using the &lt;a href="https://github.com/middleman/middleman-blog"&gt;middleman-
 recommend reading and following the &lt;a href="http://middlemanapp.com/basics/blogging/"&gt;instructions in the Middleman documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Once you get things set up, you can generate new articles with &lt;code&gt;middleman article&lt;/code&gt;.&lt;/p&gt;
-&lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;The Name of My Article&amp;quot;&lt;/span&gt;
+&lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;middleman&lt;/span&gt; &lt;span class="n"&gt;article&lt;/span&gt; &lt;span class="s2"&gt;"The Name of My Article"&lt;/span&gt;
 &lt;/pre&gt;
 &lt;p&gt;This will generate the file &lt;code&gt;source/blog/2013-11-11-the-name-of-my-article.html.markdown&lt;/code&gt; (or some other path if you configured things differently). You can then
 add tags, modify the title, and write the content of your post.&lt;/p&gt;
 &lt;pre class="highlight markdown"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;
-&lt;span class="s"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;The Name of My Article&lt;/span&gt;
-&lt;span class="s"&gt;date&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;2013-11-11 22:31 EST&lt;/span&gt;
-&lt;span class="s"&gt;tags&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s"&gt;middleman, blogging&lt;/span&gt;
+&lt;span class="s"&gt;title&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;The Name of My Article&lt;/span&gt;
+&lt;span class="s"&gt;date&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;2013-11-11 22:31 EST&lt;/span&gt;
+&lt;span class="s"&gt;tags&lt;/span&gt;&lt;span class="pi"&gt;:&lt;/span&gt; &lt;span class="s"&gt;middleman, blogging&lt;/span&gt;
 &lt;span class="nn"&gt;---&lt;/span&gt;
 The body of my blog post.
 &lt;/pre&gt;
@@ -501,7 +501,7 @@ rake publish  &lt;span class="c"&gt;# Build and publish to Github Pages&lt;/span
 &lt;h3 id="setup-up-custom-domain-name"&gt;Setup up custom domain name&lt;/h3&gt;
 
 &lt;p&gt;Create a file named &lt;code&gt;CNAME&lt;/code&gt; in the &lt;code&gt;source&lt;/code&gt; directory and put the domain (or subdomain) into the file.&lt;/p&gt;
-&lt;pre class="highlight text"&gt;juliepagano.com
+&lt;pre class="highlight plaintext"&gt;juliepagano.com
 &lt;/pre&gt;
 &lt;p&gt;You will need to &lt;a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages#setting-up-dns"&gt;configure your DNS&lt;/a&gt; to point to Github. As of the time I wrote this, you should set up an &lt;strong&gt;A record&lt;/strong&gt; pointing to &lt;code&gt;204.232.175.78&lt;/code&gt;.&lt;/p&gt;
 
@@ -514,8 +514,8 @@ rake publish  &lt;span class="c"&gt;# Build and publish to Github Pages&lt;/span
 &lt;p&gt;The only major element I carried over from the previous design of the site is the logo (designed using Adobe Illustrator). I like it as a visual representation that breaks me down to two basic characteristics: hair and glasses.&lt;/p&gt;
 
 &lt;p&gt;In this iteration of the site, I modified the logo to be sharper. I also created a 2x version of the logo that is used on retina devices. Below is a quick snippet of &lt;a href="https://github.com/juliepagano/juliepagano.com/blob/master/source/css/styles.scss"&gt;the code&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class="highlight scss"&gt;&lt;span class="nv"&gt;$logo-img&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;logo.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;span class="nv"&gt;$logo-img-2x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;logo-2x.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;pre class="highlight scss"&gt;&lt;span class="nv"&gt;$logo-img&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'logo.png'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nv"&gt;$logo-img-2x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'logo-2x.png'&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 
 &lt;span class="nt"&gt;header&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
