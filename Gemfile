@@ -2,8 +2,8 @@ source "https://rubygems.org/"
 
 gem "middleman-gh-pages"
 
-gem "middleman", "~> 3.0.13"
-gem "middleman-blog", "~> 3.2.0"
+gem "middleman"
+gem "middleman-blog"
 gem "middleman-syntax"
 
 # For feed.xml.builder
