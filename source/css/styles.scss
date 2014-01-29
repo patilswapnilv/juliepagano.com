@@ -131,6 +131,10 @@ header {
     padding-left: image-width($logo-img) + 10px;
     width: $header-width;
   }
+
+  .search {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) {
