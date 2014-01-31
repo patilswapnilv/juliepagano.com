@@ -82,6 +82,13 @@ ul {
   margin: 0;
 }
 
+blockquote {
+  margin: 1em 20px;
+  padding: 10px 20px;
+  border-left: solid 10px $header-color;
+  background: lighten($header-color, 20%);
+}
+
 section {
   margin-bottom: 2em;
 }
