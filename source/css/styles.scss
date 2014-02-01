@@ -76,6 +76,11 @@ a {
   }
 }
 
+img {
+  /* make sure images don't get too big on mobile */
+  max-width: 100%;
+}
+
 ul {
   list-style: none;
   padding: 0;
