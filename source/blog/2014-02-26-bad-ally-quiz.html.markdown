@@ -72,8 +72,8 @@ not an ally at all. Below are some arbitrary scoring breakdowns I came up with.
 * **0-1:** Either you're an amazingly awesome ally or you lied on the quiz. The latter seems more likely -- shame on you.
 * **2-10:** You're doing a pretty good job, but remember that being an ally is an [ongoing process](http://www.shakesville.com/2013/04/on-fixed-state-ally-model-vs-process.html), so you should continue to work hard.
 * **11-24:** You're making some mistakes and have room for improvement, but you are making good progress.
-* **25-49:** You make a lot of mistakes, but might still act as an ally at times. You have a lot of room to improve. You should spend more time [educating yourself](blog/2013/11/02/101-off-limits/).
-* **50-99:** You are rarely or never an ally, but might be able to start developing your skills if you're willing to work hard. You need to spend a *lot* of time on [educating yourself](blog/2013/11/02/101-off-limits/).
-* **100+:** You're not ready to be an ally. Stop claiming you are. [Go educate yourself](blog/2013/11/02/101-off-limits/).
+* **25-49:** You make a lot of mistakes, but might still act as an ally at times. You have a lot of room to improve. You should spend more time [educating yourself](/blog/2013/11/02/101-off-limits/).
+* **50-99:** You are rarely or never an ally, but might be able to start developing your skills if you're willing to work hard. You need to spend a *lot* of time on [educating yourself](/blog/2013/11/02/101-off-limits/).
+* **100+:** You're not ready to be an ally. Stop claiming you are. [Go educate yourself](/blog/2013/11/02/101-off-limits/).
 * **1000+:** You're not even close to being an ally. In fact, you're probably actively harming members of the group you're supposedly allied with. STOP IT. Work on improving asap.
 * **5000+:** You're not an ally. You're a shitty human being. What the fuck is wrong with you?
