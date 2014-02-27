@@ -31,7 +31,7 @@ Give yourself points for each item that applies, even if it only applies sometim
 * Do you demand they give you time or attention (e.g. expecting advice on demand, requesting they give you personalized reviews of articles)?
 * Do you tell them to fix a specific issue because they are part of a group (e.g. demanding they speak at a conference, insisting they write a post on a specific topic)? *(10 points per incident)*
 * Do you tell them how to speak or behave?
-* Do you [tone police](http://geekfeminism.wikia.com/wiki/Tone_argument) (e.g. telling them to be nicer, "you'll catch more bees with honey")?
+* Do you [tone police](http://geekfeminism.wikia.com/wiki/Tone_argument) (e.g. telling them to be nicer, "you'll catch more flies with honey")?
 * Do you [concern troll](http://geekfeminism.wikia.com/wiki/Concern_troll)?
 * Do you accuse people of overreacting, being too sensitive, or blowing things out of proportion?
 * Do you only ally yourself with members of the group who fit your idea of a "model minority" (look, act, and/or behave a certain way) or who agree with you?
