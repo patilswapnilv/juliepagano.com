@@ -39,7 +39,7 @@ Give yourself points for each item that applies, even if it only applies sometim
 * Do you dismiss their personal experiences?
 * Do you tell them what tactics to use when fighting oppression?
 * Do you use other members of the group to validate your behavior (e.g. I have a black friend, I'm married to a woman)?
-* Do you demand praise or acknowledgement of your allyship or specific acts as an ally?
+* Do you demand praise or acknowledgment of your allyship or specific acts as an ally?
 * Do you tend to dominate conversations instead of letting others speak?
 * Do you play "[devil's advocate](http://www.shakesville.com/2013/10/liss-says-stuff-3-devils-advocate.html)" when discussing issues important to them?
 * Do you ask people about sensitive issues (e.g. assault, genitalia, sexuality)? *(10 points)*
