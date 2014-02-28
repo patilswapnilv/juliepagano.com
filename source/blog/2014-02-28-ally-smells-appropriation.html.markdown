@@ -49,6 +49,3 @@ Some forms of work have existed long enough that one could argue they have enter
 
 ## What now?
 I have been writing a lot lately about allies for two main reasons: to improve the quality of allies I interact with as a woman and to work on improving myself as an ally to groups where I have the position of privilege. We all fuck up, and that is ok as long as we [respond well to being called on those mistakes](/blog/2014/01/06/on-making-mistakes/) and work on improving. I've definitely made the mistakes of appropriating the platforms and work of others. I am trying to be better about this because it is important. I hope you will do the same.
-
-
-
