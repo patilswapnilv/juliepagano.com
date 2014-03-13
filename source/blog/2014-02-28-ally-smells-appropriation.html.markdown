@@ -1,7 +1,7 @@
 ---
 title: "Ally Smells: Appropriation"
 date: 2014-02-28 01:30 EST
-tags: allies, 101
+tags: allies, 101, ally smells
 ---
 
 I recently covered a bunch of ["bad ally" behaviors](/blog/2014/02/26/bad-ally-quiz/). Some of the items on that list are downright awful, and some of them are more akin to the ally equivalent of a ["code smell"](http://en.wikipedia.org/wiki/Code_smell). They're not that awful in isolation, but they are often a sign of deeper problems. The more they occur, the worse those problems probably are.
