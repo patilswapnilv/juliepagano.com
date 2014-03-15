@@ -104,7 +104,7 @@ Below are some examples of power dynamics. Some power dynamics are obvious and e
 *Do you have any characteristics that may give you a position of power?*
 
 * Are you much larger and stronger than the other person?
-* Are you a member of a privileged group that has historically oppressed the group the other person is a member of?
+* Are you a member of a privileged group that has historically oppressed a group the other person is a member of?
 * Are you a member of a group that is in the majority in your work or academic environment while the other person is a member of group that is in the minority?
 * Are you a member of a group that is statistically likely to harm the other person?
 
