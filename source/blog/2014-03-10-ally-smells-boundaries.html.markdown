@@ -74,6 +74,8 @@ Power dynamics are a huge part of pushing boundaries. Boundaries are often diffe
 
 Below are some examples of power dynamics. Some power dynamics are obvious and explicit. Others are less clear. They all are important and matter. Predators often prey on more subtle power dynamics because they are easier to get away with. Take the steps to draw a clear distinction between yourself and them by paying closer attention to these dynamics. This is not an exhaustive list and should not be treated as such.
 
+Note: many of the examples below mention the potential for harm. The power dynamic exists because you could do those things, even if you think it is clear that you would not.
+
 ### Examples: Work & School
 *Do you have an explicit position of power over them codified in your work/school relationship?*
 
