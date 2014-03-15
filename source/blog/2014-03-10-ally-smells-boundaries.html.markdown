@@ -78,17 +78,17 @@ Below are some examples of power dynamics. Some power dynamics are obvious and e
 *Do you have an explicit position of power over them codified in your work/school relationship?*
 
 * You are their boss, their boss's boss, or even higher up the chain of command at their job. You directly have the power to punish or fire them.
-* You are a professor, teacher, or other educator and they are a student. You directly have the power to negatively impact their academic achievement and performance.
+* You are a professor, teacher, or other educator and they are a student. You directly have the power to negatively impact their academic/educational achievement and performance.
 
 *Do you have a position of power over them related to your work/school relationship?*
 
 * You are their team lead, supervisor, mentor, or something similar at their job. You are not their boss, but you have the ability to negatively impact their work environment. You may be close with their boss (or higher ups) and be able to indirectly impact their chances of being punished or fired.
-* You are a teaching assistant, mentor, or something similar in an academic environment. You cannot directly impact their academic achievement and performance, but you can negatively impact the academic environment for them. You may be close with their professor, teacher, or others with more direct power over the student and be able to indirectly impact their academic achievement and performance.
+* You are a teaching assistant, mentor, or something similar in an academic/educational environment. You cannot directly impact their achievement and performance, but you can negatively impact the environment for them. You may be close with their professor, teacher, or others with more direct power over the student and be able to indirectly impact their academic/educational achievement and performance.
 
 *Do you have an implicit position of power over them related to your work/school relationship?*
 
 * You are a colleague, peer, or something similar at their job. Your power over them may come from things like seniority at the workplace, more years of experience, or a social relationship with others in a position of power. You have the ability to indirectly impact their work environment.
-* You are another student or colleague in an academic environment. Your power over them may come from things like higher academic achievement, seniority in school, or a social relationship with others in a position of power. You have the ability to indirectly impact their academic environment.
+* You are another student or colleague in an academic/educational environment. Your power over them may come from things like higher achievement, seniority in school, or a social relationship with others in a position of power. You have the ability to indirectly impact their academic/educational environment.
 
 ### Examples: Community
 *Do you have an explicit position of power?*
