@@ -47,7 +47,7 @@ Below are some examples of boundaries. All of the items below have happened to m
 * Continuing to engage with someone when they have asked you to cease contact.
 * Asking someone you do not know very well about sensitive or private information (e.g. genitalia, sexual assault). This includes digging for details when they provide some high level information on a sensitive topic.
 * Using slurs directed at a group that person is a member of.
-* Being verbally abusive and/or threating to someone.
+* Being verbally abusive and/or threatening to someone.
 * Bringing up private information about someone, such as where they live. This can easily be perceived as a threat.
 * Disclosing private information about someone without their permission.
 * Trying to make someone feel bad for setting a language boundary with you.
