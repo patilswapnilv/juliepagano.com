@@ -11,7 +11,7 @@ I created a [google group](https://groups.google.com/d/forum/battling-the-invisi
 organize some google hangouts in the future.
 
 ## Slides
-[Slides at SpeakerDeck](https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-surviving-the-invisible-monsters-in-tech)
+[Slides at SpeakerDeck](https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech-nickel-city-ruby-2013)
 
 <script class="speakerdeck-embed" data-id="a4c75720030501317cae6ed52b662488" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js">
 </script>
