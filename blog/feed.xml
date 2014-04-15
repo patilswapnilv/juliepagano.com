@@ -5,10 +5,104 @@
   <id>http://juliepagano.com/blog/</id>
   <link href="http://juliepagano.com/blog/"/>
   <link href="http://juliepagano.com/feed.xml" rel="self"/>
-  <updated>2014-03-10T05:39:00Z</updated>
+  <updated>2014-04-14T19:04:00Z</updated>
   <author>
     <name>Julie Pagano</name>
   </author>
+  <entry>
+    <title>Conference Recap: PyCon 2014</title>
+    <link rel="alternate" href="/blog/2014/04/14/conference-recap-pycon-2014/"/>
+    <id>/blog/2014/04/14/conference-recap-pycon-2014/</id>
+    <published>2014-04-14T19:04:00Z</published>
+    <updated>2014-04-14T19:04:00Z</updated>
+    <author>
+      <name>Julie Pagano</name>
+    </author>
+    <content type="html">&lt;p&gt;This weekend I attended and spoke at my first ever &lt;a href="https://us.pycon.org/2014/"&gt;PyCon&lt;/a&gt;. For those not familiar, PyCon is the largest annual gathering of the Python programming community. This year it was in Montréal.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m pretty wiped from the conf, so I don&amp;rsquo;t have time for a longform post. Here are some stream of consciousness points and tweets.&lt;/p&gt;
+
+&lt;p&gt;Shout out to &lt;a href="https://twitter.com/juliaelman"&gt;Julia Elman&lt;/a&gt; for convincing me to go and submit my talk. I wouldn&amp;rsquo;t have been there without her. &amp;lt;3&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://girldevelopit.com/"&gt;Girl Develop It&lt;/a&gt; had a great presence at the conference. It was so wonderful to meet folks from other chapters in person and do some outreach.
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;&lt;a href="https://twitter.com/GDIBoulder"&gt;@gdiboulder&lt;/a&gt; &lt;a href="https://twitter.com/gdiBoston"&gt;@gdiboston&lt;/a&gt; &lt;a href="https://twitter.com/gdipgh"&gt;@gdipgh&lt;/a&gt; &lt;a href="https://twitter.com/gdirdu"&gt;@gdirdu&lt;/a&gt; &lt;a href="https://twitter.com/GDISeattle"&gt;@GDISeattle&lt;/a&gt; and &lt;a href="https://twitter.com/gdiburlington"&gt;@gdiburlington&lt;/a&gt; repping &lt;a href="https://twitter.com/girldevelopit"&gt;@girldevelopit&lt;/a&gt; at &lt;a href="https://twitter.com/pycon"&gt;@pycon&lt;/a&gt; &lt;a href="https://twitter.com/search?q=%23pycon2014&amp;amp;src=hash"&gt;#pycon2014&lt;/a&gt; &lt;a href="http://t.co/2y5roPuqHB"&gt;pic.twitter.com/2y5roPuqHB&lt;/a&gt;&lt;/p&gt;&amp;mdash; GirlDevelopIt BTV (@gdiburlington) &lt;a href="https://twitter.com/gdiburlington/statuses/455077985255960576"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.pyladies.com/"&gt;PyLadies&lt;/a&gt; were in full force at the conference. They sponsored a bunch of scholarships, were speaking at the conference, helping out as organizers, and generally being awesome. The PyLadies lunch on Sunday was a great way to end the conference for me.
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Also amazing to see pyladies actively involved &amp;amp; supported. A part of the conf &amp;amp; community. Not something tacked on to check a diversity box&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455365372980768768"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;I won $500 for Pyladies from Heroku!
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Congrats to &lt;a href="https://twitter.com/juliepagano"&gt;@juliepagano&lt;/a&gt; who won $500 for &lt;a href="https://twitter.com/pyladies"&gt;@PyLadies&lt;/a&gt; today! If you&amp;rsquo;d like to to win $500 for an org of your choice, stop by tomorrow &lt;a href="https://twitter.com/search?q=%23PyCon&amp;amp;src=hash"&gt;#PyCon&lt;/a&gt;&lt;/p&gt;&amp;mdash; heroku (@heroku) &lt;a href="https://twitter.com/heroku/statuses/454745531118407680"&gt;April 11, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;There were 1/3 women speakers and attendees! It was noticeable even without hearing those numbers. I hear the majority of this is due to Jessica McKellar and Pyladies. Thank you!
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;I can’t express how nice it was to pick the taks I was most interested in and realize so many of the speakers were women. &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455364819202617344"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;20 women just now: “I would never have submitted a talk without &lt;a href="https://twitter.com/jessicamckellar"&gt;@jessicamckellar&lt;/a&gt; having contacted me.” GIVE THIS WOMAN AN AWARD. &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt;&lt;/p&gt;&amp;mdash; ghost tuber (@ashedryden) &lt;a href="https://twitter.com/ashedryden/statuses/455385460781883392"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;The geek feminism open space gave me a great place to go relax, decompress, and hang out with friends. Every conference needs this.&lt;/p&gt;
+
+&lt;p&gt;It was wonderful to see ALL THE FRIENDS. The tech feminist cabal (that title is a joke) was in full force and it was the best thing.&lt;/p&gt;
+
+&lt;p&gt;I spent $160 on a signed copy of Lean In. Don&amp;rsquo;t worry, the proceeds go to benefit Pyladies. I donated the book to Double Union for corrections and edits. I kept the slipcover for potential future use.
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;I donated money to pyladies for this. &lt;a href="http://t.co/jupEPqOQtF"&gt;pic.twitter.com/jupEPqOQtF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455390488926101505"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;It is going to &lt;a href="https://twitter.com/DoubleUnionSF"&gt;@DoubleUnionSF&lt;/a&gt; to be “fixed” &lt;a href="http://t.co/xj7L1MEOoF"&gt;pic.twitter.com/xj7L1MEOoF&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455390800415707136"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;I love the conference&amp;rsquo;s dedication to their &lt;a href="https://us.pycon.org/2014/about/code-of-conduct/"&gt;code of conduct&lt;/a&gt;, especially after all the things that happened last year.&lt;/p&gt;
+
+&lt;p&gt;My only constructive criticism is that the conference could improve how they handle Q&amp;amp;A. Many people used the space as a mini lightning talk or asked multiple questions. A moderator that instructs people to be brief and actually &lt;em&gt;ask questions&lt;/em&gt; might help. I totally understand this is a hard problem, and I rarely see it handled well (unless you count not having Q&amp;amp;A). Audience members don&amp;rsquo;t tend to listen, so it&amp;rsquo;s difficult to improve. I&amp;rsquo;d love the conf even if they can&amp;rsquo;t fix this.
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;“I don’t have a question, I just want to hijack the mic” (during Q&amp;amp;A) NO.&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/454976717149708288"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Q&amp;amp;A is for QUESTIONS and ANSWERS. It’s in the freaking name. 😡&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455021737634459648"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;h2 id="favorite-talks"&gt;Favorite talks&lt;/h2&gt;
+
+&lt;p&gt;Here are some of my favorite talks listed in the order that I saw them. It&amp;rsquo;s amazing how fast they &lt;a href="http://www.pyvideo.org/category/50/pycon-us-2014"&gt;got videos up&lt;/a&gt;, so that I could catch things I missed and share with all of you right away.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.pyvideo.org/video/2694/the-python-pipeline-why-you-should-reach-out-to"&gt;Selena Deckelmann&amp;rsquo;s The Python Pipeline: Why you should reach out to local teachers&lt;/a&gt;&lt;/strong&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Learning about the python pipeline from the awesome &lt;a href="https://twitter.com/selenamarie"&gt;@selenamarie&lt;/a&gt;. Also leaky donuts. &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt; &lt;a href="http://t.co/U9471ljpVZ"&gt;pic.twitter.com/U9471ljpVZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/454690522414583809"&gt;April 11, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Yup. The leaky pipeline (or donut). &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt; &lt;a href="http://t.co/2By11wmNVK"&gt;pic.twitter.com/2By11wmNVK&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/454692107681562624"&gt;April 11, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Local connections == change -&lt;a href="https://twitter.com/selenamarie"&gt;@selenamarie&lt;/a&gt; &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt; &lt;a href="https://twitter.com/search?q=%23pycon2014&amp;amp;src=hash"&gt;#pycon2014&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/454695562471018496"&gt;April 11, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Some ways to support teaching &amp;amp; teachers of programming: &lt;a href="http://t.co/aQ9vANobqV"&gt;&lt;a href="http://t.co/aQ9vANobqV"&gt;http://t.co/aQ9vANobqV&lt;/a&gt;&lt;/a&gt;, &lt;a href="http://t.co/ByqIK2ywqZ"&gt;&lt;a href="http://t.co/ByqIK2ywqZ"&gt;http://t.co/ByqIK2ywqZ&lt;/a&gt;&lt;/a&gt;, &lt;a href="http://t.co/PHG3zXboxs"&gt;&lt;a href="http://t.co/PHG3zXboxs"&gt;http://t.co/PHG3zXboxs&lt;/a&gt;&lt;/a&gt; &lt;a href="https://twitter.com/search?q=%23pycon2014&amp;amp;src=hash"&gt;#pycon2014&lt;/a&gt;&lt;/p&gt;&amp;mdash; Liz Henry (@lizhenry) &lt;a href="https://twitter.com/lizhenry/statuses/454697175570976769"&gt;April 11, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.pyvideo.org/video/2684/keynote-jessica-mckellar"&gt;Jessica McKellar&amp;rsquo;s keynote&lt;/a&gt;&lt;/strong&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Listening to &lt;a href="https://twitter.com/jessicamckellar"&gt;@jessicamckellar&lt;/a&gt; talk about the leaky pipeline at &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt;.&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/454968653122121728"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;The next generation of Pythonistas &lt;a href="http://t.co/FHW05L4q2K"&gt;pic.twitter.com/FHW05L4q2K&lt;/a&gt;&lt;/p&gt;&amp;mdash; andreagrr (@andreagrr) &lt;a href="https://twitter.com/andreagrr/statuses/454969852491730944"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Call to action from Jessica: do one thing before pycon 2015. &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/454973133041451008"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.pyvideo.org/video/2658/analyzing-rap-lyrics-with-python"&gt;Julie Lavoie&amp;rsquo;s Analyzing Rap Lyrics with Python&lt;/a&gt;&lt;/strong&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;About to learn about analyzing rap lyrics using python &lt;a href="https://twitter.com/search?q=%23PyCon&amp;amp;src=hash"&gt;#PyCon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455015363059908608"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Outstanding &lt;a href="https://twitter.com/search?q=%23pycon2014&amp;amp;src=hash"&gt;#pycon2014&lt;/a&gt;  talk by &lt;a href="https://twitter.com/hsjuju2"&gt;@hsjuju2&lt;/a&gt; on analyzing rap lyrics. Passion for the subject. Humor. Expertise. Did I mention passion? So much.&lt;/p&gt;&amp;mdash; Carina C. Zona (@cczona) &lt;a href="https://twitter.com/cczona/statuses/455018844353216513"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;OH: I hate eminem, so I refuse to play you any of his songs. &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455019801472413696"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Socially conscious rappers very frequently use the word “people” - really interesting. &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt;&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455021208732721152"&gt;April 12, 2014&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href="http://www.pyvideo.org/video/2671/farewell-and-welcome-home-python-in-two-genders"&gt;Naomi Ceder&amp;rsquo;s Farewell and Welcome Home: Python in Two Genders&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I missed seeing this talk live because of my early flight, and I&amp;rsquo;m really sad about that. Thankfully, videos were up quickly, and I got to watch it when I got home. It&amp;rsquo;s so good. Everyone should watch this, but especially &lt;a href="https://en.wikipedia.org/wiki/Cisgender"&gt;cisgender&lt;/a&gt; people.&lt;/p&gt;
+
+&lt;h2 id="my-talk"&gt;My talk&lt;/h2&gt;
+
+&lt;p&gt;This was my first talk at a multitrack conference. I was a little nervous about people showing up because I was late in the day and would have competition. Thankfully, I had a full audience with a bunch of friends in the front row. It was an honor to have Naomi Ceder introduce me.&lt;/p&gt;
+
+&lt;p&gt;I think the talk went really well - I got a ton of positive feedback afterwards. I&amp;rsquo;m so thrilled that it resonated with people and really enjoyed the conversations we had afterwards. Thanks for creating a great environment for me to speak.&lt;/p&gt;
+
+&lt;p&gt;You can find my &lt;a href="https://speakerdeck.com/juliepagano/its-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech-pycon-2014"&gt;slides&lt;/a&gt; and &lt;a href="https://www.youtube.com/watch?v=1i8ylq4j_EY"&gt;video&lt;/a&gt; online.&lt;/p&gt;
+
+&lt;h2 id="conclusion"&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;I had a great time at PyCon. I want to go again next year. It convinced me that it&amp;rsquo;s finally time to move communities. I tweeted the things below my last day at the conference. I stand by them.&lt;/p&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Had such a great time at &lt;a href="https://twitter.com/search?q=%23pycon&amp;amp;src=hash"&gt;#pycon&lt;/a&gt; this year. This event has definitely convinced me to move communities. Bye, ruby.&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455364551505367040"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Also amazing to see pyladies actively involved &amp;amp; supported. A part of the conf &amp;amp; community. Not something tacked on to check a diversity box&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455365372980768768"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;I’m sure python has its warts too, but the leadership cares and sets an important tone and the overall community seems friendly.&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455366074406801408"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Note: not to say I’ll never use ruby. It’s a fine language, but I’m not interested much in the community any more.&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455366736649658368"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;I will still be at &lt;a href="https://twitter.com/MadisonRuby"&gt;@MadisonRuby&lt;/a&gt; this year cause they are awesome and have ruby + the community things I care about.&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455366951272210433"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;blockquote class="twitter-tweet"&gt;&lt;p&gt;Sitting at the airport thinking about how much I want to come to PyCon again next year and stay longer next time. :D&lt;/p&gt;&amp;mdash; Khalbeesi (@juliepagano) &lt;a href="https://twitter.com/juliepagano/statuses/455415630054031360"&gt;April 13, 2014&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;script async src="//platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
+</content>
+  </entry>
   <entry>
     <title>Ally Smells: Boundaries</title>
     <link rel="alternate" href="/blog/2014/03/10/ally-smells-boundaries/"/>
@@ -555,105 +649,6 @@ not an ally at all. Below are some arbitrary scoring breakdowns I came up with.&
 &lt;h2 id="progress"&gt;Progress&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Step six&lt;/strong&gt; is making progress. Unless you&amp;rsquo;ve done something exceptionally horrible, you get to move on from mistakes. However, moving on should not mean forgetting and thus dooming yourself to repeat your mistakes. Analyze what you did wrong and try your best to avoid a repeat. This may include additional self-education or work on your part. It&amp;rsquo;s totally worth it to not hurt someone and go through all this again.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Going Veg*n...Again</title>
-    <link rel="alternate" href="/blog/2014/01/01/going-veg-n-again/"/>
-    <id>/blog/2014/01/01/going-veg-n-again/</id>
-    <published>2014-01-02T02:03:00Z</published>
-    <updated>2014-01-02T02:03:00Z</updated>
-    <author>
-      <name>Julie Pagano</name>
-    </author>
-    <content type="html">&lt;p&gt;I&amp;rsquo;m trying to go mostly vegetarian again. &amp;ldquo;Mostly&amp;rdquo; meaning that I&amp;rsquo;ll occasionally allow myself to have seafood (mmmm, sushi). I&amp;rsquo;m not doing this as a silly new year&amp;rsquo;s resolution &amp;ndash; I just waited until after the holidays to make holiday cooking easier on my parents.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ve tried some flavor of veg*n a few times in the past. I&amp;rsquo;d love some support and accountability from my friends to try to help it stick this time, so please feel free to share tips (&lt;a href="https://github.com/juliepagano/juliepagano.com/issues/35"&gt;add info on github&lt;/a&gt; or tweet at me).&lt;/p&gt;
-
-&lt;p&gt;I want to keep track of the info people share with me and share it with others, so I&amp;rsquo;ll collect it here. These are mostly recommendations from others, so I can&amp;rsquo;t personally vouch for them. I&amp;rsquo;ll add notes as I try things.&lt;/p&gt;
-
-&lt;h2 id="cookbooks"&gt;Cookbooks&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://amzn.to/Jvjqce"&gt;How to Cook Everything Vegetarian&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://amzn.to/1hhaBkK"&gt;Isa Does It&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://amzn.to/Jvf2da"&gt;La Dolce Vegan!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://amzn.to/1erlMlT"&gt;Rebar: Modern Food Cookbook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://amzn.to/1cn1DOc"&gt;Veg: River Cottage Everyday&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://amzn.to/1hhayFw"&gt;Vegan Brunch&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://amzn.to/1gozRlY"&gt;Veganomicon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://amzn.to/1cmZ5zo"&gt;Vegetarian Cooking for Everyone&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="recipe-sites"&gt;Recipe sites&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://thelazyveggie.tumblr.com/"&gt;The Lazy Veggie&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://newlyveg.com/"&gt;NewlyVeg&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://plantbasedonabudget.com/"&gt;Plant Based on a Budget&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://plantpoweredkitchen.com/"&gt;Plant Powered Kitchen&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.theppk.com/"&gt;Post Punk Kitchen&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://thugkitchen.com/"&gt;Thug Kitchen&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://vegandad.blogspot.com/"&gt;VeganDad&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://vegweb.com/"&gt;VegWeb&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="products"&gt;Products&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Daiya (vegan cheese)&lt;/li&gt;
-&lt;li&gt;Earth Balance (vegan butter alternative)&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.uptonsnaturals.com/"&gt;Upton&amp;rsquo;s Naturals Seitan&lt;/a&gt; - &lt;em&gt;I tried the Italian flavor, and I think it cured me of missing italian sausage&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="miscellaneous-vegetarian-notes"&gt;Miscellaneous vegetarian notes&lt;/h2&gt;
-
-&lt;h3 id="stuff-that&amp;#39;s-not-vegetarian-(but-might-not-be-obvious)"&gt;Stuff that&amp;rsquo;s not vegetarian (but might not be obvious)&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Jello, marshmallows, and other stuff with &lt;strong&gt;gelatin&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Parmesan cheese and other cheeses that use &lt;strong&gt;rennet&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Some baked good mixes (check for &lt;strong&gt;lard&lt;/strong&gt;)&lt;/li&gt;
-&lt;li&gt;Some beer and wine (often not labeled one way or the other)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="miscellaneous-vegan-notes"&gt;Miscellaneous vegan notes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Earth Balance is recommended as a butter replacement.&lt;/li&gt;
-&lt;li&gt;Daiya is recommended as a cheese replacement.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id="local-options-in-pittsburgh"&gt;Local options in Pittsburgh&lt;/h2&gt;
-
-&lt;h3 id="lists"&gt;Lists&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.happycow.net/north_america/usa/pennsylvania/pittsburgh/"&gt;Happy Cow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.urbanspoon.com/f/23/2253/Pittsburgh/Vegetarian-Restaurants"&gt;UrbanSpoon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://veganpittsburgh.org/"&gt;Vegan Pittsburgh&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.yelp.com/search?find_desc=Vegan+Restaurants&amp;amp;amp;find_loc=Pittsburgh%2C+PA"&gt;Yelp&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="restaurants-i-frequent"&gt;Restaurants I frequent&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.aladdinseatery.com/"&gt;Aladdin&amp;rsquo;s Eatery&lt;/a&gt; - Squirrel Hill - Mediterranean - &lt;em&gt;cheap and yummy Mediterranean with lots of vegetarian and some vegan options&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://bangkokbalconypgh.com/"&gt;Bangkok Balcony&lt;/a&gt; or &lt;a href="http://www.silkelephant.net/"&gt;Silk Elephant&lt;/a&gt; - Squirrel Hill - Thai - &lt;em&gt;These restaurants have very similar menus, both of which include awesome tofu dishes.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.doublewidegrill.com/"&gt;Double Wide Grill&lt;/a&gt; - South Side - American - &lt;em&gt;Really delicious seitan wings and the veggie burger is pretty good.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.madmex.com/"&gt;Mad Mex&lt;/a&gt; - Shadyside (and other locations) - Mexican/American &lt;em&gt;American-style Mexican food with some decent vegetarian options. I&amp;rsquo;m especially fond of the tofu tacos.&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.otbbicyclecafe.com/"&gt;Over the Bar Bicycle Cafe&lt;/a&gt; - South Side - American - &lt;em&gt;yummy salads and sandwiches in a cute biker friendly bar with fun bike decor&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.ramenbarpittsburgh.com/"&gt;Ramen Bar&lt;/a&gt; - Squirrel Hill - Ramen - &lt;em&gt;I&amp;rsquo;m fond of the vegetarian ramen with a shoyou base and extra garlic.&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id="groceries"&gt;Groceries&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;East End Food Co-op - &lt;em&gt;a lot of the same stuff as Whole Foods, but locally owned&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Giant Eagle Market District (some regular Giant Eagles have veg stuff, but it&amp;rsquo;s pretty hit or miss)&lt;/li&gt;
-&lt;li&gt;Trader Joes - &lt;em&gt;affordable, but pretty hit or miss with what they&amp;rsquo;ll have&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Whole Foods - &lt;em&gt;expensive, but lots of options&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </content>
   </entry>
 </feed>
