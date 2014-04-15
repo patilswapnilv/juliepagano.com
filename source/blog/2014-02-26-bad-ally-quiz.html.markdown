@@ -2,6 +2,7 @@
 title: Bad Ally Quiz
 date: 2014-02-26 23:30 EST
 tags: 101, allies
+description: An internet quiz style list of common ally issues.
 ---
 
 The topic of bad "allies" has come up a lot lately. Some people want to know how to identify bad allies.
