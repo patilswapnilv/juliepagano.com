@@ -1,7 +1,7 @@
 ---
 title: Bad Ally Quiz
 date: 2014-02-26 23:30 EST
-tags: 101, allies
+tags: 101, allies, highlights
 description: An internet quiz style list of common ally issues.
 ---
 

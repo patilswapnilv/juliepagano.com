@@ -1,7 +1,7 @@
 ---
 title: Steel City Ruby Conf 2012
 date: 2012-08-05 23:04 EST
-tags: conference, tech, pittsburgh, ruby, scrc
+tags: conference, tech, pittsburgh, ruby, scrc, conference recap
 ---
 
 Less than a year ago, it started as an idea.  A tiny little awesome idea in the [pghrb](http://pghrb.heroku.com/) chat room. Over the next few months, that idea slowly grew because of the hard work of roughly a dozen people. This weekend, that tiny little awesome idea, [Steel City Ruby Conf](http://steelcityrubyconf.org/), became a real thing that is hardly tiny, but definitely awesome.  A Ruby conference with over 200 people in the city of Pittsburgh, the place I’ve called home for almost a decade now.

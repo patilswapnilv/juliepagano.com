@@ -1,7 +1,7 @@
 ---
 title: "It's Dangerous to Go Alone: Battling the Invisible Monsters in Tech"
 date: 2013-11-02 21:04 EST
-tags: talk, impostor syndrome, tech
+tags: talk, impostor syndrome, tech, highlights
 description: A talk about impostor syndrome.
 ---
 

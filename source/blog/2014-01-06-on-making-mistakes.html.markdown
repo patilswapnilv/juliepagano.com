@@ -1,7 +1,7 @@
 ---
 title: On Making Mistakes
 date: 2014-01-06 22:46 EST
-tags: 101, mistakes
+tags: 101, mistakes, highlights
 description: An outline for handling fuckups.
 ---
 

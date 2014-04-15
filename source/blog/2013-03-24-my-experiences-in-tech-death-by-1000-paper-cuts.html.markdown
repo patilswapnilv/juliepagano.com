@@ -1,7 +1,7 @@
 ---
 title: "My experiences in tech: Death by 1000 paper cuts"
 date: 2013-03-24 14:08 EST
-tags: personal, tech
+tags: personal, tech, highlights
 description: On microaggressions and why the little things matter.
 ---
 
