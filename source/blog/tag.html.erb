@@ -2,6 +2,8 @@
 pageable: true
 per_page: 12
 ---
+<% content_for(:title, "Writing - Tagged '#{tagname}'") %>
+
 <section id="writing-list">
   <h1>Writing tagged '<%= tagname %>'</h1>
 
